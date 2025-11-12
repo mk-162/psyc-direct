@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone:*)",
+      "Bash(rm:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git checkout:*)",
+      "Bash(git init:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --use-npm --no-git --eslint)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(nul)",
+      "Bash(npx next dev:*)",
+      "Bash(dir /s /b *.next 2)",
+      "Bash(findstr:*)",
+      "Bash(dir /b:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
