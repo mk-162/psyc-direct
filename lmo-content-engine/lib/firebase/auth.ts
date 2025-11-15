@@ -8,7 +8,7 @@ import {
   User,
   UserCredential,
 } from 'firebase/auth';
-import { auth } from './client';
+import { auth } from './config';
 
 // Sign up with email and password
 export async function signUpWithEmail(

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { User, onAuthStateChanged } from 'firebase/auth';
-import { auth } from '@/lib/firebase/client';
+import { auth } from '@/lib/firebase/config';
 import {
   signUpWithEmail,
   signInWithEmail,

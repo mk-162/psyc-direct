@@ -11,10 +11,10 @@ import { useAuth } from '@/lib/hooks/use-auth';
 
 export default function NewProjectPage() {
   const [url, setUrl] = useState('');
-  const [isValidating, setIsValidating] = useState(false);
   const [isCreating, setIsCreating] = useState(false);
   const [validationError, setValidationError] = useState<string | null>(null);
   const [isValid, setIsValid] = useState(false);
+  const [error, setError] = useState<string>('');
 
   const { user } = useAuth();
   const router = useRouter();
@@ -23,9 +23,18 @@ export default function NewProjectPage() {
     setUrl(value);
     setValidationError(null);
     setIsValid(false);
+    setError('');
 
-    if (value.length > 8) {
-      const normalized = normalizeUrl(value);
+    // Only validate if there's meaningful input
+    const trimmed = value.trim();
+    if (trimmed.length === 0) {
+      return;
+    }
+
+    // Validate as soon as we have something that looks like a domain
+    // (at least 3 chars with a dot, or 4+ chars that could be normalized)
+    if (trimmed.length >= 3) {
+      const normalized = normalizeUrl(trimmed);
       const valid = validateUrl(normalized);
 
       if (!valid) {
@@ -42,25 +51,42 @@ export default function NewProjectPage() {
     if (validationError || !url || !isValid) return;
 
     setIsCreating(true);
+    setError('');
 
     try {
       const normalizedUrl = normalizeUrl(url);
-      const domain = extractDomain(normalizedUrl);
 
-      // TODO: Call API to create project
-      console.log('Creating project for:', {
-        url: normalizedUrl,
-        domain,
-        ownerId: user?.uid,
+      // Get user ID token
+      const { auth } = await import('@/lib/firebase/config');
+      const idToken = await auth.currentUser?.getIdToken();
+
+      if (!idToken) {
+        throw new Error('Not authenticated');
+      }
+
+      // Call API to create project
+      const response = await fetch('/api/projects', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${idToken}`,
+        },
+        body: JSON.stringify({
+          websiteUrl: normalizedUrl,
+        }),
       });
 
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      const data = await response.json();
 
-      // TODO: Navigate to project page
-      router.push('/');
-    } catch (error) {
+      if (!response.ok) {
+        throw new Error(data.message || data.error || 'Failed to create project');
+      }
+
+      // Navigate to project page or dashboard
+      router.push('/dashboard');
+    } catch (error: any) {
       console.error('Failed to create project:', error);
+      setError(error.message || 'Failed to create project. Please try again.');
     } finally {
       setIsCreating(false);
     }
@@ -128,6 +154,12 @@ export default function NewProjectPage() {
                   </div>
                 )}
               </div>
+
+              {error && (
+                <div className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-md p-3">
+                  {error}
+                </div>
+              )}
 
               <div className="border-t pt-6">
                 <h3 className="text-sm font-medium text-slate-900 mb-3">

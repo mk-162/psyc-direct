@@ -43,6 +43,36 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // LMO King Brand Colors
+        'lmo-navy': {
+          DEFAULT: '#0D0D2B',
+          light: '#0A0A1F',
+        },
+        'lmo-cyan': {
+          DEFAULT: '#00B8FF',
+          light: '#1EC5FF',
+        },
+        'lmo-blue': {
+          DEFAULT: '#4D7CFF',
+          light: '#5B8AFF',
+        },
+        'lmo-pink': {
+          DEFAULT: '#FF5C93',
+          light: '#FF6B9D',
+        },
+        'lmo-magenta': {
+          DEFAULT: '#D946FF',
+          light: '#E355FF',
+        },
+        'lmo-purple': {
+          DEFAULT: '#7B2CBF',
+          light: '#8B3FD6',
+        },
+      },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(135deg, #00B8FF 0%, #4D7CFF 100%)',
+        'gradient-accent': 'linear-gradient(135deg, #FF5C93 0%, #D946FF 100%)',
+        'gradient-full': 'linear-gradient(135deg, #00B8FF 0%, #4D7CFF 25%, #FF5C93 50%, #D946FF 75%, #7B2CBF 100%)',
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -51,7 +81,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("@tailwindcss/typography"),
+  ],
 };
 
 export default config;

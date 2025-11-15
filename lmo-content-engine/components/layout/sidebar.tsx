@@ -2,13 +2,14 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import { cn } from '@/lib/utils/cn';
 import { Home, FolderKanban, FileText, Settings, LogOut } from 'lucide-react';
 import { useAuth } from '@/lib/hooks/use-auth';
 import { Button } from '@/components/ui/button';
 
 const navigation = [
-  { name: 'Home', href: '/', icon: Home },
+  { name: 'Home', href: '/dashboard', icon: Home },
   { name: 'Projects', href: '/projects', icon: FolderKanban },
   { name: 'Content', href: '/content', icon: FileText },
   { name: 'Settings', href: '/settings', icon: Settings },
@@ -21,10 +22,15 @@ export function Sidebar() {
   return (
     <div className="flex h-full w-64 flex-col border-r bg-white">
       {/* Logo */}
-      <div className="flex h-16 items-center border-b px-6">
-        <h1 className="text-xl font-bold text-slate-900">
-          LMO Engine
-        </h1>
+      <div className="flex h-16 items-center justify-center bg-[#0f0e2d] px-6">
+        <Image 
+          src="/lmo-logo.png" 
+          alt="LMO King Logo" 
+          width={180}
+          height={60}
+          className="object-contain"
+          priority
+        />
       </div>
 
       {/* Navigation */}
