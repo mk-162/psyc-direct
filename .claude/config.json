@@ -1,0 +1,10 @@
+{
+  "skills": {
+    "directories": [".claude/skills"]
+  },
+  "project": {
+    "name": "Psychology Direct",
+    "type": "astro-website",
+    "version": "1.0.0"
+  }
+}
