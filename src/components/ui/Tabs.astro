@@ -1,0 +1,112 @@
+---
+interface Tab {
+  id: string;
+  label: string;
+  title: string;
+  content: string;
+  icon?: string;
+}
+
+interface Props {
+  tabs: Tab[];
+}
+
+const { tabs } = Astro.props;
+---
+
+<div class="w-full">
+  <!-- Tab Buttons -->
+  <div class="flex flex-wrap border-b border-gray-200 mb-8">
+    {tabs.map((tab, index) => (
+      <button
+        class={`tab-button px-6 py-4 font-semibold text-gray-600 hover:text-[#2eabe0] transition-colors relative ${index === 0 ? 'active' : ''}`}
+        data-tab={tab.id}
+      >
+        {tab.label}
+        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-[#2eabe0] transform scale-x-0 transition-transform duration-200 tab-indicator"></span>
+      </button>
+    ))}
+  </div>
+
+  <!-- Tab Content -->
+  <div class="tab-content-container">
+    {tabs.map((tab, index) => (
+      <div
+        class={`tab-content ${index === 0 ? 'active' : 'hidden'}`}
+        data-content={tab.id}
+      >
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            {tab.icon && (
+              <div class="w-16 h-16 mb-4 text-[#2eabe0]" set:html={tab.icon} />
+            )}
+            <h3 class="text-3xl font-bold mb-4 text-gray-900">{tab.title}</h3>
+            <div class="text-gray-600 leading-relaxed" set:html={tab.content} />
+          </div>
+          <div class="hidden md:block">
+            <div class="w-full h-64 bg-gradient-to-br from-blue-100 to-blue-50 rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  tabButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const tabId = button.getAttribute('data-tab');
+
+      // Remove active class from all buttons and contents
+      tabButtons.forEach((btn) => {
+        btn.classList.remove('active');
+        btn.querySelector('.tab-indicator')?.classList.remove('scale-x-100');
+        btn.querySelector('.tab-indicator')?.classList.add('scale-x-0');
+      });
+      tabContents.forEach((content) => {
+        content.classList.remove('active');
+        content.classList.add('hidden');
+      });
+
+      // Add active class to clicked button and corresponding content
+      button.classList.add('active');
+      button.querySelector('.tab-indicator')?.classList.remove('scale-x-0');
+      button.querySelector('.tab-indicator')?.classList.add('scale-x-100');
+
+      const activeContent = document.querySelector(`[data-content="${tabId}"]`);
+      activeContent?.classList.remove('hidden');
+      activeContent?.classList.add('active');
+    });
+  });
+
+  // Initialize first tab
+  const firstButton = tabButtons[0];
+  if (firstButton) {
+    firstButton.classList.add('active');
+    firstButton.querySelector('.tab-indicator')?.classList.add('scale-x-100');
+  }
+</script>
+
+<style>
+  .tab-button.active {
+    color: #2eabe0;
+  }
+
+  .tab-content {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

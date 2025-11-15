@@ -1,0 +1,348 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/ui/Hero.astro';
+import Card from '../components/ui/Card.astro';
+import Tabs from '../components/ui/Tabs.astro';
+import ProcessFlow from '../components/ui/ProcessFlow.astro';
+import Testimonial from '../components/ui/Testimonial.astro';
+import ContactForm from '../components/forms/ContactForm.astro';
+
+const tabs = [
+  {
+    id: 'fast',
+    label: 'Working Fast',
+    title: 'Fast and Responsive Service',
+    content: `
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>1-hour email response guarantee during business hours</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>CV delivery within 24 hours</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Urgent cases handled with priority</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Weekend and evening availability for critical cases</span>
+        </li>
+      </ul>
+    `
+  },
+  {
+    id: 'proactive',
+    label: 'Working Proactively',
+    title: 'Proactive Case Management',
+    content: `
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Dedicated case managers for every instruction</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Regular progress updates without prompting</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Anticipate and resolve potential issues early</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Complete administrative handling from start to finish</span>
+        </li>
+      </ul>
+    `
+  },
+  {
+    id: 'quality',
+    label: 'Working with the Best',
+    title: 'Outstanding Quality & Experience',
+    content: `
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Network of 1,000+ HCPC registered psychologists</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>All psychologists are BPS members with relevant experience</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Enhanced DBS checks for all associates</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Culturally diverse network covering all UK regions</span>
+        </li>
+      </ul>
+    `
+  },
+  {
+    id: 'ethical',
+    label: 'Working Ethically',
+    title: 'Ethical Practice & Competitive Costs',
+    content: `
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Transparent, upfront cost estimates</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Legal Aid compliant pricing structure</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Standardized reports and deliverables</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Strict adherence to professional codes of conduct</span>
+        </li>
+      </ul>
+    `
+  }
+];
+
+const processSteps = [
+  {
+    number: 1,
+    title: 'Match Associates',
+    description: 'We carefully match qualified psychologists from our network of 1,000+ professionals to your specific case requirements and location.'
+  },
+  {
+    number: 2,
+    title: 'Instruct & Manage Admin',
+    description: 'Our dedicated team handles all administrative tasks, coordinates appointments, and ensures smooth communication throughout the process.'
+  },
+  {
+    number: 3,
+    title: 'QC Checked Reports',
+    description: 'All reports undergo rigorous quality checks before submission, ensuring they meet the highest professional standards and are delivered on time.'
+  }
+];
+
+const testimonials = [
+  {
+    quote: 'Psychology Direct has been invaluable. Their response time is exceptional and the quality of reports is consistently excellent. I wouldn\'t hesitate to recommend them.',
+    author: 'Sarah Mitchell',
+    role: 'Senior Solicitor',
+    company: 'Family Law Practice'
+  },
+  {
+    quote: 'The proactive case management really sets them apart. We always know where we stand with our cases, and the psychologists are always expertly matched to our needs.',
+    author: 'James Thompson',
+    role: 'Head of Criminal Defense',
+    company: 'Thompson & Associates'
+  },
+  {
+    quote: 'As an educational psychologist myself, I appreciate the professionalism and expertise of the Psychology Direct network. They truly understand the complexities of SEND cases.',
+    author: 'Dr. Emily Chen',
+    role: 'SENCO',
+    company: 'Riverside Academy'
+  }
+];
+---
+
+<Layout
+  title="Psychology Direct - Expert Witness Psychologists & Educational Psychology Services"
+  description="Access a network of 1,000+ qualified psychologists for expert witness services and educational psychology support across the UK. Fast, professional, and ethical."
+>
+  <!-- Hero Section -->
+  <Hero
+    title="Expert Psychological Services You Can Trust"
+    subtitle="Connecting you with over 1,000 qualified psychologists for expert witness and educational psychology services across the UK"
+    ctaText="Get Started"
+    ctaLink="#contact"
+    secondaryCtaText="Learn More"
+    secondaryCtaLink="#services"
+  />
+
+  <!-- Services Overview -->
+  <section class="py-16 bg-gray-50" id="services">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Our Services</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Professional psychological services tailored to your specific needs
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <Card
+          title="Expert Witness Services"
+          href="/expert-witness"
+          variant="elevated"
+        >
+          <p class="mb-4">
+            Comprehensive expert witness services for legal professionals across family law, criminal law, employment law, and more.
+          </p>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[#2eabe0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              1-hour response time
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[#2eabe0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              HCPC registered professionals
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[#2eabe0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Legal Aid compliant
+            </li>
+          </ul>
+        </Card>
+
+        <Card
+          title="Educational Psychology"
+          href="/education"
+          variant="elevated"
+        >
+          <p class="mb-4">
+            Expert educational psychology support for local authorities, schools, and families dealing with SEND requirements.
+          </p>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[#2eabe0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              EHCP assessments
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[#2eabe0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Cognitive assessments
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[#2eabe0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Nationwide coverage
+            </li>
+          </ul>
+        </Card>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us (Tabs) -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Why Choose Psychology Direct?</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          15+ years of excellence in psychological services
+        </p>
+      </div>
+      <Tabs tabs={tabs} />
+    </div>
+  </section>
+
+  <!-- Process Flow -->
+  <ProcessFlow
+    steps={processSteps}
+    title="How We Work"
+    subtitle="Our streamlined three-step process ensures quality, efficiency, and peace of mind"
+  />
+
+  <!-- Statistics -->
+  <section class="py-16 bg-gradient-to-br from-[#032552] to-[#066aab] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+        <div>
+          <div class="text-5xl font-bold mb-2">1,000+</div>
+          <div class="text-blue-100">Qualified Psychologists</div>
+        </div>
+        <div>
+          <div class="text-5xl font-bold mb-2">15+</div>
+          <div class="text-blue-100">Years Experience</div>
+        </div>
+        <div>
+          <div class="text-5xl font-bold mb-2">1 Hour</div>
+          <div class="text-blue-100">Response Time</div>
+        </div>
+        <div>
+          <div class="text-5xl font-bold mb-2">100%</div>
+          <div class="text-blue-100">HCPC Registered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <Testimonial testimonials={testimonials} />
+
+  <!-- Contact Form -->
+  <div id="contact">
+    <ContactForm title="Start Your Case Today" />
+  </div>
+
+  <!-- Trust Badges -->
+  <section class="py-12 bg-gray-50 border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+        <div class="text-center">
+          <div class="text-sm font-semibold text-gray-600 mb-1">HCPC</div>
+          <div class="text-xs text-gray-500">Registered</div>
+        </div>
+        <div class="text-center">
+          <div class="text-sm font-semibold text-gray-600 mb-1">BPS</div>
+          <div class="text-xs text-gray-500">Members</div>
+        </div>
+        <div class="text-center">
+          <div class="text-sm font-semibold text-gray-600 mb-1">DBS</div>
+          <div class="text-xs text-gray-500">Enhanced Checked</div>
+        </div>
+        <div class="text-center">
+          <div class="text-sm font-semibold text-gray-600 mb-1">Legal Aid</div>
+          <div class="text-xs text-gray-500">Compliant</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

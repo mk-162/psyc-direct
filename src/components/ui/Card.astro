@@ -1,0 +1,44 @@
+---
+interface Props {
+  title?: string;
+  icon?: string;
+  href?: string;
+  variant?: 'default' | 'bordered' | 'elevated';
+}
+
+const { title, icon, href, variant = 'default' } = Astro.props;
+
+const variantClasses = {
+  default: 'bg-white border border-gray-200 hover:border-[#2eabe0] hover:shadow-lg',
+  bordered: 'bg-white border-2 border-gray-300 hover:border-[#2eabe0] hover:shadow-xl',
+  elevated: 'bg-white shadow-md hover:shadow-xl'
+};
+
+const cardClasses = `${variantClasses[variant]} rounded-lg p-6 transition-all duration-300 transform hover:-translate-y-1`;
+---
+
+{href ? (
+  <a href={href} class={`block ${cardClasses}`}>
+    {icon && (
+      <div class="w-12 h-12 mb-4 text-[#2eabe0]" set:html={icon} />
+    )}
+    {title && (
+      <h3 class="text-xl font-semibold mb-3 text-gray-900">{title}</h3>
+    )}
+    <div class="text-gray-600">
+      <slot />
+    </div>
+  </a>
+) : (
+  <div class={cardClasses}>
+    {icon && (
+      <div class="w-12 h-12 mb-4 text-[#2eabe0]" set:html={icon} />
+    )}
+    {title && (
+      <h3 class="text-xl font-semibold mb-3 text-gray-900">{title}</h3>
+    )}
+    <div class="text-gray-600">
+      <slot />
+    </div>
+  </div>
+)}

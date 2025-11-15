@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary-dark: #032552;
+    --color-primary: #066aab;
+    --color-primary-light: #2eabe0;
+    --color-accent: #00a8e8;
+    --color-text-dark: #1a1a1a;
+    --color-text-light: #4a5568;
+    --color-bg-light: #f7fafc;
+  }
+
+  * {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply text-gray-800 antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold leading-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+}

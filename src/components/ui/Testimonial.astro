@@ -1,0 +1,46 @@
+---
+interface Testimonial {
+  quote: string;
+  author: string;
+  role: string;
+  company?: string;
+}
+
+interface Props {
+  testimonials: Testimonial[];
+  title?: string;
+}
+
+const { testimonials, title = 'What Our Clients Say' } = Astro.props;
+---
+
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+      {title}
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {testimonials.map((testimonial) => (
+        <div class="bg-gray-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+          <!-- Quote Icon -->
+          <svg class="w-10 h-10 text-[#2eabe0] mb-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+          </svg>
+
+          <blockquote class="text-gray-700 leading-relaxed mb-6">
+            "{testimonial.quote}"
+          </blockquote>
+
+          <div class="border-t border-gray-200 pt-4">
+            <p class="font-semibold text-gray-900">{testimonial.author}</p>
+            <p class="text-sm text-gray-600">
+              {testimonial.role}
+              {testimonial.company && `, ${testimonial.company}`}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

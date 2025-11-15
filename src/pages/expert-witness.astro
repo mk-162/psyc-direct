@@ -1,0 +1,360 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/ui/Hero.astro';
+import Card from '../components/ui/Card.astro';
+import Tabs from '../components/ui/Tabs.astro';
+import ProcessFlow from '../components/ui/ProcessFlow.astro';
+import FAQ from '../components/ui/FAQ.astro';
+import ContactForm from '../components/forms/ContactForm.astro';
+
+const benefitsTabs = [
+  {
+    id: 'fast',
+    label: 'Fast & Responsive',
+    title: 'Immediate Attention When You Need It',
+    content: `
+      <p class="mb-4">We understand that legal cases often require immediate action. Our commitment to rapid response ensures you're never left waiting.</p>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>1-hour email response</strong> during business hours (9am-5pm, Monday-Friday)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>24-hour CV delivery</strong> with detailed experience and qualifications</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Urgent case priority</strong> - we've delivered reports in as little as 48 hours</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Out-of-hours availability</strong> for critical cases</span>
+        </li>
+      </ul>
+    `
+  },
+  {
+    id: 'quality',
+    label: 'Outstanding Quality',
+    title: 'Highly Experienced Psychologists',
+    content: `
+      <p class="mb-4">Quality is never compromised. Every psychologist in our network meets the highest professional standards.</p>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>1,000+ vetted psychologists</strong> across all specializations</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>100% HCPC registered</strong> with current practicing certificates</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>BPS chartered members</strong> with extensive court experience</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Enhanced DBS certification</strong> for all associates</span>
+        </li>
+      </ul>
+    `
+  },
+  {
+    id: 'personal',
+    label: 'Personal Service',
+    title: 'Dedicated Support Throughout',
+    content: `
+      <p class="mb-4">You'll have a dedicated case manager who knows your case inside out and provides personalized support.</p>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Single point of contact</strong> - your dedicated case manager</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Culturally diverse network</strong> matching your client's needs</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Nationwide coverage</strong> with local psychologists</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Proactive communication</strong> keeping you informed at every stage</span>
+        </li>
+      </ul>
+    `
+  },
+  {
+    id: 'costs',
+    label: 'Competitive Costs',
+    title: 'Transparent and Fair Pricing',
+    content: `
+      <p class="mb-4">No hidden fees, no surprises. We provide clear, upfront pricing that works with Legal Aid and private funding.</p>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Upfront cost estimates</strong> provided within 24 hours</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Legal Aid compliant rates</strong> accepted for eligible cases</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>Standardized deliverables</strong> ensuring consistency</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="w-6 h-6 text-[#2eabe0] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span><strong>No hidden charges</strong> - what we quote is what you pay</span>
+        </li>
+      </ul>
+    `
+  }
+];
+
+const processSteps = [
+  {
+    number: 1,
+    title: 'Match Associates to Requirements',
+    description: 'Share your case details with us. We carefully match you with psychologists who have the specific expertise, location, and availability your case demands.'
+  },
+  {
+    number: 2,
+    title: 'Instruct & Manage Administration',
+    description: 'Once you approve the match, we handle all administrative tasks - scheduling assessments, coordinating with all parties, and managing documentation.'
+  },
+  {
+    number: 3,
+    title: 'Quality Checked Reports Submitted',
+    description: 'Every report undergoes rigorous quality control checks before delivery. Reports are comprehensive, legally sound, and submitted on time, every time.'
+  }
+];
+
+const faqItems = [
+  {
+    question: 'What are your Legal Aid rates?',
+    answer: 'We accept Legal Aid rates for eligible cases. Our pricing is fully compliant with Legal Aid Agency guidelines, and we can provide detailed cost breakdowns upfront. Contact us to discuss your specific case requirements.'
+  },
+  {
+    question: 'How quickly can you provide a psychologist for an urgent case?',
+    answer: 'For urgent cases, we can typically provide a CV within 24 hours and arrange the first assessment within 48-72 hours, depending on location and complexity. We\'ve successfully handled cases requiring reports in as little as one week from initial instruction.'
+  },
+  {
+    question: 'What qualifications do your psychologists have?',
+    answer: 'All psychologists in our network are HCPC registered, BPS chartered members, and hold relevant postgraduate qualifications. They have enhanced DBS certificates and extensive experience providing expert witness testimony in their areas of specialization.'
+  },
+  {
+    question: 'Which areas of law do you cover?',
+    answer: 'We provide expert witness services across all major practice areas including: Family Law (care proceedings, contact disputes), Criminal Law (sentencing, capacity assessments), Employment Law (disability discrimination, stress claims), Personal Injury, Clinical Negligence, Immigration, and Prison Law.'
+  },
+  {
+    question: 'How do you ensure report quality?',
+    answer: 'Every report undergoes a multi-stage quality control process including peer review, compliance checking against legal requirements, and verification of all factual information. Reports are written to comply with CPR Part 35 and Family Procedure Rules as applicable.'
+  },
+  {
+    question: 'Can you provide psychologists for video/remote assessments?',
+    answer: 'Yes, many of our psychologists are experienced in conducting remote assessments via secure video platforms when appropriate. This can be particularly useful for urgent cases or when travel is impractical. We can discuss whether remote assessment is suitable for your specific case.'
+  }
+];
+
+const practiceAreas = [
+  {
+    title: 'Family Law',
+    description: 'Care proceedings, contact disputes, parenting capacity assessments, child welfare reports',
+    icon: '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>'
+  },
+  {
+    title: 'Criminal Law',
+    description: 'Sentencing reports, capacity assessments, vulnerability evaluations, offender rehabilitation',
+    icon: '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>'
+  },
+  {
+    title: 'Employment Law',
+    description: 'Disability discrimination, workplace stress, capacity to work assessments, PTSD claims',
+    icon: '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>'
+  },
+  {
+    title: 'Personal Injury',
+    description: 'Psychological injury assessments, prognosis and treatment recommendations, loss of earnings',
+    icon: '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>'
+  },
+  {
+    title: 'Immigration',
+    description: 'Asylum seeker assessments, PTSD evaluations, country-specific psychological evidence',
+    icon: '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>'
+  },
+  {
+    title: 'Clinical Negligence',
+    description: 'Psychiatric injury claims, misdiagnosis impact, treatment failures, duty of care breaches',
+    icon: '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>'
+  }
+];
+---
+
+<Layout
+  title="Expert Witness Psychologists | Psychology Direct"
+  description="Fast, professional expert witness psychology services for legal professionals. 1,000+ HCPC registered psychologists. 1-hour response time. Legal Aid compliant."
+>
+  <!-- Hero Section -->
+  <Hero
+    title="Expert Witness Psychologists for Legal Professionals"
+    subtitle="Access our network of 1,000+ qualified psychologists for comprehensive expert witness services. Fast response, exceptional quality, competitive costs."
+    ctaText="Request an Expert"
+    ctaLink="#contact"
+    secondaryCtaText="View Practice Areas"
+    secondaryCtaLink="#practice-areas"
+  />
+
+  <!-- Introduction -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-xl text-gray-700 leading-relaxed mb-6">
+        Solicitors need <strong>immediate attention</strong> for their cases, access to <strong>highly experienced psychologists</strong>,
+        and a <strong>reliable service</strong> with standardized deliverables at competitive costs.
+      </p>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        Psychology Direct has been providing these essentials to legal professionals across the UK for over 15 years.
+      </p>
+    </div>
+  </section>
+
+  <!-- Core Benefits Tabs -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">What Sets Us Apart</h2>
+      </div>
+      <Tabs tabs={benefitsTabs} />
+    </div>
+  </section>
+
+  <!-- Process Flow -->
+  <ProcessFlow
+    steps={processSteps}
+    title="Our Three-Step Process"
+    subtitle="From instruction to delivery, we make expert witness services simple and stress-free"
+  />
+
+  <!-- Practice Areas -->
+  <section class="py-16 bg-gray-50" id="practice-areas">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Practice Areas</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Comprehensive expert witness services across all major areas of law
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {practiceAreas.map((area) => (
+          <Card title={area.title} icon={area.icon} variant="elevated">
+            <p class="text-sm">{area.description}</p>
+          </Card>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies Preview -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Recent Case Studies</h2>
+        <p class="text-xl text-gray-600">
+          Real examples of how we've helped legal professionals achieve successful outcomes
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gradient-to-br from-blue-50 to-white rounded-xl p-8 border border-blue-100">
+          <div class="text-sm font-semibold text-[#2eabe0] mb-2">FAMILY LAW</div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">Urgent Care Proceedings</h3>
+          <p class="text-gray-600 mb-4">
+            Complete parenting capacity assessment and child welfare report delivered within 5 days for urgent court proceedings.
+          </p>
+          <div class="text-sm text-gray-500">Turnaround: 5 days</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-50 to-white rounded-xl p-8 border border-purple-100">
+          <div class="text-sm font-semibold text-purple-600 mb-2">CRIMINAL LAW</div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">Complex Sentencing Report</h3>
+          <p class="text-gray-600 mb-4">
+            Comprehensive psychological assessment for sentencing, including risk evaluation and treatment recommendations.
+          </p>
+          <div class="text-sm text-gray-500">Expert: Clinical Psychologist</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-green-50 to-white rounded-xl p-8 border border-green-100">
+          <div class="text-sm font-semibold text-green-600 mb-2">EMPLOYMENT LAW</div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">Workplace Stress Claim</h3>
+          <p class="text-gray-600 mb-4">
+            Detailed assessment of psychological injury following workplace bullying, including prognosis and treatment costs.
+          </p>
+          <div class="text-sm text-gray-500">Outcome: Successful settlement</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <FAQ items={faqItems} title="Frequently Asked Questions" />
+
+  <!-- Statistics Bar -->
+  <section class="py-12 bg-gradient-to-br from-[#032552] to-[#066aab] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div>
+          <div class="text-4xl font-bold mb-2">1 Hour</div>
+          <div class="text-blue-100">Average Email Response Time</div>
+        </div>
+        <div>
+          <div class="text-4xl font-bold mb-2">24 Hours</div>
+          <div class="text-blue-100">CV Delivery Guarantee</div>
+        </div>
+        <div>
+          <div class="text-4xl font-bold mb-2">100%</div>
+          <div class="text-blue-100">On-Time Report Delivery</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <div id="contact">
+    <ContactForm title="Request an Expert Witness Psychologist" variant="expert-witness" />
+  </div>
+</Layout>
