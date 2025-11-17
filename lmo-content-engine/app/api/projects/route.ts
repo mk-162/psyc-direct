@@ -63,12 +63,26 @@ export async function GET(request: NextRequest) {
       (a: any, b: any) => b.createdAt?.toMillis() - a.createdAt?.toMillis()
     );
 
-    return NextResponse.json({ projects });
+    return NextResponse.json(
+      { projects },
+      {
+        headers: {
+          // Cache for 5 minutes, stale-while-revalidate for 10 minutes
+          // Projects change rarely
+          'Cache-Control': 'private, max-age=300, stale-while-revalidate=600',
+        },
+      }
+    );
   } catch (error: any) {
     console.error('Error fetching projects:', error);
     return NextResponse.json(
       { error: 'Failed to fetch projects', message: error.message },
-      { status: 500 }
+      {
+        status: 500,
+        headers: {
+          'Cache-Control': 'no-store', // Don't cache errors
+        },
+      }
     );
   }
 }

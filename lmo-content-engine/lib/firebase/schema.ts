@@ -33,6 +33,8 @@ export interface Project {
     contentDepth: 'concise' | 'detailed' | 'comprehensive';
     factCheckThreshold: number; // 0-1
     autoGenerateQuestions: boolean;
+    contentFocus?: 'informational' | 'sales' | 'educational' | 'promotional';
+    salesPitchPrompt?: string;
   };
 
   // Timestamps
@@ -137,6 +139,11 @@ export interface Question {
   reviewedAt?: Timestamp;
   reviewNotes?: string;
 
+  // Publication status (separate from review workflow)
+  publicationStatus?: 'draft' | 'published' | 'archived';
+  publishedAt?: Timestamp;
+  archivedAt?: Timestamp;
+
   createdAt: Timestamp;
   updatedAt: Timestamp;
   order: number;
@@ -174,6 +181,11 @@ export interface Draft {
   isDraft: boolean;
 
   status: 'draft' | 'accepted' | 'rejected';
+
+  // Publication status (separate from review workflow)
+  publicationStatus?: 'draft' | 'published' | 'archived';
+  publishedAt?: Timestamp;
+  archivedAt?: Timestamp;
 
   createdAt: Timestamp;
   updatedAt: Timestamp;
@@ -265,10 +277,35 @@ export interface Job {
   expiresAt: Timestamp;
 }
 
+// ============================================================================
+// SUBSCRIPTION & BILLING
+// ============================================================================
+
+export type SubscriptionTier = 'free' | 'pro' | 'enterprise';
+
+export interface Subscription {
+  tier: SubscriptionTier;
+  generationsThisMonth: number;
+  generationsLimit: number; // 10 (free), 100 (pro), -1 (enterprise = unlimited)
+  periodStart: Timestamp;
+  periodEnd: Timestamp;
+  status: 'active' | 'cancelled' | 'past_due' | 'trialing';
+}
+
+export interface GenerationHistoryEntry {
+  timestamp: Timestamp;
+  type: 'category' | 'subcategory' | 'question' | 'draft';
+  count: number;
+  jobId?: string;
+}
+
 export interface Customer {
   id: string; // Firebase Auth UID
   email: string;
   displayName?: string;
+
+  // Subscription & limits
+  subscription: Subscription;
 
   // Usage tracking
   usage: {
@@ -277,6 +314,9 @@ export interface Customer {
     lastQuestionAt?: Timestamp;
     billingCycleStart: Timestamp;
   };
+
+  // Generation history for analytics
+  generationHistory: GenerationHistoryEntry[];
 
   // Subscription info (synced by Stripe extension)
   stripeCustomerId?: string;

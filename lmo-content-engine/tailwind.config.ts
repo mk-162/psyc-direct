@@ -48,9 +48,16 @@ const config: Config = {
           DEFAULT: '#0D0D2B',
           light: '#0A0A1F',
         },
+        'lmo-dark': {
+          '50': '#f5f5f8',
+          '100': '#e8e8f0',
+          '600': '#0a0020',
+          '700': '#080019',
+          DEFAULT: '#0a0020',
+        },
         'lmo-cyan': {
-          DEFAULT: '#00B8FF',
-          light: '#1EC5FF',
+          DEFAULT: '#0a0020',
+          light: '#080019',
         },
         'lmo-blue': {
           DEFAULT: '#4D7CFF',
@@ -70,9 +77,9 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(135deg, #00B8FF 0%, #4D7CFF 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #0a0020 0%, #4D7CFF 100%)',
         'gradient-accent': 'linear-gradient(135deg, #FF5C93 0%, #D946FF 100%)',
-        'gradient-full': 'linear-gradient(135deg, #00B8FF 0%, #4D7CFF 25%, #FF5C93 50%, #D946FF 75%, #7B2CBF 100%)',
+        'gradient-full': 'linear-gradient(135deg, #0a0020 0%, #4D7CFF 25%, #FF5C93 50%, #D946FF 75%, #7B2CBF 100%)',
       },
       borderRadius: {
         lg: "var(--radius)",

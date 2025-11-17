@@ -150,7 +150,7 @@ export default function ProjectsPage() {
           </p>
         </div>
         <Link href="/projects/new">
-          <Button className="bg-teal-600 hover:bg-teal-700">
+          <Button className="bg-lmo-dark-600 hover:bg-lmo-dark-700">
             <Plus className="h-4 w-4 mr-2" />
             New Project
           </Button>
@@ -159,7 +159,7 @@ export default function ProjectsPage() {
 
       {loading ? (
         <div className="flex items-center justify-center py-12">
-          <Loader2 className="h-8 w-8 animate-spin text-teal-600" />
+          <Loader2 className="h-8 w-8 animate-spin text-lmo-dark-600" />
         </div>
       ) : error ? (
         <Card>
@@ -192,7 +192,7 @@ export default function ProjectsPage() {
                 Get started by creating your first project. Enter a website URL to begin generating AI-optimized content.
               </p>
               <Link href="/projects/new">
-                <Button className="bg-teal-600 hover:bg-teal-700">
+                <Button className="bg-lmo-dark-600 hover:bg-lmo-dark-700">
                   <Plus className="h-4 w-4 mr-2" />
                   Create Your First Project
                 </Button>
@@ -237,7 +237,7 @@ export default function ProjectsPage() {
                       <div className="text-xs text-slate-600">Questions</div>
                     </div>
                     <div className="bg-slate-50 rounded p-2">
-                      <div className="text-xl font-bold text-teal-600">
+                      <div className="text-xl font-bold text-lmo-dark-600">
                         {project.stats.questionsAccepted}
                       </div>
                       <div className="text-xs text-slate-600">Accepted</div>

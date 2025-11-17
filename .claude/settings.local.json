@@ -14,7 +14,18 @@
       "Bash(npx next dev:*)",
       "Bash(dir /s /b *.next 2)",
       "Bash(findstr:*)",
-      "Bash(dir /b:*)"
+      "Bash(dir /b:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(dir:*)",
+      "Bash(rd /s /q \"C:\\AI_Project\\contentking\\lmo-content-engine\\.next\")",
+      "Bash(echo:*)",
+      "Bash(\"app\\projects\\[id]\\discover\\page.tsx\")",
+      "Bash(rd /s /q \".next\")"
     ],
     "deny": [],
     "ask": []

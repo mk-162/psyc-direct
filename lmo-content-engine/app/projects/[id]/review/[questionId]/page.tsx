@@ -65,7 +65,7 @@ export default function ReviewEditorPage() {
     immediatelyRender: false,
     editorProps: {
       attributes: {
-        class: 'prose prose-slate max-w-none focus:outline-none prose-headings:font-bold prose-headings:text-slate-900 prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-0 prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-6 prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-4 prose-a:text-teal-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-strong:font-semibold prose-ul:my-4 prose-ul:list-disc prose-ul:pl-6 prose-ol:my-4 prose-ol:list-decimal prose-ol:pl-6 prose-li:text-slate-700 prose-li:mb-2 prose-blockquote:border-l-4 prose-blockquote:border-teal-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-slate-600 prose-code:bg-slate-100 prose-code:text-slate-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-pre:bg-slate-900 prose-pre:text-slate-100 prose-pre:rounded-lg prose-pre:p-4 prose-pre:overflow-x-auto prose-img:rounded-lg prose-img:shadow-md',
+        class: 'prose prose-slate max-w-none focus:outline-none prose-headings:font-bold prose-headings:text-slate-900 prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-0 prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8 prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-6 prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-4 prose-a:text-lmo-dark-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-strong:font-semibold prose-ul:my-4 prose-ul:list-disc prose-ul:pl-6 prose-ol:my-4 prose-ol:list-decimal prose-ol:pl-6 prose-li:text-slate-700 prose-li:mb-2 prose-blockquote:border-l-4 prose-blockquote:border-lmo-dark-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-slate-600 prose-code:bg-slate-100 prose-code:text-slate-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-pre:bg-slate-900 prose-pre:text-slate-100 prose-pre:rounded-lg prose-pre:p-4 prose-pre:overflow-x-auto prose-img:rounded-lg prose-img:shadow-md',
       },
     },
     onUpdate: ({ editor }) => {
@@ -300,7 +300,7 @@ export default function ReviewEditorPage() {
     return (
       <div className="p-8">
         <div className="flex items-center justify-center py-12">
-          <Loader2 className="h-8 w-8 animate-spin text-teal-600" />
+          <Loader2 className="h-8 w-8 animate-spin text-lmo-dark-600" />
         </div>
       </div>
     );
@@ -421,7 +421,7 @@ export default function ReviewEditorPage() {
 
           <div className="flex-1 overflow-auto p-8 bg-slate-50">
             <div className={`max-w-4xl mx-auto bg-white rounded-lg shadow-sm border p-8 transition-all ${
-              isEditing ? 'border-teal-300 ring-2 ring-teal-100' : 'border-slate-200'
+              isEditing ? 'border-teal-300 ring-2 ring-lmo-dark-100' : 'border-slate-200'
             }`}>
               <EditorContent editor={editor} />
             </div>
@@ -461,7 +461,7 @@ export default function ReviewEditorPage() {
             <Button
               onClick={handleAccept}
               disabled={accepting || rejecting || isEditing}
-              className="bg-green-600 hover:bg-green-700"
+              className="bg-lmo-dark-600 hover:bg-lmo-dark-700"
             >
               {accepting ? (
                 <>

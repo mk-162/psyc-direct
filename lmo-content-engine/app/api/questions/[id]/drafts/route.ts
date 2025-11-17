@@ -111,8 +111,8 @@ export async function POST(
 
     // Generate both short and long drafts in parallel
     const [shortResult, longResult] = await Promise.all([
-      openai.generateShortDraft(questionData.question, context),
-      openai.generateLongDraft(questionData.question, context),
+      openai.generateShortDraft(questionData.question, context, projectData.settings),
+      openai.generateLongDraft(questionData.question, context, projectData.settings),
     ]);
 
     console.log(`✅ Generated short draft (${shortResult.wordCount} words)`);

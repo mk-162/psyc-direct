@@ -52,7 +52,7 @@ export default function DashboardHome() {
             </CardDescription>
           </div>
           <Link href="/projects/new">
-            <Button className="bg-teal-600 hover:bg-teal-700">
+            <Button className="bg-lmo-dark-600 hover:bg-lmo-dark-700">
               <Plus className="h-4 w-4 mr-2" />
               New Project
             </Button>
@@ -70,7 +70,7 @@ export default function DashboardHome() {
               Get started by creating your first project. Enter a website URL to begin generating AI-optimized content.
             </p>
             <Link href="/projects/new">
-              <Button className="bg-teal-600 hover:bg-teal-700">
+              <Button className="bg-lmo-dark-600 hover:bg-lmo-dark-700">
                 <Plus className="h-4 w-4 mr-2" />
                 Create Your First Project
               </Button>

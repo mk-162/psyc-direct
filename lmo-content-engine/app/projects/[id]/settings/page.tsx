@@ -18,6 +18,8 @@ interface ProjectSettings {
   contentDepth: 'concise' | 'detailed' | 'comprehensive';
   factCheckThreshold: number;
   autoGenerateQuestions: boolean;
+  contentFocus?: 'informational' | 'sales' | 'educational' | 'promotional';
+  salesPitchPrompt?: string;
 }
 
 interface Project {
@@ -36,6 +38,8 @@ export default function ProjectSettingsPage() {
     contentDepth: 'detailed',
     factCheckThreshold: 0.8,
     autoGenerateQuestions: false,
+    contentFocus: 'informational',
+    salesPitchPrompt: '',
   });
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -124,7 +128,7 @@ export default function ProjectSettingsPage() {
     return (
       <div className="p-8">
         <div className="flex items-center justify-center py-12">
-          <Loader2 className="h-8 w-8 animate-spin text-teal-600" />
+          <Loader2 className="h-8 w-8 animate-spin text-lmo-dark-600" />
         </div>
       </div>
     );
@@ -175,7 +179,7 @@ export default function ProjectSettingsPage() {
         </Button>
 
         <div className="flex items-center gap-3 mb-2">
-          <SettingsIcon className="h-8 w-8 text-teal-600" />
+          <SettingsIcon className="h-8 w-8 text-lmo-dark-600" />
           <h1 className="text-3xl font-bold text-slate-900">Project Settings</h1>
         </div>
         <p className="text-slate-600">
@@ -208,7 +212,7 @@ export default function ProjectSettingsPage() {
                   onClick={() => setSettings({ ...settings, brandVoice: voice })}
                   className={`p-4 rounded-lg border-2 text-left transition-all ${
                     settings.brandVoice === voice
-                      ? 'border-teal-600 bg-teal-50'
+                      ? 'border-lmo-dark-600 bg-lmo-dark-50'
                       : 'border-slate-200 hover:border-slate-300'
                   }`}
                 >
@@ -241,7 +245,7 @@ export default function ProjectSettingsPage() {
                   onClick={() => setSettings({ ...settings, contentDepth: depth })}
                   className={`p-4 rounded-lg border-2 text-center transition-all ${
                     settings.contentDepth === depth
-                      ? 'border-teal-600 bg-teal-50'
+                      ? 'border-lmo-dark-600 bg-lmo-dark-50'
                       : 'border-slate-200 hover:border-slate-300'
                   }`}
                 >
@@ -276,7 +280,7 @@ export default function ProjectSettingsPage() {
                     onClick={() => setSettings({ ...settings, factCheckThreshold: 0.7 })}
                     className={`px-3 py-1 text-xs rounded ${
                       settings.factCheckThreshold === 0.7
-                        ? 'bg-teal-600 text-white'
+                        ? 'bg-lmo-dark-600 text-white'
                         : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                     }`}
                   >
@@ -286,7 +290,7 @@ export default function ProjectSettingsPage() {
                     onClick={() => setSettings({ ...settings, factCheckThreshold: 0.8 })}
                     className={`px-3 py-1 text-xs rounded ${
                       settings.factCheckThreshold === 0.8
-                        ? 'bg-teal-600 text-white'
+                        ? 'bg-lmo-dark-600 text-white'
                         : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                     }`}
                   >
@@ -296,7 +300,7 @@ export default function ProjectSettingsPage() {
                     onClick={() => setSettings({ ...settings, factCheckThreshold: 0.9 })}
                     className={`px-3 py-1 text-xs rounded ${
                       settings.factCheckThreshold === 0.9
-                        ? 'bg-teal-600 text-white'
+                        ? 'bg-lmo-dark-600 text-white'
                         : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                     }`}
                   >
@@ -314,7 +318,7 @@ export default function ProjectSettingsPage() {
                 onChange={(e) =>
                   setSettings({ ...settings, factCheckThreshold: parseFloat(e.target.value) })
                 }
-                className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-teal-600"
+                className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-lmo-dark-600"
               />
               <p className="text-xs text-slate-600">
                 Higher thresholds require more reliable sources and stronger evidence
@@ -346,7 +350,7 @@ export default function ProjectSettingsPage() {
                   setSettings({ ...settings, autoGenerateQuestions: !settings.autoGenerateQuestions })
                 }
                 className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                  settings.autoGenerateQuestions ? 'bg-teal-600' : 'bg-slate-300'
+                  settings.autoGenerateQuestions ? 'bg-lmo-dark-600' : 'bg-slate-300'
                 }`}
               >
                 <span
@@ -359,12 +363,67 @@ export default function ProjectSettingsPage() {
           </CardContent>
         </Card>
 
+        {/* Content Focus */}
+        <Card>
+          <CardHeader>
+            <CardTitle>Content Focus</CardTitle>
+            <CardDescription>
+              Define the primary goal of your AI-generated content
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-2 gap-3">
+              {([
+                { value: 'informational', label: 'Informational', desc: 'Answer questions objectively and neutrally' },
+                { value: 'sales', label: 'Sales', desc: 'Drive conversions with persuasive messaging' },
+                { value: 'educational', label: 'Educational', desc: 'Teach and inform readers in depth' },
+                { value: 'promotional', label: 'Promotional', desc: 'Highlight products, services, and offers' },
+              ] as const).map((focus) => (
+                <button
+                  key={focus.value}
+                  onClick={() => setSettings({ ...settings, contentFocus: focus.value })}
+                  className={`p-4 rounded-lg border-2 text-left transition-all ${
+                    settings.contentFocus === focus.value
+                      ? 'border-lmo-dark-600 bg-lmo-dark-50'
+                      : 'border-slate-200 hover:border-slate-300'
+                  }`}
+                >
+                  <p className="font-medium text-slate-900">{focus.label}</p>
+                  <p className="text-xs text-slate-600 mt-1">{focus.desc}</p>
+                </button>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Custom Content Instructions */}
+        <Card>
+          <CardHeader>
+            <CardTitle>Custom Content Instructions</CardTitle>
+            <CardDescription>
+              Add custom guidelines for AI content generation (e.g., sales pitch, key messages, brand requirements)
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <textarea
+              value={settings.salesPitchPrompt || ''}
+              onChange={(e) => setSettings({ ...settings, salesPitchPrompt: e.target.value })}
+              placeholder="Example: Always mention our 30-day money-back guarantee and emphasize how our product saves 10+ hours per week. Include a soft call-to-action directing readers to our free trial..."
+              className="w-full min-h-[120px] p-3 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-lmo-dark-600 focus:border-transparent resize-y"
+              rows={5}
+            />
+            <p className="text-xs text-slate-500 mt-2">
+              💡 Tip: These instructions will be incorporated naturally into all AI-generated answers to ensure consistency with your messaging and brand voice
+            </p>
+          </CardContent>
+        </Card>
+
         {/* Save Button */}
         <div className="flex gap-3 pt-4">
           <Button
             onClick={handleSave}
             disabled={saving}
-            className="bg-teal-600 hover:bg-teal-700 flex-1"
+            className="bg-lmo-dark-600 hover:bg-lmo-dark-700 flex-1"
           >
             {saving ? (
               <>

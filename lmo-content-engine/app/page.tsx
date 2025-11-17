@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!loading && user) {
-      router.push('/dashboard');
+      router.push('/projects');
     } else if (!loading && !user) {
       router.push('/login');
     }
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <div className="text-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-teal-600 border-t-transparent mx-auto mb-4" />
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-lmo-dark-600 border-t-transparent mx-auto mb-4" />
         <p className="text-slate-600">Loading...</p>
       </div>
     </main>

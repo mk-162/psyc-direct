@@ -129,13 +129,13 @@ export default function NewProjectPage() {
                       validationError
                         ? 'border-red-500 focus-visible:ring-red-500'
                         : isValid
-                        ? 'border-green-500 focus-visible:ring-green-500'
+                        ? 'border-lmo-dark-500 focus-visible:ring-lmo-dark-500'
                         : ''
                     }`}
                     disabled={isCreating}
                   />
                   {isValid && !validationError && (
-                    <CheckCircle className="absolute right-3 top-3 h-5 w-5 text-green-500" />
+                    <CheckCircle className="absolute right-3 top-3 h-5 w-5 text-lmo-dark-500" />
                   )}
                   {validationError && (
                     <AlertCircle className="absolute right-3 top-3 h-5 w-5 text-red-500" />
@@ -148,7 +148,7 @@ export default function NewProjectPage() {
                   </div>
                 )}
                 {isValid && !validationError && (
-                  <div className="flex items-center gap-2 text-sm text-green-600">
+                  <div className="flex items-center gap-2 text-sm text-lmo-dark-600">
                     <CheckCircle className="h-4 w-4" />
                     Valid URL - Ready to create project
                   </div>
@@ -167,25 +167,25 @@ export default function NewProjectPage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-slate-600">
                   <li className="flex items-start gap-3">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-100 text-teal-700 text-xs font-medium flex-shrink-0">
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-lmo-dark-100 text-lmo-dark-700 text-xs font-medium flex-shrink-0">
                       1
                     </span>
                     <span>AI analyzes your website content and structure</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-100 text-teal-700 text-xs font-medium flex-shrink-0">
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-lmo-dark-100 text-lmo-dark-700 text-xs font-medium flex-shrink-0">
                       2
                     </span>
                     <span>Generates 5-10 relevant content categories</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-100 text-teal-700 text-xs font-medium flex-shrink-0">
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-lmo-dark-100 text-lmo-dark-700 text-xs font-medium flex-shrink-0">
                       3
                     </span>
                     <span>You explore and expand topics of interest</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-100 text-teal-700 text-xs font-medium flex-shrink-0">
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-lmo-dark-100 text-lmo-dark-700 text-xs font-medium flex-shrink-0">
                       4
                     </span>
                     <span>AI generates Q&A content for review</span>
@@ -206,7 +206,7 @@ export default function NewProjectPage() {
                 <Button
                   type="submit"
                   disabled={isCreating || !isValid || !!validationError || !url}
-                  className="flex-1 bg-teal-600 hover:bg-teal-700"
+                  className="flex-1 bg-lmo-dark-600 hover:bg-lmo-dark-700"
                 >
                   {isCreating ? (
                     <>

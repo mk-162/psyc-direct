@@ -72,31 +72,64 @@ export class OpenAIClient {
    */
   async generateShortDraft(
     question: string,
-    context?: string
+    context?: string,
+    projectSettings?: {
+      brandVoice?: string;
+      contentFocus?: string;
+      salesPitchPrompt?: string;
+    }
   ): Promise<{
     content: string;
     wordCount: number;
     citations: string[];
   }> {
+    // Build content focus requirements
+    let focusRequirements = '';
+    if (projectSettings?.contentFocus === 'sales') {
+      focusRequirements = '- Include subtle call-to-action and highlight key benefits\n- Use persuasive language that drives conversions\n';
+    } else if (projectSettings?.contentFocus === 'educational') {
+      focusRequirements = '- Break down concepts clearly with examples\n- Focus on teaching and explaining thoroughly\n';
+    } else if (projectSettings?.contentFocus === 'promotional') {
+      focusRequirements = '- Highlight product/service features and unique value\n- Emphasize special offers or competitive advantages\n';
+    }
+
     const prompt = `Write a concise, accurate answer to this question in approximately 80 words:
 
 Question: ${question}
 
 ${context ? `Context: ${context}` : ''}
 
+Voice & Style: ${projectSettings?.brandVoice || 'professional'}
+Content Focus: ${projectSettings?.contentFocus || 'informational'}
+
+${projectSettings?.salesPitchPrompt ? `
+IMPORTANT - Naturally incorporate these key messages into your answer:
+${projectSettings.salesPitchPrompt}
+` : ''}
+
 Requirements:
 - Be clear and direct
 - Use simple language
 - Provide specific details
-- Cite sources if mentioning specific facts
+${focusRequirements}- Cite sources if mentioning specific facts
 - Optimize for featured snippets
 
 Write in markdown format with proper formatting.`;
 
+    const brandVoiceDesc = projectSettings?.brandVoice === 'casual' ? 'conversational and friendly'
+      : projectSettings?.brandVoice === 'technical' ? 'precise and technical'
+      : projectSettings?.brandVoice === 'friendly' ? 'warm and approachable'
+      : 'professional and authoritative';
+
+    const focusDesc = projectSettings?.contentFocus === 'sales' ? 'conversion-focused with persuasive messaging'
+      : projectSettings?.contentFocus === 'educational' ? 'teaching-oriented and informative'
+      : projectSettings?.contentFocus === 'promotional' ? 'highlighting products and services'
+      : 'objective and informational';
+
     const response = await this.chat([
       {
         role: 'system',
-        content: 'You are an expert content writer specializing in concise, SEO-optimized answers.',
+        content: `You are an expert content writer specializing in ${brandVoiceDesc}, SEO-optimized answers with a ${focusDesc} approach.`,
       },
       {
         role: 'user',
@@ -119,32 +152,72 @@ Write in markdown format with proper formatting.`;
    */
   async generateLongDraft(
     question: string,
-    context?: string
+    context?: string,
+    projectSettings?: {
+      brandVoice?: string;
+      contentDepth?: string;
+      contentFocus?: string;
+      salesPitchPrompt?: string;
+    }
   ): Promise<{
     content: string;
     wordCount: number;
     citations: string[];
   }> {
-    const prompt = `Write a comprehensive, detailed answer to this question in 250-400 words:
+    // Build content focus requirements
+    let focusRequirements = '';
+    if (projectSettings?.contentFocus === 'sales') {
+      focusRequirements = '- Include multiple soft calls-to-action throughout\n- Emphasize benefits and value propositions\n- Address common objections naturally\n- Build trust with social proof or guarantees\n';
+    } else if (projectSettings?.contentFocus === 'educational') {
+      focusRequirements = '- Break down complex topics step-by-step\n- Include practical examples and use cases\n- Provide actionable takeaways\n- Encourage further learning\n';
+    } else if (projectSettings?.contentFocus === 'promotional') {
+      focusRequirements = '- Highlight unique selling points and differentiators\n- Showcase special offers or exclusive features\n- Create urgency and desire\n- Position products/services as solutions\n';
+    }
+
+    // Adjust word count based on content depth
+    const targetWords = projectSettings?.contentDepth === 'concise' ? '250-300'
+      : projectSettings?.contentDepth === 'comprehensive' ? '400-500'
+      : '300-400';
+
+    const prompt = `Write a comprehensive, detailed answer to this question in ${targetWords} words:
 
 Question: ${question}
 
 ${context ? `Context: ${context}` : ''}
 
+Voice & Style: ${projectSettings?.brandVoice || 'professional'}
+Content Depth: ${projectSettings?.contentDepth || 'detailed'}
+Content Focus: ${projectSettings?.contentFocus || 'informational'}
+
+${projectSettings?.salesPitchPrompt ? `
+IMPORTANT - Naturally weave these key messages throughout your answer:
+${projectSettings.salesPitchPrompt}
+` : ''}
+
 Requirements:
 - Cover the topic thoroughly
 - Include relevant examples
 - Use clear headings and structure
-- Cite authoritative sources
+${focusRequirements}- Cite authoritative sources
 - Make it engaging and readable
 - Optimize for search engines
 
 Write in markdown format with proper formatting including headings, lists, and emphasis where appropriate.`;
 
+    const brandVoiceDesc = projectSettings?.brandVoice === 'casual' ? 'conversational and friendly'
+      : projectSettings?.brandVoice === 'technical' ? 'precise and technical'
+      : projectSettings?.brandVoice === 'friendly' ? 'warm and approachable'
+      : 'professional and authoritative';
+
+    const focusDesc = projectSettings?.contentFocus === 'sales' ? 'conversion-focused with persuasive messaging'
+      : projectSettings?.contentFocus === 'educational' ? 'teaching-oriented and informative'
+      : projectSettings?.contentFocus === 'promotional' ? 'highlighting products and services'
+      : 'objective and informational';
+
     const response = await this.chat([
       {
         role: 'system',
-        content: 'You are an expert content writer specializing in comprehensive, SEO-optimized articles.',
+        content: `You are an expert content writer specializing in ${brandVoiceDesc}, comprehensive, SEO-optimized articles with a ${focusDesc} approach.`,
       },
       {
         role: 'user',

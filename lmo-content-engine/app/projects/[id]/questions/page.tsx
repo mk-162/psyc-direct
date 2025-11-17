@@ -122,7 +122,7 @@ export default function QuestionsPage() {
     const intentColors: Record<string, string> = {
       informational: 'bg-blue-100 text-blue-800',
       navigational: 'bg-purple-100 text-purple-800',
-      transactional: 'bg-green-100 text-green-800',
+      transactional: 'bg-lmo-dark-100 text-lmo-dark-700',
     };
 
     return (
@@ -196,7 +196,7 @@ export default function QuestionsPage() {
     return (
       <div className="p-8">
         <div className="flex items-center justify-center py-12">
-          <Loader2 className="h-8 w-8 animate-spin text-teal-600" />
+          <Loader2 className="h-8 w-8 animate-spin text-lmo-dark-600" />
         </div>
       </div>
     );
@@ -239,7 +239,7 @@ export default function QuestionsPage() {
       <div className="mb-8">
         <Button
           variant="ghost"
-          onClick={() => router.push(categoryFilter ? `/projects/${projectId}/discover` : `/projects/${projectId}`)}
+          onClick={() => router.push(categoryFilter ? `/content?project=${projectId}` : `/projects/${projectId}`)}
           className="mb-4"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
@@ -303,7 +303,7 @@ export default function QuestionsPage() {
                   ? 'Generate questions for this category to see them here.'
                   : 'Start by exploring categories and generating questions.'}
               </p>
-              <Button onClick={() => router.push(`/projects/${projectId}/discover`)}>
+              <Button onClick={() => router.push(`/content?project=${projectId}`)}>
                 Go to Categories
               </Button>
             </div>
@@ -323,7 +323,7 @@ export default function QuestionsPage() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
                     <div className="flex items-start gap-3 mb-2">
-                      <MessageSquare className="h-5 w-5 text-teal-600 mt-1 flex-shrink-0" />
+                      <MessageSquare className="h-5 w-5 text-lmo-dark-600 mt-1 flex-shrink-0" />
                       <div className="flex-1">
                         <h3 className="text-lg font-medium text-slate-900 mb-2">
                           {question.question}
@@ -365,27 +365,27 @@ export default function QuestionsPage() {
                       <Button
                         size="sm"
                         onClick={() => generateDraft(question.id)}
-                        className="bg-teal-600 hover:bg-teal-700"
+                        className="bg-lmo-dark-600 hover:bg-lmo-dark-700"
                       >
                         <FileText className="h-4 w-4 mr-2" />
                         Generate Draft
                       </Button>
                     )}
                     {generatingDrafts.has(question.id) && (
-                      <Button size="sm" disabled className="bg-teal-600">
+                      <Button size="sm" disabled className="bg-lmo-dark-600">
                         <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                         Generating...
                       </Button>
                     )}
                     {question.status === 'generating' && !generatingDrafts.has(question.id) && (
-                      <Button size="sm" disabled className="bg-teal-600">
+                      <Button size="sm" disabled className="bg-lmo-dark-600">
                         <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                         Generating...
                       </Button>
                     )}
                     {question.status === 'ready_for_review' && (
                       <Link href={`/projects/${projectId}/review/${question.id}`}>
-                        <Button size="sm" className="bg-teal-600 hover:bg-teal-700">
+                        <Button size="sm" className="bg-lmo-dark-600 hover:bg-lmo-dark-700">
                           <FileText className="h-4 w-4 mr-2" />
                           Review
                         </Button>
@@ -393,7 +393,7 @@ export default function QuestionsPage() {
                     )}
                     {question.status === 'accepted' && (
                       <Button size="sm" variant="outline">
-                        <CheckCircle2 className="h-4 w-4 mr-2 text-green-600" />
+                        <CheckCircle2 className="h-4 w-4 mr-2 text-lmo-dark-600" />
                         View
                       </Button>
                     )}

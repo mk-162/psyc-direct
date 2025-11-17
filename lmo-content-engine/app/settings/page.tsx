@@ -87,7 +87,7 @@ export default function SettingsPage() {
               <p className="text-sm text-slate-700">✓ 100 questions per month</p>
               <p className="text-sm text-slate-700">✓ Basic AI features</p>
             </div>
-            <Button className="w-full mt-4 bg-teal-600 hover:bg-teal-700" disabled>
+            <Button className="w-full mt-4 bg-lmo-dark-600 hover:bg-lmo-dark-700" disabled>
               Upgrade Plan (Coming Soon)
             </Button>
           </CardContent>
@@ -113,7 +113,7 @@ export default function SettingsPage() {
               <button
                 onClick={() => setEmailNotifications(!emailNotifications)}
                 className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                  emailNotifications ? 'bg-teal-600' : 'bg-slate-300'
+                  emailNotifications ? 'bg-lmo-dark-600' : 'bg-slate-300'
                 }`}
               >
                 <span
@@ -131,7 +131,7 @@ export default function SettingsPage() {
               <button
                 onClick={() => setAutoGenerateContent(!autoGenerateContent)}
                 className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                  autoGenerateContent ? 'bg-teal-600' : 'bg-slate-300'
+                  autoGenerateContent ? 'bg-lmo-dark-600' : 'bg-slate-300'
                 }`}
               >
                 <span

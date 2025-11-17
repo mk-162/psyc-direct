@@ -232,12 +232,25 @@ export async function GET(
     // Sort by order field
     subcategories.sort((a: any, b: any) => (a.order || 0) - (b.order || 0));
 
-    return NextResponse.json({ subcategories });
+    return NextResponse.json(
+      { subcategories },
+      {
+        headers: {
+          // Cache for 3 minutes, stale-while-revalidate for 5 minutes
+          'Cache-Control': 'private, max-age=180, stale-while-revalidate=300',
+        },
+      }
+    );
   } catch (error: any) {
     console.error('Error fetching subcategories:', error);
     return NextResponse.json(
       { error: 'Failed to fetch subcategories', message: error.message },
-      { status: 500 }
+      {
+        status: 500,
+        headers: {
+          'Cache-Control': 'no-store', // Don't cache errors
+        },
+      }
     );
   }
 }

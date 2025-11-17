@@ -23,7 +23,7 @@ export default function SettingsLayout({
     return (
       <div className="flex h-screen items-center justify-center">
         <div className="text-center">
-          <div className="h-8 w-8 animate-spin rounded-full border-4 border-teal-600 border-t-transparent mx-auto mb-4" />
+          <div className="h-8 w-8 animate-spin rounded-full border-4 border-lmo-dark-600 border-t-transparent mx-auto mb-4" />
           <p className="text-slate-600">Loading...</p>
         </div>
       </div>

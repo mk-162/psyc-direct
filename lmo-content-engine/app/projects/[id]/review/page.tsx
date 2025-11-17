@@ -110,7 +110,7 @@ export default function ReviewDashboardPage() {
     const intentColors: Record<string, string> = {
       informational: 'bg-blue-100 text-blue-800',
       navigational: 'bg-purple-100 text-purple-800',
-      transactional: 'bg-green-100 text-green-800',
+      transactional: 'bg-lmo-dark-100 text-lmo-dark-700',
     };
 
     return (
@@ -134,7 +134,7 @@ export default function ReviewDashboardPage() {
     return (
       <div className="p-8">
         <div className="flex items-center justify-center py-12">
-          <Loader2 className="h-8 w-8 animate-spin text-teal-600" />
+          <Loader2 className="h-8 w-8 animate-spin text-lmo-dark-600" />
         </div>
       </div>
     );
@@ -201,9 +201,9 @@ export default function ReviewDashboardPage() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-slate-600">Ready to Review</p>
-                <p className="text-3xl font-bold text-teal-600">{stats.ready}</p>
+                <p className="text-3xl font-bold text-lmo-dark-600">{stats.ready}</p>
               </div>
-              <Clock className="h-8 w-8 text-teal-600" />
+              <Clock className="h-8 w-8 text-lmo-dark-600" />
             </div>
           </CardContent>
         </Card>
@@ -213,9 +213,9 @@ export default function ReviewDashboardPage() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-slate-600">Accepted</p>
-                <p className="text-3xl font-bold text-green-600">{stats.accepted}</p>
+                <p className="text-3xl font-bold text-lmo-dark-600">{stats.accepted}</p>
               </div>
-              <CheckCircle2 className="h-8 w-8 text-green-600" />
+              <CheckCircle2 className="h-8 w-8 text-lmo-dark-600" />
             </div>
           </CardContent>
         </Card>
@@ -279,7 +279,7 @@ export default function ReviewDashboardPage() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
                     <div className="flex items-start gap-3 mb-2">
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-teal-100 text-teal-600 font-semibold text-sm flex-shrink-0">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-lmo-dark-100 text-lmo-dark-600 font-semibold text-sm flex-shrink-0">
                         {index + 1}
                       </span>
                       <div className="flex-1">
@@ -322,7 +322,7 @@ export default function ReviewDashboardPage() {
                   </div>
                   <div className="flex flex-col gap-2">
                     <Link href={`/projects/${projectId}/review/${question.id}`}>
-                      <Button size="sm" className="bg-teal-600 hover:bg-teal-700">
+                      <Button size="sm" className="bg-lmo-dark-600 hover:bg-lmo-dark-700">
                         <FileText className="h-4 w-4 mr-2" />
                         Start Review
                       </Button>
