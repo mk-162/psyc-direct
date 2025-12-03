@@ -1,30 +1,153 @@
 ---
-const navLinks = [
-  { name: 'Expert Witness', href: '/expert-witness' },
-  { name: 'Education', href: '/education' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
-];
+const navigation = {
+  psychologyServices: {
+    name: "Psychology Services",
+    href: "/psychology-services",
+    sections: [
+      {
+        name: "Expert Witness",
+        href: "/expert-witness-psychologists",
+        links: [
+          { name: "Family Law", href: "/expert-witness-psychologists/family" },
+          {
+            name: "Criminal Law",
+            href: "/expert-witness-psychologists/criminal",
+          },
+          {
+            name: "Prison Law",
+            href: "/expert-witness-psychologists/prison-law",
+          },
+          {
+            name: "Civil/Personal Injury",
+            href: "/expert-witness-psychologists/civil-personal-injury",
+          },
+          {
+            name: "Clinical Negligence",
+            href: "/expert-witness-psychologists/clinical-negligence",
+          },
+          {
+            name: "Immigration/Asylum",
+            href: "/expert-witness-psychologists/immigration-asylum",
+          },
+          {
+            name: "Employment Law",
+            href: "/expert-witness-psychologists/employment-law",
+          },
+        ],
+      },
+      {
+        name: "Educational Psychology",
+        href: "/educational-psychologist",
+        links: [
+          { name: "Schools & Academies", href: "/education/schools-academies" },
+          { name: "Local Authorities", href: "/education/local-authorities" },
+          {
+            name: "Multi-Academy Trusts",
+            href: "/education/multi-academy-trusts",
+          },
+          { name: "EHCP Assessments", href: "/education/ehcp-assessments" },
+          {
+            name: "Specialist Assessments",
+            href: "/education/specialist-assessments",
+          },
+          {
+            name: "Training & Consultancy",
+            href: "/education/training-consultancy",
+          },
+        ],
+      },
+    ],
+  },
+  psychiatryServices: {
+    name: "Psychiatry Services",
+    href: "/psychiatry-services",
+    sections: [
+      {
+        name: "Expert Witness",
+        href: "/expert-witness-psychiatrists",
+        links: [
+          { name: "Family Law", href: "/expert-witness-psychiatrists/family" },
+          {
+            name: "Criminal Law",
+            href: "/expert-witness-psychiatrists/criminal",
+          },
+          {
+            name: "Prison Law",
+            href: "/expert-witness-psychiatrists/prison-law",
+          },
+          {
+            name: "Civil/Personal Injury",
+            href: "/expert-witness-psychiatrists/civil-personal-injury",
+          },
+          {
+            name: "Clinical Negligence",
+            href: "/expert-witness-psychiatrists/clinical-negligence",
+          },
+          {
+            name: "Immigration/Asylum",
+            href: "/expert-witness-psychiatrists/immigration-asylum",
+          },
+          {
+            name: "Employment Law",
+            href: "/expert-witness-psychiatrists/employment-law",
+          },
+        ],
+      },
+      {
+        name: "Assessments",
+        links: [
+          {
+            name: "ADHD & Autism",
+            href: "/psychiatry/adhd-autism-assessments",
+          },
+        ],
+      },
+    ],
+  },
+  about: {
+    name: "About",
+    href: "/about",
+    links: [
+      { name: "About Us", href: "/about" },
+      { name: "Meet the Team", href: "/about/meet-the-team" },
+    ],
+  },
+};
 ---
 
 <header class="sticky top-0 z-50 bg-white shadow-sm">
   <!-- Top Bar -->
   <div class="bg-[#032552] text-white py-2">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm">
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm"
+    >
       <div class="flex gap-6">
-        <a href="https://www.psychiatrydirect.co.uk" class="hover:text-blue-200 transition-colors">
-          Psychiatry Direct
-        </a>
-        <a href="/psychologist-login" class="hover:text-blue-200 transition-colors">
-          Psychologist Login
-        </a>
         <a href="/client-login" class="hover:text-blue-200 transition-colors">
           Client Login
         </a>
+        <a
+          href="/psychologist-login"
+          class="hover:text-blue-200 transition-colors"
+        >
+          Psychologist Login
+        </a>
       </div>
-      <a href="tel:01306879975" class="flex items-center gap-2 font-semibold hover:text-blue-200 transition-colors">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+      <a
+        href="tel:01306879975"
+        class="flex items-center gap-2 font-semibold hover:text-blue-200 transition-colors"
+      >
+        <svg
+          class="w-4 h-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+          ></path>
         </svg>
         01306 879 975
       </a>
@@ -44,56 +167,413 @@ const navLinks = [
       </a>
 
       <!-- Desktop Navigation -->
-      <ul class="hidden md:flex items-center gap-8">
-        {navLinks.map((link) => (
-          <li>
-            <a
-              href={link.href}
-              class="text-gray-700 hover:text-[#2eabe0] font-medium transition-colors duration-200 relative group"
+      <ul class="hidden lg:flex items-center gap-6">
+        <!-- Home -->
+        <li>
+          <a
+            href="/"
+            class="text-gray-700 hover:text-[#2eabe0] font-medium transition-colors duration-200 relative group"
+          >
+            Home
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#2eabe0] transition-all duration-200 group-hover:w-full"
+            ></span>
+          </a>
+        </li>
+
+        <!-- Psychology Services Dropdown -->
+        <li class="relative group">
+          <a
+            href={navigation.psychologyServices.href}
+            class="text-gray-700 hover:text-[#2eabe0] font-medium transition-colors duration-200 flex items-center gap-1 py-2"
+          >
+            {navigation.psychologyServices.name}
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
             >
-              {link.name}
-              <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#2eabe0] transition-all duration-200 group-hover:w-full"></span>
-            </a>
-          </li>
-        ))}
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </a>
+
+          <!-- Mega Dropdown -->
+          <div
+            class="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
+          >
+            <div
+              class="bg-white rounded-lg shadow-xl border border-gray-200 p-6 grid grid-cols-2 gap-8 w-[600px]"
+            >
+              {
+                navigation.psychologyServices.sections.map((section) => (
+                  <div>
+                    <a
+                      href={section.href}
+                      class="font-semibold text-[#032552] hover:text-[#2eabe0] mb-3 block"
+                    >
+                      {section.name}
+                    </a>
+                    <ul class="space-y-2">
+                      {section.links.map((link) => (
+                        <li>
+                          <a
+                            href={link.href}
+                            class="text-sm text-gray-600 hover:text-[#2eabe0] hover:pl-2 transition-all"
+                          >
+                            {link.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </li>
+
+        <!-- Psychiatry Services Dropdown -->
+        <li class="relative group">
+          <a
+            href={navigation.psychiatryServices.href}
+            class="text-gray-700 hover:text-[#2eabe0] font-medium transition-colors duration-200 flex items-center gap-1 py-2"
+          >
+            {navigation.psychiatryServices.name}
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </a>
+
+          <!-- Mega Dropdown -->
+          <div
+            class="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
+          >
+            <div
+              class="bg-white rounded-lg shadow-xl border border-gray-200 p-6 grid grid-cols-2 gap-8 w-[600px]"
+            >
+              {
+                navigation.psychiatryServices.sections.map((section) => (
+                  <div>
+                    <a
+                      href={section.href || "#"}
+                      class="font-semibold text-[#032552] hover:text-[#2eabe0] mb-3 block"
+                    >
+                      {section.name}
+                    </a>
+                    <ul class="space-y-2">
+                      {section.links.map((link) => (
+                        <li>
+                          <a
+                            href={link.href}
+                            class="text-sm text-gray-600 hover:text-[#2eabe0] hover:pl-2 transition-all"
+                          >
+                            {link.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </li>
+
+        <!-- About Dropdown -->
+        <li class="relative group">
+          <a
+            href={navigation.about.href}
+            class="text-gray-700 hover:text-[#2eabe0] font-medium transition-colors duration-200 flex items-center gap-1 py-2"
+          >
+            {navigation.about.name}
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </a>
+
+          <!-- Simple Dropdown -->
+          <div
+            class="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
+          >
+            <div
+              class="bg-white rounded-lg shadow-xl border border-gray-200 p-4 w-48"
+            >
+              <ul class="space-y-2">
+                {
+                  navigation.about.links.map((link) => (
+                    <li>
+                      <a
+                        href={link.href}
+                        class="text-sm text-gray-600 hover:text-[#2eabe0] hover:pl-2 transition-all block"
+                      >
+                        {link.name}
+                      </a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <!-- Blog -->
+        <li>
+          <a
+            href="/blog"
+            class="text-gray-700 hover:text-[#2eabe0] font-medium transition-colors duration-200 relative group"
+          >
+            Blog
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#2eabe0] transition-all duration-200 group-hover:w-full"
+            ></span>
+          </a>
+        </li>
+
+        <!-- FAQs -->
+        <li>
+          <a
+            href="/faqs"
+            class="text-gray-700 hover:text-[#2eabe0] font-medium transition-colors duration-200 relative group"
+          >
+            FAQs
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#2eabe0] transition-all duration-200 group-hover:w-full"
+            ></span>
+          </a>
+        </li>
+
+        <!-- Contact -->
+        <li>
+          <a
+            href="/contact"
+            class="bg-linear-to-r from-[#032552] to-[#2eabe0] text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all duration-200"
+          >
+            Contact
+          </a>
+        </li>
       </ul>
 
       <!-- Mobile Menu Button -->
       <button
         id="mobile-menu-button"
-        class="md:hidden p-2 text-gray-700 hover:text-[#2eabe0] transition-colors"
+        class="lg:hidden p-2 text-gray-700 hover:text-[#2eabe0] transition-colors"
         aria-label="Toggle menu"
       >
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </button>
     </div>
 
     <!-- Mobile Navigation -->
-    <div id="mobile-menu" class="hidden md:hidden pb-4">
-      <ul class="flex flex-col gap-2">
-        {navLinks.map((link) => (
-          <li>
-            <a
-              href={link.href}
-              class="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-[#2eabe0] rounded transition-colors"
+    <div
+      id="mobile-menu"
+      class="hidden lg:hidden pb-4 border-t border-gray-200 mt-2"
+    >
+      <div class="py-4 space-y-4">
+        <!-- Psychology Services -->
+        <div>
+          <button
+            class="mobile-dropdown-toggle w-full flex items-center justify-between py-2 px-4 text-gray-700 hover:bg-gray-100 rounded font-medium"
+          >
+            <span>{navigation.psychologyServices.name}</span>
+            <svg
+              class="w-4 h-4 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
             >
-              {link.name}
-            </a>
-          </li>
-        ))}
-      </ul>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="mobile-dropdown-content hidden pl-4 mt-2 space-y-2">
+            {
+              navigation.psychologyServices.sections.map((section) => (
+                <div>
+                  <a
+                    href={section.href}
+                    class="block py-2 px-4 text-sm font-semibold text-[#032552]"
+                  >
+                    {section.name}
+                  </a>
+                  <div class="pl-4 space-y-1">
+                    {section.links.map((link) => (
+                      <a
+                        href={link.href}
+                        class="block py-1 px-4 text-sm text-gray-600 hover:text-[#2eabe0]"
+                      >
+                        {link.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+
+        <!-- Psychiatry Services -->
+        <div>
+          <button
+            class="mobile-dropdown-toggle w-full flex items-center justify-between py-2 px-4 text-gray-700 hover:bg-gray-100 rounded font-medium"
+          >
+            <span>{navigation.psychiatryServices.name}</span>
+            <svg
+              class="w-4 h-4 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="mobile-dropdown-content hidden pl-4 mt-2 space-y-2">
+            {
+              navigation.psychiatryServices.sections.map((section) => (
+                <div>
+                  <a
+                    href={section.href || "#"}
+                    class="block py-2 px-4 text-sm font-semibold text-[#032552]"
+                  >
+                    {section.name}
+                  </a>
+                  <div class="pl-4 space-y-1">
+                    {section.links.map((link) => (
+                      <a
+                        href={link.href}
+                        class="block py-1 px-4 text-sm text-gray-600 hover:text-[#2eabe0]"
+                      >
+                        {link.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+
+        <!-- About -->
+        <div>
+          <button
+            class="mobile-dropdown-toggle w-full flex items-center justify-between py-2 px-4 text-gray-700 hover:bg-gray-100 rounded font-medium"
+          >
+            <span>{navigation.about.name}</span>
+            <svg
+              class="w-4 h-4 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="mobile-dropdown-content hidden pl-4 mt-2 space-y-1">
+            {
+              navigation.about.links.map((link) => (
+                <a
+                  href={link.href}
+                  class="block py-1 px-4 text-sm text-gray-600 hover:text-[#2eabe0]"
+                >
+                  {link.name}
+                </a>
+              ))
+            }
+          </div>
+        </div>
+
+        <!-- Blog -->
+        <a
+          href="/blog"
+          class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded font-medium"
+        >
+          Blog
+        </a>
+
+        <!-- Contact -->
+        <a
+          href="/contact"
+          class="block mx-4 bg-linear-to-r from-[#032552] to-[#2eabe0] text-white px-6 py-3 rounded-lg text-center font-medium"
+        >
+          Contact
+        </a>
+      </div>
     </div>
   </nav>
 </header>
 
 <script>
   // Mobile menu toggle
-  const mobileMenuButton = document.getElementById('mobile-menu-button');
-  const mobileMenu = document.getElementById('mobile-menu');
+  const mobileMenuButton = document.getElementById("mobile-menu-button");
+  const mobileMenu = document.getElementById("mobile-menu");
 
-  mobileMenuButton?.addEventListener('click', () => {
-    mobileMenu?.classList.toggle('hidden');
+  mobileMenuButton?.addEventListener("click", () => {
+    mobileMenu?.classList.toggle("hidden");
+  });
+
+  // Mobile dropdown toggles
+  const mobileDropdownToggles = document.querySelectorAll(
+    ".mobile-dropdown-toggle",
+  );
+
+  mobileDropdownToggles.forEach((toggle) => {
+    toggle.addEventListener("click", () => {
+      const content = toggle.nextElementSibling;
+      const icon = toggle.querySelector("svg");
+
+      content?.classList.toggle("hidden");
+      icon?.classList.toggle("rotate-180");
+    });
   });
 </script>
+
+<style>
+  /* Ensure dropdowns stay visible on hover */
+  .group:hover > div {
+    display: block;
+  }
+</style>

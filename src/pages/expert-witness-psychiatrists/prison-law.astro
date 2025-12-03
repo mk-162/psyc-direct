@@ -1,0 +1,150 @@
+---
+import Base from "@/layouts/Base.astro";
+import Cta from "@/layouts/partials/Cta.astro";
+import Shape from "@/layouts/components/Shape.astro";
+import PageHeader from "@/layouts/components/PageHeader.astro";
+import CounterComponent from "@/layouts/components/about/CounterComponent.astro";
+import KeyFeatures from "@/layouts/components/KeyFeatures.astro";
+import Service from "@/layouts/components/Service.astro";
+import Testimonial from "@/layouts/components/Testimonial.astro";
+
+const page_data = {
+  title: "Prison Law Expert Witness Psychiatrists",
+  page_title: "Prison Law Expert Witness Psychiatrists",
+  content: "GMC-registered forensic psychiatrists for prison law cases. Mental Health Act assessments, parole boards, psychiatric risk assessment. Section 12 approved.",
+  buttons: [
+    {
+      enable: true,
+      label: "Get Expert CVs in 24h",
+      link: "/contact",
+    },
+    {
+      enable: true,
+      label: "Call 01306 879 975",
+      link: "tel:01306879975",
+      outline: true,
+    },
+  ],
+};
+
+const counter = [
+  {
+    number: 100,
+    name: "GMC-Registered Psychiatrists",
+  },
+  {
+    number: 24,
+    name: "Hour CV Turnaround",
+  },
+  {
+    number: 15,
+    name: "Years Supporting Courts",
+  },
+  {
+    number: 100,
+    name: "Quality-Checked Reports",
+  },
+];
+
+const key_features = {
+  title: "Why Choose Psychology Direct",
+  description: "Fast, reliable psychiatric expert witness services for prison law cases.",
+  feature_list: [
+    {
+      icon: "FaClock",
+      title: "CVs in 24 Hours",
+      content: "Fast expert matching for urgent prison law cases and parole deadlines.",
+    },
+    {
+      icon: "FaCheckCircle",
+      title: "GMC-Registered Consultants",
+      content: "Consultant Forensic Psychiatrists, Section 12 approved where relevant.",
+    },
+    {
+      icon: "FaBalanceScale",
+      title: "Legal Aid Rates Accepted",
+      content: "Transparent pricing for eligible prison law cases.",
+    },
+    {
+      icon: "FaBrain",
+      title: "Mental Health Act Expertise",
+      content: "Section 47/48 hospital transfer assessments and recommendations.",
+    },
+    {
+      icon: "FaPrescriptionBottle",
+      title: "Medication Assessment",
+      content: "Expert evaluation of psychiatric medication needs and compliance.",
+    },
+    {
+      icon: "FaFileAlt",
+      title: "Court-Ready Reports",
+      content: "Medical expert evidence that meets judicial standards.",
+    },
+  ],
+};
+
+const service = {
+  our_service: [
+    {
+      title: "What We Assess",
+      description: "Our psychiatrists provide medical expert assessments for all aspects of prison law.",
+      list: [
+        "Parole Board hearings",
+        "Mental Health Act assessments (s.47/s.48)",
+        "Pre-sentencing psychiatric reports",
+        "DSPD assessments",
+        "Medication compliance assessment",
+        "Psychiatric risk of serious harm",
+      ],
+    },
+    {
+      title: "When to Instruct a Psychiatrist",
+      description: "Psychiatric expertise is essential when medical diagnosis or treatment is central to your case.",
+      list: [
+        "Diagnosis of mental illness required",
+        "Mental Health Act assessment needed",
+        "Medication considerations are central",
+        "Dual diagnosis (mental illness + substance misuse)",
+        "Hospital transfer recommendations",
+        "Psychiatric prognosis and treatability",
+      ],
+    },
+  ],
+};
+
+const testimonial = {
+  title: "What Solicitors Say",
+  description: "Trusted by prison law specialists and parole representatives.",
+  testimonial_list: [
+    {
+      name: "Prison Law Solicitor",
+      designation: "London",
+      content: "Excellent psychiatric assessment for a Mental Health Act transfer case. The psychiatrist's evidence was clear, medical, and persuasive.",
+    },
+    {
+      name: "Parole Board Representative",
+      designation: "Birmingham",
+      content: "Psychology Direct provided a Section 12 approved psychiatrist at short notice. Report quality was outstanding and really helped our client's case.",
+    },
+    {
+      name: "Legal Aid Team",
+      designation: "Manchester",
+      content: "We use Psychology Direct for both psychiatric and psychological assessments. Their understanding of the difference between the two disciplines is invaluable.",
+    },
+  ],
+};
+---
+
+<Base
+  title="Prison Law Expert Witness Psychiatrists | Psychology Direct"
+  meta_title="Prison Law Expert Witness Psychiatrists"
+  description="Court-ready psychiatric assessments for prison law. Parole boards, Mental Health Act, risk assessment. Section 12 approved. CVs in 24h. Legal Aid rates. GMC registered."
+>
+  <Shape />
+  <PageHeader page_data={page_data} />
+  <CounterComponent counter={counter} />
+  <KeyFeatures key_features={key_features} />
+  <Service service={service} />
+  <Testimonial testimonial={testimonial} />
+  <Cta />
+</Base>

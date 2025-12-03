@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/images/blog"
+public_folder: "/images/blog"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "src/content/posts"
+    create: true
+    delete: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "publishDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false}
+      - {label: "Author", name: "author", widget: "string", default: "Psychology Direct Team"}
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - {label: "Expert Witness", value: "expert-witness"}
+          - {label: "Family Law", value: "family-law"}
+          - {label: "Criminal Law", value: "criminal-law"}
+          - {label: "Prison Law", value: "prison-law"}
+          - {label: "Educational Psychology", value: "educational-psychology"}
+          - {label: "Mental Health", value: "mental-health"}
+          - {label: "Industry News", value: "industry-news"}
+      - {label: "Excerpt", name: "excerpt", widget: "text", required: false}
+      - {label: "SEO Title", name: "seoTitle", widget: "string", required: false}
+      - {label: "Meta Description", name: "metaDescription", widget: "text", required: false}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages" # Service pages collection
+    label: "Service Pages" # Used in the UI
+    folder: "src/content/pages" # Path to the folder where pages are stored
+    create: true # Allow users to create new pages
+    delete: true # Allow users to delete pages
+    slug: "{{slug}}" # Filename template
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Title", name: "seoTitle", widget: "string"}
+      - {label: "Meta Description", name: "metaDescription", widget: "text"}
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - {label: "Expert Witness Psychology", value: "expert-witness-psychology"}
+          - {label: "Expert Witness Psychiatry", value: "expert-witness-psychiatry"}
+          - {label: "Educational Psychology", value: "educational-psychology"}
+          - {label: "Clinical Psychology", value: "clinical-psychology"}
+      - {label: "Body", name: "body", widget: "markdown"}

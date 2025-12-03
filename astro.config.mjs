@@ -2,11 +2,19 @@
 import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
+import react from '@astrojs/react';
+import keystatic from '@keystatic/astro';
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://psyc-direct.vercel.app',
-  // Remove base for Vercel (root domain deployment)
+  output: 'server', // Required for Keystatic admin UI
+  adapter: vercel(),
+  integrations: [
+    react(),
+    keystatic(),
+  ],
   vite: {
     plugins: [tailwindcss()]
   }

@@ -1,0 +1,61 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  title: string;
+  subtitle: string;
+  badge?: string;
+  imageSrc?: ImageMetadata;
+  imageAlt?: string;
+  imagePosition?: 'left' | 'right';
+}
+
+const {
+  title,
+  subtitle,
+  badge = "Expert Witness Psychology",
+  imageSrc,
+  imageAlt = "",
+  imagePosition = 'right'
+} = Astro.props;
+
+const flexDirection = imagePosition === 'left' ? 'lg:flex-row-reverse' : 'lg:flex-row';
+---
+
+<section class="bg-gradient-to-br from-[#032552] via-[#066aab] to-[#2eabe0] text-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class={`flex flex-col ${flexDirection} gap-12 items-center`}>
+      <!-- Text Content -->
+      <div class="flex-1 max-w-2xl">
+        <div class="inline-block bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-6">
+          {badge}
+        </div>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          {title}
+        </h1>
+        <p class="text-xl md:text-2xl text-blue-100 font-light leading-relaxed">
+          {subtitle}
+        </p>
+      </div>
+
+      <!-- Image (Optional) -->
+      {imageSrc && (
+        <div class="flex-1 max-w-xl">
+          <div class="relative">
+            <div class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent rounded-2xl transform rotate-3"></div>
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              width={600}
+              height={400}
+              class="relative rounded-2xl shadow-2xl"
+              format="webp"
+              quality={80}
+              loading="eager"
+            />
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+</section>

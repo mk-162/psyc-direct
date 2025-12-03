@@ -1,0 +1,208 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Hero from "../../components/ui/Hero.astro";
+import Card from "../../components/ui/Card.astro";
+import Testimonial from "../../components/ui/Testimonial.astro";
+import ContactForm from "../../components/forms/ContactForm.astro";
+
+const page_data = {
+  title: "Prison Law Expert Witness Psychologists",
+  subtitle:
+    "Expert psychological assessments for parole boards and prison law cases. Risk assessment, parole hearings, pre-sentencing reports. HCPC-registered forensic psychologists.",
+};
+
+const stats = [
+  { number: "1,000+", label: "HCPC-Registered Psychologists" },
+  { number: "24h", label: "CV Turnaround" },
+  { number: "15+", label: "Years Supporting Courts" },
+  { number: "100%", label: "Quality-Checked Reports" },
+];
+
+const features = [
+  {
+    title: "CVs in 24 Hours",
+    description:
+      "Fast expert matching for urgent parole deadlines and prison law cases.",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />`,
+  },
+  {
+    title: "HCPC-Registered Experts",
+    description: "Forensic and Clinical Psychologists with prison experience.",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />`,
+  },
+  {
+    title: "Legal Aid Rates Accepted",
+    description: "Transparent fixed pricing for eligible prison law cases.",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />`,
+  },
+  {
+    title: "Enhanced DBS Clearance",
+    description:
+      "All experts hold security vetting for prison-based assessments.",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />`,
+  },
+  {
+    title: "Validated Risk Tools",
+    description:
+      "HCR-20, RSVP, and other evidence-based risk assessment tools.",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />`,
+  },
+  {
+    title: "100% Quality-Checked",
+    description: "All reports peer-reviewed for court compliance.",
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />`,
+  },
+];
+
+const services = [
+  {
+    title: "What We Assess",
+    items: [
+      "Parole Board hearings",
+      "Pre-sentencing psychological assessments",
+      "Risk assessment (violence, sexual offending)",
+      "Treatment progress evaluation",
+      "Capacity assessments",
+      "Cognitive and IQ assessments",
+    ],
+  },
+  {
+    title: "How We Help",
+    items: [
+      "Prison-based assessments nationwide",
+      "Enhanced DBS and security vetting",
+      "Validated psychological testing",
+      "Independent expert opinions",
+      "Court attendance when required",
+      "Fast-track options for urgent parole cases",
+    ],
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      "Psychology Direct provided an excellent forensic psychologist for a complex parole case. The risk assessment was thorough and defensible.",
+    author: "Prison Law Solicitor",
+    role: "Partner",
+    company: "London",
+  },
+  {
+    quote:
+      "Fast turnaround and high-quality reports. The psychologist understood parole board requirements perfectly.",
+    author: "Legal Aid Team",
+    role: "Solicitor",
+    company: "Birmingham",
+  },
+  {
+    quote:
+      "We use Psychology Direct regularly for parole cases. Their experts understand the system and deliver reports that make a real difference.",
+    author: "Parole Representative",
+    role: "Case Manager",
+    company: "Manchester",
+  },
+];
+---
+
+<Layout
+  title={`${page_data.title} | Psychology Direct`}
+  description={page_data.subtitle}
+>
+  <Hero
+    title={page_data.title}
+    subtitle={page_data.subtitle}
+    ctaText="Get Expert CVs in 24h"
+    ctaLink="#contact"
+    secondaryCtaText="Call 01306 879 975"
+    secondaryCtaLink="tel:01306879975"
+  />
+
+  <!-- Stats Section -->
+  <section class="py-16 bg-linear-to-br from-[#032552] to-[#066aab] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+        {
+          stats.map((stat) => (
+            <div>
+              <div class="text-4xl md:text-5xl font-bold mb-2">
+                {stat.number}
+              </div>
+              <div class="text-blue-100">{stat.label}</div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+          Why Choose Psychology Direct
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Fast, reliable expert witness services for prison law and parole
+          cases.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        {
+          features.map((feature) => (
+            <Card
+              title={feature.title}
+              icon={`<svg class="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">${feature.icon}</svg>`}
+              variant="elevated"
+            >
+              <p>{feature.description}</p>
+            </Card>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12">
+        {
+          services.map((service) => (
+            <div>
+              <h3 class="text-2xl font-bold mb-6 text-gray-900">
+                {service.title}
+              </h3>
+              <ul class="space-y-3">
+                {service.items.map((item) => (
+                  <li class="flex items-start gap-3">
+                    <svg
+                      class="w-6 h-6 text-[#2eabe0] shrink-0 mt-0.5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span class="text-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <Testimonial testimonials={testimonials} title="What Solicitors Say" />
+
+  <div id="contact">
+    <ContactForm title="Get Expert CVs in 24h" variant="expert-witness" />
+  </div>
+</Layout>

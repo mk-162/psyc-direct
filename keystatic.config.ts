@@ -172,6 +172,11 @@ export default config({
             label: 'Post Title',
           },
         }),
+        coverImage: fields.image({
+          label: 'Cover Image',
+          directory: 'src/assets/images/blog/covers',
+          publicPath: '@assets/images/blog/covers/',
+        }),
         publishDate: fields.date({
           label: 'Publish Date',
           defaultValue: { kind: 'today' },
