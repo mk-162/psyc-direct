@@ -428,72 +428,68 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
-            <div className="flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 lg:w-72 flex-shrink-0" data-testid="tabs-differentiators">
-              {DIFFERENTIATORS.map((tab) => {
-                const isActive = activeTab === tab.id;
-                return (
-                  <button
-                    key={tab.id}
-                    onClick={() => setActiveTab(tab.id)}
-                    className={`flex items-center gap-3 px-4 py-3 sm:px-5 sm:py-4 rounded-lg text-left whitespace-nowrap lg:whitespace-normal transition-all duration-200 flex-shrink-0 lg:flex-shrink ${
-                      isActive
-                        ? "bg-[#032552] text-white shadow-lg"
-                        : "bg-muted/50 text-muted-foreground hover:bg-muted"
+          <div className="flex flex-wrap border-b border-border mb-8 sm:mb-10" data-testid="tabs-differentiators">
+            {DIFFERENTIATORS.map((tab) => {
+              const isActive = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`relative px-4 sm:px-6 py-3 sm:py-4 font-semibold text-sm sm:text-base transition-colors duration-200 ${
+                    isActive
+                      ? "text-[#2eabe0]"
+                      : "text-muted-foreground hover:text-[#2eabe0]"
+                  }`}
+                  data-testid={`tab-${tab.id}`}
+                >
+                  {tab.label}
+                  <span
+                    className={`absolute bottom-0 left-0 w-full h-0.5 bg-[#2eabe0] transition-transform duration-200 origin-left ${
+                      isActive ? "scale-x-100" : "scale-x-0"
                     }`}
-                    data-testid={`tab-${tab.id}`}
-                  >
-                    <div className={`w-9 h-9 rounded-md flex items-center justify-center flex-shrink-0 ${
-                      isActive ? "bg-[#2eabe0]/20" : "bg-background"
-                    }`}>
-                      <tab.icon className={`w-5 h-5 ${isActive ? "text-[#2eabe0]" : "text-[#066aab]"}`} />
-                    </div>
-                    <span className="font-semibold text-sm sm:text-base">{tab.label}</span>
-                  </button>
-                );
-              })}
-            </div>
-
-            <div className="flex-1 min-w-0">
-              {DIFFERENTIATORS.map((tab) => {
-                if (tab.id !== activeTab) return null;
-                const TabIcon = tab.icon;
-                return (
-                  <motion.div
-                    key={tab.id}
-                    initial={{ opacity: 0, y: 12 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.25 }}
-                    className="flex flex-col md:flex-row gap-8"
-                    data-testid={`tab-content-${tab.id}`}
-                  >
-                    <div className="flex-1">
-                      <h3 className="font-serif text-xl sm:text-2xl font-bold text-foreground mb-3" data-testid={`text-tab-heading-${tab.id}`}>
-                        {tab.heading}
-                      </h3>
-                      <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-6" data-testid={`text-tab-desc-${tab.id}`}>
-                        {tab.description}
-                      </p>
-                      <ul className="space-y-3">
-                        {tab.items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-3" data-testid={`item-${tab.id}-${i}`}>
-                            <CheckCircle2 className="w-5 h-5 text-[#2eabe0] flex-shrink-0 mt-0.5" />
-                            <span className="text-foreground text-sm sm:text-base leading-relaxed">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    <div className="hidden md:block w-64 lg:w-80 flex-shrink-0">
-                      <div className="w-full aspect-[4/3] rounded-xl bg-gradient-to-br from-[#032552] to-[#066aab] flex items-center justify-center">
-                        <TabIcon className="w-20 h-20 text-[#2eabe0]/30" />
-                      </div>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </div>
+                  />
+                </button>
+              );
+            })}
           </div>
+
+          {DIFFERENTIATORS.map((tab) => {
+            if (tab.id !== activeTab) return null;
+            const TabIcon = tab.icon;
+            return (
+              <motion.div
+                key={tab.id}
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.25 }}
+                className="grid md:grid-cols-2 gap-8 items-center"
+                data-testid={`tab-content-${tab.id}`}
+              >
+                <div>
+                  <h3 className="font-serif text-2xl sm:text-3xl font-bold text-foreground mb-4" data-testid={`text-tab-heading-${tab.id}`}>
+                    {tab.heading}
+                  </h3>
+                  <p className="text-muted-foreground text-base leading-relaxed mb-6" data-testid={`text-tab-desc-${tab.id}`}>
+                    {tab.description}
+                  </p>
+                  <ul className="space-y-3">
+                    {tab.items.map((item, i) => (
+                      <li key={i} className="flex items-start gap-2.5" data-testid={`item-${tab.id}-${i}`}>
+                        <CheckCircle2 className="w-5 h-5 text-[#2eabe0] flex-shrink-0 mt-0.5" />
+                        <span className="text-foreground text-base leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="hidden md:block">
+                  <div className="w-full aspect-[4/3] rounded-xl bg-gradient-to-br from-[#032552] to-[#066aab] flex items-center justify-center">
+                    <TabIcon className="w-24 h-24 text-[#2eabe0]/30" />
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </section>
 
