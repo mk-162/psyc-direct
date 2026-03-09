@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -29,6 +30,14 @@ import {
   Menu,
   X,
 } from "lucide-react";
+
+const STAFF_MEMBERS = [
+  { name: "Dr Sarah Mitchell", role: "Clinical Psychologist", image: "/images/staff-1.png" },
+  { name: "Dr James Harrington", role: "Consultant Psychiatrist", image: "/images/staff-2.png" },
+  { name: "Dr Emily Chen", role: "Neuropsychologist", image: "/images/staff-3.png" },
+  { name: "Prof Richard Townsend", role: "Forensic Psychologist", image: "/images/staff-4.png" },
+  { name: "Dr Laura Bennett", role: "Child Psychologist", image: "/images/staff-5.png" },
+];
 
 const NAV_ITEMS = [
   { label: "Services", href: "#services" },
@@ -158,6 +167,21 @@ const FAQ_ITEMS = [
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [currentStaff, setCurrentStaff] = useState(0);
+
+  const [resetKey, setResetKey] = useState(0);
+
+  const selectStaff = useCallback((index: number) => {
+    setCurrentStaff(index);
+    setResetKey((k) => k + 1);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentStaff((prev) => (prev + 1) % STAFF_MEMBERS.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [resetKey]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -247,34 +271,92 @@ export default function Home() {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#066aab]/20 rounded-full -translate-x-1/2 translate-y-1/2" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
-          <div className="max-w-3xl">
-            <p className="text-[#2eabe0] font-sans text-sm sm:text-base font-semibold tracking-wide uppercase mb-4" data-testid="text-hero-subtitle">
-              Leading Provider of Medico-Legal Services
-            </p>
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-bold text-white leading-tight mb-6" data-testid="text-hero-title">
-              Expert Witness Psychologists for Solicitors & Insurers
-            </h1>
-            <p className="text-[#cee4f7] text-base sm:text-lg leading-relaxed mb-8 max-w-2xl" data-testid="text-hero-description">
-              When it comes to providing expert witnesses to the legal profession, we're the experts.
-              Connect with the right specialist for your case — quickly, simply, and with complete transparency.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3">
-              <Button
-                size="lg"
-                className="bg-[#2eabe0] text-[#032552] font-semibold"
-                data-testid="button-find-expert"
-              >
-                Find an Expert
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white/30 text-white bg-white/5 backdrop-blur-sm"
-                data-testid="button-learn-more"
-              >
-                Learn More
-              </Button>
+          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+            <div className="flex-1 max-w-2xl">
+              <p className="text-[#2eabe0] font-sans text-sm sm:text-base font-semibold tracking-wide uppercase mb-4" data-testid="text-hero-subtitle">
+                Leading Provider of Medico-Legal Services
+              </p>
+              <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-bold text-white leading-tight mb-6" data-testid="text-hero-title">
+                Expert Witness Psychologists for Solicitors & Insurers
+              </h1>
+              <p className="text-[#cee4f7] text-base sm:text-lg leading-relaxed mb-8 max-w-2xl" data-testid="text-hero-description">
+                When it comes to providing expert witnesses to the legal profession, we're the experts.
+                Connect with the right specialist for your case — quickly, simply, and with complete transparency.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Button
+                  size="lg"
+                  className="bg-[#2eabe0] text-[#032552] font-semibold"
+                  data-testid="button-find-expert"
+                >
+                  Find an Expert
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white/30 text-white bg-white/5 backdrop-blur-sm"
+                  data-testid="button-learn-more"
+                >
+                  Learn More
+                </Button>
+              </div>
+            </div>
+
+            <div className="hidden md:flex flex-col items-center flex-shrink-0" data-testid="staff-slideshow">
+              <div className="relative w-64 h-80 lg:w-72 lg:h-96">
+                <div className="absolute inset-0 rounded-2xl bg-[#066aab]/20 -rotate-3" />
+                <div className="absolute inset-0 rounded-2xl bg-[#2eabe0]/10 rotate-2" />
+                <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
+                  <AnimatePresence mode="wait">
+                    <motion.img
+                      key={currentStaff}
+                      src={STAFF_MEMBERS[currentStaff].image}
+                      alt={STAFF_MEMBERS[currentStaff].name}
+                      className="w-full h-full object-cover"
+                      initial={{ opacity: 0, x: 60 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      exit={{ opacity: 0, x: -60 }}
+                      transition={{ duration: 0.5, ease: "easeInOut" }}
+                      data-testid={`img-staff-${currentStaff}`}
+                    />
+                  </AnimatePresence>
+                </div>
+              </div>
+
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentStaff}
+                  className="mt-5 text-center"
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                >
+                  <p className="text-white font-sans text-base font-semibold" data-testid="text-staff-name">
+                    {STAFF_MEMBERS[currentStaff].name}
+                  </p>
+                  <p className="text-[#2eabe0] font-sans text-sm" data-testid="text-staff-role">
+                    {STAFF_MEMBERS[currentStaff].role}
+                  </p>
+                </motion.div>
+              </AnimatePresence>
+
+              <div className="flex items-center gap-2 mt-4">
+                {STAFF_MEMBERS.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => selectStaff(index)}
+                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                      index === currentStaff
+                        ? "bg-[#2eabe0] w-6"
+                        : "bg-white/30"
+                    }`}
+                    aria-label={`View ${STAFF_MEMBERS[index].name}`}
+                    data-testid={`button-staff-dot-${index}`}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>
