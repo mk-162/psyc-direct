@@ -9,12 +9,12 @@ import {
   User,
   Tag,
   ChevronRight,
-  Phone,
   BookOpen,
   Share2,
 } from "lucide-react";
 import { getArticleBySlug, getRelatedArticles, type Article } from "@/lib/articles";
 import { CTAInlineCard, CTASidebar } from "@/components/cta-widgets";
+import { SiteHeader } from "@/components/site-header";
 
 function RelatedArticleCard({ article }: { article: Article }) {
   return (
@@ -53,17 +53,7 @@ export default function ArticlePage() {
   if (!article) {
     return (
       <div className="min-h-screen bg-background flex flex-col">
-        <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between gap-4 h-16 sm:h-20">
-              <Link href="/">
-                <a className="flex-shrink-0">
-                  <img src="/images/logo.png" alt="Psychology Direct" className="h-10 sm:h-12 w-auto" />
-                </a>
-              </Link>
-            </div>
-          </div>
-        </header>
+        <SiteHeader />
         <div className="flex-1 flex items-center justify-center" data-testid="article-not-found">
           <div className="text-center px-4">
             <BookOpen className="w-16 h-16 text-muted-foreground mx-auto mb-4" />
@@ -108,31 +98,7 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b" data-testid="header-article">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between gap-4 h-16 sm:h-20">
-            <Link href="/">
-              <a className="flex-shrink-0" data-testid="link-home-article">
-                <img src="/images/logo.png" alt="Psychology Direct" className="h-10 sm:h-12 w-auto" />
-              </a>
-            </Link>
-            <nav className="hidden md:flex items-center gap-1">
-              <Link href="/">
-                <a className="px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground rounded-md">Home</a>
-              </Link>
-              <Link href="/knowledge-hub">
-                <a className="px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground rounded-md">Knowledge Hub</a>
-              </Link>
-            </nav>
-            <div className="hidden md:flex items-center gap-3">
-              <a href="tel:01306879075" className="flex items-center gap-2 text-sm font-semibold text-foreground">
-                <Phone className="w-4 h-4 text-[#066aab]" />
-                01306 879 075
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
 
       <nav className="border-b bg-background" data-testid="breadcrumb">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">

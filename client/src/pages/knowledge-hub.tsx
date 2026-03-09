@@ -11,9 +11,9 @@ import {
   ChevronRight,
   Tag,
   BookOpen,
-  Phone,
   X,
 } from "lucide-react";
+import { SiteHeader } from "@/components/site-header";
 import { ARTICLES, CATEGORIES, ALL_TAGS, searchArticles, type Article } from "@/lib/articles";
 import { CTABanner, CTAInlineCard, CTASidebar } from "@/components/cta-widgets";
 
@@ -167,31 +167,7 @@ export default function KnowledgeHub() {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b" data-testid="header-kb">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between gap-4 h-16 sm:h-20">
-            <Link href="/">
-              <a className="flex-shrink-0" data-testid="link-home-kb">
-                <img src="/images/logo.png" alt="Psychology Direct" className="h-10 sm:h-12 w-auto" />
-              </a>
-            </Link>
-            <nav className="hidden md:flex items-center gap-1">
-              <Link href="/">
-                <a className="px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground rounded-md">Home</a>
-              </Link>
-              <Link href="/knowledge-hub">
-                <a className="px-3 py-2 text-sm font-medium text-foreground rounded-md">Knowledge Hub</a>
-              </Link>
-            </nav>
-            <div className="hidden md:flex items-center gap-3">
-              <a href="tel:01306879075" className="flex items-center gap-2 text-sm font-semibold text-foreground">
-                <Phone className="w-4 h-4 text-[#066aab]" />
-                01306 879 075
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
 
       <section className="bg-[#032552] dark:bg-[#021b3d] py-12 sm:py-16" data-testid="section-kb-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

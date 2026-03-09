@@ -27,9 +27,8 @@ import {
   HeartHandshake,
   BookOpen,
   Clock,
-  Menu,
-  X,
 } from "lucide-react";
+import { SiteHeader } from "@/components/site-header";
 
 const STAFF_MEMBERS = [
   { name: "Dr Sarah Mitchell", role: "Clinical Psychologist", image: "/images/staff-1.png" },
@@ -39,14 +38,6 @@ const STAFF_MEMBERS = [
   { name: "Dr Laura Bennett", role: "Child Psychologist", image: "/images/staff-5.png" },
 ];
 
-const NAV_ITEMS = [
-  { label: "Services", href: "#services" },
-  { label: "Our Process", href: "#process" },
-  { label: "Knowledge Hub", href: "/knowledge-hub" },
-  { label: "Case Studies", href: "#case-studies" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
-];
 
 const SERVICES = [
   {
@@ -166,7 +157,6 @@ const FAQ_ITEMS = [
 ];
 
 export default function Home() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [currentStaff, setCurrentStaff] = useState(0);
 
   const [resetKey, setResetKey] = useState(0);
@@ -185,85 +175,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b" data-testid="header">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between gap-4 h-16 sm:h-20">
-            <a href="#" className="flex-shrink-0" data-testid="link-home">
-              <img
-                src="/images/logo.png"
-                alt="Psychology Direct"
-                className="h-10 sm:h-12 w-auto"
-                data-testid="img-logo"
-              />
-            </a>
-
-            <nav className="hidden lg:flex items-center gap-1" data-testid="nav-desktop">
-              {NAV_ITEMS.map((item) => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className="px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground rounded-md"
-                  data-testid={`link-nav-${item.label.toLowerCase().replace(/\s+/g, "-")}`}
-                >
-                  {item.label}
-                </a>
-              ))}
-            </nav>
-
-            <div className="hidden lg:flex items-center gap-3">
-              <a
-                href="tel:01306879075"
-                className="flex items-center gap-2 text-sm font-semibold text-foreground"
-                data-testid="link-phone-header"
-              >
-                <Phone className="w-4 h-4 text-[#066aab]" />
-                01306 879 075
-              </a>
-              <Button size="default" data-testid="button-get-in-touch-header">
-                Get in Touch
-              </Button>
-            </div>
-
-            <Button
-              size="icon"
-              variant="ghost"
-              className="lg:hidden"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              data-testid="button-mobile-menu"
-            >
-              {mobileMenuOpen ? <X /> : <Menu />}
-            </Button>
-          </div>
-        </div>
-
-        {mobileMenuOpen && (
-          <div className="lg:hidden border-t bg-background" data-testid="nav-mobile">
-            <div className="px-4 py-4 space-y-2">
-              {NAV_ITEMS.map((item) => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className="block px-3 py-2 text-sm font-medium text-muted-foreground rounded-md"
-                  onClick={() => setMobileMenuOpen(false)}
-                  data-testid={`link-mobile-${item.label.toLowerCase().replace(/\s+/g, "-")}`}
-                >
-                  {item.label}
-                </a>
-              ))}
-              <div className="pt-2 border-t">
-                <a
-                  href="tel:01306879075"
-                  className="flex items-center gap-2 px-3 py-2 text-sm font-semibold"
-                  data-testid="link-phone-mobile"
-                >
-                  <Phone className="w-4 h-4 text-[#066aab]" />
-                  01306 879 075
-                </a>
-              </div>
-            </div>
-          </div>
-        )}
-      </header>
+      <SiteHeader />
 
       <section className="relative bg-[#032552] dark:bg-[#021b3d] overflow-hidden" data-testid="section-hero">
         <div className="absolute inset-0 opacity-10">
