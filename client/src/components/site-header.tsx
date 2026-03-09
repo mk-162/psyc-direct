@@ -15,8 +15,8 @@ interface SiteHeaderProps {
 }
 
 const DEFAULT_NAV: NavItem[] = [
+  { label: "Expert Witness", href: "/expert-witness" },
   { label: "Services", href: "/#services" },
-  { label: "Our Process", href: "/#process" },
   { label: "Knowledge Hub", href: "/knowledge-hub" },
   { label: "Case Studies", href: "/#case-studies" },
   { label: "FAQ", href: "/#faq" },

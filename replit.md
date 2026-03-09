@@ -18,7 +18,20 @@ Based on the brand style guide:
 ## Pages
 
 ### Home (`/`)
-Landing page with hero, services, process, testimonial, FAQ, contact form, footer.
+Landing page with hero staff slideshow, "Our Understanding" section (watermark bg), services grid, "What Sets Us Apart" tabbed differentiators, psychiatrist CTA, contact form, process steps, testimonial, resources, case studies, FAQ accordion, footer.
+
+### Expert Witness (`/expert-witness`)
+Dedicated landing page with:
+- Large hero image with text overlay and CTAs
+- Intro paragraph
+- "What Sets Us Apart" horizontal tabs (Fast & Responsive, Outstanding Quality, Personal Service, Competitive Costs)
+- Three-step process (Match, Instruct, Deliver)
+- 6 practice area cards (Family, Criminal, Employment, Personal Injury, Immigration, Clinical Negligence)
+- 3 case study cards
+- Stats bar (1 Hour, 24 Hours, 100%)
+- FAQ accordion (6 items)
+- Contact form with GDPR consent
+- Full footer
 
 ### Knowledge Hub (`/knowledge-hub`)
 SEO-focused knowledge base with:
@@ -50,6 +63,8 @@ Individual article pages with:
 
 ## Key Files
 - `client/src/pages/home.tsx` - Landing page
+- `client/src/pages/expert-witness.tsx` - Expert Witness landing page
+- `client/src/components/site-header.tsx` - Shared header with mobile slide-out nav
 - `client/src/pages/knowledge-hub.tsx` - Knowledge Hub page
 - `client/src/pages/article.tsx` - Article detail page
 - `client/src/components/cta-widgets.tsx` - 3 CTA widget components

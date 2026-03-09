@@ -7,11 +7,13 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import KnowledgeHub from "@/pages/knowledge-hub";
 import ArticlePage from "@/pages/article";
+import ExpertWitness from "@/pages/expert-witness";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/expert-witness" component={ExpertWitness} />
       <Route path="/knowledge-hub" component={KnowledgeHub} />
       <Route path="/knowledge-hub/:slug" component={ArticlePage} />
       <Route component={NotFound} />
