@@ -42,7 +42,7 @@ const STAFF_MEMBERS = [
 const NAV_ITEMS = [
   { label: "Services", href: "#services" },
   { label: "Our Process", href: "#process" },
-  { label: "Resources", href: "#resources" },
+  { label: "Knowledge Hub", href: "/knowledge-hub" },
   { label: "Case Studies", href: "#case-studies" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
@@ -587,9 +587,12 @@ export default function Home() {
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3" data-testid="text-resources-heading">
               Why not look through our resource centre?
             </h2>
-            <p className="text-muted-foreground max-w-xl mx-auto">
+            <p className="text-muted-foreground max-w-xl mx-auto mb-4">
               Educational articles and guides to help legal professionals understand psychological evidence.
             </p>
+            <a href="/knowledge-hub" className="inline-flex items-center gap-1 text-[#066aab] text-sm font-semibold" data-testid="link-knowledge-hub">
+              Visit our Knowledge Hub <ArrowRight className="w-4 h-4" />
+            </a>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
