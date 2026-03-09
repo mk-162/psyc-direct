@@ -550,16 +550,31 @@ export default function Home() {
       </section>
 
       <section className="py-12 sm:py-16 bg-[#f0f5ff] dark:bg-[#0d1929]" data-testid="section-testimonial">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="text-[#066aab] text-5xl font-serif leading-none mb-4">"</div>
-          <blockquote className="font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed italic mb-6" data-testid="text-testimonial-quote">
-            I started using PD about six years ago after finding the company on the internet. I found staff
-            to be efficient, friendly and helpful with a very good turnaround time. They do take the hard work
-            out of locating relevant experts available within a specified area.
-          </blockquote>
-          <p className="text-muted-foreground font-sans text-sm font-semibold" data-testid="text-testimonial-author">
-            — Senior Litigation Solicitor, London
-          </p>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="flex-shrink-0">
+              <div className="relative">
+                <div className="absolute -inset-2 rounded-full bg-[#2eabe0]/15" />
+                <img
+                  src="/images/testimonial.png"
+                  alt="Senior Litigation Solicitor"
+                  className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full object-cover shadow-lg"
+                  data-testid="img-testimonial"
+                />
+              </div>
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <div className="text-[#066aab] text-5xl font-serif leading-none mb-4">"</div>
+              <blockquote className="font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed italic mb-6" data-testid="text-testimonial-quote">
+                I started using PD about six years ago after finding the company on the internet. I found staff
+                to be efficient, friendly and helpful with a very good turnaround time. They do take the hard work
+                out of locating relevant experts available within a specified area.
+              </blockquote>
+              <p className="text-muted-foreground font-sans text-sm font-semibold" data-testid="text-testimonial-author">
+                — Senior Litigation Solicitor, London
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
