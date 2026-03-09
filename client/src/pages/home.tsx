@@ -27,6 +27,10 @@ import {
   HeartHandshake,
   BookOpen,
   Clock,
+  Zap,
+  Award,
+  Heart,
+  PoundSterling,
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 
@@ -75,6 +79,61 @@ const SERVICES = [
     title: "Fast Turnaround",
     description:
       "Expedited report services available when you need expert psychological opinion under tight deadlines.",
+  },
+];
+
+const DIFFERENTIATORS = [
+  {
+    id: "fast",
+    icon: Zap,
+    label: "Fast & Responsive",
+    heading: "Immediate Attention When You Need It",
+    description: "We understand that legal cases often require immediate action. Our commitment to rapid response ensures you're never left waiting.",
+    items: [
+      "1-hour email response during business hours (9am–5pm, Monday–Friday)",
+      "24-hour CV delivery with detailed experience and qualifications",
+      "Urgent case priority — we've delivered reports in as little as 48 hours",
+      "Out-of-hours availability for critical cases",
+    ],
+  },
+  {
+    id: "quality",
+    icon: Award,
+    label: "Outstanding Quality",
+    heading: "Highly Experienced Psychologists",
+    description: "Quality is never compromised. Every psychologist in our network meets the highest professional standards.",
+    items: [
+      "1,000+ vetted psychologists across all specialisations",
+      "100% HCPC registered with current practising certificates",
+      "BPS chartered members with extensive court experience",
+      "Enhanced DBS certification for all associates",
+    ],
+  },
+  {
+    id: "personal",
+    icon: Heart,
+    label: "Personal Service",
+    heading: "Dedicated Support Throughout",
+    description: "You'll have a dedicated case manager who knows your case inside out and provides personalised support.",
+    items: [
+      "Single point of contact — your dedicated case manager",
+      "Culturally diverse network matching your client's needs",
+      "Nationwide coverage with local psychologists",
+      "Proactive communication keeping you informed at every stage",
+    ],
+  },
+  {
+    id: "costs",
+    icon: PoundSterling,
+    label: "Competitive Costs",
+    heading: "Transparent and Fair Pricing",
+    description: "No hidden fees, no surprises. We provide clear, upfront pricing that works with Legal Aid and private funding.",
+    items: [
+      "Upfront cost estimates provided within 24 hours",
+      "Legal Aid compliant rates accepted for eligible cases",
+      "Standardised deliverables ensuring consistency",
+      "No hidden charges — what we quote is what you pay",
+    ],
   },
 ];
 
@@ -158,6 +217,7 @@ const FAQ_ITEMS = [
 
 export default function Home() {
   const [currentStaff, setCurrentStaff] = useState(0);
+  const [activeTab, setActiveTab] = useState("fast");
 
   const [resetKey, setResetKey] = useState(0);
 
@@ -353,6 +413,86 @@ export default function Home() {
                 </div>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 sm:py-20 lg:py-24" data-testid="section-differentiators">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10 sm:mb-14">
+            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-diff-label">
+              Why Choose Us
+            </p>
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-diff-heading">
+              What Sets Us Apart
+            </h2>
+          </div>
+
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+            <div className="flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 lg:w-72 flex-shrink-0" data-testid="tabs-differentiators">
+              {DIFFERENTIATORS.map((tab) => {
+                const isActive = activeTab === tab.id;
+                return (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`flex items-center gap-3 px-4 py-3 sm:px-5 sm:py-4 rounded-lg text-left whitespace-nowrap lg:whitespace-normal transition-all duration-200 flex-shrink-0 lg:flex-shrink ${
+                      isActive
+                        ? "bg-[#032552] text-white shadow-lg"
+                        : "bg-muted/50 text-muted-foreground hover:bg-muted"
+                    }`}
+                    data-testid={`tab-${tab.id}`}
+                  >
+                    <div className={`w-9 h-9 rounded-md flex items-center justify-center flex-shrink-0 ${
+                      isActive ? "bg-[#2eabe0]/20" : "bg-background"
+                    }`}>
+                      <tab.icon className={`w-5 h-5 ${isActive ? "text-[#2eabe0]" : "text-[#066aab]"}`} />
+                    </div>
+                    <span className="font-semibold text-sm sm:text-base">{tab.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="flex-1 min-w-0">
+              {DIFFERENTIATORS.map((tab) => {
+                if (tab.id !== activeTab) return null;
+                const TabIcon = tab.icon;
+                return (
+                  <motion.div
+                    key={tab.id}
+                    initial={{ opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.25 }}
+                    className="flex flex-col md:flex-row gap-8"
+                    data-testid={`tab-content-${tab.id}`}
+                  >
+                    <div className="flex-1">
+                      <h3 className="font-serif text-xl sm:text-2xl font-bold text-foreground mb-3" data-testid={`text-tab-heading-${tab.id}`}>
+                        {tab.heading}
+                      </h3>
+                      <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-6" data-testid={`text-tab-desc-${tab.id}`}>
+                        {tab.description}
+                      </p>
+                      <ul className="space-y-3">
+                        {tab.items.map((item, i) => (
+                          <li key={i} className="flex items-start gap-3" data-testid={`item-${tab.id}-${i}`}>
+                            <CheckCircle2 className="w-5 h-5 text-[#2eabe0] flex-shrink-0 mt-0.5" />
+                            <span className="text-foreground text-sm sm:text-base leading-relaxed">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className="hidden md:block w-64 lg:w-80 flex-shrink-0">
+                      <div className="w-full aspect-[4/3] rounded-xl bg-gradient-to-br from-[#032552] to-[#066aab] flex items-center justify-center">
+                        <TabIcon className="w-20 h-20 text-[#2eabe0]/30" />
+                      </div>
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
