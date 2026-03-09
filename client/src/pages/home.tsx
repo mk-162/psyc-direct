@@ -385,8 +385,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 lg:py-24" data-testid="section-intro">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden" data-testid="section-intro">
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-[0.06] dark:opacity-[0.04] blur-sm scale-110 pointer-events-none"
+          style={{ backgroundImage: "url('/images/watermark-understanding.png')" }}
+          aria-hidden="true"
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-6">
             <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-intro-label">
               Our Understanding
