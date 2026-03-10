@@ -8,6 +8,7 @@ import Home from "@/pages/home";
 import KnowledgeHub from "@/pages/knowledge-hub";
 import ArticlePage from "@/pages/article";
 import ExpertWitness from "@/pages/expert-witness";
+import ComponentLibrary from "@/pages/component-library";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/expert-witness" component={ExpertWitness} />
       <Route path="/knowledge-hub" component={KnowledgeHub} />
       <Route path="/knowledge-hub/:slug" component={ArticlePage} />
+      <Route path="/component-library" component={ComponentLibrary} />
       <Route component={NotFound} />
     </Switch>
   );

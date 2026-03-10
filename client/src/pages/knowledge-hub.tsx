@@ -423,12 +423,8 @@ export default function KnowledgeHub() {
             &copy; {new Date().getFullYear()} Psychology Direct. All rights reserved.
           </p>
           <nav className="flex items-center gap-4">
-            <Link href="/">
-              <a className="text-[#cee4f7]/50 text-xs hover:text-white transition-colors">Home</a>
-            </Link>
-            <Link href="/knowledge-hub">
-              <a className="text-[#cee4f7]/50 text-xs hover:text-white transition-colors">Knowledge Hub</a>
-            </Link>
+            <Link href="/" className="text-[#cee4f7]/50 text-xs hover:text-white transition-colors">Home</Link>
+            <Link href="/knowledge-hub" className="text-[#cee4f7]/50 text-xs hover:text-white transition-colors">Knowledge Hub</Link>
           </nav>
         </div>
       </footer>
