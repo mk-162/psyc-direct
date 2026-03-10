@@ -557,7 +557,7 @@ export default function ComponentLibrary() {
         <div className="bg-[#021b3d] dark:bg-[#010f22] rounded-xl p-8 sm:p-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             <div>
-              <img src="/images/logo.png" alt="Psychology Direct" className="h-10 w-auto brightness-0 invert mb-4" />
+              <img src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg" alt="Psychology Direct" className="h-10 w-auto mb-4" />
               <p className="text-[#cee4f7]/70 text-sm leading-relaxed">
                 Leading provider of expert witness psychologists and psychiatrists across the UK.
               </p>

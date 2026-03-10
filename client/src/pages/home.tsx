@@ -503,7 +503,7 @@ export default function Home() {
       <section className="py-12 sm:py-16 bg-[#066aab] dark:bg-[#004d7a]" data-testid="section-psychiatrist-cta">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <img src="/images/logo.png" alt="Psychology Direct" className="h-8 brightness-0 invert" />
+            <img src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg" alt="Psychology Direct" className="h-8" />
           </div>
           <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-3" data-testid="text-psych-heading">
             Need a Psychiatrist?
@@ -798,9 +798,9 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             <div>
               <img
-                src="/images/logo.png"
+                src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg"
                 alt="Psychology Direct"
-                className="h-10 w-auto brightness-0 invert mb-4"
+                className="h-10 w-auto mb-4"
                 data-testid="img-footer-logo"
               />
               <p className="text-[#cee4f7]/70 text-sm leading-relaxed">

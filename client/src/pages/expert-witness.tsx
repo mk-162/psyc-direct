@@ -575,9 +575,9 @@ export default function ExpertWitness() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             <div>
               <img
-                src="/images/logo.png"
+                src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg"
                 alt="Psychology Direct"
-                className="h-10 w-auto brightness-0 invert mb-4"
+                className="h-10 w-auto mb-4"
               />
               <p className="text-[#cee4f7]/70 text-sm leading-relaxed">
                 A network of over 1,000 qualified psychologists providing expert witness services and educational psychology support across the UK.

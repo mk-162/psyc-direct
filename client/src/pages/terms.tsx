@@ -110,7 +110,7 @@ export default function Terms() {
 
       <footer className="bg-[#021b3d] dark:bg-[#010f22] py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <img src="/images/logo.png" alt="Psychology Direct" className="h-8 w-auto brightness-0 invert" />
+          <img src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg" alt="Psychology Direct" className="h-8 w-auto" />
           <p className="text-[#cee4f7]/50 text-xs">
             &copy; {new Date().getFullYear()} Psychology Direct. All rights reserved.
           </p>
