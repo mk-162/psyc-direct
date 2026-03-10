@@ -9,6 +9,8 @@ import KnowledgeHub from "@/pages/knowledge-hub";
 import ArticlePage from "@/pages/article";
 import ExpertWitness from "@/pages/expert-witness";
 import ComponentLibrary from "@/pages/component-library";
+import PrivacyPolicy from "@/pages/privacy-policy";
+import Terms from "@/pages/terms";
 
 function Router() {
   return (
@@ -18,6 +20,8 @@ function Router() {
       <Route path="/knowledge-hub" component={KnowledgeHub} />
       <Route path="/knowledge-hub/:slug" component={ArticlePage} />
       <Route path="/component-library" component={ComponentLibrary} />
+      <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/terms" component={Terms} />
       <Route component={NotFound} />
     </Switch>
   );
