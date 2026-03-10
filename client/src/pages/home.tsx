@@ -359,7 +359,7 @@ export default function Home() {
 
       <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden" data-testid="section-intro">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-[0.15] dark:opacity-[0.08] blur-[2px] scale-110 pointer-events-none"
+          className="absolute inset-0 bg-cover bg-center opacity-[0.22] dark:opacity-[0.12] blur-[1px] scale-110 pointer-events-none"
           style={{ backgroundImage: "url('/images/watermark-understanding.png')" }}
           aria-hidden="true"
         />
