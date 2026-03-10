@@ -259,35 +259,39 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="flex-1 max-w-2xl">
               <p
-                className={`font-sans text-sm sm:text-base font-semibold tracking-wide uppercase mb-4 ${
-                  isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"
+                className={`font-sans text-sm sm:text-base font-semibold uppercase mb-4 ${
+                  isB ? "tracking-[0.2em] text-[var(--brand-azure-vivid)]" : "tracking-wide text-[var(--brand-azure)]"
                 }`}
                 data-testid="text-hero-subtitle"
               >
                 Leading Provider of Medico-Legal Services
               </p>
               <h1
-                className={`font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-bold leading-tight mb-6 ${
-                  isB ? "text-[var(--brand-navy)] dark:text-white" : "text-white"
+                className={`font-serif leading-tight mb-6 ${
+                  isB
+                    ? "text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-[var(--brand-navy)] dark:text-white"
+                    : "text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-bold text-white"
                 }`}
                 data-testid="text-hero-title"
               >
                 Expert Witness Psychologists for Solicitors & Insurers
               </h1>
               <p
-                className={`text-base sm:text-lg leading-relaxed mb-8 max-w-2xl ${
-                  isB ? "text-[var(--brand-navy)]/70 dark:text-[var(--brand-azure-light)]" : "text-[var(--brand-azure-light)]"
+                className={`leading-relaxed max-w-2xl ${
+                  isB
+                    ? "text-lg sm:text-xl text-[var(--brand-navy)]/60 dark:text-[var(--brand-azure-light)] mb-10"
+                    : "text-base sm:text-lg text-[var(--brand-azure-light)] mb-8"
                 }`}
                 data-testid="text-hero-description"
               >
                 When it comes to providing expert witnesses to the legal profession, we're the experts.
                 Connect with the right specialist for your case — quickly, simply, and with complete transparency.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className={`flex flex-col sm:flex-row ${isB ? "gap-4" : "gap-3"}`}>
                 <Button
                   size="lg"
                   className={isB
-                    ? "bg-[var(--brand-azure-vivid)] text-white font-semibold shadow-lg shadow-blue-500/20"
+                    ? "bg-[var(--brand-azure-vivid)] text-white font-medium shadow-lg shadow-blue-500/20 rounded-xl px-8 h-12 text-base"
                     : "bg-[var(--brand-azure)] text-[var(--brand-navy)] font-semibold"
                   }
                   data-testid="button-find-expert"
@@ -299,7 +303,7 @@ export default function Home() {
                   size="lg"
                   variant="outline"
                   className={isB
-                    ? "border-[var(--brand-navy)]/20 text-[var(--brand-navy)] dark:border-white/30 dark:text-white"
+                    ? "border-[var(--brand-navy)]/20 text-[var(--brand-navy)] dark:border-white/30 dark:text-white rounded-xl px-8 h-12 text-base"
                     : "border-white/30 text-white bg-white/5 backdrop-blur-sm"
                   }
                   data-testid="button-learn-more"
@@ -402,13 +406,13 @@ export default function Home() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-6">
-            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-intro-label">
+            <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-intro-label">
               Our Understanding
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6" data-testid="text-intro-heading">
+            <h2 className={`font-serif text-foreground mb-6 ${isB ? "text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-tight leading-snug" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-intro-heading">
               We match you with a psychologist or psychiatrist — so you can focus on your case
             </h2>
-            <p className="text-muted-foreground text-base sm:text-lg leading-relaxed" data-testid="text-intro-body">
+            <p className={`text-muted-foreground leading-relaxed ${isB ? "text-lg" : "text-base sm:text-lg"}`} data-testid="text-intro-body">
               Finding the right expert for a medico-legal case shouldn't be complicated.
               We've built a panel of over 500 fully vetted psychologists and psychiatrists,
               each matched to your specific requirements. No jargon, no hidden costs — just
@@ -421,10 +425,10 @@ export default function Home() {
       <section id="services" className={`py-16 sm:py-20 ${isB ? "bg-white dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-services-label">
+            <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-services-label">
               What We Do
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-services-heading">
+            <h2 className={`font-serif text-foreground ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-services-heading">
               Our Services
             </h2>
           </div>
@@ -443,10 +447,10 @@ export default function Home() {
                 }`}>
                   <service.icon className={`w-6 h-6 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} />
                 </div>
-                <h3 className="font-sans text-lg font-bold text-foreground mb-2" data-testid={`text-service-title-${index}`}>
+                <h3 className={`font-sans text-foreground mb-2 ${isB ? "text-lg font-semibold" : "text-lg font-bold"}`} data-testid={`text-service-title-${index}`}>
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed" data-testid={`text-service-desc-${index}`}>
+                <p className={`text-muted-foreground leading-relaxed ${isB ? "text-[0.9375rem]" : "text-sm"}`} data-testid={`text-service-desc-${index}`}>
                   {service.description}
                 </p>
                 <div className="mt-4 flex items-center gap-1 text-[var(--brand-azure-vivid)] text-sm font-semibold">
@@ -461,10 +465,10 @@ export default function Home() {
       <section className={`${isB ? "py-20 sm:py-24 lg:py-28" : "py-16 sm:py-20 lg:py-24"}`} data-testid="section-differentiators">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-14">
-            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-diff-label">
+            <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-diff-label">
               Why Choose Us
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-diff-heading">
+            <h2 className={`font-serif text-foreground ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-diff-heading">
               What Sets Us Apart
             </h2>
           </div>
@@ -507,10 +511,10 @@ export default function Home() {
                 data-testid={`tab-content-${tab.id}`}
               >
                 <div>
-                  <h3 className="font-serif text-2xl sm:text-3xl font-bold text-foreground mb-4" data-testid={`text-tab-heading-${tab.id}`}>
+                  <h3 className={`font-serif text-foreground mb-4 ${isB ? "text-2xl sm:text-3xl font-semibold tracking-tight" : "text-2xl sm:text-3xl font-bold"}`} data-testid={`text-tab-heading-${tab.id}`}>
                     {tab.heading}
                   </h3>
-                  <p className="text-muted-foreground text-base leading-relaxed mb-6" data-testid={`text-tab-desc-${tab.id}`}>
+                  <p className={`text-muted-foreground leading-relaxed mb-6 ${isB ? "text-[1.0625rem]" : "text-base"}`} data-testid={`text-tab-desc-${tab.id}`}>
                     {tab.description}
                   </p>
                   <ul className="space-y-3">
@@ -556,15 +560,15 @@ export default function Home() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <img src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg" alt="Psychology Direct" className="h-8" />
           </div>
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-3" data-testid="text-psych-heading">
+          <h2 className={`font-serif text-white mb-3 ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl font-bold"}`} data-testid="text-psych-heading">
             Need a Psychiatrist?
           </h2>
-          <p className="text-white/80 text-base sm:text-lg mb-6 max-w-xl mx-auto" data-testid="text-psych-body">
+          <p className={`text-white/80 mb-6 max-w-xl mx-auto ${isB ? "text-lg" : "text-base sm:text-lg"}`} data-testid="text-psych-body">
             We can also connect you with qualified psychiatrists for your medico-legal cases.
           </p>
           <Button
             size="lg"
-            className={`font-semibold ${isB ? "bg-white text-[var(--brand-azure-vivid)] shadow-lg" : "bg-white text-[var(--brand-azure-vivid)]"}`}
+            className={`${isB ? "bg-white text-[var(--brand-azure-vivid)] font-medium shadow-lg rounded-xl px-8 h-12 text-base" : "bg-white text-[var(--brand-azure-vivid)] font-semibold"}`}
             data-testid="button-find-psychiatrist"
           >
             Find a Psychiatrist
@@ -576,10 +580,10 @@ export default function Home() {
       <section id="contact" className="py-16 sm:py-20 lg:py-24" data-testid="section-contact">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-contact-label">
+            <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-contact-label">
               Get in Touch
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3" data-testid="text-contact-heading">
+            <h2 className={`font-serif text-foreground mb-3 ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-contact-heading">
               Contact us using the form below, or call us on{" "}
               <a href="tel:01306879075" className="text-[var(--brand-azure-vivid)] whitespace-nowrap">
                 01306 879 075
@@ -639,10 +643,10 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className={`font-semibold text-sm uppercase tracking-wide mb-3 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} data-testid="text-process-label">
+            <p className={`font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em] text-[var(--brand-azure-vivid)]" : "tracking-wide text-[var(--brand-azure)]"}`} data-testid="text-process-label">
               Our Process
             </p>
-            <h2 className={`font-serif text-2xl sm:text-3xl lg:text-4xl font-bold ${isB ? "text-foreground" : "text-white"}`} data-testid="text-process-heading">
+            <h2 className={`font-serif ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight text-foreground" : "text-2xl sm:text-3xl lg:text-4xl font-bold text-white"}`} data-testid="text-process-heading">
               It's simple, we understand your need and...
             </h2>
           </div>
@@ -658,10 +662,10 @@ export default function Home() {
                 <div className={`font-sans text-xs font-bold uppercase tracking-widest mb-2 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`}>
                   Step {step.step}
                 </div>
-                <h3 className={`font-serif text-xl font-bold mb-3 ${isB ? "text-foreground" : "text-white"}`} data-testid={`text-process-title-${index}`}>
+                <h3 className={`font-serif mb-3 ${isB ? "text-xl font-semibold tracking-tight text-foreground" : "text-xl font-bold text-white"}`} data-testid={`text-process-title-${index}`}>
                   {step.title}
                 </h3>
-                <p className={`text-sm leading-relaxed max-w-xs mx-auto ${isB ? "text-muted-foreground" : "text-[var(--brand-azure-light)]"}`} data-testid={`text-process-desc-${index}`}>
+                <p className={`leading-relaxed max-w-xs mx-auto ${isB ? "text-[0.9375rem] text-muted-foreground" : "text-sm text-[var(--brand-azure-light)]"}`} data-testid={`text-process-desc-${index}`}>
                   {step.description}
                 </p>
               </div>
@@ -686,7 +690,7 @@ export default function Home() {
             </div>
             <div className="flex-1 text-center md:text-left">
               <div className="text-[var(--brand-azure-vivid)] text-5xl font-serif leading-none mb-4">"</div>
-              <blockquote className="font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed italic mb-6" data-testid="text-testimonial-quote">
+              <blockquote className={`font-serif text-foreground leading-relaxed mb-6 ${isB ? "text-xl sm:text-2xl lg:text-[1.75rem] not-italic" : "text-lg sm:text-xl lg:text-2xl italic"}`} data-testid="text-testimonial-quote">
                 I started using PD about six years ago after finding the company on the internet. I found staff
                 to be efficient, friendly and helpful with a very good turnaround time. They do take the hard work
                 out of locating relevant experts available within a specified area.
@@ -702,10 +706,10 @@ export default function Home() {
       <section id="resources" className="py-16 sm:py-20 lg:py-24" data-testid="section-resources">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-4">
-            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-resources-label">
+            <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-resources-label">
               Find Answers and Expert Guidance
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3" data-testid="text-resources-heading">
+            <h2 className={`font-serif text-foreground mb-3 ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-resources-heading">
               Why not look through our resource centre?
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto mb-4">
@@ -761,10 +765,10 @@ export default function Home() {
       <section id="case-studies" className={`py-16 sm:py-20 ${isB ? "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-case-studies">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-cases-label">
+            <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-cases-label">
               Case Studies
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-cases-heading">
+            <h2 className={`font-serif text-foreground ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-cases-heading">
               Read about how we've helped others
             </h2>
           </div>
@@ -801,10 +805,10 @@ export default function Home() {
       <section id="faq" className="py-16 sm:py-20 lg:py-24" data-testid="section-faq">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-faq-label">
+            <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-faq-label">
               Common Questions
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-faq-heading">
+            <h2 className={`font-serif text-foreground ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-faq-heading">
               Your questions answered
             </h2>
           </div>
@@ -838,10 +842,10 @@ export default function Home() {
         data-testid="section-cta-bottom"
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-4" data-testid="text-cta-heading">
+          <h2 className={`font-serif text-white mb-4 ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl font-bold"}`} data-testid="text-cta-heading">
             Ready to find the right expert for your case?
           </h2>
-          <p className="text-white/70 text-base sm:text-lg mb-6 max-w-xl mx-auto">
+          <p className={`text-white/70 mb-6 max-w-xl mx-auto ${isB ? "text-lg" : "text-base sm:text-lg"}`}>
             Get in touch today and we'll match you with the perfect specialist.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">

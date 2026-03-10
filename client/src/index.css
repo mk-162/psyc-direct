@@ -112,6 +112,10 @@
   --destructive-border: hsl(var(--destructive));
   --destructive-border: hsl(from hsl(var(--destructive)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
 }
+.theme-b {
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-serif: Inter, system-ui, sans-serif;
+}
 
 .dark {
   --button-outline: rgba(255,255,255, .10);
@@ -260,4 +264,20 @@
   .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
     inset: -1px;
   }
+}
+
+.theme-b {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.theme-b h1,
+.theme-b h2 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.theme-b p {
+  line-height: 1.7;
 }
