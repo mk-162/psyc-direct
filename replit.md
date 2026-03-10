@@ -10,8 +10,23 @@ A professional website for Psychology Direct, a UK-based provider of expert witn
 - **Animations**: framer-motion (hero staff slideshow)
 
 ## Design System
-Based on the brand style guide:
+Based on the brand style guide with a dual-theme system:
+
+### Theme A (Bold / Professional — default)
 - **Color Palette**: Dark Blue (#032552), Dark Azure (#00588e), Vivid Azure (#066aab), Azure (#2eabe0), Light Azure (#cee4f7), Light Blue (#f0f5ff)
+- Dark navy hero, solid coloured sections, tighter spacing
+
+### Theme B (Soft / Minimalist / Friendly)
+- **Color Palette**: Navy (#1e3a5f), Azure Dark (#2563eb), Vivid Azure (#3b82f6), Azure (#60a5fa), Light Azure (#dbeafe), BG Tint (#f8fafc)
+- Light gradient hero, softer card backgrounds, more whitespace, larger rounded images
+
+### Theme Infrastructure
+- CSS custom properties defined in `index.css` under `:root`/`.theme-a` and `.theme-b` classes
+- `DesignThemeProvider` in `client/src/lib/theme-context.tsx` manages state, persists to localStorage, toggles `.theme-a`/`.theme-b` class on `<html>`
+- Toggle button (Palette icon) in site header (desktop + mobile)
+- Components use `useDesignTheme()` hook with `isB = designTheme === "b"` pattern for conditional classes
+- Brand color CSS vars: `--brand-navy`, `--brand-navy-deep`, `--brand-azure-dark`, `--brand-azure-vivid`, `--brand-azure`, `--brand-azure-light`, `--brand-bg-tint`, `--brand-hero-from`, `--brand-hero-to`, `--brand-card-radius`, `--brand-section-py`
+
 - **Typography**: Libre Baskerville (serif, headings), Montserrat (sans-serif, body)
 - **Tone**: Authoritative but approachable, clear and transparent
 
@@ -79,7 +94,8 @@ Individual article pages with:
 ## Key Files
 - `client/src/pages/home.tsx` - Landing page
 - `client/src/pages/expert-witness.tsx` - Expert Witness landing page
-- `client/src/components/site-header.tsx` - Shared header with mobile slide-out nav
+- `client/src/lib/theme-context.tsx` - Dual theme provider (Theme A/B)
+- `client/src/components/site-header.tsx` - Shared header with mobile slide-out nav + theme toggle
 - `client/src/components/ui-blocks.tsx` - 10 new reusable components (TeamGrid, LogoCloud, PricingTable, Timeline, etc.)
 - `client/src/pages/component-library.tsx` - Component library showcase page
 - `client/src/pages/blog.tsx` - Blog home page

@@ -34,6 +34,7 @@ import {
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { CTABanner } from "@/components/cta-widgets";
+import { useDesignTheme } from "@/lib/theme-context";
 
 const STAFF_MEMBERS = [
   { name: "Dr Sarah Mitchell", role: "Clinical Psychologist", image: "/images/staff-1.png" },
@@ -219,6 +220,8 @@ const FAQ_ITEMS = [
 export default function Home() {
   const [currentStaff, setCurrentStaff] = useState(0);
   const [activeTab, setActiveTab] = useState("fast");
+  const { designTheme } = useDesignTheme();
+  const isB = designTheme === "b";
 
   const [resetKey, setResetKey] = useState(0);
 
@@ -238,28 +241,55 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <SiteHeader />
 
-      <section className="relative bg-[#032552] dark:bg-[#021b3d] overflow-hidden" data-testid="section-hero">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#2eabe0]/30 to-transparent" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#066aab]/20 rounded-full -translate-x-1/2 translate-y-1/2" />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
+      <section
+        className={`relative overflow-hidden ${
+          isB
+            ? "bg-gradient-to-br from-[var(--brand-hero-from)] to-[var(--brand-hero-to)]"
+            : "bg-[var(--brand-navy)] dark:bg-[var(--brand-navy-deep)]"
+        }`}
+        data-testid="section-hero"
+      >
+        {!isB && (
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[var(--brand-azure)]/30 to-transparent" />
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-[var(--brand-azure-vivid)]/20 rounded-full -translate-x-1/2 translate-y-1/2" />
+          </div>
+        )}
+        <div className={`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${isB ? "py-20 sm:py-28 lg:py-36" : "py-16 sm:py-24 lg:py-32"}`}>
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="flex-1 max-w-2xl">
-              <p className="text-[#2eabe0] font-sans text-sm sm:text-base font-semibold tracking-wide uppercase mb-4" data-testid="text-hero-subtitle">
+              <p
+                className={`font-sans text-sm sm:text-base font-semibold tracking-wide uppercase mb-4 ${
+                  isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"
+                }`}
+                data-testid="text-hero-subtitle"
+              >
                 Leading Provider of Medico-Legal Services
               </p>
-              <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-bold text-white leading-tight mb-6" data-testid="text-hero-title">
+              <h1
+                className={`font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-bold leading-tight mb-6 ${
+                  isB ? "text-[var(--brand-navy)] dark:text-white" : "text-white"
+                }`}
+                data-testid="text-hero-title"
+              >
                 Expert Witness Psychologists for Solicitors & Insurers
               </h1>
-              <p className="text-[#cee4f7] text-base sm:text-lg leading-relaxed mb-8 max-w-2xl" data-testid="text-hero-description">
+              <p
+                className={`text-base sm:text-lg leading-relaxed mb-8 max-w-2xl ${
+                  isB ? "text-[var(--brand-navy)]/70 dark:text-[var(--brand-azure-light)]" : "text-[var(--brand-azure-light)]"
+                }`}
+                data-testid="text-hero-description"
+              >
                 When it comes to providing expert witnesses to the legal profession, we're the experts.
                 Connect with the right specialist for your case — quickly, simply, and with complete transparency.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button
                   size="lg"
-                  className="bg-[#2eabe0] text-[#032552] font-semibold"
+                  className={isB
+                    ? "bg-[var(--brand-azure-vivid)] text-white font-semibold shadow-lg shadow-blue-500/20"
+                    : "bg-[var(--brand-azure)] text-[var(--brand-navy)] font-semibold"
+                  }
                   data-testid="button-find-expert"
                 >
                   Find an Expert
@@ -268,7 +298,10 @@ export default function Home() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white/30 text-white bg-white/5 backdrop-blur-sm"
+                  className={isB
+                    ? "border-[var(--brand-navy)]/20 text-[var(--brand-navy)] dark:border-white/30 dark:text-white"
+                    : "border-white/30 text-white bg-white/5 backdrop-blur-sm"
+                  }
                   data-testid="button-learn-more"
                 >
                   Learn More
@@ -277,10 +310,14 @@ export default function Home() {
             </div>
 
             <div className="hidden md:flex flex-col items-center flex-shrink-0" data-testid="staff-slideshow">
-              <div className="relative w-64 h-80 lg:w-72 lg:h-96">
-                <div className="absolute inset-0 rounded-2xl bg-[#066aab]/20 -rotate-3" />
-                <div className="absolute inset-0 rounded-2xl bg-[#2eabe0]/10 rotate-2" />
-                <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
+              <div className={`relative ${isB ? "w-72 h-[22rem] lg:w-80 lg:h-[26rem]" : "w-64 h-80 lg:w-72 lg:h-96"}`}>
+                {!isB && (
+                  <>
+                    <div className="absolute inset-0 rounded-2xl bg-[var(--brand-azure-vivid)]/20 -rotate-3" />
+                    <div className="absolute inset-0 rounded-2xl bg-[var(--brand-azure)]/10 rotate-2" />
+                  </>
+                )}
+                <div className={`relative w-full h-full overflow-hidden shadow-2xl ${isB ? "rounded-3xl" : "rounded-2xl"}`}>
                   <AnimatePresence mode="wait">
                     <motion.img
                       key={currentStaff}
@@ -306,10 +343,10 @@ export default function Home() {
                   exit={{ opacity: 0, y: -10 }}
                   transition={{ duration: 0.4, ease: "easeInOut" }}
                 >
-                  <p className="text-white font-sans text-base font-semibold" data-testid="text-staff-name">
+                  <p className={`font-sans text-base font-semibold ${isB ? "text-[var(--brand-navy)] dark:text-white" : "text-white"}`} data-testid="text-staff-name">
                     {STAFF_MEMBERS[currentStaff].name}
                   </p>
-                  <p className="text-[#2eabe0] font-sans text-sm" data-testid="text-staff-role">
+                  <p className={`font-sans text-sm ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} data-testid="text-staff-role">
                     {STAFF_MEMBERS[currentStaff].role}
                   </p>
                 </motion.div>
@@ -322,8 +359,8 @@ export default function Home() {
                     onClick={() => selectStaff(index)}
                     className={`w-2 h-2 rounded-full transition-all duration-300 ${
                       index === currentStaff
-                        ? "bg-[#2eabe0] w-6"
-                        : "bg-white/30"
+                        ? `bg-[var(--brand-azure)] w-6`
+                        : isB ? "bg-[var(--brand-navy)]/20 dark:bg-white/30" : "bg-white/30"
                     }`}
                     aria-label={`View ${STAFF_MEMBERS[index].name}`}
                     data-testid={`button-staff-dot-${index}`}
@@ -335,25 +372,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-6 bg-[#00588e] dark:bg-[#003d63]" data-testid="section-trust-bar">
+      <section
+        className={`py-6 ${
+          isB
+            ? "bg-[var(--brand-azure-light)] dark:bg-[var(--brand-navy)]"
+            : "bg-[var(--brand-azure-dark)] dark:bg-[var(--brand-navy)]"
+        }`}
+        data-testid="section-trust-bar"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12 text-white/90 text-sm">
-            <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-[#2eabe0]" />
-              <span>Over 500 vetted experts</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-[#2eabe0]" />
-              <span>HCPC registered professionals</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-[#2eabe0]" />
-              <span>UK-wide coverage</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-[#2eabe0]" />
-              <span>Fixed, transparent fees</span>
-            </div>
+          <div className={`flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12 text-sm ${
+            isB ? "text-[var(--brand-navy)]/80 dark:text-white/90" : "text-white/90"
+          }`}>
+            {["Over 500 vetted experts", "HCPC registered professionals", "UK-wide coverage", "Fixed, transparent fees"].map((text) => (
+              <div key={text} className="flex items-center gap-2">
+                <CheckCircle2 className={`w-4 h-4 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} />
+                <span>{text}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -366,7 +402,7 @@ export default function Home() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-6">
-            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-intro-label">
+            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-intro-label">
               Our Understanding
             </p>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6" data-testid="text-intro-heading">
@@ -382,10 +418,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="services" className="py-16 sm:py-20 bg-[#f0f5ff] dark:bg-[#0d1929]" data-testid="section-services">
+      <section id="services" className={`py-16 sm:py-20 ${isB ? "bg-white dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-services-label">
+            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-services-label">
               What We Do
             </p>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-services-heading">
@@ -393,15 +429,19 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ${isB ? "gap-8" : "gap-6"}`}>
             {SERVICES.map((service, index) => (
               <Card
                 key={index}
-                className="p-6 sm:p-8 bg-background border-none hover-elevate cursor-pointer transition-all duration-200"
+                className={`p-6 sm:p-8 bg-background border-none hover-elevate cursor-pointer transition-all duration-200 ${
+                  isB ? "rounded-xl shadow-sm border border-border/50" : ""
+                }`}
                 data-testid={`card-service-${index}`}
               >
-                <div className="w-12 h-12 rounded-md bg-[#032552] flex items-center justify-center mb-5">
-                  <service.icon className="w-6 h-6 text-[#2eabe0]" />
+                <div className={`w-12 h-12 flex items-center justify-center mb-5 ${
+                  isB ? "rounded-xl bg-[var(--brand-azure-light)] dark:bg-[var(--brand-navy)]" : "rounded-md bg-[var(--brand-navy)]"
+                }`}>
+                  <service.icon className={`w-6 h-6 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} />
                 </div>
                 <h3 className="font-sans text-lg font-bold text-foreground mb-2" data-testid={`text-service-title-${index}`}>
                   {service.title}
@@ -409,7 +449,7 @@ export default function Home() {
                 <p className="text-muted-foreground text-sm leading-relaxed" data-testid={`text-service-desc-${index}`}>
                   {service.description}
                 </p>
-                <div className="mt-4 flex items-center gap-1 text-[#066aab] text-sm font-semibold">
+                <div className="mt-4 flex items-center gap-1 text-[var(--brand-azure-vivid)] text-sm font-semibold">
                   Learn more <ChevronRight className="w-4 h-4" />
                 </div>
               </Card>
@@ -418,10 +458,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 lg:py-24" data-testid="section-differentiators">
+      <section className={`${isB ? "py-20 sm:py-24 lg:py-28" : "py-16 sm:py-20 lg:py-24"}`} data-testid="section-differentiators">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-14">
-            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-diff-label">
+            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-diff-label">
               Why Choose Us
             </p>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-diff-heading">
@@ -429,7 +469,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="flex flex-wrap border-b border-border mb-8 sm:mb-10" data-testid="tabs-differentiators">
+          <div className={`flex flex-wrap border-b mb-8 sm:mb-10 ${isB ? "border-[var(--brand-azure-light)] dark:border-border" : "border-border"}`} data-testid="tabs-differentiators">
             {DIFFERENTIATORS.map((tab) => {
               const isActive = activeTab === tab.id;
               return (
@@ -438,14 +478,14 @@ export default function Home() {
                   onClick={() => setActiveTab(tab.id)}
                   className={`relative px-4 sm:px-6 py-3 sm:py-4 font-semibold text-sm sm:text-base transition-colors duration-200 ${
                     isActive
-                      ? "text-[#2eabe0]"
-                      : "text-muted-foreground hover:text-[#2eabe0]"
+                      ? "text-[var(--brand-azure)]"
+                      : "text-muted-foreground hover:text-[var(--brand-azure)]"
                   }`}
                   data-testid={`tab-${tab.id}`}
                 >
                   {tab.label}
                   <span
-                    className={`absolute bottom-0 left-0 w-full h-0.5 bg-[#2eabe0] transition-transform duration-200 origin-left ${
+                    className={`absolute bottom-0 left-0 w-full h-0.5 bg-[var(--brand-azure)] transition-transform duration-200 origin-left ${
                       isActive ? "scale-x-100" : "scale-x-0"
                     }`}
                   />
@@ -476,7 +516,7 @@ export default function Home() {
                   <ul className="space-y-3">
                     {tab.items.map((item, i) => (
                       <li key={i} className="flex items-start gap-2.5" data-testid={`item-${tab.id}-${i}`}>
-                        <CheckCircle2 className="w-5 h-5 text-[#2eabe0] flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className={`w-5 h-5 flex-shrink-0 mt-0.5 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} />
                         <span className="text-foreground text-base leading-relaxed">{item}</span>
                       </li>
                     ))}
@@ -484,8 +524,12 @@ export default function Home() {
                 </div>
 
                 <div className="hidden md:block">
-                  <div className="w-full aspect-[4/3] rounded-xl bg-gradient-to-br from-[#032552] to-[#066aab] flex items-center justify-center">
-                    <TabIcon className="w-24 h-24 text-[#2eabe0]/30" />
+                  <div className={`w-full aspect-[4/3] flex items-center justify-center ${
+                    isB
+                      ? "rounded-2xl bg-gradient-to-br from-[var(--brand-azure-light)] to-[var(--brand-bg-tint)] dark:from-[var(--brand-navy)] dark:to-[var(--brand-navy-deep)]"
+                      : "rounded-xl bg-gradient-to-br from-[var(--brand-navy)] to-[var(--brand-azure-vivid)]"
+                  }`}>
+                    <TabIcon className={`w-24 h-24 ${isB ? "text-[var(--brand-azure-vivid)]/20" : "text-[var(--brand-azure)]/30"}`} />
                   </div>
                 </div>
               </motion.div>
@@ -494,13 +538,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 bg-[#f0f5ff] dark:bg-[#0d1929]" data-testid="section-home-cta-guide">
+      <section className={`py-16 sm:py-20 ${isB ? "bg-white dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-home-cta-guide">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTABanner />
         </div>
       </section>
 
-      <section className="py-12 sm:py-16 bg-[#066aab] dark:bg-[#004d7a]" data-testid="section-psychiatrist-cta">
+      <section
+        className={`py-12 sm:py-16 ${
+          isB
+            ? "bg-gradient-to-r from-[var(--brand-azure-vivid)] to-[var(--brand-azure-dark)] dark:from-[var(--brand-navy)] dark:to-[var(--brand-azure-dark)]"
+            : "bg-[var(--brand-azure-vivid)] dark:bg-[var(--brand-azure-dark)]"
+        }`}
+        data-testid="section-psychiatrist-cta"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <img src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg" alt="Psychology Direct" className="h-8" />
@@ -508,12 +559,12 @@ export default function Home() {
           <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-3" data-testid="text-psych-heading">
             Need a Psychiatrist?
           </h2>
-          <p className="text-[#cee4f7] text-base sm:text-lg mb-6 max-w-xl mx-auto" data-testid="text-psych-body">
+          <p className="text-white/80 text-base sm:text-lg mb-6 max-w-xl mx-auto" data-testid="text-psych-body">
             We can also connect you with qualified psychiatrists for your medico-legal cases.
           </p>
           <Button
             size="lg"
-            className="bg-white text-[#066aab] font-semibold"
+            className={`font-semibold ${isB ? "bg-white text-[var(--brand-azure-vivid)] shadow-lg" : "bg-white text-[var(--brand-azure-vivid)]"}`}
             data-testid="button-find-psychiatrist"
           >
             Find a Psychiatrist
@@ -525,12 +576,12 @@ export default function Home() {
       <section id="contact" className="py-16 sm:py-20 lg:py-24" data-testid="section-contact">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-contact-label">
+            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-contact-label">
               Get in Touch
             </p>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3" data-testid="text-contact-heading">
               Contact us using the form below, or call us on{" "}
-              <a href="tel:01306879075" className="text-[#066aab] whitespace-nowrap">
+              <a href="tel:01306879075" className="text-[var(--brand-azure-vivid)] whitespace-nowrap">
                 01306 879 075
               </a>{" "}
               to find out how we can help.
@@ -577,13 +628,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="process" className="py-16 sm:py-20 lg:py-24 bg-[#032552] dark:bg-[#021b3d]" data-testid="section-process">
+      <section
+        id="process"
+        className={`py-16 sm:py-20 lg:py-24 ${
+          isB
+            ? "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-navy-deep)]"
+            : "bg-[var(--brand-navy)] dark:bg-[var(--brand-navy-deep)]"
+        }`}
+        data-testid="section-process"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-[#2eabe0] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-process-label">
+            <p className={`font-semibold text-sm uppercase tracking-wide mb-3 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} data-testid="text-process-label">
               Our Process
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white" data-testid="text-process-heading">
+            <h2 className={`font-serif text-2xl sm:text-3xl lg:text-4xl font-bold ${isB ? "text-foreground" : "text-white"}`} data-testid="text-process-heading">
               It's simple, we understand your need and...
             </h2>
           </div>
@@ -591,16 +650,18 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
             {PROCESS_STEPS.map((step, index) => (
               <div key={index} className="text-center" data-testid={`card-process-${index}`}>
-                <div className="w-16 h-16 mx-auto rounded-full bg-[#066aab] flex items-center justify-center mb-5">
-                  <step.icon className="w-7 h-7 text-white" />
+                <div className={`w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-5 ${
+                  isB ? "bg-[var(--brand-azure-light)] dark:bg-[var(--brand-navy)]" : "bg-[var(--brand-azure-vivid)]"
+                }`}>
+                  <step.icon className={`w-7 h-7 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-white"}`} />
                 </div>
-                <div className="text-[#2eabe0] font-sans text-xs font-bold uppercase tracking-widest mb-2">
+                <div className={`font-sans text-xs font-bold uppercase tracking-widest mb-2 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`}>
                   Step {step.step}
                 </div>
-                <h3 className="font-serif text-xl font-bold text-white mb-3" data-testid={`text-process-title-${index}`}>
+                <h3 className={`font-serif text-xl font-bold mb-3 ${isB ? "text-foreground" : "text-white"}`} data-testid={`text-process-title-${index}`}>
                   {step.title}
                 </h3>
-                <p className="text-[#cee4f7] text-sm leading-relaxed max-w-xs mx-auto" data-testid={`text-process-desc-${index}`}>
+                <p className={`text-sm leading-relaxed max-w-xs mx-auto ${isB ? "text-muted-foreground" : "text-[var(--brand-azure-light)]"}`} data-testid={`text-process-desc-${index}`}>
                   {step.description}
                 </p>
               </div>
@@ -609,22 +670,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 sm:py-16 bg-[#f0f5ff] dark:bg-[#0d1929]" data-testid="section-testimonial">
+      <section className={`py-12 sm:py-16 ${isB ? "bg-white dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-testimonial">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="flex-shrink-0">
               <div className="relative">
-                <div className="absolute -inset-2 rounded-full bg-[#2eabe0]/15" />
+                <div className={`absolute -inset-2 rounded-full ${isB ? "bg-[var(--brand-azure-vivid)]/10" : "bg-[var(--brand-azure)]/15"}`} />
                 <img
                   src="/images/testimonial.png"
                   alt="Senior Litigation Solicitor"
-                  className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full object-cover shadow-lg"
+                  className={`relative object-cover shadow-lg ${isB ? "w-36 h-36 sm:w-44 sm:h-44 lg:w-52 lg:h-52 rounded-3xl" : "w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full"}`}
                   data-testid="img-testimonial"
                 />
               </div>
             </div>
             <div className="flex-1 text-center md:text-left">
-              <div className="text-[#066aab] text-5xl font-serif leading-none mb-4">"</div>
+              <div className="text-[var(--brand-azure-vivid)] text-5xl font-serif leading-none mb-4">"</div>
               <blockquote className="font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed italic mb-6" data-testid="text-testimonial-quote">
                 I started using PD about six years ago after finding the company on the internet. I found staff
                 to be efficient, friendly and helpful with a very good turnaround time. They do take the hard work
@@ -641,7 +702,7 @@ export default function Home() {
       <section id="resources" className="py-16 sm:py-20 lg:py-24" data-testid="section-resources">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-4">
-            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-resources-label">
+            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-resources-label">
               Find Answers and Expert Guidance
             </p>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3" data-testid="text-resources-heading">
@@ -650,12 +711,12 @@ export default function Home() {
             <p className="text-muted-foreground max-w-xl mx-auto mb-4">
               Educational articles and guides to help legal professionals understand psychological evidence.
             </p>
-            <a href="/knowledge-hub" className="inline-flex items-center gap-1 text-[#066aab] text-sm font-semibold" data-testid="link-knowledge-hub">
+            <a href="/knowledge-hub" className="inline-flex items-center gap-1 text-[var(--brand-azure-vivid)] text-sm font-semibold" data-testid="link-knowledge-hub">
               Visit our Knowledge Hub <ArrowRight className="w-4 h-4" />
             </a>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
+          <div className={`grid grid-cols-1 sm:grid-cols-3 mt-10 ${isB ? "gap-8" : "gap-6"}`}>
             {[
               {
                 title: "Understanding Expert Witness Reports",
@@ -675,12 +736,12 @@ export default function Home() {
             ].map((resource, index) => (
               <Card
                 key={index}
-                className="p-6 bg-background border-none hover-elevate cursor-pointer"
+                className={`p-6 bg-background border-none hover-elevate cursor-pointer ${isB ? "rounded-xl" : ""}`}
                 data-testid={`card-resource-${index}`}
               >
                 <div className="flex items-center gap-2 mb-3">
-                  <FileText className="w-4 h-4 text-[#066aab]" />
-                  <span className="text-xs font-bold uppercase tracking-wide text-[#066aab]">{resource.tag}</span>
+                  <FileText className="w-4 h-4 text-[var(--brand-azure-vivid)]" />
+                  <span className="text-xs font-bold uppercase tracking-wide text-[var(--brand-azure-vivid)]">{resource.tag}</span>
                 </div>
                 <h3 className="font-sans text-base font-bold text-foreground mb-2" data-testid={`text-resource-title-${index}`}>
                   {resource.title}
@@ -688,7 +749,7 @@ export default function Home() {
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   {resource.desc}
                 </p>
-                <span className="text-[#066aab] text-sm font-semibold inline-flex items-center gap-1">
+                <span className="text-[var(--brand-azure-vivid)] text-sm font-semibold inline-flex items-center gap-1">
                   Read article <ChevronRight className="w-4 h-4" />
                 </span>
               </Card>
@@ -697,10 +758,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="case-studies" className="py-16 sm:py-20 bg-[#f0f5ff] dark:bg-[#0d1929]" data-testid="section-case-studies">
+      <section id="case-studies" className={`py-16 sm:py-20 ${isB ? "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-case-studies">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-cases-label">
+            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-cases-label">
               Case Studies
             </p>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-cases-heading">
@@ -708,14 +769,18 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className={`grid grid-cols-1 sm:grid-cols-3 ${isB ? "gap-8" : "gap-6"}`}>
             {CASE_STUDIES.map((cs, index) => (
               <Card
                 key={index}
-                className="p-6 bg-background border-none hover-elevate cursor-pointer"
+                className={`p-6 bg-background border-none hover-elevate cursor-pointer ${isB ? "rounded-xl" : ""}`}
                 data-testid={`card-case-study-${index}`}
               >
-                <span className="inline-block px-3 py-1 rounded-full bg-[#032552] text-[#2eabe0] text-xs font-bold uppercase tracking-wide mb-4">
+                <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide mb-4 ${
+                  isB
+                    ? "bg-[var(--brand-azure-light)] text-[var(--brand-azure-vivid)] dark:bg-[var(--brand-navy)] dark:text-[var(--brand-azure)]"
+                    : "bg-[var(--brand-navy)] text-[var(--brand-azure)]"
+                }`}>
                   {cs.category}
                 </span>
                 <h3 className="font-sans text-base font-bold text-foreground mb-2" data-testid={`text-case-title-${index}`}>
@@ -724,7 +789,7 @@ export default function Home() {
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   {cs.summary}
                 </p>
-                <span className="text-[#066aab] text-sm font-semibold inline-flex items-center gap-1">
+                <span className="text-[var(--brand-azure-vivid)] text-sm font-semibold inline-flex items-center gap-1">
                   Read more <ChevronRight className="w-4 h-4" />
                 </span>
               </Card>
@@ -736,7 +801,7 @@ export default function Home() {
       <section id="faq" className="py-16 sm:py-20 lg:py-24" data-testid="section-faq">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <p className="text-[#066aab] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-faq-label">
+            <p className="text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase tracking-wide mb-3" data-testid="text-faq-label">
               Common Questions
             </p>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground" data-testid="text-faq-heading">
@@ -764,18 +829,29 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 sm:py-16 bg-[#032552] dark:bg-[#021b3d]" data-testid="section-cta-bottom">
+      <section
+        className={`py-12 sm:py-16 ${
+          isB
+            ? "bg-gradient-to-br from-[var(--brand-navy)] to-[var(--brand-azure-dark)]"
+            : "bg-[var(--brand-navy)] dark:bg-[var(--brand-navy-deep)]"
+        }`}
+        data-testid="section-cta-bottom"
+      >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-4" data-testid="text-cta-heading">
             Ready to find the right expert for your case?
           </h2>
-          <p className="text-[#cee4f7] text-base sm:text-lg mb-6 max-w-xl mx-auto">
+          <p className="text-white/70 text-base sm:text-lg mb-6 max-w-xl mx-auto">
             Get in touch today and we'll match you with the perfect specialist.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <Button
               size="lg"
-              className="bg-[#2eabe0] text-[#032552] font-semibold"
+              className={`font-semibold ${
+                isB
+                  ? "bg-[var(--brand-azure-vivid)] text-white shadow-lg shadow-blue-500/20"
+                  : "bg-[var(--brand-azure)] text-[var(--brand-navy)]"
+              }`}
               data-testid="button-contact-cta"
             >
               Contact Us Today
@@ -793,7 +869,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="bg-[#021b3d] dark:bg-[#010f22] py-12 sm:py-16" data-testid="footer">
+      <footer className="bg-[var(--brand-navy-deep)] dark:bg-[var(--brand-navy-deep)] py-12 sm:py-16" data-testid="footer">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             <div>
@@ -803,7 +879,7 @@ export default function Home() {
                 className="h-10 w-auto mb-4"
                 data-testid="img-footer-logo"
               />
-              <p className="text-[#cee4f7]/70 text-sm leading-relaxed">
+              <p className="text-[var(--brand-azure-light)]/70 text-sm leading-relaxed">
                 Leading provider of expert witness psychologists and psychiatrists for
                 solicitors and insurers across the UK.
               </p>
@@ -815,7 +891,7 @@ export default function Home() {
                 {["Psychological Assessment", "Expert Witness Reports", "Medico-Legal Services", "Family & Child Cases"].map(
                   (item) => (
                     <li key={item}>
-                      <a href="#services" className="text-[#cee4f7]/70 text-sm transition-colors hover:text-white">
+                      <a href="#services" className="text-white/60 text-sm transition-colors hover:text-white">
                         {item}
                       </a>
                     </li>
@@ -829,7 +905,7 @@ export default function Home() {
               <ul className="space-y-2">
                 {["Resource Centre", "Case Studies", "FAQ", "Training & CPD"].map((item) => (
                   <li key={item}>
-                    <a href="#resources" className="text-[#cee4f7]/70 text-sm transition-colors hover:text-white">
+                    <a href="#resources" className="text-white/60 text-sm transition-colors hover:text-white">
                       {item}
                     </a>
                   </li>
@@ -841,19 +917,19 @@ export default function Home() {
               <h4 className="text-white font-sans text-sm font-bold uppercase tracking-wide mb-4">Contact</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="tel:01306879075" className="flex items-center gap-2 text-[#cee4f7]/70 text-sm transition-colors hover:text-white" data-testid="link-footer-phone">
+                  <a href="tel:01306879075" className="flex items-center gap-2 text-white/60 text-sm transition-colors hover:text-white" data-testid="link-footer-phone">
                     <Phone className="w-4 h-4 flex-shrink-0" />
                     01306 879 075
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:info@psychologydirect.co.uk" className="flex items-center gap-2 text-[#cee4f7]/70 text-sm transition-colors hover:text-white" data-testid="link-footer-email">
+                  <a href="mailto:info@psychologydirect.co.uk" className="flex items-center gap-2 text-white/60 text-sm transition-colors hover:text-white" data-testid="link-footer-email">
                     <Mail className="w-4 h-4 flex-shrink-0" />
                     info@psychologydirect.co.uk
                   </a>
                 </li>
                 <li>
-                  <span className="flex items-start gap-2 text-[#cee4f7]/70 text-sm" data-testid="text-footer-address">
+                  <span className="flex items-start gap-2 text-white/60 text-sm" data-testid="text-footer-address">
                     <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
                     Surrey, United Kingdom
                   </span>
@@ -863,17 +939,17 @@ export default function Home() {
           </div>
 
           <div className="mt-10 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-[#cee4f7]/50 text-xs" data-testid="text-copyright">
+            <p className="text-white/40 text-xs" data-testid="text-copyright">
               &copy; {new Date().getFullYear()} Psychology Direct. All rights reserved.
             </p>
             <div className="flex items-center gap-4 flex-wrap">
-              <a href="#" className="text-[#cee4f7]/50 text-xs transition-colors hover:text-white" data-testid="link-privacy">
+              <a href="#" className="text-white/40 text-xs transition-colors hover:text-white" data-testid="link-privacy">
                 Privacy Policy
               </a>
-              <a href="#" className="text-[#cee4f7]/50 text-xs transition-colors hover:text-white" data-testid="link-terms">
+              <a href="#" className="text-white/40 text-xs transition-colors hover:text-white" data-testid="link-terms">
                 Terms of Service
               </a>
-              <a href="#" className="text-[#cee4f7]/50 text-xs transition-colors hover:text-white" data-testid="link-cookies">
+              <a href="#" className="text-white/40 text-xs transition-colors hover:text-white" data-testid="link-cookies">
                 Cookie Policy
               </a>
             </div>

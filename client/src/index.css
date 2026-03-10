@@ -2,6 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+/* BRAND TOKENS – Theme A (bold, professional) */
+:root,
+.theme-a {
+  --brand-navy: #032552;
+  --brand-navy-deep: #021b3d;
+  --brand-azure-dark: #00588e;
+  --brand-azure-vivid: #066aab;
+  --brand-azure: #2eabe0;
+  --brand-azure-light: #cee4f7;
+  --brand-bg-tint: #f0f5ff;
+  --brand-dark-bg: #0d1929;
+  --brand-hero-from: #032552;
+  --brand-hero-to: #00588e;
+  --brand-card-radius: 0.375rem;
+  --brand-section-py: 3rem;
+  --brand-section-py-lg: 4rem;
+}
+/* BRAND TOKENS – Theme B (soft, minimalist, friendly) */
+.theme-b {
+  --brand-navy: #1e3a5f;
+  --brand-navy-deep: #0f1d2f;
+  --brand-azure-dark: #2563eb;
+  --brand-azure-vivid: #3b82f6;
+  --brand-azure: #60a5fa;
+  --brand-azure-light: #dbeafe;
+  --brand-bg-tint: #f8fafc;
+  --brand-dark-bg: #0d1929;
+  --brand-hero-from: #f8fafc;
+  --brand-hero-to: #eff6ff;
+  --brand-card-radius: 0.75rem;
+  --brand-section-py: 4rem;
+  --brand-section-py-lg: 5rem;
+}
+.theme-b.dark {
+  --brand-navy: #1e3a5f;
+  --brand-navy-deep: #0a1628;
+  --brand-bg-tint: #0d1929;
+}
+
 /* LIGHT MODE */
 :root {
   --button-outline: rgba(0,0,0, .10);

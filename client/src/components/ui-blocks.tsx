@@ -40,7 +40,7 @@ export function TeamGrid({ members }: { members: TeamMember[] }) {
           </div>
           <div className="p-5">
             <h3 className="font-sans text-base font-bold text-foreground">{member.name}</h3>
-            <p className="text-[#066aab] text-sm font-medium mb-2">{member.role}</p>
+            <p className="text-[var(--brand-azure-vivid)] text-sm font-medium mb-2">{member.role}</p>
             {member.bio && (
               <p className="text-muted-foreground text-sm leading-relaxed mb-3">{member.bio}</p>
             )}
@@ -105,13 +105,13 @@ export function PricingTable({ tiers }: { tiers: PricingTier[] }) {
           key={i}
           className={`p-6 sm:p-8 relative overflow-hidden flex flex-col ${
             tier.highlighted
-              ? "border-[#2eabe0] border-2 shadow-lg"
+              ? "border-[var(--brand-azure)] border-2 shadow-lg"
               : "bg-background"
           }`}
           data-testid={`card-pricing-${i}`}
         >
           {tier.highlighted && (
-            <div className="absolute top-0 left-0 right-0 bg-[#2eabe0] text-white text-xs font-bold text-center py-1.5 uppercase tracking-wider">
+            <div className="absolute top-0 left-0 right-0 bg-[var(--brand-azure)] text-white text-xs font-bold text-center py-1.5 uppercase tracking-wider">
               Most Popular
             </div>
           )}
@@ -124,7 +124,7 @@ export function PricingTable({ tiers }: { tiers: PricingTier[] }) {
             <ul className="space-y-2.5 mb-8 flex-1">
               {tier.features.map((f, j) => (
                 <li key={j} className="flex items-start gap-2 text-sm text-foreground">
-                  <CheckCircle2 className="w-4 h-4 text-[#2eabe0] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-[var(--brand-azure)] flex-shrink-0 mt-0.5" />
                   {f}
                 </li>
               ))}
@@ -153,7 +153,7 @@ interface TimelineEvent {
 export function Timeline({ events }: { events: TimelineEvent[] }) {
   return (
     <div className="relative" data-testid="timeline">
-      <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-px bg-[#cee4f7] dark:bg-[#1a3a5c] sm:-translate-x-px" />
+      <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-px bg-[var(--brand-azure-light)] dark:bg-[var(--brand-navy)] sm:-translate-x-px" />
       <div className="space-y-10 sm:space-y-12">
         {events.map((event, i) => (
           <div
@@ -164,13 +164,13 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
             data-testid={`timeline-event-${i}`}
           >
             <div className={`hidden sm:block w-[calc(50%-24px)] ${i % 2 === 0 ? "text-right" : "text-left"}`}>
-              <div className="font-serif text-2xl font-bold text-[#066aab] mb-1">{event.year}</div>
+              <div className="font-serif text-2xl font-bold text-[var(--brand-azure-vivid)] mb-1">{event.year}</div>
               <h4 className="font-sans text-base font-bold text-foreground mb-1.5">{event.title}</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">{event.description}</p>
             </div>
-            <div className="absolute left-4 sm:left-1/2 w-3 h-3 bg-[#2eabe0] rounded-full border-2 border-background -translate-x-1.5 sm:-translate-x-1.5 mt-1.5 z-10" />
+            <div className="absolute left-4 sm:left-1/2 w-3 h-3 bg-[var(--brand-azure)] rounded-full border-2 border-background -translate-x-1.5 sm:-translate-x-1.5 mt-1.5 z-10" />
             <div className="sm:hidden pl-10">
-              <div className="font-serif text-xl font-bold text-[#066aab] mb-1">{event.year}</div>
+              <div className="font-serif text-xl font-bold text-[var(--brand-azure-vivid)] mb-1">{event.year}</div>
               <h4 className="font-sans text-base font-bold text-foreground mb-1.5">{event.title}</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">{event.description}</p>
             </div>
@@ -203,7 +203,7 @@ export function FeatureComparison({
         <thead>
           <tr className="border-b">
             <th className="text-left py-3 px-4 font-sans text-sm font-bold text-foreground w-1/2">Feature</th>
-            <th className="text-center py-3 px-4 font-sans text-sm font-bold text-[#066aab] w-1/4">{usLabel}</th>
+            <th className="text-center py-3 px-4 font-sans text-sm font-bold text-[var(--brand-azure-vivid)] w-1/4">{usLabel}</th>
             <th className="text-center py-3 px-4 font-sans text-sm font-bold text-muted-foreground w-1/4">{themLabel}</th>
           </tr>
         </thead>
@@ -214,12 +214,12 @@ export function FeatureComparison({
               <td className="py-3 px-4 text-center">
                 {typeof row.us === "boolean" ? (
                   row.us ? (
-                    <CheckCircle2 className="w-5 h-5 text-[#2eabe0] mx-auto" />
+                    <CheckCircle2 className="w-5 h-5 text-[var(--brand-azure)] mx-auto" />
                   ) : (
                     <X className="w-5 h-5 text-muted-foreground/40 mx-auto" />
                   )
                 ) : (
-                  <span className="text-sm font-semibold text-[#066aab]">{row.us}</span>
+                  <span className="text-sm font-semibold text-[var(--brand-azure-vivid)]">{row.us}</span>
                 )}
               </td>
               <td className="py-3 px-4 text-center">
@@ -261,9 +261,9 @@ export function VideoSection({ heading, description, thumbnailSrc }: VideoSectio
       </div>
       <div className="relative rounded-xl overflow-hidden group cursor-pointer aspect-video" data-testid="video-thumbnail">
         <img src={thumbnailSrc} alt="Video thumbnail" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
-        <div className="absolute inset-0 bg-[#032552]/40 group-hover:bg-[#032552]/50 transition-colors flex items-center justify-center">
+        <div className="absolute inset-0 bg-[var(--brand-navy)]/40 group-hover:bg-[var(--brand-navy)]/50 transition-colors flex items-center justify-center">
           <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/90 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-            <Play className="w-7 h-7 sm:w-8 sm:h-8 text-[#032552] ml-1" />
+            <Play className="w-7 h-7 sm:w-8 sm:h-8 text-[var(--brand-navy)] ml-1" />
           </div>
         </div>
       </div>
@@ -294,21 +294,21 @@ export function NewsletterStrip({
   };
 
   return (
-    <div className="bg-[#032552] dark:bg-[#021b3d] rounded-lg px-6 sm:px-10 py-8 sm:py-10" data-testid="newsletter-strip">
+    <div className="bg-[var(--brand-navy)] dark:bg-[var(--brand-navy-deep)] rounded-lg px-6 sm:px-10 py-8 sm:py-10" data-testid="newsletter-strip">
       <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-10">
         <div className="flex-1 text-center lg:text-left">
           <div className="flex items-center justify-center lg:justify-start gap-2 mb-2">
-            <Mail className="w-4 h-4 text-[#2eabe0]" />
-            <span className="text-[#2eabe0] font-sans text-xs font-bold uppercase tracking-widest">Newsletter</span>
+            <Mail className="w-4 h-4 text-[var(--brand-azure)]" />
+            <span className="text-[var(--brand-azure)] font-sans text-xs font-bold uppercase tracking-widest">Newsletter</span>
           </div>
           <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mb-1" data-testid="text-newsletter-heading">
             {heading}
           </h3>
-          <p className="text-[#cee4f7]/80 text-sm" data-testid="text-newsletter-desc">{description}</p>
+          <p className="text-white/70 text-sm" data-testid="text-newsletter-desc">{description}</p>
         </div>
         <div className="w-full lg:w-auto lg:flex-shrink-0">
           {submitted ? (
-            <div className="flex items-center gap-2 text-[#2eabe0] font-semibold text-sm justify-center" data-testid="text-newsletter-success">
+            <div className="flex items-center gap-2 text-[var(--brand-azure)] font-semibold text-sm justify-center" data-testid="text-newsletter-success">
               <CheckCircle2 className="w-5 h-5" />
               You're subscribed! Check your inbox.
             </div>
@@ -323,7 +323,7 @@ export function NewsletterStrip({
                 required
                 data-testid="input-newsletter-email"
               />
-              <Button className="bg-[#2eabe0] text-[#032552] font-semibold flex-shrink-0" data-testid="button-newsletter-subscribe">
+              <Button className="bg-[var(--brand-azure)] text-[var(--brand-navy)] font-semibold flex-shrink-0" data-testid="button-newsletter-subscribe">
                 Subscribe
                 <ArrowRight className="w-4 h-4 ml-1" />
               </Button>
@@ -347,7 +347,7 @@ export function AlertBanner({ message, type = "info", link, dismissible = true }
   if (!visible) return null;
 
   const colors = {
-    info: "bg-[#032552] text-white",
+    info: "bg-[var(--brand-navy)] text-white",
     success: "bg-emerald-600 text-white",
     warning: "bg-amber-500 text-amber-950",
   };
@@ -397,7 +397,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
 
   return (
     <div className="max-w-3xl mx-auto text-center" data-testid="testimonial-carousel">
-      <Quote className="w-10 h-10 text-[#2eabe0]/30 mx-auto mb-6" />
+      <Quote className="w-10 h-10 text-[var(--brand-azure)]/30 mx-auto mb-6" />
       <blockquote className="font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed mb-6" data-testid="text-testimonial-quote">
         "{t.quote}"
       </blockquote>
@@ -432,7 +432,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
                 key={i}
                 onClick={() => setCurrent(i)}
                 className={`w-2.5 h-2.5 rounded-full transition-colors ${
-                  i === current ? "bg-[#2eabe0]" : "bg-muted"
+                  i === current ? "bg-[var(--brand-azure)]" : "bg-muted"
                 }`}
                 data-testid={`button-testimonial-dot-${i}`}
               />
@@ -466,10 +466,10 @@ export function MetricCards({ metrics }: MetricCardProps) {
     <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${Math.min(metrics.length, 4)} gap-6`} data-testid="metric-cards">
       {metrics.map((m, i) => (
         <Card key={i} className="p-6 bg-background text-center" data-testid={`card-metric-${i}`}>
-          <div className="w-12 h-12 rounded-full bg-[#f0f5ff] dark:bg-[#0d1929] flex items-center justify-center mx-auto mb-4">
-            <m.icon className="w-6 h-6 text-[#066aab]" />
+          <div className="w-12 h-12 rounded-full bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)] flex items-center justify-center mx-auto mb-4">
+            <m.icon className="w-6 h-6 text-[var(--brand-azure-vivid)]" />
           </div>
-          <div className="font-serif text-2xl sm:text-3xl font-bold text-[#032552] dark:text-[#2eabe0] mb-1">{m.value}</div>
+          <div className="font-serif text-2xl sm:text-3xl font-bold text-[var(--brand-navy)] dark:text-[var(--brand-azure)] mb-1">{m.value}</div>
           <div className="font-sans text-sm font-bold text-foreground mb-1">{m.label}</div>
           {m.description && (
             <p className="text-muted-foreground text-xs leading-relaxed">{m.description}</p>

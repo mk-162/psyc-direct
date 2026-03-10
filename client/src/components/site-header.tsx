@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Phone, Menu, X } from "lucide-react";
+import { Phone, Menu, X, Palette } from "lucide-react";
+import { useDesignTheme } from "@/lib/theme-context";
 
 interface NavItem {
   label: string;
@@ -26,6 +27,7 @@ const DEFAULT_NAV: NavItem[] = [
 export function SiteHeader({ navItems = DEFAULT_NAV }: SiteHeaderProps) {
   const [open, setOpen] = useState(false);
   const [location] = useLocation();
+  const { designTheme, toggleDesignTheme } = useDesignTheme();
 
   useEffect(() => {
     setOpen(false);
@@ -70,12 +72,21 @@ export function SiteHeader({ navItems = DEFAULT_NAV }: SiteHeaderProps) {
             </nav>
 
             <div className="hidden lg:flex items-center gap-3">
+              <button
+                onClick={toggleDesignTheme}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                data-testid="button-theme-toggle"
+                title={designTheme === "a" ? "Switch to Theme B (Soft)" : "Switch to Theme A (Bold)"}
+              >
+                <Palette className="w-3.5 h-3.5" />
+                {designTheme === "a" ? "Theme A" : "Theme B"}
+              </button>
               <a
                 href="tel:01306879075"
                 className="flex items-center gap-2 text-sm font-semibold text-foreground"
                 data-testid="link-phone-header"
               >
-                <Phone className="w-4 h-4 text-[#066aab]" />
+                <Phone className="w-4 h-4 text-[var(--brand-azure-vivid)]" />
                 01306 879 075
               </a>
               <Button size="default" asChild data-testid="button-get-in-touch-header">
@@ -144,12 +155,20 @@ export function SiteHeader({ navItems = DEFAULT_NAV }: SiteHeaderProps) {
               </nav>
 
               <div className="border-t px-5 py-5 space-y-3">
+                <button
+                  onClick={toggleDesignTheme}
+                  className="w-full flex items-center gap-2 px-4 py-2.5 rounded-md text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                  data-testid="button-theme-toggle-mobile"
+                >
+                  <Palette className="w-4 h-4" />
+                  {designTheme === "a" ? "Switch to Theme B" : "Switch to Theme A"}
+                </button>
                 <a
                   href="tel:01306879075"
                   className="flex items-center gap-2 text-sm font-semibold text-foreground"
                   data-testid="link-phone-mobile"
                 >
-                  <Phone className="w-4 h-4 text-[#066aab]" />
+                  <Phone className="w-4 h-4 text-[var(--brand-azure-vivid)]" />
                   01306 879 075
                 </a>
                 <Button className="w-full" asChild data-testid="button-get-in-touch-mobile">
