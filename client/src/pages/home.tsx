@@ -33,6 +33,7 @@ import {
   PoundSterling,
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { CTABanner } from "@/components/cta-widgets";
 
 const STAFF_MEMBERS = [
   { name: "Dr Sarah Mitchell", role: "Clinical Psychologist", image: "/images/staff-1.png" },
@@ -490,6 +491,12 @@ export default function Home() {
               </motion.div>
             );
           })}
+        </div>
+      </section>
+
+      <section className="py-16 sm:py-20 bg-[#f0f5ff] dark:bg-[#0d1929]" data-testid="section-home-cta-guide">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <CTABanner />
         </div>
       </section>
 

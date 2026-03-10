@@ -35,6 +35,7 @@ import {
   Quote,
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { CTABanner } from "@/components/cta-widgets";
 
 const DIFFERENTIATORS = [
   {
@@ -418,6 +419,12 @@ export default function ExpertWitness() {
               </Card>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-16 sm:py-20 bg-[#f0f5ff] dark:bg-[#0d1929]" data-testid="section-ew-cta-guide">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <CTABanner />
         </div>
       </section>
 
