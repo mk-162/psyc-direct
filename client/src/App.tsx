@@ -11,6 +11,9 @@ import ExpertWitness from "@/pages/expert-witness";
 import ComponentLibrary from "@/pages/component-library";
 import PrivacyPolicy from "@/pages/privacy-policy";
 import Terms from "@/pages/terms";
+import Blog from "@/pages/blog";
+import BlogCategory from "@/pages/blog-category";
+import BlogArticle from "@/pages/blog-article";
 
 function Router() {
   return (
@@ -19,6 +22,9 @@ function Router() {
       <Route path="/expert-witness" component={ExpertWitness} />
       <Route path="/knowledge-hub" component={KnowledgeHub} />
       <Route path="/knowledge-hub/:slug" component={ArticlePage} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/blog/category/:slug" component={BlogCategory} />
+      <Route path="/blog/:slug" component={BlogArticle} />
       <Route path="/component-library" component={ComponentLibrary} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
       <Route path="/terms" component={Terms} />

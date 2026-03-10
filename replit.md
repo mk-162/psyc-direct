@@ -40,6 +40,14 @@ Centralised showcase of every reusable component. Includes:
 - Sticky section navigation for quick jumping between components
 - Each section labelled with component ID and description
 
+### Blog (`/blog`, `/blog/category/:slug`, `/blog/:slug`)
+Company blog with:
+- Blog home page with search, category filters, featured post, tag cloud, sidebar
+- Category page with filtered posts and breadcrumbs
+- Individual blog article page (same template as Knowledge Hub articles) with breadcrumbs, structured data, related posts
+- 5 categories: Company News, Industry Insights, Expert Profiles, Case Law Updates, Wellbeing
+- 10 blog posts with varied content
+
 ### Knowledge Hub (`/knowledge-hub`)
 SEO-focused knowledge base with:
 - Search functionality
@@ -74,6 +82,10 @@ Individual article pages with:
 - `client/src/components/site-header.tsx` - Shared header with mobile slide-out nav
 - `client/src/components/ui-blocks.tsx` - 10 new reusable components (TeamGrid, LogoCloud, PricingTable, Timeline, etc.)
 - `client/src/pages/component-library.tsx` - Component library showcase page
+- `client/src/pages/blog.tsx` - Blog home page
+- `client/src/pages/blog-category.tsx` - Blog category page
+- `client/src/pages/blog-article.tsx` - Blog article page
+- `client/src/lib/blog-posts.ts` - Blog post data and utilities
 - `client/src/pages/knowledge-hub.tsx` - Knowledge Hub page
 - `client/src/pages/article.tsx` - Article detail page
 - `client/src/components/cta-widgets.tsx` - 3 CTA widget components
