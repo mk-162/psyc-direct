@@ -564,9 +564,6 @@ export default function Home() {
         data-testid="section-psychiatrist-cta"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <img src="https://www.psychologydirect.co.uk/wp-content/themes/psychologydirect-2018/images/svg/footer-logo.svg" alt="Psychology Direct" className="h-8" />
-          </div>
           <h2 className={`font-serif text-white mb-3 ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl font-bold"}`} data-testid="text-psych-heading">
             Need a Psychiatrist?
           </h2>
