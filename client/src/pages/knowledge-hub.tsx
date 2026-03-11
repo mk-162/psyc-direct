@@ -150,10 +150,6 @@ export default function KnowledgeHub() {
       <section className="bg-[#032552] dark:bg-[#021b3d] py-12 sm:py-16" data-testid="section-kb-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <BookOpen className="w-5 h-5 text-[#2eabe0]" />
-              <span className="text-[#2eabe0] font-sans text-xs font-bold uppercase tracking-widest">Knowledge Hub</span>
-            </div>
             <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4" data-testid="text-kb-title">
               Resources & Insights for Legal Professionals
             </h1>
