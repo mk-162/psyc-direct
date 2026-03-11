@@ -400,10 +400,11 @@ export default function Home() {
 
       <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden" data-testid="section-intro">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-[0.22] dark:opacity-[0.12] blur-[1px] scale-110 pointer-events-none"
-          style={{ backgroundImage: "url('/images/watermark-understanding.png')" }}
+          className="absolute inset-0 bg-cover bg-center scale-105 pointer-events-none"
+          style={{ backgroundImage: "url('/images/bg-understanding.png')" }}
           aria-hidden="true"
         />
+        <div className="absolute inset-0 bg-white/80 dark:bg-[var(--brand-navy-deep)]/85 pointer-events-none" aria-hidden="true" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-6">
             <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`} data-testid="text-intro-label">
