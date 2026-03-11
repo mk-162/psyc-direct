@@ -496,7 +496,6 @@ export default function Home() {
 
           {DIFFERENTIATORS.map((tab) => {
             if (tab.id !== activeTab) return null;
-            const TabIcon = tab.icon;
             return (
               <motion.div
                 key={tab.id}
@@ -535,7 +534,6 @@ export default function Home() {
                         ? "bg-[var(--brand-navy)]/40 dark:bg-[var(--brand-navy-deep)]/60"
                         : "bg-[var(--brand-navy)]/55 dark:bg-[var(--brand-navy-deep)]/70"
                     }`} />
-                    <TabIcon className={`relative z-10 w-24 h-24 ${isB ? "text-white/30" : "text-white/25"}`} />
                   </div>
                 </div>
               </motion.div>
