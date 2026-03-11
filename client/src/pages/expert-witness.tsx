@@ -316,9 +316,10 @@ export default function ExpertWitness() {
                   </ul>
                 </div>
                 <div className="hidden md:block">
-                  <div className="w-full aspect-[4/3] rounded-xl bg-gradient-to-br from-[#032552] to-[#066aab] flex items-center justify-center">
-                    <TabIcon className="w-24 h-24 text-[#2eabe0]/30" />
-                  </div>
+                  <div
+                    className="w-full aspect-[4/3] rounded-xl overflow-hidden"
+                    style={{ backgroundImage: "url('/images/bg-understanding.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+                  />
                 </div>
               </motion.div>
             );
