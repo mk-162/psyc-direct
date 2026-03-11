@@ -240,7 +240,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-
       <section
         className={`relative overflow-hidden ${
           isB
@@ -375,7 +374,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section
         className={`py-6 ${
           isB
@@ -397,7 +395,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden" data-testid="section-intro">
         <div
           className="absolute inset-0 bg-cover bg-center scale-105 pointer-events-none"
@@ -422,7 +419,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section id="services" className={`py-16 sm:py-20 ${isB ? "bg-white dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -462,7 +458,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section className={`${isB ? "py-20 sm:py-24 lg:py-28" : "py-16 sm:py-20 lg:py-24"}`} data-testid="section-differentiators">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-14">
@@ -548,13 +543,11 @@ export default function Home() {
           })}
         </div>
       </section>
-
       <section className={`py-16 sm:py-20 ${isB ? "bg-white dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-home-cta-guide">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTABanner />
         </div>
       </section>
-
       <section
         className={`py-12 sm:py-16 ${
           isB
@@ -580,7 +573,6 @@ export default function Home() {
           </Button>
         </div>
       </section>
-
       <section id="contact" className="py-16 sm:py-20 lg:py-24" data-testid="section-contact">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -635,7 +627,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section
         id="process"
         className={`py-16 sm:py-20 lg:py-24 ${
@@ -677,7 +668,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section className={`py-12 sm:py-16 ${isB ? "bg-white dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-testimonial">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
@@ -706,7 +696,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section id="resources" className="py-16 sm:py-20 lg:py-24" data-testid="section-resources">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-4">
@@ -765,7 +754,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section id="case-studies" className={`py-16 sm:py-20 ${isB ? "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]" : "bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-dark-bg)]"}`} data-testid="section-case-studies">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -805,7 +793,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section id="faq" className="py-16 sm:py-20 lg:py-24" data-testid="section-faq">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -836,7 +823,6 @@ export default function Home() {
           </Accordion>
         </div>
       </section>
-
       <section
         className={`py-12 sm:py-16 ${
           isB
@@ -876,7 +862,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <footer className="bg-[var(--brand-navy-deep)] dark:bg-[var(--brand-navy-deep)] py-12 sm:py-16" data-testid="footer">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
@@ -887,7 +872,7 @@ export default function Home() {
                 className="h-10 w-auto mb-4"
                 data-testid="img-footer-logo"
               />
-              <p className="text-[var(--brand-azure-light)]/70 text-sm leading-relaxed">
+              <p className="text-sm leading-relaxed text-[#fafaf9]">
                 Leading provider of expert witness psychologists and psychiatrists for
                 solicitors and insurers across the UK.
               </p>
