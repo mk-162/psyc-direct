@@ -51,7 +51,7 @@ export function SiteHeader({ navItems = DEFAULT_NAV }: SiteHeaderProps) {
           <div className="flex items-center justify-between gap-4 h-16 sm:h-20">
             <Link href="/" className="flex-shrink-0" data-testid="link-home">
               <img
-                src="/images/logo.png"
+                src="/images/logo-header.png"
                 alt="Psychology Direct"
                 className="h-10 sm:h-12 w-auto"
                 data-testid="img-logo"
@@ -129,7 +129,7 @@ export function SiteHeader({ navItems = DEFAULT_NAV }: SiteHeaderProps) {
               data-testid="nav-mobile-slideout"
             >
               <div className="flex items-center justify-between px-5 h-16 sm:h-20 border-b">
-                <img src="/images/logo.png" alt="Psychology Direct" className="h-8 w-auto" />
+                <img src="/images/logo-header.png" alt="Psychology Direct" className="h-8 w-auto" />
                 <Button
                   size="icon"
                   variant="ghost"
