@@ -529,12 +529,18 @@ export default function Home() {
                 </div>
 
                 <div className="hidden md:block">
-                  <div className={`w-full aspect-[4/3] flex items-center justify-center ${
-                    isB
-                      ? "rounded-2xl bg-gradient-to-br from-[var(--brand-azure-light)] to-[var(--brand-bg-tint)] dark:from-[var(--brand-navy)] dark:to-[var(--brand-navy-deep)]"
-                      : "rounded-xl bg-gradient-to-br from-[var(--brand-navy)] to-[var(--brand-azure-vivid)]"
-                  }`}>
-                    <TabIcon className={`w-24 h-24 ${isB ? "text-[var(--brand-azure-vivid)]/20" : "text-[var(--brand-azure)]/30"}`} />
+                  <div
+                    className={`w-full aspect-[4/3] relative overflow-hidden flex items-center justify-center ${
+                      isB ? "rounded-2xl" : "rounded-xl"
+                    }`}
+                    style={{ backgroundImage: "url('/images/bg-understanding.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+                  >
+                    <div className={`absolute inset-0 ${
+                      isB
+                        ? "bg-[var(--brand-navy)]/40 dark:bg-[var(--brand-navy-deep)]/60"
+                        : "bg-[var(--brand-navy)]/55 dark:bg-[var(--brand-navy-deep)]/70"
+                    }`} />
+                    <TabIcon className={`relative z-10 w-24 h-24 ${isB ? "text-white/30" : "text-white/25"}`} />
                   </div>
                 </div>
               </motion.div>
