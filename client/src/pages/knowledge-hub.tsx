@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Search,
-  Clock,
   ArrowRight,
   ChevronRight,
   Tag,
@@ -34,14 +33,6 @@ function ArticleCardLarge({ article }: { article: Article }) {
             />
           </div>
           <div className="flex-1 p-6 sm:p-8 lg:p-10 flex flex-col justify-center">
-            <div className="flex items-center gap-2 mb-3 flex-wrap">
-              <span className="inline-block px-3 py-1 rounded-full bg-[#032552] dark:bg-[#066aab]/20 text-[#2eabe0] text-xs font-bold uppercase tracking-wide">
-                {article.category}
-              </span>
-              <span className="text-muted-foreground text-xs flex items-center gap-1">
-                <Clock className="w-3 h-3" /> {article.readTime} min read
-              </span>
-            </div>
             <h2 className="font-serif text-xl sm:text-2xl lg:text-3xl font-bold text-foreground mb-3 leading-snug" data-testid={`text-featured-title-${article.id}`}>
               {article.title}
             </h2>
@@ -49,13 +40,11 @@ function ArticleCardLarge({ article }: { article: Article }) {
               {article.excerpt}
             </p>
             <div className="flex items-center justify-between gap-4 flex-wrap">
-              <div className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">{article.author}</span>
-                <span className="mx-1">·</span>
+              <span className="text-sm text-muted-foreground">
                 {new Date(article.publishedDate).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}
-              </div>
+              </span>
               <span className="text-[#066aab] text-sm font-semibold inline-flex items-center gap-1">
-                Read article <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4" />
               </span>
             </div>
           </div>
@@ -80,24 +69,15 @@ function ArticleCard({ article }: { article: Article }) {
           />
         </div>
         <div className="p-5 flex flex-col flex-1">
-          <div className="flex items-center gap-2 mb-2 flex-wrap">
-            <span className="inline-block px-2.5 py-0.5 rounded-full bg-[#032552] dark:bg-[#066aab]/20 text-[#2eabe0] text-[10px] font-bold uppercase tracking-wide">
-              {article.category}
-            </span>
-            <span className="text-muted-foreground text-xs flex items-center gap-1">
-              <Clock className="w-3 h-3" /> {article.readTime} min
-            </span>
-          </div>
           <h3 className="font-sans text-base font-bold text-foreground mb-2 leading-snug line-clamp-2" data-testid={`text-article-title-${article.id}`}>
             {article.title}
           </h3>
           <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1 line-clamp-2">
             {article.excerpt}
           </p>
-          <div className="flex items-center justify-between gap-2 mt-auto">
-            <span className="text-xs text-muted-foreground">{article.author}</span>
+          <div className="flex items-center justify-end gap-2 mt-auto">
             <span className="text-[#066aab] text-xs font-semibold inline-flex items-center gap-0.5">
-              Read <ChevronRight className="w-3 h-3" />
+              <ChevronRight className="w-3 h-3" />
             </span>
           </div>
         </div>
@@ -121,14 +101,12 @@ function ArticleCardCompact({ article }: { article: Article }) {
           />
         </div>
         <div className="flex-1 min-w-0">
-          <span className="text-[#066aab] text-[10px] font-bold uppercase tracking-wide">{article.category}</span>
-          <h4 className="font-sans text-sm font-bold text-foreground leading-snug line-clamp-2 mt-0.5">
+          <h4 className="font-sans text-sm font-bold text-foreground leading-snug line-clamp-2">
             {article.title}
           </h4>
-          <div className="flex items-center gap-2 mt-1 text-xs text-muted-foreground">
-            <Clock className="w-3 h-3" />
-            <span>{article.readTime} min read</span>
-          </div>
+          <span className="text-[#066aab] text-xs font-semibold inline-flex items-center gap-0.5 mt-2">
+            <ChevronRight className="w-3 h-3" />
+          </span>
         </div>
       </div>
     </Link>
@@ -336,7 +314,7 @@ export default function KnowledgeHub() {
                 Popular Topics
               </h3>
               <div className="flex flex-wrap gap-2">
-                {ALL_TAGS.map((tag) => (
+                {ALL_TAGS.slice(0, 8).map((tag) => (
                   <button
                     key={tag}
                     onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
