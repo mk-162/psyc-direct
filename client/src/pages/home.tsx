@@ -91,6 +91,7 @@ const DIFFERENTIATORS = [
     label: "Fast & Responsive",
     heading: "Immediate Attention When You Need It",
     description: "We understand that legal cases often require immediate action. Our commitment to rapid response ensures you're never left waiting.",
+    image: "/images/stock-therapy.png",
     items: [
       "1-hour email response during business hours (9am–5pm, Monday–Friday)",
       "24-hour CV delivery with detailed experience and qualifications",
@@ -104,6 +105,7 @@ const DIFFERENTIATORS = [
     label: "Outstanding Quality",
     heading: "Highly Experienced Psychologists",
     description: "Quality is never compromised. Every psychologist in our network meets the highest professional standards.",
+    image: "/images/stock-assessment.png",
     items: [
       "1,000+ vetted psychologists across all specialisations",
       "100% HCPC registered with current practising certificates",
@@ -117,6 +119,7 @@ const DIFFERENTIATORS = [
     label: "Personal Service",
     heading: "Dedicated Support Throughout",
     description: "You'll have a dedicated case manager who knows your case inside out and provides personalised support.",
+    image: "/images/stock-classroom.png",
     items: [
       "Single point of contact — your dedicated case manager",
       "Culturally diverse network matching your client's needs",
@@ -130,6 +133,7 @@ const DIFFERENTIATORS = [
     label: "Competitive Costs",
     heading: "Transparent and Fair Pricing",
     description: "No hidden fees, no surprises. We provide clear, upfront pricing that works with Legal Aid and private funding.",
+    image: "/images/stock-legal.png",
     items: [
       "Upfront cost estimates provided within 24 hours",
       "Legal Aid compliant rates accepted for eligible cases",
@@ -458,6 +462,52 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="py-16 sm:py-20 lg:py-24 overflow-hidden" data-testid="section-spotlight">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className={`relative overflow-hidden shadow-xl ${isB ? "rounded-2xl" : "rounded-xl"}`}>
+              <img
+                src="/images/stock-legal.png"
+                alt="Legal professional reviewing expert witness report"
+                className="w-full h-72 sm:h-80 lg:h-96 object-cover"
+                data-testid="img-spotlight"
+              />
+            </div>
+            <div>
+              <p className={`text-[var(--brand-azure-vivid)] font-semibold text-sm uppercase mb-3 ${isB ? "tracking-[0.2em]" : "tracking-wide"}`}>
+                Trusted by Legal Professionals
+              </p>
+              <h2 className={`font-serif text-foreground mb-5 ${isB ? "text-3xl sm:text-4xl font-semibold tracking-tight" : "text-2xl sm:text-3xl lg:text-4xl font-bold"}`} data-testid="text-spotlight-heading">
+                The expert your case deserves, matched in hours — not weeks
+              </h2>
+              <p className={`text-muted-foreground leading-relaxed mb-6 ${isB ? "text-lg" : "text-base sm:text-lg"}`}>
+                Solicitors and insurers across the UK rely on Psychology Direct to source the right psychologist or psychiatrist for every case — promptly, transparently, and with complete confidence.
+              </p>
+              <div className="grid grid-cols-2 gap-4 mb-6">
+                {[
+                  { value: "1,000+", label: "Vetted experts" },
+                  { value: "1 hour", label: "Email response" },
+                  { value: "15+ yrs", label: "Experience" },
+                  { value: "100%", label: "On-time delivery" },
+                ].map((s) => (
+                  <div key={s.label} className={`p-4 ${isB ? "rounded-xl bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-navy)]/30" : "rounded-lg bg-[var(--brand-bg-tint)] dark:bg-[var(--brand-navy)]/30"}`}>
+                    <div className={`font-serif font-bold text-[var(--brand-azure-vivid)] ${isB ? "text-2xl" : "text-xl"}`}>{s.value}</div>
+                    <div className="text-muted-foreground text-xs mt-0.5">{s.label}</div>
+                  </div>
+                ))}
+              </div>
+              <Button
+                size="lg"
+                className={isB ? "bg-[var(--brand-azure-vivid)] text-white rounded-xl px-8 h-12 text-base font-medium" : "bg-[var(--brand-navy)] text-white font-semibold"}
+                data-testid="button-spotlight-cta"
+              >
+                Request an Expert
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className={`${isB ? "py-20 sm:py-24 lg:py-28" : "py-16 sm:py-20 lg:py-24"}`} data-testid="section-differentiators">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-14">
@@ -523,17 +573,12 @@ export default function Home() {
                 </div>
 
                 <div className="hidden md:block">
-                  <div
-                    className={`w-full aspect-[4/3] relative overflow-hidden flex items-center justify-center ${
-                      isB ? "rounded-2xl" : "rounded-xl"
-                    }`}
-                    style={{ backgroundImage: "url('/images/bg-understanding.png')", backgroundSize: "cover", backgroundPosition: "center" }}
-                  >
-                    <div className={`absolute inset-0 ${
-                      isB
-                        ? "bg-[var(--brand-navy)]/40 dark:bg-[var(--brand-navy-deep)]/60"
-                        : "bg-[var(--brand-navy)]/55 dark:bg-[var(--brand-navy-deep)]/70"
-                    }`} />
+                  <div className={`w-full aspect-[4/3] overflow-hidden ${isB ? "rounded-2xl" : "rounded-xl"}`}>
+                    <img
+                      src={tab.image}
+                      alt={tab.heading}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </motion.div>
@@ -711,44 +756,62 @@ export default function Home() {
             </a>
           </div>
 
-          <div className={`grid grid-cols-1 sm:grid-cols-3 mt-10 ${isB ? "gap-8" : "gap-6"}`}>
-            {[
-              {
-                title: "Understanding Expert Witness Reports",
-                tag: "Guide",
-                desc: "Everything solicitors need to know about commissioning and using psychological expert witness reports.",
-              },
-              {
-                title: "PTSD in Personal Injury Claims",
-                tag: "Education",
-                desc: "How post-traumatic stress disorder is assessed and evidenced in medico-legal settings.",
-              },
-              {
-                title: "Choosing the Right Expert",
-                tag: "Advice",
-                desc: "A practical guide to matching the right psychologist or psychiatrist to your specific case needs.",
-              },
-            ].map((resource, index) => (
-              <Card
-                key={index}
-                className={`p-6 bg-background border-none hover-elevate cursor-pointer ${isB ? "rounded-xl" : ""}`}
-                data-testid={`card-resource-${index}`}
-              >
-                <div className="flex items-center gap-2 mb-3">
-                  <FileText className="w-4 h-4 text-[var(--brand-azure-vivid)]" />
-                  <span className="text-xs font-bold uppercase tracking-wide text-[var(--brand-azure-vivid)]">{resource.tag}</span>
-                </div>
-                <h3 className="font-sans text-base font-bold text-foreground mb-2" data-testid={`text-resource-title-${index}`}>
-                  {resource.title}
-                </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                  {resource.desc}
+          <div className={`mt-10 grid grid-cols-1 lg:grid-cols-5 ${isB ? "gap-8" : "gap-6"}`}>
+            <div className={`lg:col-span-2 relative overflow-hidden ${isB ? "rounded-2xl" : "rounded-xl"} min-h-[240px] lg:min-h-0`}>
+              <img
+                src="/images/stock-classroom.png"
+                alt="Expert assessment in practice"
+                className="w-full h-full object-cover"
+                data-testid="img-resources"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[var(--brand-navy)]/70 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-5">
+                <p className="text-white font-serif text-lg font-semibold leading-snug">
+                  Practical guidance for legal professionals
                 </p>
-                <span className="text-[var(--brand-azure-vivid)] text-sm font-semibold inline-flex items-center gap-1">
-                  Read article <ChevronRight className="w-4 h-4" />
-                </span>
-              </Card>
-            ))}
+              </div>
+            </div>
+            <div className={`lg:col-span-3 grid grid-cols-1 sm:grid-cols-1 ${isB ? "gap-4" : "gap-4"}`}>
+              {[
+                {
+                  title: "Understanding Expert Witness Reports",
+                  tag: "Guide",
+                  desc: "Everything solicitors need to know about commissioning and using psychological expert witness reports.",
+                },
+                {
+                  title: "PTSD in Personal Injury Claims",
+                  tag: "Education",
+                  desc: "How post-traumatic stress disorder is assessed and evidenced in medico-legal settings.",
+                },
+                {
+                  title: "Choosing the Right Expert",
+                  tag: "Advice",
+                  desc: "A practical guide to matching the right psychologist or psychiatrist to your specific case needs.",
+                },
+              ].map((resource, index) => (
+                <Card
+                  key={index}
+                  className={`p-5 bg-background border-none hover-elevate cursor-pointer flex items-start gap-4 ${isB ? "rounded-xl" : ""}`}
+                  data-testid={`card-resource-${index}`}
+                >
+                  <div className={`flex-shrink-0 w-10 h-10 flex items-center justify-center ${isB ? "rounded-xl bg-[var(--brand-azure-light)] dark:bg-[var(--brand-navy)]" : "rounded-md bg-[var(--brand-navy)]"}`}>
+                    <FileText className={`w-5 h-5 ${isB ? "text-[var(--brand-azure-vivid)]" : "text-[var(--brand-azure)]"}`} />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-bold uppercase tracking-wide text-[var(--brand-azure-vivid)]">{resource.tag}</span>
+                    </div>
+                    <h3 className="font-sans text-sm font-bold text-foreground mb-1" data-testid={`text-resource-title-${index}`}>
+                      {resource.title}
+                    </h3>
+                    <p className="text-muted-foreground text-xs leading-relaxed">
+                      {resource.desc}
+                    </p>
+                  </div>
+                  <ChevronRight className="w-4 h-4 text-[var(--brand-azure-vivid)] flex-shrink-0 mt-1" />
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </section>

@@ -44,6 +44,7 @@ const DIFFERENTIATORS = [
     label: "Fast & Responsive",
     heading: "Immediate Attention When You Need It",
     description: "We understand that legal cases often require immediate action. Our commitment to rapid response ensures you're never left waiting.",
+    image: "/images/stock-therapy.png",
     items: [
       "1-hour email response during business hours (9am–5pm, Monday–Friday)",
       "24-hour CV delivery with detailed experience and qualifications",
@@ -57,6 +58,7 @@ const DIFFERENTIATORS = [
     label: "Outstanding Quality",
     heading: "Highly Experienced Psychologists",
     description: "Quality is never compromised. Every psychologist in our network meets the highest professional standards.",
+    image: "/images/stock-assessment.png",
     items: [
       "1,000+ vetted psychologists across all specialisations",
       "100% HCPC registered with current practising certificates",
@@ -70,6 +72,7 @@ const DIFFERENTIATORS = [
     label: "Personal Service",
     heading: "Dedicated Support Throughout",
     description: "You'll have a dedicated case manager who knows your case inside out and provides personalised support.",
+    image: "/images/stock-classroom.png",
     items: [
       "Single point of contact — your dedicated case manager",
       "Culturally diverse network matching your client's needs",
@@ -83,6 +86,7 @@ const DIFFERENTIATORS = [
     label: "Competitive Costs",
     heading: "Transparent and Fair Pricing",
     description: "No hidden fees, no surprises. We provide clear, upfront pricing that works with Legal Aid and private funding.",
+    image: "/images/stock-legal.png",
     items: [
       "Upfront cost estimates provided within 24 hours",
       "Legal Aid compliant rates accepted for eligible cases",
@@ -244,13 +248,33 @@ export default function ExpertWitness() {
       </section>
 
       <section className="py-14 sm:py-20" data-testid="section-ew-intro">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-lg sm:text-xl text-foreground leading-relaxed mb-5" data-testid="text-ew-intro-1">
-            Solicitors need <strong>immediate attention</strong> for their cases, access to <strong>highly experienced psychologists</strong>, and a <strong>reliable service</strong> with standardised deliverables at competitive costs.
-          </p>
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed" data-testid="text-ew-intro-2">
-            Psychology Direct has been providing these essentials to legal professionals across the UK for over 15 years.
-          </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div>
+              <p className="text-lg sm:text-xl text-foreground leading-relaxed mb-5" data-testid="text-ew-intro-1">
+                Solicitors need <strong>immediate attention</strong> for their cases, access to <strong>highly experienced psychologists</strong>, and a <strong>reliable service</strong> with standardised deliverables at competitive costs.
+              </p>
+              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-8" data-testid="text-ew-intro-2">
+                Psychology Direct has been providing these essentials to legal professionals across the UK for over 15 years.
+              </p>
+              <div className="grid grid-cols-3 gap-4">
+                {STATS.map((stat, index) => (
+                  <div key={index} className="text-center p-4 bg-[#f0f5ff] dark:bg-[#0d1929] rounded-lg" data-testid={`stat-intro-${index}`}>
+                    <div className="font-serif text-xl sm:text-2xl font-bold text-[#066aab] mb-1">{stat.value}</div>
+                    <div className="text-muted-foreground text-xs leading-tight">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="relative overflow-hidden rounded-xl shadow-xl">
+              <img
+                src="/images/stock-therapy.png"
+                alt="Psychology Direct consultation in progress"
+                className="w-full h-72 sm:h-80 lg:h-96 object-cover"
+                data-testid="img-ew-intro"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -289,7 +313,6 @@ export default function ExpertWitness() {
 
           {DIFFERENTIATORS.map((tab) => {
             if (tab.id !== activeTab) return null;
-            const TabIcon = tab.icon;
             return (
               <motion.div
                 key={tab.id}
@@ -316,10 +339,13 @@ export default function ExpertWitness() {
                   </ul>
                 </div>
                 <div className="hidden md:block">
-                  <div
-                    className="w-full aspect-[4/3] rounded-xl overflow-hidden"
-                    style={{ backgroundImage: "url('/images/bg-understanding.png')", backgroundSize: "cover", backgroundPosition: "center" }}
-                  />
+                  <div className="w-full aspect-[4/3] rounded-xl overflow-hidden">
+                    <img
+                      src={tab.image}
+                      alt={tab.heading}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                 </div>
               </motion.div>
             );

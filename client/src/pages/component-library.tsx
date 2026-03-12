@@ -115,8 +115,8 @@ const DEMO_FAQS = [
 ];
 
 const DEMO_TABS = [
-  { id: "fast", icon: Zap, label: "Fast & Responsive", heading: "Immediate Attention When You Need It", description: "We understand that legal cases often require immediate action.", items: ["1-hour email response during business hours", "24-hour CV delivery with detailed experience", "Urgent case priority — reports in as little as 48 hours", "Out-of-hours availability for critical cases"] },
-  { id: "quality", icon: Award, label: "Outstanding Quality", heading: "Highly Experienced Psychologists", description: "Quality is never compromised. Every psychologist meets the highest standards.", items: ["1,000+ vetted psychologists across all specialisations", "100% HCPC registered with current practising certificates", "BPS chartered members with extensive court experience", "Enhanced DBS certification for all associates"] },
+  { id: "fast", icon: Zap, label: "Fast & Responsive", heading: "Immediate Attention When You Need It", description: "We understand that legal cases often require immediate action.", image: "/images/stock-therapy.png", items: ["1-hour email response during business hours", "24-hour CV delivery with detailed experience", "Urgent case priority — reports in as little as 48 hours", "Out-of-hours availability for critical cases"] },
+  { id: "quality", icon: Award, label: "Outstanding Quality", heading: "Highly Experienced Psychologists", description: "Quality is never compromised. Every psychologist meets the highest standards.", image: "/images/stock-assessment.png", items: ["1,000+ vetted psychologists across all specialisations", "100% HCPC registered with current practising certificates", "BPS chartered members with extensive court experience", "Enhanced DBS certification for all associates"] },
 ];
 
 const DEMO_TEAM: { name: string; role: string; image: string; bio: string; specialisms: string[] }[] = [
@@ -184,10 +184,18 @@ const DEMO_PRACTICE_AREAS = [
   { icon: Building2, title: "Employment Law", description: "Disability discrimination, workplace stress, PTSD claims" },
 ];
 
+const STOCK_IMAGES = [
+  { src: "/images/stock-therapy.png", label: "Therapy / Consultation", file: "stock-therapy.png" },
+  { src: "/images/stock-legal.png", label: "Legal Professional", file: "stock-legal.png" },
+  { src: "/images/stock-assessment.png", label: "Face-to-Face Assessment", file: "stock-assessment.png" },
+  { src: "/images/stock-classroom.png", label: "Classroom / Learning", file: "stock-classroom.png" },
+];
+
 const NAV_SECTIONS = [
   { id: "hero-gradient", label: "Hero (Gradient)" },
   { id: "hero-image", label: "Hero (Image)" },
   { id: "trust-bar", label: "Trust Bar" },
+  { id: "stock-images", label: "Stock Images" },
   { id: "service-cards", label: "Service Cards" },
   { id: "differentiator-tabs", label: "Tabs" },
   { id: "process-steps", label: "Process Steps" },
@@ -318,6 +326,24 @@ export default function ComponentLibrary() {
         </div>
       </SectionWrapper>
 
+      <SectionWrapper id="stock-images" title="Stock Image Library" description="All stock photography available for use across the site. Reference by the /images/ URL path shown below each image.">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {STOCK_IMAGES.map((img) => (
+            <div key={img.file} className="group" data-testid={`card-lib-img-${img.file}`}>
+              <div className="overflow-hidden rounded-xl mb-3 aspect-[4/3]">
+                <img
+                  src={img.src}
+                  alt={img.label}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <p className="font-sans text-sm font-semibold text-foreground mb-0.5">{img.label}</p>
+              <p className="font-mono text-xs text-muted-foreground">/images/{img.file}</p>
+            </div>
+          ))}
+        </div>
+      </SectionWrapper>
+
       <SectionWrapper id="service-cards" title="Service / Feature Cards" description="Grid of cards with icon, title, description, and 'Learn more' link. Used for services, features, or capabilities." bg="light">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {DEMO_SERVICES.map((service, i) => (
@@ -354,7 +380,6 @@ export default function ComponentLibrary() {
         </div>
         {DEMO_TABS.map((tab) => {
           if (tab.id !== activeTab) return null;
-          const TabIcon = tab.icon;
           return (
             <motion.div key={tab.id} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.25 }} className="grid md:grid-cols-2 gap-8 items-center" data-testid={`tab-lib-content-${tab.id}`}>
               <div>
@@ -370,8 +395,8 @@ export default function ComponentLibrary() {
                 </ul>
               </div>
               <div className="hidden md:block">
-                <div className="w-full aspect-[4/3] rounded-xl bg-gradient-to-br from-[#032552] to-[#066aab] flex items-center justify-center">
-                  <TabIcon className="w-24 h-24 text-[#2eabe0]/30" />
+                <div className="w-full aspect-[4/3] rounded-xl overflow-hidden">
+                  <img src={tab.image} alt={tab.heading} className="w-full h-full object-cover" />
                 </div>
               </div>
             </motion.div>
