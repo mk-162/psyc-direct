@@ -1,0 +1,82 @@
+{
+  "title": "Contact Us",
+  "description": "Get in touch with Cocoon. Book appointments, ask questions, or visit our Harrogate clinic.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "— Get in Touch",
+      "headline": "We'd love to\nhear from you",
+      "subtitle": "Whether you have a question about our services, want to understand membership, or are ready to book — we're here. Expect a warm, unhurried response.",
+      "theme": "green"
+    },
+    {
+      "_template": "contactForm",
+      "eyebrow": "— Send a Message",
+      "headline": "Start a conversation",
+      "infoEyebrow": "— Contact Details",
+      "infoHeadline": "Other ways to reach us",
+      "mapPlaceholder": "Map — Harrogate Clinic",
+      "theme": "off-white",
+      "contactMethods": [
+        {
+          "icon": "◎",
+          "label": "Call us",
+          "value": "01423 567437",
+          "href": "tel:01423567437",
+          "note": "Mon–Fri 8am–6pm, Sat 9am–1pm"
+        },
+        {
+          "icon": "◈",
+          "label": "Email us",
+          "value": "hello@cocoon-hgt.com",
+          "href": "mailto:hello@cocoon-hgt.com",
+          "note": "Response within 4 hours"
+        },
+        {
+          "icon": "◉",
+          "label": "Find us",
+          "value": "Rear Of 23 Victoria Avenue, Harrogate, England, HG1 5RD",
+          "href": "https://maps.google.com/?q=HG1+5RD",
+          "note": "Parking on Victoria Avenue & Waitrose (2hrs free)"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "eyebrow": "— What Happens Next",
+      "heading": "Your journey begins here",
+      "theme": "grey",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Enquire",
+          "description": "Tell us what you're looking for. We'll match you with the right clinician and service before you commit to anything."
+        },
+        {
+          "number": "02",
+          "title": "Welcome Consultation",
+          "description": "A 60-minute conversation with your allocated clinician. We learn your health history, your goals, and what Cocoon can do for you."
+        },
+        {
+          "number": "03",
+          "title": "Your Care Plan",
+          "description": "Based on your consultation, we recommend a personalised programme — whether that's a one-off screening or an ongoing membership."
+        }
+      ]
+    },
+    {
+      "_template": "testimonial",
+      "quote": "I was nervous about my first visit — I always am with doctors. But within ten minutes I felt completely at ease. The whole team just makes you feel like you matter.",
+      "authorName": "Robert T.",
+      "authorRole": "Premier Member",
+      "theme": "grey"
+    }
+  ],
+  "keywords": [
+    "contact cocoon",
+    "book appointment",
+    "cocoon clinic contact",
+    "private healthcare contact",
+    "harrogate clinic phone"
+  ]
+}

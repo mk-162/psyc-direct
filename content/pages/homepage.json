@@ -1,0 +1,179 @@
+{
+  "title": "Cocoon | Premium Wellness & Preventive Health",
+  "description": "Proactive healthcare designed for life. Expert-led wellness services, personalised health screening, and longitudinal care that builds understanding over time.",
+  "blocks": [
+    {
+      "eyebrow": "",
+      "headline": "Science & *Soul*",
+      "subtitle": "Healthcare that honours the whole you.",
+      "image": "/images/logo_cocoon_light.png",
+      "primaryButtonText": "In Person",
+      "primaryButtonUrl": "/contact",
+      "secondaryButtonText": "At Home",
+      "secondaryButtonUrl": "/services/index",
+      "theme": "grey",
+      "_template": "hero"
+    },
+    {
+      "eyebrow": "Our Philosophy",
+      "heading": "A Different Kind of Healthcare",
+      "bodyText": "Most healthcare is reactive — you get ill, you get treated, you go home. Cocoon is built around a simple idea: what if your healthcare team knew you before anything went wrong? We combine advanced diagnostics, specialist expertise, and genuine human connection to help you understand your health, track it over time, and make informed decisions about your future.",
+      "theme": "off-white",
+      "_template": "sectionIntro"
+    },
+    {
+      "eyebrow": "Our Services",
+      "headline": "Tailored to Your Health Journey",
+      "theme": "green",
+      "items": [
+        {
+          "image": "/images/alice_ultrasound_scan.jpg",
+          "title": "Health Screening",
+          "description": "Comprehensive assessments for men and women — from cardiovascular and metabolic panels to cancer screening and hormonal health.",
+          "linkText": "View Screenings",
+          "linkUrl": "/services/index"
+        },
+        {
+          "image": "/images/kate_consultation.jpg",
+          "title": "Specialist Clinics",
+          "description": "Menopause, weight management, fertility, sexual health, cognitive wellness — specialist-led care for complex needs.",
+          "linkText": "Our Specialisms",
+          "linkUrl": "/services/menopause-specialist"
+        },
+        {
+          "image": "/images/penny_consultation.jpg",
+          "title": "Membership",
+          "description": "Ongoing preventive care with your dedicated team. Annual screenings, priority access, and a health record that grows with you.",
+          "linkText": "Explore Membership",
+          "linkUrl": "/membership/index"
+        }
+      ],
+      "_template": "editorialGrid"
+    },
+    {
+      "eyebrow": "Longitudinal Care",
+      "heading": "We Remember You",
+      "bodyText": "Every visit builds on the last. Your results, your history, your goals — all tracked in your personal health record through My Cocoon. This isn't one-off testing. It's healthcare that understands where you've been and where you're heading.",
+      "image": "/images/kate_consultation_2.jpg",
+      "theme": "grey",
+      "_template": "asymmetricSplit"
+    },
+    {
+      "eyebrow": "By the Numbers",
+      "heading": "Trusted by Those Who Take Health Seriously",
+      "stats": [
+        {
+          "value": "97%",
+          "label": "Member Satisfaction"
+        },
+        {
+          "value": "60+",
+          "label": "Diagnostic Markers per Screening"
+        },
+        {
+          "value": "5 days",
+          "label": "Average Results Turnaround"
+        },
+        {
+          "value": "3x",
+          "label": "Early Detection Rate vs NHS"
+        }
+      ],
+      "buttonText": "Start Your Journey",
+      "buttonUrl": "/contact",
+      "image": "/images/staff_photo_2.jpg",
+      "theme": "off-white",
+      "_template": "productStats"
+    },
+    {
+      "eyebrow": "Is Cocoon Right for You?",
+      "heading": "We Work With People Who…",
+      "theme": "off-white",
+      "cards": [
+        {
+          "title": "Want Answers, Not Guesswork",
+          "description": "You'd rather know where you stand than wonder. You value data, clarity, and straight-talking expertise."
+        },
+        {
+          "title": "Take a Long View on Health",
+          "description": "You're not waiting to get ill. You invest in prevention because you understand the returns are enormous."
+        },
+        {
+          "title": "Expect More from Healthcare",
+          "description": "You've experienced the 10-minute GP appointment. You know there's a better way — and you're ready for it."
+        },
+        {
+          "title": "Value Genuine Relationships",
+          "description": "You want practitioners who remember your name, your history, and your goals. Not a different face every visit."
+        }
+      ],
+      "_template": "personaCards"
+    },
+    {
+      "image": "/images/team_outside_2.jpg",
+      "alt": "The Cocoon team outside the Harrogate clinic",
+      "height": "800px",
+      "_template": "fullWidthImage"
+    },
+    {
+      "quote": "For the first time, I feel like someone is actually paying attention to my health rather than just ticking boxes. The depth of insight from my screening was genuinely eye-opening.",
+      "authorName": "James H.",
+      "authorRole": "Cocoon Member since 2023",
+      "image": "",
+      "theme": "green",
+      "_template": "testimonial"
+    },
+    {
+      "headline": "What Sets Us Apart",
+      "description": "Healthcare should be personal, proactive, and built around you — not the system.",
+      "theme": "off-white",
+      "features": [
+        {
+          "title": "No Waiting Lists",
+          "description": "Book within days, not months. Your time is valuable and your health shouldn't wait."
+        },
+        {
+          "title": "Unhurried Consultations",
+          "description": "60–90 minutes as standard. Enough time to listen properly, examine thoroughly, and explain clearly."
+        },
+        {
+          "title": "Results You Understand",
+          "description": "Not just numbers on a page — clear interpretation, context, and a plan that makes sense to you."
+        },
+        {
+          "title": "Beautiful Setting",
+          "description": "A clinic designed to feel nothing like a clinic. Calm, considered, and comfortable from arrival to departure."
+        },
+        {
+          "title": "Specialist Network",
+          "description": "When you need expertise beyond our walls, we connect you to the right specialist — fast."
+        },
+        {
+          "title": "Your Data, Your Control",
+          "description": "Access everything through My Cocoon. Share with your GP or keep it private — it's your health record."
+        }
+      ],
+      "_template": "featureGrid"
+    },
+    {
+      "eyebrow": "Ready?",
+      "heading": "Your Health Story Starts Here",
+      "bodyText": "Whether you're looking for a comprehensive health screening, specialist care, or an ongoing relationship with a team that truly knows you — we're here.",
+      "primaryButtonText": "Book a Consultation",
+      "primaryButtonUrl": "/contact",
+      "secondaryButtonText": "View All Services",
+      "secondaryButtonUrl": "/services/index",
+      "_template": "darkCta"
+    },
+    {
+      "eyebrow": "Cocoon",
+      "headline": "Healthcare designed for *life*",
+      "buttonPrimaryText": "Get Started",
+      "buttonPrimaryUrl": "/contact",
+      "buttonSecondaryText": "Our Story",
+      "buttonSecondaryUrl": "/our-story/index",
+      "theme": "terracotta",
+      "_template": "signatureFooter"
+    }
+  ]
+}

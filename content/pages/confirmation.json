@@ -1,0 +1,46 @@
+{
+  "title": "Order Confirmation",
+  "description": "Thank you for your order. Here's what happens next.",
+  "blocks": [
+    {
+      "_template": "processSteps",
+      "eyebrow": "— What Happens Next",
+      "heading": "Your next steps",
+      "theme": "grey",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Check your email",
+          "description": "You'll receive a confirmation email with your booking reference and appointment details."
+        },
+        {
+          "number": "02",
+          "title": "We'll call to confirm",
+          "description": "A member of our team will call you within 4 working hours to confirm a convenient appointment time."
+        },
+        {
+          "number": "03",
+          "title": "Prepare for your visit",
+          "description": "We'll send you any preparation instructions specific to your service. Some tests may require fasting."
+        }
+      ]
+    },
+    {
+      "_template": "sectionIntro",
+      "eyebrow": "Need to make changes?",
+      "heading": "Get in touch",
+      "bodyText": "If you need to reschedule or have any questions about your appointment, please don't hesitate to contact us.",
+      "theme": "off-white"
+    },
+    {
+      "_template": "darkCta",
+      "eyebrow": "Ongoing Care",
+      "heading": "Consider membership",
+      "bodyText": "For comprehensive, ongoing healthcare with priority access and annual screenings, explore our membership programme.",
+      "primaryButtonText": "Explore Membership",
+      "primaryButtonUrl": "/membership",
+      "secondaryButtonText": "Learn More",
+      "secondaryButtonUrl": "/our-story/the-cocoon-difference"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Essential Membership",
+  "description": "Start your proactive health journey with Essential Membership. Annual screening, priority booking, and 10% service discount.",
+  "keywords": [
+    "essential health membership",
+    "basic health membership",
+    "affordable private healthcare"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Membership",
+      "headline": "Essential Membership",
+      "subtitle": "Start your proactive health journey. Annual screening, priority booking, and 10% off all services.",
+      "image": "/images/team_inside.jpg",
+      "primaryButtonText": "Join Essential",
+      "primaryButtonAction": "link",
+      "primaryButtonUrl": "/utility/book-visit",
+      "secondaryButtonText": "Compare Plans",
+      "secondaryButtonAction": "link",
+      "secondaryButtonUrl": "/membership",
+      "theme": "green"
+    },
+    {
+      "_template": "sectionIntro",
+      "eyebrow": "What's Included",
+      "heading": "Core Benefits",
+      "bodyText": "Everything you need to maintain your health and access Cocoon care.",
+      "theme": "off-white"
+    },
+    {
+      "_template": "includedGrid",
+      "eyebrow": "",
+      "heading": "",
+      "theme": "off-white",
+      "categories": [
+        {
+          "title": "Health & Screening",
+          "items": [
+            "Annual Health Screening (comprehensive baseline)",
+            "Comprehensive Blood Panel",
+            "Cardiovascular Risk Assessment",
+            "Body Composition Analysis",
+            "10% off all additional services"
+          ]
+        },
+        {
+          "title": "Access & Support",
+          "items": [
+            "Priority same-week booking",
+            "24/7 member portal access",
+            "Email support with coordinators",
+            "Quarterly wellness newsletter",
+            "Health records & results history"
+          ]
+        }
+      ]
+    },
+    {
+      "_template": "fullWidthImage",
+      "image": "/images/kate_consultation.jpg",
+      "alt": "Member consultation at Cocoon",
+      "height": "50vh",
+      "focalPoint": "face"
+    },
+    {
+      "_template": "sectionIntro",
+      "eyebrow": "Who Is It For",
+      "heading": "Essential Works For",
+      "theme": "grey"
+    },
+    {
+      "_template": "personaCards",
+      "eyebrow": "",
+      "heading": "",
+      "theme": "grey",
+      "cards": [
+        {
+          "title": "First-Time Members",
+          "description": "Experience Cocoon care without major commitment. See if our approach fits your needs."
+        },
+        {
+          "title": "Generally Healthy",
+          "description": "Maintain wellness with annual check-ins and proactive monitoring."
+        },
+        {
+          "title": "Budget-Conscious",
+          "description": "Access premium care at £95/month — an accessible entry point to private healthcare."
+        },
+        {
+          "title": "Starting Proactive Care",
+          "description": "Begin your preventive health journey with solid foundations and expert guidance."
+        }
+      ]
+    },
+    {
+      "_template": "sectionIntro",
+      "eyebrow": "Member Journey",
+      "heading": "Your Onboarding Experience",
+      "bodyText": "Your membership begins with a comprehensive onboarding appointment designed to establish your baseline and set goals.",
+      "theme": "off-white"
+    },
+    {
+      "_template": "processSteps",
+      "eyebrow": "",
+      "heading": "",
+      "theme": "off-white",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Health Questionnaire",
+          "description": "Complete detailed health history before your visit so we can prepare."
+        },
+        {
+          "number": "2",
+          "title": "Initial Consultation",
+          "description": "45-minute appointment with comprehensive health screening and assessment."
+        },
+        {
+          "number": "3",
+          "title": "Results Review",
+          "description": "Follow-up call to discuss findings and answer your questions."
+        },
+        {
+          "number": "4",
+          "title": "Action Plan",
+          "description": "Personalised recommendations and plan for the year ahead."
+        }
+      ]
+    },
+    {
+      "_template": "darkCta",
+      "eyebrow": "Investment",
+      "heading": "Simple, Transparent Pricing",
+      "bodyText": "Monthly: £95/month\n\nAnnual (Save £114): £1,026/year\n\nIncludes: Annual health screening worth £395, 10% off all services, priority booking.",
+      "primaryButtonText": "Join Essential",
+      "primaryButtonUrl": "/utility/book-visit",
+      "secondaryButtonText": "Compare Memberships",
+      "secondaryButtonUrl": "/membership",
+      "theme": "green"
+    }
+  ]
+}

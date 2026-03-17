@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /design-system/
+Disallow: /admin/
+
+Sitemap: https://cocoonwellness.com/sitemap.xml

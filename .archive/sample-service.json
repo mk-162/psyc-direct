@@ -1,0 +1,179 @@
+{
+  "title": "Sample Block-Based Service Page",
+  "description": "Example page built with the block builder \u2014 demonstrates composable sections for health screening services.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Wellness Services",
+      "headline": "Male Health Screening",
+      "subtitle": "A comprehensive, evidence-based health assessment designed specifically for men at every stage of life.",
+      "primaryButtonText": "Book a Screening",
+      "primaryButtonUrl": "/contact",
+      "secondaryButtonText": "View All Services",
+      "secondaryButtonUrl": "/services",
+      "theme": "dark",
+      "image": "/images/team_inside.jpg"
+    },
+    {
+      "_template": "sectionIntro",
+      "eyebrow": "Our Approach",
+      "heading": "Prevention Over Reaction",
+      "bodyText": "At Cocoon, we believe the best healthcare is proactive. Our male health screening goes beyond routine checks \u2014 we build a longitudinal picture of your health that deepens with every visit, catching subtle changes early and guiding smarter decisions over time.",
+      "theme": "light"
+    },
+    {
+      "_template": "featureGrid",
+      "headline": "What's Included",
+      "description": "Every screening is tailored to your age, lifestyle, and family history.",
+      "theme": "sage",
+      "features": [
+        {
+          "title": "Cardiovascular Assessment",
+          "description": "Blood pressure, cholesterol panel, and cardiac risk scoring to understand your heart health."
+        },
+        {
+          "title": "Metabolic Panel",
+          "description": "Glucose, HbA1c, liver and kidney function markers for a complete metabolic snapshot."
+        },
+        {
+          "title": "Hormonal Health",
+          "description": "Testosterone, thyroid, and key hormone levels assessed in clinical context."
+        },
+        {
+          "title": "Cancer Markers",
+          "description": "PSA and other age-appropriate cancer screening markers with consultant review."
+        },
+        {
+          "title": "Body Composition",
+          "description": "Beyond BMI \u2014 detailed analysis of muscle mass, visceral fat, and metabolic age."
+        },
+        {
+          "title": "Mental Wellbeing",
+          "description": "Validated screening tools for stress, sleep quality, and psychological resilience."
+        }
+      ]
+    },
+    {
+      "_template": "asymmetricSplit",
+      "eyebrow": "The Experience",
+      "heading": "Designed Around You",
+      "bodyText": "Your screening takes place in a calm, private setting with a dedicated consultant who takes the time to listen. No rushed appointments, no impersonal conveyor belts \u2014 just thoughtful, personalised healthcare.",
+      "buttonText": "Learn More",
+      "buttonUrl": "/our-story",
+      "mediaPosition": "right",
+      "theme": "light",
+      "image": "/images/kate_consultation.jpg"
+    },
+    {
+      "_template": "productStats",
+      "eyebrow": "By the Numbers",
+      "heading": "Measurable Impact",
+      "description": "Our longitudinal care model delivers results that compound over time.",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "Biomarkers Tested"
+        },
+        {
+          "value": "97%",
+          "label": "Member Satisfaction"
+        },
+        {
+          "value": "3x",
+          "label": "Early Detection Rate"
+        }
+      ],
+      "buttonText": "See Our Outcomes",
+      "buttonUrl": "/knowledge-hub",
+      "theme": "warm-sand",
+      "image": "/images/penny_consultation.jpg"
+    },
+    {
+      "_template": "timeline",
+      "eyebrow": "Your Journey",
+      "heading": "How It Works",
+      "theme": "light",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Book Your Screening",
+          "description": "Choose a time that suits you. We'll send a pre-screening questionnaire to personalise your assessment."
+        },
+        {
+          "number": "2",
+          "title": "Your Appointment",
+          "description": "Spend 60\u201390 minutes with your consultant for a thorough, unhurried health assessment."
+        },
+        {
+          "number": "3",
+          "title": "Results & Insights",
+          "description": "Receive a detailed report within 5 working days, with a follow-up consultation to discuss findings."
+        },
+        {
+          "number": "4",
+          "title": "Ongoing Care",
+          "description": "Your results feed into your longitudinal health record, building a richer picture with every visit."
+        }
+      ]
+    },
+    {
+      "_template": "testimonial",
+      "quote": "For the first time, I feel like someone is actually paying attention to my health rather than just ticking boxes. The depth of insight from my screening was genuinely eye-opening.",
+      "authorName": "James H.",
+      "authorRole": "Cocoon Member since 2023",
+      "theme": "sage",
+      "image": "/images/staff_photo_1.jpg"
+    },
+    {
+      "_template": "faqAccordion",
+      "eyebrow": "Questions",
+      "heading": "Frequently Asked Questions",
+      "theme": "light",
+      "items": [
+        {
+          "question": "How long does a screening take?",
+          "answer": "Your appointment lasts 60\u201390 minutes. We never rush \u2014 your consultant will take as long as needed to complete a thorough assessment."
+        },
+        {
+          "question": "Do I need to fast before my screening?",
+          "answer": "Yes, we recommend fasting for 10\u201312 hours before your appointment for the most accurate blood results. Water and black coffee are fine."
+        },
+        {
+          "question": "How often should I be screened?",
+          "answer": "We recommend annual screenings for most men. If we identify risk factors, we may suggest more frequent monitoring of specific markers."
+        },
+        {
+          "question": "Will my GP receive a copy of results?",
+          "answer": "Only with your explicit consent. We can share a summary report with your GP if you'd like them involved in your ongoing care."
+        }
+      ]
+    },
+    {
+      "_template": "darkCta",
+      "eyebrow": "Ready to Start?",
+      "heading": "Take the First Step",
+      "bodyText": "Book your comprehensive male health screening today and invest in the health intelligence that lasts a lifetime.",
+      "primaryButtonText": "Book Now",
+      "primaryButtonUrl": "/contact",
+      "secondaryButtonText": "Explore Membership",
+      "secondaryButtonUrl": "/membership"
+    },
+    {
+      "_template": "signatureFooter",
+      "eyebrow": "Cocoon Healthcare",
+      "headline": "Healthcare designed for *life*",
+      "buttonPrimaryText": "Get Started",
+      "buttonPrimaryUrl": "/contact",
+      "buttonSecondaryText": "View Services",
+      "buttonSecondaryUrl": "/services",
+      "backgroundColor": "sage"
+    }
+  ],
+  "keywords": [
+    "male health screening",
+    "men's health",
+    "preventive health",
+    "wellness",
+    "health assessment"
+  ]
+}

@@ -1,0 +1,31 @@
+export interface NavItem {
+  label: string;
+  url: string;
+  children?: NavItem[];
+}
+
+export interface FooterColumn {
+  title: string;
+  links: NavItem[];
+}
+
+export interface NavigationData {
+  mainNav: NavItem[];
+  footerNav: FooterColumn[];
+}
+
+export interface GlobalSettings {
+  site: {
+    name: string;
+    tagline: string;
+    logo?: string;
+    phone?: string;
+    email?: string;
+  };
+  social: {
+    instagram?: string;
+    linkedin?: string;
+    twitter?: string;
+    facebook?: string;
+  };
+}

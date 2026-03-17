@@ -1,0 +1,226 @@
+{
+  "title": "Male Health Screening | Cocoon",
+  "description": "Comprehensive men's health screening including cardiovascular, metabolic, and hormonal assessment. Proactive care designed for men who want to stay ahead of their health.",
+  "blocks": [
+    {
+      "eyebrow": "Wellness Services",
+      "headline": "Male Health *Screening*",
+      "subtitle": "Comprehensive, evidence-based health assessment designed for men who want to stay ahead — not wait for something to go wrong.",
+      "image": "/images/team_inside.jpg",
+      "primaryButtonText": "Book Your Screening",
+      "primaryButtonUrl": "/contact",
+      "secondaryButtonText": "View Pricing",
+      "secondaryButtonUrl": "#investment",
+      "theme": "green",
+      "_template": "hero"
+    },
+    {
+      "eyebrow": "Why It Matters",
+      "heading": "The Health Risks That Don't Announce Themselves",
+      "bodyText": "Cardiovascular disease, hormonal decline, prostate issues and metabolic conditions can all develop silently — often without obvious symptoms until they become serious. Men are statistically less likely to seek preventive care, yet face specific risks that benefit enormously from early detection. This screening gives you a complete picture of where you stand, so you can act before problems force your hand.",
+      "theme": "off-white",
+      "_template": "sectionIntro"
+    },
+    {
+      "headline": "What's Included",
+      "description": "A thorough core assessment covering the essential markers of men's health, providing a comprehensive baseline that can be tracked over time.",
+      "theme": "grey",
+      "features": [
+        {
+          "title": "Cardiovascular Health",
+          "description": "Complete cholesterol profile including LDL, HDL, triglycerides, and advanced markers like ApoB. Blood pressure assessment and heart rhythm evaluation."
+        },
+        {
+          "title": "Metabolic Function",
+          "description": "Blood glucose, HbA1c for long-term sugar control, and insulin sensitivity markers that predict diabetes risk years before onset."
+        },
+        {
+          "title": "Hormonal Balance",
+          "description": "Total and free testosterone, SHBG, and oestradiol. Testosterone naturally declines with age — we'll tell you where you stand."
+        },
+        {
+          "title": "Liver & Kidney Function",
+          "description": "Comprehensive metabolic panel assessing these vital organs' performance and identifying early signs of stress or decline."
+        },
+        {
+          "title": "Thyroid Function",
+          "description": "TSH, T3, T4 — your thyroid regulates metabolism, energy, mood, and many other critical functions."
+        },
+        {
+          "title": "Nutritional Status",
+          "description": "Vitamin D (essential for testosterone and immunity), B12, folate, and a complete iron panel to identify deficiencies."
+        }
+      ],
+      "_template": "featureGrid"
+    },
+    {
+      "eyebrow": "Go Further",
+      "heading": "Optional Add-Ons",
+      "bodyText": "Depending on your age, risk factors, and concerns, tailor the screening to your specific needs. Your practitioner will discuss which additions are appropriate based on your history and goals.",
+      "image": "/images/kate_consultation.jpg",
+      "theme": "grey",
+      "_template": "asymmetricSplit"
+    },
+    {
+      "eyebrow": "The Experience",
+      "heading": "What to Expect",
+      "theme": "off-white",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Before Your Appointment",
+          "description": "You'll receive a pre-appointment questionnaire and preparation instructions. Fast for 8–12 hours for the most accurate metabolic and lipid results. Water is fine and encouraged."
+        },
+        {
+          "number": "2",
+          "title": "Consultation (30 min)",
+          "description": "A genuine, unhurried conversation about your health history, current concerns, lifestyle factors, and goals. No ticking boxes."
+        },
+        {
+          "number": "3",
+          "title": "Examination & Blood Draw (30 min)",
+          "description": "Physical examination, vital signs, and blood draw performed by experienced phlebotomists in a comfortable, private setting."
+        },
+        {
+          "number": "4",
+          "title": "Results Within 5–7 Days",
+          "description": "A detailed written report with personalised recommendations — not just numbers, but interpretation and clear guidance on next steps."
+        },
+        {
+          "number": "5",
+          "title": "Follow-Up Consultation",
+          "description": "Included in every package. We'll discuss your findings in depth and outline a plan — whether that's lifestyle changes, monitoring, or specialist referral."
+        }
+      ],
+      "_template": "timeline"
+    },
+    {
+      "eyebrow": "Investment",
+      "heading": "Choose Your Screening",
+      "stats": [
+        {
+          "value": "£395",
+          "label": "Essential — Core assessment, 60-min consultation, follow-up"
+        },
+        {
+          "value": "£595",
+          "label": "Comprehensive — Core + 2 add-ons, 90-min consultation"
+        },
+        {
+          "value": "£895",
+          "label": "Executive — All add-ons, extended consultation, 12-month follow-up"
+        }
+      ],
+      "buttonText": "Book Your Screening",
+      "buttonUrl": "/contact",
+      "image": "/images/penny_consultation.jpg",
+      "theme": "green",
+      "_template": "productStats"
+    },
+    {
+      "quote": "For the first time, I feel like someone is actually paying attention to my health rather than just ticking boxes. The depth of insight from my screening was genuinely eye-opening.",
+      "authorName": "James H.",
+      "authorRole": "Cocoon Member since 2023",
+      "image": "/images/staff_photo_1.jpg",
+      "theme": "grey",
+      "_template": "testimonial"
+    },
+    {
+      "headline": "Who Should Consider This Screening?",
+      "description": "Even if you feel perfectly healthy, screening provides valuable baseline data that can be tracked over time.",
+      "theme": "grey",
+      "features": [
+        {
+          "title": "Men Over 40",
+          "description": "Establish a health baseline and detect early changes before they become problems."
+        },
+        {
+          "title": "Family History",
+          "description": "Proactive monitoring if cardiovascular disease, prostate cancer, or diabetes runs in your family."
+        },
+        {
+          "title": "Low Energy or Fatigue",
+          "description": "Identify hormonal or metabolic factors affecting your vitality and quality of life."
+        },
+        {
+          "title": "Fitness-Focused",
+          "description": "Optimise performance through detailed health insights and personalised recommendations."
+        },
+        {
+          "title": "Simply Proactive",
+          "description": "Peace of mind through comprehensive assessment — know exactly where you stand."
+        }
+      ],
+      "_template": "featureGrid"
+    },
+    {
+      "eyebrow": "Questions",
+      "heading": "Frequently Asked Questions",
+      "theme": "off-white",
+      "items": [
+        {
+          "question": "How often should I have a health screening?",
+          "answer": "We recommend annual screening for most men. Those with specific risk factors or identified issues may benefit from more frequent monitoring. Your practitioner will personalise recommendations based on your results."
+        },
+        {
+          "question": "Is the blood draw included?",
+          "answer": "Yes, phlebotomy is included in all screening packages. We can also arrange at-home blood draws for an additional fee if you prefer."
+        },
+        {
+          "question": "Will I see a doctor or a nurse?",
+          "answer": "All screenings are conducted by qualified healthcare professionals with appropriate specialisations. Complex cases may involve consultation with our medical team."
+        },
+        {
+          "question": "What if something is found?",
+          "answer": "We'll discuss any areas of concern in detail and recommend appropriate next steps — whether that's lifestyle changes, further testing, or referral to a specialist. We're with you throughout the process."
+        },
+        {
+          "question": "Do I need to fast before my screening?",
+          "answer": "Yes, fast for 8–12 hours before your appointment for the most accurate metabolic and lipid results. No food, but water is fine and encouraged. If you take morning medications, check with us first."
+        },
+        {
+          "question": "Will my GP receive my results?",
+          "answer": "Only with your explicit consent. We can share a summary report with your GP if you'd like them involved in your ongoing care."
+        }
+      ],
+      "_template": "faqAccordion"
+    },
+    {
+      "eyebrow": "Ready?",
+      "heading": "Take Control of Your Health",
+      "bodyText": "Don't wait for problems to force you into action. Book your Male Health Screening today and get the clarity you need to make informed decisions about your health.",
+      "primaryButtonText": "Book Now",
+      "primaryButtonUrl": "/contact",
+      "secondaryButtonText": "Explore Membership",
+      "secondaryButtonUrl": "/membership",
+      "_template": "darkCta"
+    },
+    {
+      "eyebrow": "Cocoon Healthcare",
+      "headline": "Healthcare designed for *life*",
+      "buttonPrimaryText": "Get Started",
+      "buttonPrimaryUrl": "/contact",
+      "buttonSecondaryText": "View All Services",
+      "buttonSecondaryUrl": "/services",
+      "backgroundColor": "grey",
+      "_template": "signatureFooter"
+    },
+    {
+      "productId": "69a0352c28d4ebeccaefd9f5",
+      "buttonText": "Buy",
+      "heading": "Test Buy Banner",
+      "description": "This is optional text",
+      "showPrice": true,
+      "showDetails": true,
+      "style": "primary",
+      "theme": "off-white",
+      "companionType": "text",
+      "companionHeading": "Demo, Intro, Text",
+      "companionText": "Finishing Container: here you can add information about the product with the corresponding Buy. We need to work out how this container may be used, and then we can decide on correct styling and font sizes, etc. ",
+      "companionImage": "/images/alice_ultrasound_scan_2.jpg",
+      "companionImageAlt": "Demo intro text",
+      "cardPosition": "right",
+      "_template": "productBuyButton"
+    }
+  ]
+}

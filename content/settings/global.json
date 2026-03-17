@@ -1,0 +1,15 @@
+{
+  "site": {
+    "name": "Cocoon Wellness",
+    "tagline": "Healthcare designed for life",
+    "logo": "/images/logo-black.png",
+    "phone": "01423 567437",
+    "email": "hello@cocoon-hgt.com"
+  },
+  "social": {
+    "instagram": "https://instagram.com/cocoonwellness",
+    "linkedin": "https://linkedin.com/cocoonwellness",
+    "twitter": "https://twitter.com/cocoonwellness",
+    "facebook": "https://facebook.com/cocoonwellness"
+  }
+}
