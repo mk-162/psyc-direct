@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      // Add PD 301 redirects here in Phase 4
+    ];
+  },
 };
 
 export default nextConfig;

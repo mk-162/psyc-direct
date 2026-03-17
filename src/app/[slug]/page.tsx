@@ -14,7 +14,7 @@ export async function generateMetadata({
     const tinaData = await client.queries.pages({ relativePath: `${slug}.json` });
     if (tinaData.data.pages) {
       return {
-        title: (tinaData.data.pages.title || "") + " | Cocoon" || `${slug.replace(/-/g, " ")} | Cocoon`,
+        title: (tinaData.data.pages.title || "") + " | Psychology Direct" || `${slug.replace(/-/g, " ")} | Psychology Direct`,
         description: tinaData.data.pages.description,
       };
     }

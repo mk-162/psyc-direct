@@ -1,15 +1,13 @@
 {
   "site": {
-    "name": "Cocoon Wellness",
-    "tagline": "Healthcare designed for life",
-    "logo": "/images/logo-black.png",
-    "phone": "01423 567437",
-    "email": "hello@cocoon-hgt.com"
+    "name": "Psychology Direct",
+    "tagline": "Expert Witness & Educational Psychologists",
+    "logo": "/images/logo-header.png",
+    "phone": "01306 879 975",
+    "email": "enquiries@psychologydirect.co.uk",
+    "canonicalDomain": "https://www.psychologydirect.co.uk"
   },
   "social": {
-    "instagram": "https://instagram.com/cocoonwellness",
-    "linkedin": "https://linkedin.com/cocoonwellness",
-    "twitter": "https://twitter.com/cocoonwellness",
-    "facebook": "https://facebook.com/cocoonwellness"
+    "linkedin": "https://www.linkedin.com/company/psychology-direct/"
   }
 }

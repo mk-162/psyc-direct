@@ -1,5 +1,5 @@
 {
-  "name": "cocoon-next-cms",
+  "name": "psychology-direct",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,24 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.0",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
     "@tinacms/cli": "^2.1.6",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.400.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "resend": "^6.9.2",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
     "tinacms": "^3.5.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

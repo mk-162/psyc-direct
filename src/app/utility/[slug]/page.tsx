@@ -11,16 +11,15 @@ export async function generateMetadata({
   const { slug } = await params;
 
   try {
-    const tinaData = await client.queries.utilityPages({ relativePath: `${slug}.md` });
-    if (tinaData.data.utilityPages) {
+    const tinaData = await client.queries.utility({ relativePath: `${slug}.md` });
+    if (tinaData.data.utility) {
       return {
-        title: (tinaData.data.utilityPages.title || "") + " | Cocoon" || `${slug.replace(/-/g, " ")} | Cocoon`,
-        description: tinaData.data.utilityPages.description,
+        title: (tinaData.data.utility.title || "") + " | Psychology Direct" || `${slug.replace(/-/g, " ")} | Psychology Direct`,
+        description: tinaData.data.utility.description,
       };
     }
   } catch (e) {
     if (process.env.NODE_ENV === "development") console.error(e);
-    // Ignore and fallback
   }
 
   return {};
@@ -30,17 +29,16 @@ export async function generateStaticParams() {
   const paths: { slug: string }[] = [];
 
   try {
-    const tinaRes = await client.queries.utilityPagesConnection();
-    if (tinaRes.data?.utilityPagesConnection.edges) {
-      tinaRes.data.utilityPagesConnection.edges.forEach((edge) => {
-        if (edge?.node?._sys.filename && edge.node._sys.filename !== "contact") {
+    const tinaRes = await client.queries.utilityConnection();
+    if (tinaRes.data?.utilityConnection.edges) {
+      tinaRes.data.utilityConnection.edges.forEach((edge) => {
+        if (edge?.node?._sys.filename) {
           paths.push({ slug: edge.node._sys.filename });
         }
       });
     }
   } catch (e) {
     if (process.env.NODE_ENV === "development") console.error(e);
-    // ignore
   }
 
   return paths;
@@ -54,8 +52,8 @@ export default async function Page({
   const { slug } = await params;
 
   try {
-    const res = await client.queries.utilityPages({ relativePath: `${slug}.md` });
-    if (res.data?.utilityPages) {
+    const res = await client.queries.utility({ relativePath: `${slug}.md` });
+    if (res.data?.utility) {
       return (
         <main>
           <EditorialPageClient
@@ -68,7 +66,6 @@ export default async function Page({
     }
   } catch (e) {
     if (process.env.NODE_ENV === "development") console.error(e);
-    // Fallback to 404
   }
 
   return notFound();

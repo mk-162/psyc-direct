@@ -1,5 +1,4 @@
 import { defineConfig } from "tinacms";
-import ProductSelectComponent from "./components/ProductSelect";
 
 const branch =
   process.env.GITHUB_BRANCH ||
@@ -7,441 +6,96 @@ const branch =
   process.env.HEAD ||
   "main";
 
-const markdownPageFields = [
-  { type: "string" as const, name: "title", label: "Title", isTitle: true, required: true },
-  { type: "string" as const, name: "description", label: "Description" },
-  { type: "string" as const, name: "url", label: "Canonical URL" },
-  { type: "image" as const, name: "featured_image", label: "Featured Image" },
-  { type: "boolean" as const, name: "show_hero_image", label: "Show as Hero Banner" },
-  { type: "rich-text" as const, name: "body", label: "Body", isBody: true },
-  { type: "string" as const, name: "tags", label: "Tags (link to related services)", list: true },
-  { type: "string" as const, name: "keywords", label: "SEO Keywords", list: true },
-];
-
-// ---------------------------------------------------------------------------
-// Block Templates for the Pages collection
-// ---------------------------------------------------------------------------
+// ─── Block Templates ──────────────────────────────────────────────────────────
 
 const heroBlock = {
   name: "hero",
-  label: "Hero",
+  label: "Hero Section",
   fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "subtitle", label: "Subtitle" },
-    { type: "image" as const, name: "image", label: "Background Image" },
-    { type: "string" as const, name: "primaryButtonText", label: "Primary Button Text" },
-    { type: "string" as const, name: "primaryButtonAction", label: "Primary Button Action", options: ["link", "add-to-basket"], ui: { component: "select" } },
-    { type: "string" as const, name: "primaryButtonUrl", label: "Primary Button URL (if Link)" },
-    { type: "string" as const, name: "primaryButtonProductId", label: "Primary Button Product ID (if Add to Basket)" },
-    { type: "string" as const, name: "secondaryButtonText", label: "Secondary Button Text" },
-    { type: "string" as const, name: "secondaryButtonAction", label: "Secondary Button Action", options: ["link", "add-to-basket"], ui: { component: "select" } },
-    { type: "string" as const, name: "secondaryButtonUrl", label: "Secondary Button URL (if Link)" },
-    { type: "string" as const, name: "secondaryButtonProductId", label: "Secondary Button Product ID (if Add to Basket)" },
-    { type: "string" as const, name: "theme", label: "Theme", options: [{ value: "off-white", label: "Cream (Mineral White)" }, { value: "green", label: "Deep Green" }, { value: "grey", label: "Warm Stone" }, { value: "terracotta", label: "Terracotta" }] },
+    { type: "string" as const, name: "variant", label: "Variant", options: ["gradient", "image"], ui: { defaultValue: "gradient" } },
+    { type: "string" as const, name: "headline", label: "Headline", required: true },
+    { type: "string" as const, name: "subtitle", label: "Subtitle", ui: { component: "textarea" } },
+    { type: "string" as const, name: "primaryCtaText", label: "Primary CTA Text" },
+    { type: "string" as const, name: "primaryCtaLink", label: "Primary CTA Link" },
+    { type: "string" as const, name: "secondaryCtaText", label: "Secondary CTA Text" },
+    { type: "string" as const, name: "secondaryCtaLink", label: "Secondary CTA Link" },
+    { type: "image" as const, name: "backgroundImage", label: "Background Image (image variant only)" },
   ],
 };
 
-const heroImmersiveBlock = {
-  name: "heroImmersive",
-  label: "Hero Immersive",
+const trustBarBlock = {
+  name: "trustBar",
+  label: "Trust Bar",
   fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "subtitle", label: "Subtitle" },
-    { type: "image" as const, name: "image", label: "Background Image" },
-    { type: "string" as const, name: "discoverText", label: "Discover Link Text" },
-    { type: "string" as const, name: "discoverUrl", label: "Discover Link URL" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const featureGridBlock = {
-  name: "featureGrid",
-  label: "Feature Grid",
-  fields: [
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "description", label: "Description" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const,
-      name: "features",
-      label: "Features",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "title", label: "Title", required: true },
-        { type: "string" as const, name: "description", label: "Description" },
-      ],
-    },
-  ],
-};
-
-const editorialGridBlock = {
-  name: "editorialGrid",
-  label: "Editorial Grid",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
     {
       type: "object" as const,
       name: "items",
       label: "Items",
       list: true,
+      ui: { itemProps: (item: { text?: string }) => ({ label: item.text || "Item" }) },
       fields: [
-        { type: "image" as const, name: "image", label: "Image" },
-        { type: "string" as const, name: "title", label: "Title", required: true },
-        { type: "string" as const, name: "description", label: "Description" },
-        { type: "string" as const, name: "linkText", label: "Link Text" },
-        { type: "string" as const, name: "linkUrl", label: "Link URL" },
+        { type: "string" as const, name: "text", label: "Text", required: true },
       ],
     },
   ],
 };
 
-const sectionIntroBlock = {
-  name: "sectionIntro",
-  label: "Section Intro",
+const statsBarBlock = {
+  name: "statsBar",
+  label: "Stats Bar",
   fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "bodyText", label: "Body Text", ui: { component: "textarea" } },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const productStatsBlock = {
-  name: "productStats",
-  label: "Product Stats",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "description", label: "Description", ui: { component: "textarea" } },
     {
       type: "object" as const,
       name: "stats",
       label: "Stats",
       list: true,
+      ui: { itemProps: (item: { value?: string; label?: string }) => ({ label: [item.value, item.label].filter(Boolean).join(" ") || "Stat" }) },
       fields: [
-        { type: "string" as const, name: "value", label: "Value", required: true },
+        { type: "string" as const, name: "value", label: "Value (e.g. 1,000+)", required: true },
         { type: "string" as const, name: "label", label: "Label", required: true },
       ],
     },
-    { type: "string" as const, name: "buttonText", label: "Button Text" },
-    { type: "string" as const, name: "buttonUrl", label: "Button URL" },
-    { type: "image" as const, name: "image", label: "Image" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
   ],
 };
 
-const cardsPortraitBlock = {
-  name: "cardsPortrait",
-  label: "Cards Portrait",
+const serviceCardsBlock = {
+  name: "serviceCards",
+  label: "Service Cards",
   fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
+    { type: "string" as const, name: "heading", label: "Section Heading" },
+    { type: "string" as const, name: "subheading", label: "Subheading (optional)" },
     {
       type: "object" as const,
       name: "cards",
       label: "Cards",
       list: true,
+      ui: { itemProps: (item: { title?: string }) => ({ label: item.title || "Card" }) },
       fields: [
-        { type: "image" as const, name: "image", label: "Image" },
-        { type: "string" as const, name: "label", label: "Label" },
         { type: "string" as const, name: "title", label: "Title", required: true },
-        { type: "string" as const, name: "description", label: "Description" },
+        { type: "string" as const, name: "description", label: "Description", ui: { component: "textarea" } },
+        { type: "string" as const, name: "link", label: "Link URL" },
+        { type: "string" as const, name: "iconHint", label: "Icon Hint (optional)" },
       ],
     },
   ],
 };
 
-const fullWidthImageBlock = {
-  name: "fullWidthImage",
-  label: "Full-Width Image",
+const practiceAreaCardsBlock = {
+  name: "practiceAreaCards",
+  label: "Practice Area Cards",
   fields: [
-    { type: "image" as const, name: "image", label: "Image" },
-    { type: "string" as const, name: "alt", label: "Alt Text" },
-    { type: "string" as const, name: "height", label: "Height (e.g. 400px, 50vh)" },
-    {
-      type: "string" as const,
-      name: "focalPoint",
-      label: "Focal Point",
-      description: "Where to focus the image (for cropping)",
-      options: [
-        { value: "center", label: "Center (default)" },
-        { value: "top", label: "Top" },
-        { value: "bottom", label: "Bottom" },
-        { value: "left", label: "Left" },
-        { value: "right", label: "Right" },
-        { value: "face", label: "Face (top center)" },
-      ],
-      ui: { defaultValue: "center" },
-    },
-  ],
-};
-
-const asymmetricSplitBlock = {
-  name: "asymmetricSplit",
-  label: "Asymmetric Split",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "bodyText", label: "Body Text", ui: { component: "textarea" } },
-    { type: "image" as const, name: "image", label: "Image" },
-    { type: "string" as const, name: "buttonText", label: "Button Text" },
-    { type: "string" as const, name: "buttonUrl", label: "Button URL" },
-    { type: "string" as const, name: "mediaPosition", label: "Media Position", options: ["left", "right"] },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const testimonialBlock = {
-  name: "testimonial",
-  label: "Testimonial",
-  fields: [
-    { type: "string" as const, name: "quote", label: "Quote", ui: { component: "textarea" } },
-    { type: "string" as const, name: "authorName", label: "Author Name" },
-    { type: "string" as const, name: "authorRole", label: "Author Role" },
-    { type: "image" as const, name: "image", label: "Author Image" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const personaCardsBlock = {
-  name: "personaCards",
-  label: "Persona Cards",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
+    { type: "string" as const, name: "heading", label: "Section Heading" },
     {
       type: "object" as const,
       name: "cards",
       label: "Cards",
       list: true,
+      ui: { itemProps: (item: { title?: string }) => ({ label: item.title || "Card" }) },
       fields: [
         { type: "string" as const, name: "title", label: "Title", required: true },
-        { type: "string" as const, name: "description", label: "Description" },
-      ],
-    },
-  ],
-};
-
-const timelineBlock = {
-  name: "timeline",
-  label: "Timeline",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const,
-      name: "steps",
-      label: "Steps",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "number", label: "Step Number", required: true },
-        { type: "string" as const, name: "title", label: "Title", required: true },
-        { type: "string" as const, name: "description", label: "Description" },
-      ],
-    },
-  ],
-};
-
-const faqAccordionBlock = {
-  name: "faqAccordion",
-  label: "FAQ Accordion",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const,
-      name: "items",
-      label: "FAQ Items",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "question", label: "Question", required: true },
-        { type: "string" as const, name: "answer", label: "Answer", required: true, ui: { component: "textarea" } },
-      ],
-    },
-  ],
-};
-
-const includedGridBlock = {
-  name: "includedGrid",
-  label: "Included Grid",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const,
-      name: "categories",
-      label: "Categories",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "title", label: "Category Title", required: true },
-        { type: "string" as const, name: "items", label: "Items", list: true },
-      ],
-    },
-  ],
-};
-
-const darkCtaBlock = {
-  name: "darkCta",
-  label: "Dark CTA",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "bodyText", label: "Body Text", ui: { component: "textarea" } },
-    { type: "string" as const, name: "primaryButtonText", label: "Primary Button Text" },
-    { type: "string" as const, name: "primaryButtonUrl", label: "Primary Button URL" },
-    { type: "string" as const, name: "secondaryButtonText", label: "Secondary Button Text" },
-    { type: "string" as const, name: "secondaryButtonUrl", label: "Secondary Button URL" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const signatureFooterBlock = {
-  name: "signatureFooter",
-  label: "Signature Footer",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "buttonPrimaryText", label: "Primary Button Text" },
-    { type: "string" as const, name: "buttonPrimaryUrl", label: "Primary Button URL" },
-    { type: "string" as const, name: "buttonSecondaryText", label: "Secondary Button Text" },
-    { type: "string" as const, name: "buttonSecondaryUrl", label: "Secondary Button URL" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const hubHeroBlock = {
-  name: "hubHero",
-  label: "Hub Hero",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow" },
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "subtitle", label: "Subtitle" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const categoryShowcaseBlock = {
-  name: "categoryShowcase",
-  label: "Category Showcase",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const, name: "items", label: "Categories", list: true,
-      fields: [
-        { type: "string" as const, name: "icon", label: "Icon (emoji)" },
-        { type: "string" as const, name: "label", label: "Title" },
-        { type: "string" as const, name: "description", label: "Description" },
-        { type: "string" as const, name: "count", label: "Count Label" },
-        { type: "string" as const, name: "url", label: "URL" },
-      ],
-    },
-  ],
-};
-
-const linkDirectoryBlock = {
-  name: "linkDirectory",
-  label: "Link Directory",
-  fields: [
-    { type: "string" as const, name: "sectionTitle", label: "Section Title" },
-    { type: "string" as const, name: "viewAllText", label: "View All Text" },
-    { type: "string" as const, name: "viewAllUrl", label: "View All URL" },
-    { type: "boolean" as const, name: "compact", label: "Compact (3 columns)" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const, name: "entries", label: "Links", list: true,
-      fields: [
-        { type: "string" as const, name: "label", label: "Title" },
-        { type: "string" as const, name: "description", label: "Description" },
-        { type: "string" as const, name: "url", label: "URL" },
-      ],
-    },
-  ],
-};
-
-const featuredLinksBlock = {
-  name: "featuredLinks",
-  label: "Featured Links",
-  fields: [
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const, name: "cards", label: "Featured Cards", list: true,
-      fields: [
-        { type: "string" as const, name: "eyebrow", label: "Eyebrow" },
-        { type: "string" as const, name: "label", label: "Title" },
-        { type: "string" as const, name: "description", label: "Description" },
-        { type: "string" as const, name: "ctaText", label: "CTA Text" },
-        { type: "string" as const, name: "url", label: "URL" },
-      ],
-    },
-  ],
-};
-
-const contentWithMediaBlock = {
-  name: "contentWithMedia",
-  label: "Content + Media",
-  fields: [
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "rich-text" as const, name: "content", label: "Content" },
-    { type: "image" as const, name: "image", label: "Image" },
-    { type: "string" as const, name: "imagePosition", label: "Image Position", options: ["left", "right"], ui: { defaultValue: "right" } },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const editorialMosaicBlock = {
-  name: "editorialMosaic",
-  label: "Editorial Mosaic",
-  fields: [
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "rich-text" as const, name: "content", label: "Content" },
-    { type: "image" as const, name: "heroImage", label: "Hero Image" },
-    {
-      type: "object" as const,
-      name: "sideImages",
-      label: "Side Images",
-      list: true,
-      fields: [
-        { type: "image" as const, name: "image", label: "Image" },
-        { type: "string" as const, name: "alt", label: "Alt Text" },
-      ],
-    },
-    { type: "string" as const, name: "featureText", label: "Feature Text" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
-
-const contactFormBlock = {
-  name: "contactForm",
-  label: "Contact Form",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Form Eyebrow" },
-    { type: "string" as const, name: "headline", label: "Form Headline" },
-    { type: "string" as const, name: "infoEyebrow", label: "Info Eyebrow" },
-    { type: "string" as const, name: "infoHeadline", label: "Info Headline" },
-    { type: "string" as const, name: "mapPlaceholder", label: "Map Placeholder Text" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const,
-      name: "contactMethods",
-      label: "Contact Methods",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "icon", label: "Icon (symbol)" },
-        { type: "string" as const, name: "label", label: "Label" },
-        { type: "string" as const, name: "value", label: "Value" },
-        { type: "string" as const, name: "href", label: "Link (tel:/mailto:/https://)" },
-        { type: "string" as const, name: "note", label: "Note" },
+        { type: "string" as const, name: "description", label: "Description", ui: { component: "textarea" } },
+        { type: "string" as const, name: "iconHint", label: "Icon Hint (optional)" },
+        { type: "string" as const, name: "link", label: "Link URL" },
       ],
     },
   ],
@@ -451,41 +105,192 @@ const processStepsBlock = {
   name: "processSteps",
   label: "Process Steps",
   fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow Text" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
+    { type: "string" as const, name: "heading", label: "Section Heading" },
     {
       type: "object" as const,
       name: "steps",
       label: "Steps",
       list: true,
+      ui: { itemProps: (item: { title?: string }) => ({ label: item.title || "Step" }) },
       fields: [
-        { type: "string" as const, name: "number", label: "Step Number", required: true },
+        { type: "number" as const, name: "number", label: "Step Number", required: true },
         { type: "string" as const, name: "title", label: "Title", required: true },
         { type: "string" as const, name: "description", label: "Description", ui: { component: "textarea" } },
+      ],
+    },
+    { type: "string" as const, name: "ctaText", label: "CTA Text (below steps)" },
+    { type: "string" as const, name: "ctaLink", label: "CTA Link" },
+  ],
+};
+
+const testimonialCarouselBlock = {
+  name: "testimonialCarousel",
+  label: "Testimonial Carousel",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Section Heading" },
+    {
+      type: "object" as const,
+      name: "testimonials",
+      label: "Testimonials",
+      list: true,
+      ui: { itemProps: (item: { quote?: string }) => ({ label: item.quote ? item.quote.slice(0, 40) + "…" : "Testimonial" }) },
+      fields: [
+        { type: "string" as const, name: "quote", label: "Quote", required: true, ui: { component: "textarea" } },
+        { type: "string" as const, name: "name", label: "Author Name" },
+        { type: "string" as const, name: "title", label: "Author Title/Role" },
+        { type: "string" as const, name: "organization", label: "Organisation" },
       ],
     },
   ],
 };
 
-const productBuyButtonBlock = {
-  name: "productBuyButton",
-  label: "Product Buy Button",
+const tabbedContentBlock = {
+  name: "tabbedContent",
+  label: "Tabbed Content",
   fields: [
-    { type: "string" as const, name: "productId", label: "Product", required: true, ui: { component: ProductSelectComponent } },
-    { type: "string" as const, name: "buttonText", label: "Button Text (optional)" },
-    { type: "string" as const, name: "heading", label: "Heading (optional)" },
-    { type: "string" as const, name: "description", label: "Description (optional)", ui: { component: "textarea" } },
-    { type: "boolean" as const, name: "showPrice", label: "Show Price", ui: { defaultValue: true } },
-    { type: "boolean" as const, name: "showDetails", label: "Show Details (type, duration)", ui: { defaultValue: true } },
-    { type: "string" as const, name: "style", label: "Style", options: ["card", "primary", "subtle"] },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    { type: "string" as const, name: "companionType", label: "Companion Panel (card style only)", options: ["none", "text", "image"] },
-    { type: "string" as const, name: "companionHeading", label: "Companion Heading" },
-    { type: "string" as const, name: "companionText", label: "Companion Text", ui: { component: "textarea" } },
-    { type: "image" as const, name: "companionImage", label: "Companion Image" },
-    { type: "string" as const, name: "companionImageAlt", label: "Companion Image Alt Text" },
-    { type: "string" as const, name: "cardPosition", label: "Card Position", options: ["left", "right"] },
+    { type: "string" as const, name: "heading", label: "Section Heading" },
+    {
+      type: "object" as const,
+      name: "tabs",
+      label: "Tabs",
+      list: true,
+      ui: { itemProps: (item: { label?: string }) => ({ label: item.label || "Tab" }) },
+      fields: [
+        { type: "string" as const, name: "label", label: "Tab Label", required: true },
+        { type: "rich-text" as const, name: "content", label: "Tab Content" },
+      ],
+    },
+  ],
+};
+
+const faqAccordionBlock = {
+  name: "faqAccordion",
+  label: "FAQ Accordion",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Section Heading" },
+    {
+      type: "object" as const,
+      name: "faqs",
+      label: "FAQ Items",
+      list: true,
+      ui: { itemProps: (item: { question?: string }) => ({ label: item.question || "Q&A" }) },
+      fields: [
+        { type: "string" as const, name: "question", label: "Question", required: true },
+        { type: "string" as const, name: "answer", label: "Answer", required: true, ui: { component: "textarea" } },
+      ],
+    },
+  ],
+};
+
+const ctaBannerBlock = {
+  name: "ctaBanner",
+  label: "CTA Banner",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Heading" },
+    { type: "string" as const, name: "bodyText", label: "Body Text", ui: { component: "textarea" } },
+    { type: "string" as const, name: "primaryCtaText", label: "Primary CTA Text" },
+    { type: "string" as const, name: "primaryCtaLink", label: "Primary CTA Link" },
+    { type: "string" as const, name: "secondaryCtaText", label: "Secondary CTA Text" },
+    { type: "string" as const, name: "secondaryCtaLink", label: "Secondary CTA Link" },
+  ],
+};
+
+const ctaInlineBlock = {
+  name: "ctaInline",
+  label: "CTA Inline",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Heading" },
+    { type: "string" as const, name: "bodyText", label: "Body Text", ui: { component: "textarea" } },
+    { type: "string" as const, name: "primaryCtaText", label: "Primary CTA Text" },
+    { type: "string" as const, name: "primaryCtaLink", label: "Primary CTA Link" },
+    { type: "string" as const, name: "secondaryCtaText", label: "Secondary CTA Text (optional)" },
+    { type: "string" as const, name: "secondaryCtaLink", label: "Secondary CTA Link" },
+  ],
+};
+
+const featureComparisonBlock = {
+  name: "featureComparison",
+  label: "Feature Comparison",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Section Heading" },
+    { type: "string" as const, name: "col1Header", label: "Column 1 Header", ui: { defaultValue: "Psychology Direct" } },
+    { type: "string" as const, name: "col2Header", label: "Column 2 Header", ui: { defaultValue: "Alternative" } },
+    {
+      type: "object" as const,
+      name: "rows",
+      label: "Rows",
+      list: true,
+      ui: { itemProps: (item: { feature?: string }) => ({ label: item.feature || "Feature" }) },
+      fields: [
+        { type: "string" as const, name: "feature", label: "Feature", required: true },
+        { type: "string" as const, name: "col1", label: "Column 1 Value" },
+        { type: "string" as const, name: "col2", label: "Column 2 Value" },
+      ],
+    },
+  ],
+};
+
+const caseStudyCardsBlock = {
+  name: "caseStudyCards",
+  label: "Case Study Cards",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Section Heading" },
+    {
+      type: "object" as const,
+      name: "caseStudies",
+      label: "Case Studies",
+      list: true,
+      ui: { itemProps: (item: { title?: string }) => ({ label: item.title || "Case Study" }) },
+      fields: [
+        { type: "string" as const, name: "title", label: "Title", required: true },
+        { type: "string" as const, name: "summary", label: "Summary", ui: { component: "textarea" } },
+        { type: "string" as const, name: "sector", label: "Sector Tag (e.g. Education, Legal)" },
+        { type: "string" as const, name: "link", label: "Link URL" },
+      ],
+    },
+  ],
+};
+
+const teamGridBlock = {
+  name: "teamGrid",
+  label: "Team Grid",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Section Heading" },
+    {
+      type: "object" as const,
+      name: "team",
+      label: "Team Members",
+      list: true,
+      ui: { itemProps: (item: { name?: string }) => ({ label: item.name || "Team Member" }) },
+      fields: [
+        { type: "string" as const, name: "name", label: "Name", required: true },
+        { type: "string" as const, name: "role", label: "Role/Title", required: true },
+        { type: "string" as const, name: "bio", label: "Bio (1 sentence)" },
+        { type: "image" as const, name: "photo", label: "Photo" },
+      ],
+    },
+  ],
+};
+
+const videoSectionBlock = {
+  name: "videoSection",
+  label: "Video Section",
+  fields: [
+    { type: "string" as const, name: "heading", label: "Heading" },
+    { type: "string" as const, name: "videoUrl", label: "Video URL (YouTube or embed)" },
+    { type: "string" as const, name: "caption", label: "Caption" },
+    { type: "image" as const, name: "thumbnail", label: "Thumbnail (optional)" },
+  ],
+};
+
+const alertBannerBlock = {
+  name: "alertBanner",
+  label: "Alert Banner",
+  fields: [
+    { type: "string" as const, name: "type", label: "Type", options: ["info", "warning", "success"], ui: { defaultValue: "info" } },
+    { type: "string" as const, name: "text", label: "Text", required: true },
+    { type: "string" as const, name: "ctaText", label: "CTA Text (optional)" },
+    { type: "string" as const, name: "ctaLink", label: "CTA Link" },
   ],
 };
 
@@ -497,109 +302,52 @@ const richTextBlock = {
   ],
 };
 
-const bookingFormBlock = {
-  name: "bookingForm",
-  label: "Booking Form",
-  fields: [
-    { type: "string" as const, name: "productId", label: "Product", required: true, ui: { component: ProductSelectComponent } },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-  ],
-};
+// ─── Shared page SEO fields ───────────────────────────────────────────────────
 
-const introGalleryBlock = {
-  name: "introGallery",
-  label: "Intro Gallery",
-  fields: [
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "description", label: "Description" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    {
-      type: "object" as const,
-      name: "galleryItems",
-      label: "Gallery Images",
-      list: true,
-      fields: [
-        { type: "image" as const, name: "image", label: "Image" },
-        { type: "string" as const, name: "caption", label: "Caption (optional)" },
-      ],
-    },
-  ],
-};
+const seoFields = [
+  { type: "string" as const, name: "title", label: "Page Title", isTitle: true, required: true },
+  { type: "string" as const, name: "description", label: "Meta Description" },
+  { type: "string" as const, name: "url", label: "Canonical URL (e.g. /contact/)" },
+  { type: "string" as const, name: "keywords", label: "SEO Keywords", list: true },
+];
 
-const productGridBlock = {
-  name: "productGrid",
-  label: "Product Grid",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow" },
-    { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "description", label: "Description" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    { type: "string" as const, name: "linkBase", label: "Link Base URL", ui: { defaultValue: "/book" } },
-    {
-      type: "object" as const,
-      name: "products",
-      label: "Products",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "id", label: "Product ID", required: true },
-        { type: "string" as const, name: "name", label: "Product Name", required: true },
-        { type: "number" as const, name: "price", label: "Price", required: true },
-        { type: "string" as const, name: "description", label: "Description" },
-        { type: "string" as const, name: "category", label: "Category" },
-        { type: "string" as const, name: "slug", label: "Slug (URL)" },
-      ],
-    },
-  ],
-};
+const allBlocks = [
+  heroBlock,
+  trustBarBlock,
+  statsBarBlock,
+  serviceCardsBlock,
+  practiceAreaCardsBlock,
+  processStepsBlock,
+  testimonialCarouselBlock,
+  tabbedContentBlock,
+  faqAccordionBlock,
+  ctaBannerBlock,
+  ctaInlineBlock,
+  featureComparisonBlock,
+  caseStudyCardsBlock,
+  teamGridBlock,
+  videoSectionBlock,
+  alertBannerBlock,
+  richTextBlock,
+];
 
-const serviceSelectBarBlock = {
-  name: "serviceSelectBar",
-  label: "Service Select Bar",
-  fields: [
-    { type: "string" as const, name: "slug", label: "Service Slug", required: true, description: "The URL slug to match against Semble products" },
-  ],
-};
+const blockPageFields = [
+  ...seoFields,
+  {
+    type: "object" as const,
+    name: "blocks",
+    label: "Page Blocks",
+    list: true,
+    templates: allBlocks,
+  },
+];
 
-const dataTableBlock = {
-  name: "dataTable",
-  label: "Data Table",
-  fields: [
-    { type: "string" as const, name: "eyebrow", label: "Eyebrow" },
-    { type: "string" as const, name: "headline", label: "Headline" },
-    { type: "string" as const, name: "description", label: "Description" },
-    { type: "string" as const, name: "theme", label: "Theme", options: ["off-white", "green", "grey", "terracotta"] },
-    { type: "number" as const, name: "highlightColumn", label: "Highlight Column Index (0-based)", description: "Which column to highlight (e.g., 1 for second column)" },
-    {
-      type: "object" as const,
-      name: "columns",
-      label: "Columns",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "key", label: "Key (internal ID)", required: true },
-        { type: "string" as const, name: "label", label: "Column Header", required: true },
-      ],
-    },
-    {
-      type: "object" as const,
-      name: "rows",
-      label: "Rows",
-      list: true,
-      fields: [
-        { type: "string" as const, name: "col0", label: "Column 1" },
-        { type: "string" as const, name: "col1", label: "Column 2" },
-        { type: "string" as const, name: "col2", label: "Column 3" },
-        { type: "string" as const, name: "col3", label: "Column 4" },
-        { type: "string" as const, name: "col4", label: "Column 5" },
-      ],
-    },
-    {
-      type: "string" as const,
-      name: "footnotes",
-      label: "Footnotes",
-      list: true,
-    },
-  ],
-};
+const markdownPageFields = [
+  { type: "string" as const, name: "title", label: "Title", isTitle: true, required: true },
+  { type: "string" as const, name: "description", label: "Meta Description" },
+  { type: "rich-text" as const, name: "body", label: "Body", isBody: true },
+  { type: "string" as const, name: "keywords", label: "SEO Keywords", list: true },
+];
 
 // For LAN dev access: override the GraphQL URL so remote browsers can reach Tina
 const tinaApiUrl = process.env.NEXT_PUBLIC_TINA_API_URL || undefined;
@@ -624,167 +372,140 @@ export default defineConfig({
 
   schema: {
     collections: [
+      // ── Main block-based pages (homepage, contact, tools, etc.) ──────────────
       {
         name: "pages",
-        label: "Pages (Block Builder)",
+        label: "Pages",
         path: "content/pages",
         format: "json",
         ui: {
           router: ({ document }) =>
             document._sys.filename === "homepage"
               ? "/"
-              : `/${document._sys.filename}`,
+              : `/${document._sys.filename}/`,
         },
-        fields: [
-          { type: "string" as const, name: "title", label: "Page Title", isTitle: true, required: true },
-          { type: "string" as const, name: "description", label: "SEO Description" },
-          { type: "rich-text" as const, name: "body", label: "Body Content (Markdown - use instead of blocks for simple pages)", description: "For simple text pages, use this field. For complex layouts with components, use Page Blocks below." },
-          {
-            type: "object" as const,
-            name: "blocks",
-            label: "Page Blocks (Components - optional)",
-            list: true,
-            templates: [
-              heroBlock,
-              heroImmersiveBlock,
-              featureGridBlock,
-              editorialGridBlock,
-              editorialMosaicBlock,
-              sectionIntroBlock,
-              contentWithMediaBlock,
-              productStatsBlock,
-              cardsPortraitBlock,
-              fullWidthImageBlock,
-              asymmetricSplitBlock,
-              testimonialBlock,
-              personaCardsBlock,
-              timelineBlock,
-              faqAccordionBlock,
-              includedGridBlock,
-              darkCtaBlock,
-              signatureFooterBlock,
-              richTextBlock,
-              hubHeroBlock,
-              categoryShowcaseBlock,
-              linkDirectoryBlock,
-              featuredLinksBlock,
-              contactFormBlock,
-              processStepsBlock,
-              productBuyButtonBlock,
-              bookingFormBlock,
-              introGalleryBlock,
-              productGridBlock,
-              serviceSelectBarBlock,
-              dataTableBlock,
-            ],
-          },
-          { type: "string" as const, name: "keywords", label: "SEO Keywords", list: true },
-        ],
+        fields: blockPageFields,
       },
+
+      // ── Expert Witness section ───────────────────────────────────────────────
       {
-        name: "wellnessServices",
-        label: "Wellness Services",
-        path: "content/wellness-services",
-        format: "md",
+        name: "expertWitness",
+        label: "Expert Witness Pages",
+        path: "content/expert-witness",
+        format: "json",
         ui: {
           router: ({ document }) =>
-            document._sys.filename === "index"
-              ? "/services"
-              : `/services/${document._sys.filename}`,
+            document._sys.filename === "overview"
+              ? "/expert-witness-psychologists/"
+              : `/expert-witness-psychologists/${document._sys.filename}/`,
         },
-        fields: markdownPageFields,
+        fields: blockPageFields,
       },
+
+      // ── Education section ────────────────────────────────────────────────────
       {
-        name: "membershipPages",
-        label: "Membership",
-        path: "content/membership",
-        format: "md",
+        name: "education",
+        label: "Education Pages",
+        path: "content/education",
+        format: "json",
         ui: {
           router: ({ document }) =>
-            document._sys.filename === "index"
-              ? "/membership"
-              : `/membership/${document._sys.filename}`,
+            document._sys.filename === "overview"
+              ? "/educational-psychologist/"
+              : `/educational-psychologist/${document._sys.filename}/`,
         },
-        fields: markdownPageFields,
+        fields: blockPageFields,
       },
+
+      // ── About section ────────────────────────────────────────────────────────
       {
-        name: "knowledgeHubPages",
-        label: "Knowledge Hub",
-        path: "content/knowledge-hub",
-        format: "md",
+        name: "about",
+        label: "About Pages",
+        path: "content/about",
+        format: "json",
         ui: {
           router: ({ document }) =>
-            document._sys.filename === "index"
-              ? "/knowledge-hub"
-              : `/knowledge-hub/${document._sys.filename}`,
+            document._sys.filename === "overview"
+              ? "/about/"
+              : `/about/${document._sys.filename}/`,
         },
-        fields: markdownPageFields,
+        fields: blockPageFields,
       },
+
+      // ── Tools section ────────────────────────────────────────────────────────
       {
-        name: "ourStoryPages",
-        label: "Our Story",
-        path: "content/our-story",
-        format: "md",
+        name: "tools",
+        label: "Tools Pages",
+        path: "content/tools",
+        format: "json",
+        ui: {
+          router: ({ document }) => `/tools/${document._sys.filename}/`,
+        },
+        fields: blockPageFields,
+      },
+
+      // ── Resources section ─────────────────────────────────────────────────────
+      {
+        name: "resources",
+        label: "Resources Pages",
+        path: "content/resources",
+        format: "json",
         ui: {
           router: ({ document }) =>
-            document._sys.filename === "index"
-              ? "/our-story"
-              : `/our-story/${document._sys.filename}`,
+            document._sys.filename === "overview"
+              ? "/resources/"
+              : `/resources/${document._sys.filename}/`,
         },
-        fields: markdownPageFields,
+        fields: blockPageFields,
       },
+
+      // ── News / Articles ──────────────────────────────────────────────────────
       {
         name: "articles",
-        label: "Articles",
+        label: "News & Articles",
         path: "content/articles",
         format: "md",
         ui: {
-          router: ({ document }) => `/articles/${document._sys.filename}`,
+          router: ({ document }) => `/news/${document._sys.filename}/`,
         },
         fields: [
-          { type: "string" as const, name: "title", label: "Title", isTitle: true, required: true },
-          { type: "string" as const, name: "description", label: "Description" },
-          { type: "image" as const, name: "featured_image", label: "Featured Image" },
+          ...markdownPageFields,
           { type: "string" as const, name: "author", label: "Author" },
-          { type: "string" as const, name: "author_role", label: "Author Role" },
           { type: "datetime" as const, name: "date", label: "Publish Date" },
-          { type: "string" as const, name: "read_time", label: "Read Time (e.g. 5 min)" },
-          { type: "string" as const, name: "category", label: "Category", options: [
-            "Longevity", "Nutrition", "Movement", "Mental Health", "Sleep",
-            "Preventive Care", "Women's Health", "Men's Health", "Heart Health",
-            "Hormones", "Cancer", "Weight", "Fertility", "Sexual Health",
-          ]},
-          { type: "string" as const, name: "tags", label: "Tags (match to service keywords)", list: true },
-          { type: "rich-text" as const, name: "body", label: "Body", isBody: true },
-          { type: "string" as const, name: "keywords", label: "SEO Keywords", list: true },
+          { type: "string" as const, name: "category", label: "Category" },
+          { type: "image" as const, name: "featuredImage", label: "Featured Image" },
         ],
       },
+
+      // ── Case Studies ──────────────────────────────────────────────────────────
       {
-        name: "utilityPages",
-        label: "Utility Pages",
+        name: "caseStudies",
+        label: "Case Studies",
+        path: "content/case-studies",
+        format: "md",
+        ui: {
+          router: ({ document }) => `/case-studies/${document._sys.filename}/`,
+        },
+        fields: [
+          ...markdownPageFields,
+          { type: "string" as const, name: "sector", label: "Sector" },
+          { type: "image" as const, name: "featuredImage", label: "Featured Image" },
+        ],
+      },
+
+      // ── Utility / Policy pages ────────────────────────────────────────────────
+      {
+        name: "utility",
+        label: "Utility Pages (Policy, Login, etc.)",
         path: "content/utility",
         format: "md",
         ui: {
-          router: ({ document }) =>
-            document._sys.filename === "index"
-              ? "/site-map"
-              : `/${document._sys.filename}`,
+          router: ({ document }) => `/${document._sys.filename}/`,
         },
         fields: markdownPageFields,
       },
-      {
-        name: "myCocoonPages",
-        label: "My Cocoon",
-        path: "content/my-cocoon",
-        format: "md",
-        ui: {
-          router: ({ document }) =>
-            document._sys.filename === "index"
-              ? "/my-cocoon"
-              : `/my-cocoon/${document._sys.filename}`,
-        },
-        fields: markdownPageFields,
-      },
+
+      // ── Global settings ───────────────────────────────────────────────────────
       {
         name: "global",
         label: "Global Settings",
@@ -792,14 +513,9 @@ export default defineConfig({
         format: "json",
         ui: {
           global: true,
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
+          allowedActions: { create: false, delete: false },
         },
-        match: {
-          include: "global",
-        },
+        match: { include: "global" },
         fields: [
           {
             type: "object" as const,
@@ -808,58 +524,52 @@ export default defineConfig({
             fields: [
               { type: "string" as const, name: "name", label: "Site Name" },
               { type: "string" as const, name: "tagline", label: "Tagline" },
-              { type: "image" as const, name: "logo", label: "Site Logo" },
+              { type: "image" as const, name: "logo", label: "Header Logo" },
               { type: "string" as const, name: "phone", label: "Phone Number" },
               { type: "string" as const, name: "email", label: "Email Address" },
+              { type: "string" as const, name: "canonicalDomain", label: "Canonical Domain (e.g. https://www.psychologydirect.co.uk)" },
             ] as any,
           },
           {
             type: "object" as const,
             name: "social",
-            label: "Social Media Links",
+            label: "Social Links",
             fields: [
-              { type: "string" as const, name: "instagram", label: "Instagram URL" },
               { type: "string" as const, name: "linkedin", label: "LinkedIn URL" },
-              { type: "string" as const, name: "twitter", label: "Twitter URL" },
+              { type: "string" as const, name: "twitter", label: "Twitter/X URL" },
               { type: "string" as const, name: "facebook", label: "Facebook URL" },
             ] as any,
           },
         ] as any,
       },
+
+      // ── Navigation ────────────────────────────────────────────────────────────
       {
         name: "navigation",
         label: "Navigation Menu",
         path: "content/settings",
         format: "json",
         ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
           global: true,
+          allowedActions: { create: false, delete: false },
         },
-        match: {
-          include: "navigation",
-        },
+        match: { include: "navigation" },
         fields: [
           {
             type: "object" as const,
             name: "mainNav",
             label: "Main Navigation",
             list: true,
-            description: "Add menu items (drag to reorder)",
             ui: {
-              itemProps: (item: { label?: string }) => ({
-                label: item.label || "Menu Item",
-              }),
+              itemProps: (item: { label?: string }) => ({ label: item.label || "Item" }),
             },
             fields: [
-              { type: "string" as const, name: "label", label: "Menu Label", required: true },
+              { type: "string" as const, name: "label", label: "Label", required: true },
               { type: "string" as const, name: "url", label: "URL", required: true },
               {
                 type: "object" as const,
                 name: "children",
-                label: "Submenu Items",
+                label: "Sub-items",
                 list: true,
                 fields: [
                   { type: "string" as const, name: "label", label: "Label", required: true },
@@ -874,9 +584,7 @@ export default defineConfig({
             label: "Footer Navigation",
             list: true,
             ui: {
-              itemProps: (item: { title?: string }) => ({
-                label: item.title || "Column",
-              }),
+              itemProps: (item: { title?: string }) => ({ label: item.title || "Column" }),
             },
             fields: [
               { type: "string" as const, name: "title", label: "Column Title", required: true },

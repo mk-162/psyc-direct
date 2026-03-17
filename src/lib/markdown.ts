@@ -6,35 +6,29 @@ export type { NavItem, FooterColumn, NavigationData, GlobalSettings } from './ty
 
 const settingsDir = path.join(process.cwd(), 'content', 'settings');
 
-// Get navigation settings (read directly from JSON — used by layout.tsx server component)
 export function getNavigation(): NavigationData {
   const navPath = path.join(settingsDir, 'navigation.json');
-
   if (fs.existsSync(navPath)) {
-    const fileContents = fs.readFileSync(navPath, 'utf8');
-    return JSON.parse(fileContents) as NavigationData;
+    return JSON.parse(fs.readFileSync(navPath, 'utf8')) as NavigationData;
   }
-
-  return {
-    mainNav: [],
-    footerNav: [],
-  };
+  return { mainNav: [], footerNav: [] };
 }
 
-// Get global settings (read directly from JSON — used by layout.tsx server component)
 export function getGlobalSettings(): GlobalSettings {
   const settingsPath = path.join(settingsDir, 'global.json');
-
   if (fs.existsSync(settingsPath)) {
-    const fileContents = fs.readFileSync(settingsPath, 'utf8');
-    return JSON.parse(fileContents) as GlobalSettings;
+    return JSON.parse(fs.readFileSync(settingsPath, 'utf8')) as GlobalSettings;
   }
-
   return {
     site: {
-      name: 'Cocoon Wellness',
-      tagline: 'Healthcare designed for life',
+      name: 'Psychology Direct',
+      tagline: 'Expert Witness & Educational Psychologists',
+      phone: '01306 879 975',
+      email: 'enquiries@psychologydirect.co.uk',
+      canonicalDomain: 'https://www.psychologydirect.co.uk',
     },
-    social: {},
+    social: {
+      linkedin: 'https://www.linkedin.com/company/psychology-direct/',
+    },
   };
 }

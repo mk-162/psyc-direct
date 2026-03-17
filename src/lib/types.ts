@@ -6,7 +6,7 @@ export interface NavItem {
 
 export interface FooterColumn {
   title: string;
-  links: NavItem[];
+  links: { label: string; url: string }[];
 }
 
 export interface NavigationData {
@@ -15,15 +15,15 @@ export interface NavigationData {
 }
 
 export interface GlobalSettings {
-  site: {
-    name: string;
-    tagline: string;
+  site?: {
+    name?: string;
+    tagline?: string;
     logo?: string;
     phone?: string;
     email?: string;
+    canonicalDomain?: string;
   };
-  social: {
-    instagram?: string;
+  social?: {
     linkedin?: string;
     twitter?: string;
     facebook?: string;

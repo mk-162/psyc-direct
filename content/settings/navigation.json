@@ -1,97 +1,87 @@
 {
   "mainNav": [
     {
-      "label": "Services",
-      "url": "/services",
+      "label": "Expert Witness",
+      "url": "/expert-witness-psychologists/",
       "children": [
-        { "label": "All Services", "url": "/services" },
-        { "label": "Male Health Screening", "url": "/services/male-health-screening" },
-        { "label": "Women's Health Screening", "url": "/services/womens-health-screening" },
-        { "label": "60+ Health Screening", "url": "/services/60-plus-health-screening" },
-        { "label": "Cancer Screening", "url": "/services/cancer-screening" },
-        { "label": "Menopause Specialist", "url": "/services/menopause-specialist" },
-        { "label": "Sports Performance", "url": "/services/sports-performance" },
-        { "label": "Weight Clinic", "url": "/services/weight-clinic" },
-        { "label": "Liver Health Package", "url": "/services/liver-health-package" },
-        { "label": "Brain & Cognitive Health", "url": "/services/brain-cognitive-health-package" },
-        { "label": "Fertility Health", "url": "/services/fertility-health-screening" },
-        { "label": "Sexual Health", "url": "/services/sexual-health-screening" },
-        { "label": "Tired All The Time", "url": "/services/tired-all-the-time" },
-        { "label": "Targeted Cancer Screening", "url": "/services/targeted-cancer-screening" },
-        { "label": "Monthly Membership", "url": "/services/monthly-membership" }
+        { "label": "Family Law", "url": "/expert-witness-psychologists/family/" },
+        { "label": "Criminal Law", "url": "/expert-witness-psychologists/criminal/" },
+        { "label": "Civil & Personal Injury", "url": "/expert-witness-psychologists/civil-personal-injury/" },
+        { "label": "Clinical Negligence", "url": "/expert-witness-psychologists/clinical-negligence/" },
+        { "label": "Employment", "url": "/expert-witness-psychologists/employment/" },
+        { "label": "Prison Law", "url": "/expert-witness-psychologists/prison-law/" },
+        { "label": "Asylum & Immigration", "url": "/expert-witness-psychologists/asylum-immigration/" },
+        { "label": "Pricing", "url": "/expert-witness-psychologists/pricing/" },
+        { "label": "Our Process", "url": "/expert-witness-psychologists/process/" }
+      ]
+    },
+    {
+      "label": "Education",
+      "url": "/educational-psychologist/",
+      "children": [
+        { "label": "Schools, Academies & Colleges", "url": "/educational-psychologist/schools-academies-colleges/" },
+        { "label": "Local Authorities", "url": "/educational-psychologist/local-authorities/" },
+        { "label": "MATs", "url": "/educational-psychologist/mats/" },
+        { "label": "EHCP Assessments", "url": "/educational-psychologist/ehcp-assessments/" },
+        { "label": "Specialist Assessments", "url": "/educational-psychologist/specialist-assessments/" },
+        { "label": "Higher Education", "url": "/educational-psychologist/higher-education/" }
       ]
     },
     {
       "label": "About",
-      "url": "/our-story",
+      "url": "/about/",
       "children": [
-        { "label": "Our Story", "url": "/our-story" },
-        { "label": "The Cocoon Difference", "url": "/our-story/the-cocoon-difference" },
-        { "label": "Meet Your Care Team", "url": "/our-story/meet-your-care-team" },
-        { "label": "Our Spaces", "url": "/our-story/our-spaces" },
-        { "label": "Founder's Letter", "url": "/our-story/founders-letter" },
-        { "label": "Careers", "url": "/our-story/careers" },
-        { "label": "Press & Media", "url": "/our-story/press-media" }
+        { "label": "Meet the Team", "url": "/about/meet-the-team/" },
+        { "label": "Testimonials", "url": "/about/testimonials/" },
+        { "label": "Quality Assurance", "url": "/about/quality-assurance/" },
+        { "label": "Events", "url": "/about/events/" },
+        { "label": "Training", "url": "/about/training/" },
+        { "label": "Careers", "url": "/about/careers/" }
       ]
     },
-    {
-      "label": "Membership",
-      "url": "/membership",
-      "children": [
-        { "label": "Membership Overview", "url": "/membership" },
-        { "label": "Essential", "url": "/membership/essential" },
-        { "label": "Complete", "url": "/membership/complete" },
-        { "label": "Premier", "url": "/membership/premier" },
-        { "label": "My Cocoon Portal", "url": "/my-cocoon" }
-      ]
-    },
-    {
-      "label": "Resources",
-      "url": "/knowledge-hub",
-      "children": [
-        { "label": "Knowledge Hub", "url": "/knowledge-hub" },
-        { "label": "Wellness Library", "url": "/knowledge-hub/wellness-library" },
-        { "label": "Guides & Resources", "url": "/knowledge-hub/guides-resources" },
-        { "label": "Member Stories", "url": "/knowledge-hub/member-stories" },
-        { "label": "FAQ", "url": "/knowledge-hub/faq" },
-        { "label": "Contact Us", "url": "/utility/contact" },
-        { "label": "Book a Visit", "url": "/utility/book-visit" }
-      ]
-    }
+    { "label": "Resources", "url": "/resources/" },
+    { "label": "Case Studies", "url": "/case-studies/" },
+    { "label": "FAQs", "url": "/faqs/" },
+    { "label": "News", "url": "/news/" }
   ],
   "footerNav": [
     {
-      "title": "Services",
+      "title": "Expert Witness",
       "links": [
-        { "label": "All Services", "url": "/services" },
-        { "label": "Male Health Screening", "url": "/services/male-health-screening" },
-        { "label": "Women's Health Screening", "url": "/services/womens-health-screening" },
-        { "label": "60+ Health Screening", "url": "/services/60-plus-health-screening" },
-        { "label": "Cancer Screening", "url": "/services/cancer-screening" },
-        { "label": "Menopause Specialist", "url": "/services/menopause-specialist" },
-        { "label": "Weight Clinic", "url": "/services/weight-clinic" }
+        { "label": "Overview", "url": "/expert-witness-psychologists/" },
+        { "label": "Family Law", "url": "/expert-witness-psychologists/family/" },
+        { "label": "Criminal Law", "url": "/expert-witness-psychologists/criminal/" },
+        { "label": "Civil & Personal Injury", "url": "/expert-witness-psychologists/civil-personal-injury/" },
+        { "label": "Pricing", "url": "/expert-witness-psychologists/pricing/" }
       ]
     },
     {
-      "title": "About Cocoon",
+      "title": "Education",
       "links": [
-        { "label": "Our Story", "url": "/our-story" },
-        { "label": "The Cocoon Difference", "url": "/our-story/the-cocoon-difference" },
-        { "label": "Our Team", "url": "/our-story/meet-your-care-team" },
-        { "label": "Our Spaces", "url": "/our-story/our-spaces" },
-        { "label": "Careers", "url": "/our-story/careers" },
-        { "label": "Press & Media", "url": "/our-story/press-media" }
+        { "label": "Overview", "url": "/educational-psychologist/" },
+        { "label": "Schools & Academies", "url": "/educational-psychologist/schools-academies-colleges/" },
+        { "label": "Local Authorities", "url": "/educational-psychologist/local-authorities/" },
+        { "label": "EHCP Assessments", "url": "/educational-psychologist/ehcp-assessments/" }
       ]
     },
     {
-      "title": "Resources",
+      "title": "Company",
       "links": [
-        { "label": "Knowledge Hub", "url": "/knowledge-hub" },
-        { "label": "Wellness Library", "url": "/knowledge-hub/wellness-library" },
-        { "label": "FAQ", "url": "/knowledge-hub/faq" },
-        { "label": "Financial Policy", "url": "/utility/financial-policy" },
-        { "label": "Book a Visit", "url": "/utility/book-visit" },
-        { "label": "My Cocoon", "url": "/my-cocoon" }
+        { "label": "About Us", "url": "/about/" },
+        { "label": "Meet the Team", "url": "/about/meet-the-team/" },
+        { "label": "Testimonials", "url": "/about/testimonials/" },
+        { "label": "Quality Assurance", "url": "/about/quality-assurance/" },
+        { "label": "Careers", "url": "/about/careers/" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "label": "Contact", "url": "/contact/" },
+        { "label": "FAQs", "url": "/faqs/" },
+        { "label": "Resources", "url": "/resources/" },
+        { "label": "Privacy Policy", "url": "/privacy-policy/" },
+        { "label": "Terms & Conditions", "url": "/terms-conditions/" }
       ]
     }
   ]
