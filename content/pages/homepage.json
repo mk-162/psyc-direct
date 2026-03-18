@@ -1,14 +1,121 @@
 {
-  "title": "Psychology Direct | Expert Witness & Educational Psychologists",
-  "description": "Fast, reliable access to HCPC-registered psychologists and psychiatrists for legal, education, and professional services. CVs in 24 hours. UK-wide coverage.",
+  "title": "Expert Psychologists & Psychiatrists for Your Case | Psychology Direct",
+  "description": "Access 1,000+ vetted psychologists and psychiatrists for expert witness reports and educational assessments. Fast matching, Legal Aid rates.",
   "url": "/",
-  "keywords": ["expert witness psychologist", "educational psychologist", "psychology direct"],
+  "keywords": ["psychology direct", "expert witness psychologist", "educational psychologist", "psychiatrist expert witness", "psychology services UK"],
   "blocks": [
     {
       "_template": "hero",
       "variant": "gradient",
       "headline": "Get the Right Expert for Your Case in Hours",
       "subtitle": "Find the right expert fast. With 1,000+ vetted psychologists and psychiatrists nationwide, we match you in hours and deliver court-ready reports in 4–6 weeks. Legal Aid rates? Always accepted.",
+      "primaryCtaText": "Arrange an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Discuss Your Case",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "1,000+ Vetted Experts" },
+        { "text": "CVs in 24 Hours" },
+        { "text": "15+ Years Established" },
+        { "text": "100% Reports QA-Checked" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Get the Expert You Need, When You Need Them",
+      "subheading": "Legal, education, and professional services — all from one platform",
+      "cards": [
+        {
+          "title": "Expert Witness Services",
+          "description": "Access psychologists and psychiatrists for family law, criminal, civil, and immigration cases. HCPC/GMC registered, court-ready reports delivered on time.",
+          "link": "/expert-witness-psychologists/"
+        },
+        {
+          "title": "Educational Psychology",
+          "description": "EHCP assessments, SEND support, and statutory evaluations from experienced Educational Psychologists matched to your LA or school.",
+          "link": "/educational-psychologist/"
+        },
+        {
+          "title": "Join Our Network",
+          "description": "Psychologists and psychiatrists: register to access steady referrals, fair pay, admin support, and a collaborative community.",
+          "link": "/about/careers/"
+        }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "1,000+", "label": "Psychologists & Psychiatrists" },
+        { "value": "4-6 Week", "label": "Standard Turnaround" },
+        { "value": "24-Hour", "label": "CV Matching" },
+        { "value": "100%", "label": "Legal Aid Rates" }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "Get Matched to Your Expert in 4 Simple Steps",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Tell Us What You Need",
+          "description": "Call 01306 879 975 or complete a brief online form. Describe your case type, location, and deadline."
+        },
+        {
+          "number": 2,
+          "title": "Receive Matched Experts",
+          "description": "Within 24 hours, get 2–3 CVs with quotes from professionals matched to your specialism."
+        },
+        {
+          "number": 3,
+          "title": "We Handle Everything Else",
+          "description": "Once you instruct, we manage all admin—appointments, coordination, case management. You focus on your case."
+        },
+        {
+          "number": 4,
+          "title": "Court-Ready Report Delivered",
+          "description": "Your report is 100% quality-checked for accuracy and compliance before delivery. Fast-track available."
+        }
+      ],
+      "ctaText": "Get Started",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Our Users Say",
+      "testimonials": [
+        {
+          "quote": "Staff are helpful and informative with a range of experts second to none. Reports are delivered securely and on time. They take the hard work out of locating relevant available experts.",
+          "name": "Brent Patterson",
+          "title": "Solicitor",
+          "organization": "Howard Bernstein Solicitors"
+        },
+        {
+          "quote": "Speed and quality of response in identifying experts who could hit tight timeframes. A very helpful service.",
+          "name": "Tom Battarbee",
+          "title": "Solicitor",
+          "organization": "Swain & Co"
+        },
+        {
+          "quote": "Psychology Direct provide Educational Psychologist services that are reliable, efficient, flexible, cost effective, proactive and totally empathetic to our needs.",
+          "name": "Stephen Higgins",
+          "title": "Principal EP",
+          "organization": "Norfolk County Council"
+        },
+        {
+          "quote": "Deadlines needed to be met and it was extremely useful having services of a local expert. I would definitely use them in the future.",
+          "name": "Steve Harman",
+          "title": "Solicitor",
+          "organization": "Williamsons Solicitors"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Get Matched?",
+      "bodyText": "Need an expert now? Tell us your case type and deadline. We'll match you with vetted professionals ready to work. No long admin delays, no guesswork — just the right expert, fast.",
       "primaryCtaText": "Arrange an Assessment",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Discuss Your Case",

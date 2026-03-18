@@ -1,0 +1,306 @@
+{
+  "title": "Personal Injury & Civil Expert Witness | Psychology Direct",
+  "description": "Psychological and psychiatric injury assessments for personal injury and civil claims. PTSD, trauma, chronic pain reports.",
+  "url": "/expert-witness-psychologists/civil-personal-injury/",
+  "keywords": ["personal injury expert witness psychologist", "civil litigation psychologist", "PTSD assessment", "psychological injury report", "PI psychiatrist"],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get Court-Ready Expert Psychological Evidence Fast",
+      "subtitle": "Personal injury and civil claims need expert psychological or psychiatric assessments to quantify psychological harm and support damages. We match the right expert, handle all coordination, and deliver court-ready reports on Legal Aid rates.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "What's Your Case Worth? Use Fee Calculator",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC & GMC Registered Experts" },
+        { "text": "CVs Within 24 Hours" },
+        { "text": "Legal Aid Rates Guaranteed" },
+        { "text": "100% Quality-Checked Reports" }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Trauma Assessments That Strengthen Your Case",
+      "tabs": [
+        {
+          "label": "Psychology Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Our HCPC-registered psychologists assess the psychological impact of accidents, negligence, and workplace incidents. All are enhanced DBS-checked and experienced in trauma assessment." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Psychology assessments for PI and civil cases include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and post-traumatic stress evaluations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychological injury and trauma assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Workplace stress and burnout evaluations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Road traffic accident psychological impact" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "General anxiety and depression assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Chronic pain and pain-related psychology" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fitness to work evaluations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Disability discrimination assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Tribunal assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Neuropsychological assessments (cognitive changes post-injury)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Clinical negligence and malpractice impact assessments" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatry Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Our GMC-registered psychiatrists assess mental health diagnoses, treatment needs, and medical causation. They provide psychiatric opinions that strengthen damages awards and court evidence." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Psychiatry assessments for PI and civil cases include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health diagnosis and evaluation" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and trauma-related psychiatric disorders" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Depression and anxiety disorder evaluations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Personality change and adjustment disorders" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity assessments (mental capacity post-incident)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Substance misuse secondary to injury" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations and prognosis" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Causation opinions (linking injury to mental health)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medical negligence and malpractice assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Chronic pain syndrome and psychiatric comorbidity" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Tribunal reports" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Combining Psychology & Psychiatry",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Complex cases often benefit from both a psychologist and psychiatrist. A psychologist quantifies psychological impact and functional loss. A psychiatrist provides medical diagnosis and treatment opinions." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Together, they give courts the full picture needed for fair damages assessment. Not sure which you need? Use our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Expert Support for the PI Cases You Handle",
+      "cards": [
+        {
+          "title": "Road Traffic Accident Claims",
+          "description": "Psychological assessment of accident-related PTSD, anxiety, and functional impairment.",
+          "link": "/expert-witness-psychologists/civil-personal-injury/"
+        },
+        {
+          "title": "Workplace Accidents & Injury",
+          "description": "Workplace stress, bullying, physical injury-related psychological harm, and fitness to work evaluations.",
+          "link": "/expert-witness-psychologists/civil-personal-injury/"
+        },
+        {
+          "title": "Medical & Clinical Negligence",
+          "description": "Assessment of psychological and psychiatric harm resulting from medical malpractice or negligent treatment.",
+          "link": "/expert-witness-psychologists/civil-personal-injury/"
+        },
+        {
+          "title": "Chronic Pain & Disability",
+          "description": "Psychological assessment of chronic pain, disability-related functional impairment, and mental health.",
+          "link": "/expert-witness-psychologists/civil-personal-injury/"
+        },
+        {
+          "title": "Mental Health Tribunal",
+          "description": "Expert reports for Mental Health Act detainees seeking tribunal review and release.",
+          "link": "/expert-witness-psychologists/civil-personal-injury/"
+        },
+        {
+          "title": "Toxic Exposure & Environmental Claims",
+          "description": "Psychological and psychiatric assessment of harm from toxic exposure, environmental negligence, or pollution.",
+          "link": "/expert-witness-psychologists/civil-personal-injury/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Provide Your Case Details",
+          "description": "Call us or complete our brief form. Tell us about the incident, symptoms, and your deadline. Your Client Manager handles the rest."
+        },
+        {
+          "number": 2,
+          "title": "Receive Matched Experts",
+          "description": "Within 24 hours, you'll get 2\u20133 CVs from trauma-experienced experts. All offer Legal Aid rates."
+        },
+        {
+          "number": 3,
+          "title": "Instruct & We Manage Everything",
+          "description": "Once you select an expert, we coordinate all appointments, liaise with medical professionals, and manage the process."
+        },
+        {
+          "number": 4,
+          "title": "Court-Ready Report",
+          "description": "Your report is fully quality-checked and proofread. We ensure all legal questions are answered and findings are clear. Standard turnaround is 4\u20136 weeks; fast-track available."
+        }
+      ],
+      "ctaText": "Get Your Expert Now",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Instruct Through Psychology Direct?",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        { "feature": "CVs & Quotes", "col1": "Within 24 hours, 2\u20133 trauma experts", "col2": "Days or weeks of searching" },
+        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by practitioner" },
+        { "feature": "Trauma Specialization", "col1": "Experts vetted for PTSD and trauma assessment", "col2": "May lack trauma focus" },
+        { "feature": "Case Management", "col1": "Dedicated Client Manager handles all logistics", "col2": "You manage appointments" },
+        { "feature": "Quality Assurance", "col1": "100% of reports proofread and QA-checked", "col2": "No independent check" },
+        { "feature": "Medical Coordination", "col1": "We liaise with treating doctors and hospitals", "col2": "You manage all contact" },
+        { "feature": "Cost", "col1": "Same or less than instructing directly", "col2": "Same or more" },
+        { "feature": "Turnaround", "col1": "4\u20136 weeks standard; fast-track available", "col2": "Variable, often longer" }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Personal Injury Solicitors Say About Us",
+      "testimonials": [
+        {
+          "quote": "Expert matching is fast and professional. The reports are comprehensive and clearly explain psychological injury to non-experts. Invaluable for damages assessment.",
+          "name": "Personal Injury Solicitor",
+          "title": "",
+          "organization": "Major Firm"
+        },
+        {
+          "quote": "They source excellent trauma psychologists. Reports always address our specific questions and are court-ready. Highly recommended.",
+          "name": "Clinical Negligence Specialist",
+          "title": "",
+          "organization": ""
+        },
+        {
+          "quote": "Speed and quality. Their Client Managers coordinate with medical teams seamlessly. Makes our casework much easier.",
+          "name": "In-house Legal Counsel",
+          "title": "",
+          "organization": "Insurance Firm"
+        },
+        {
+          "quote": "The experts understand PI work and write reports that judges and juries understand. That's what we need.",
+          "name": "Senior Litigator",
+          "title": "",
+          "organization": "PI Team"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Personal Injury & Civil Cases We've Supported",
+      "caseStudies": [
+        {
+          "title": "RTA PTSD Assessment with Fast Turnaround",
+          "summary": "A claimant suffering severe PTSD from a road accident needed urgent psychological assessment for damages. We matched a trauma psychologist and delivered the report within 4 weeks.",
+          "sector": "Personal Injury",
+          "link": "/case-studies/rta-ptsd-assessment/"
+        },
+        {
+          "title": "Medical Negligence Dual Assessment",
+          "summary": "A clinical negligence claim required both psychological and psychiatric assessment of harm from malpractice. We coordinated both experts and delivered comprehensive reports on time.",
+          "sector": "Clinical Negligence",
+          "link": "/case-studies/medical-negligence-assessment/"
+        },
+        {
+          "title": "Workplace Bullying & Mental Health",
+          "summary": "A workplace bullying claim required objective assessment of psychological injury and link to the hostile environment. We provided an occupational psychologist's detailed report supporting damages.",
+          "sector": "Employment",
+          "link": "/case-studies/workplace-bullying-assessment/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Personal Injury & Civil FAQs",
+      "faqs": [
+        {
+          "question": "How does a psychological injury assessment support a claim?",
+          "answer": "A psychological expert assesses mental health symptoms, diagnoses conditions like PTSD or depression, and evaluates functional impact. They quantify psychological harm and opine on treatment needs, which directly informs damages."
+        },
+        {
+          "question": "Do I need a psychologist or a psychiatrist?",
+          "answer": "A psychologist usually assesses psychological harm and functional impact. A psychiatrist helps if the claimant has medical comorbidities or if medical causation is disputed. Many cases benefit from both."
+        },
+        {
+          "question": "How long after an incident should an assessment be done?",
+          "answer": "Ideally, wait until acute distress has settled (typically 2\u20136 months post-incident). Early assessments may overestimate severity; delayed assessments may miss acute effects. Your expert will advise on the right timing for your case."
+        },
+        {
+          "question": "Can assessments be done remotely?",
+          "answer": "Yes. Many claimants prefer remote sessions for convenience and comfort. Our psychologists are experienced in remote trauma assessment. Some claimants benefit from in-person assessment instead. The expert will advise on the best approach."
+        },
+        {
+          "question": "What if the claimant is still receiving treatment?",
+          "answer": "Ongoing treatment is common and doesn't prevent assessment. The expert reviews treatment records and assesses current mental state. This actually strengthens evidence of ongoing psychological harm."
+        },
+        {
+          "question": "How much does a PI psychological assessment cost?",
+          "answer": "Costs depend on case complexity, assessment duration, and report scope. Use our fee calculator for an instant estimate, or call us. All quotes include assessment, report writing, and quality assurance. For Legal Aid cases, we work at LAA-set rates."
+        },
+        {
+          "question": "Will the expert report address damages?",
+          "answer": "Yes. Expert reports address diagnosis, severity, functional impact, prognosis, and treatment needs. These directly inform damages. The court decides quantum, but our experts provide the evidence the court needs to assess fairly."
+        },
+        {
+          "question": "Can I get a report within weeks, not months?",
+          "answer": "Standard turnaround is 4\u20136 weeks. We offer fast-track services for urgent cases. Contact us to discuss your timeline. We often deliver faster when needed."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Strengthen Your Case with Expert Evidence?",
+      "bodyText": "We'll match you with a trauma expert, handle all coordination, and deliver a court-ready report on your timeline.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Estimate Costs",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    }
+  ]
+}

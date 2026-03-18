@@ -1,0 +1,289 @@
+{
+  "title": "Immigration & Asylum Expert Witness | Psychology Direct",
+  "description": "Psychological and psychiatric assessments for immigration tribunals and asylum claims. Torture, PTSD, and country-specific trauma.",
+  "url": "/expert-witness-psychologists/asylum-immigration/",
+  "keywords": ["immigration expert witness psychologist", "asylum psychological report", "torture assessment", "immigration psychiatrist", "PTSD asylum"],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Win Your Asylum Case with Expert Trauma Evidence",
+      "subtitle": "We match you with culturally competent psychologists and psychiatrists who understand asylum trauma, torture, and persecution. Court-ready reports in 4–6 weeks. Legal Aid rates always.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "See Our Immigration Expertise",
+      "secondaryCtaLink": "/expert-witness-psychologists/asylum-immigration/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC & GMC Registered" },
+        { "text": "Culturally Competent Experts" },
+        { "text": "CVs in 24 Hours" },
+        { "text": "100% Tribunal-Ready Reports" }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "What Our Experts Provide",
+      "tabs": [
+        {
+          "label": "Psychology Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Psychologists assess trauma from persecution and torture. They diagnose PTSD, evaluate the credibility of your client's account, and assess how the trauma affects their day-to-day functioning." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Services include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and trauma-related disorders assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Torture and persecution impact evaluation" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Country-specific trauma and persecution assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Credibility of trauma account evaluation" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity to give evidence assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Functional impairment and impact on asylum claim" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations and prognosis" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Tribunal reports" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatry Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Psychiatrists provide expert medical opinion on mental health conditions from persecution and torture. They diagnose based on international criteria, establish causation, and recommend treatment." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Services include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychiatric diagnosis and assessment (ICD-10/DSM-5)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and complex PTSD evaluation" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Depression anxiety and adjustment disorders" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychotic disorders secondary to trauma" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medical reports for tribunal proceedings" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Trauma & Cultural Competency",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Asylum work needs experts who understand trauma psychology and the persecution contexts your clients face. Our network includes specialists in asylum trauma, torture assessment, and regional cultural competency. When you brief us, your Client Manager will find an expert familiar with your client's country and trauma context." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Not sure which type of expert you need? Try our Psychologist or Psychiatrist? tool \u2192 /tools/psychologist-or-psychiatrist/" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Expert Assessment for Every Asylum Case Type",
+      "cards": [
+        {
+          "title": "Torture Assessment",
+          "description": "Expert assessment of torture and its impact on mental health and functioning.",
+          "link": "/expert-witness-psychologists/asylum-immigration/"
+        },
+        {
+          "title": "Country-Specific Persecution",
+          "description": "Assessment of mental health impact from persecution, war trauma, or political violence.",
+          "link": "/expert-witness-psychologists/asylum-immigration/"
+        },
+        {
+          "title": "PTSD & Complex Trauma",
+          "description": "Detailed PTSD and complex trauma evaluation for asylum claimants.",
+          "link": "/expert-witness-psychologists/asylum-immigration/"
+        },
+        {
+          "title": "Credibility Assessment",
+          "description": "Expert assessment of trauma account credibility for tribunal evidence.",
+          "link": "/expert-witness-psychologists/asylum-immigration/"
+        },
+        {
+          "title": "Capacity to Participate",
+          "description": "Assessment of capacity to participate in asylum proceedings and give evidence.",
+          "link": "/expert-witness-psychologists/asylum-immigration/"
+        },
+        {
+          "title": "Mental Health Tribunal Reports",
+          "description": "Reports for detention under Immigration Act and Mental Health Act.",
+          "link": "/expert-witness-psychologists/asylum-immigration/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Provide Case Context",
+          "description": "Call us on 01306 879 975. Tell us your client's country, persecution history, and mental health needs. Share any cultural context that will help with expert matching."
+        },
+        {
+          "number": 2,
+          "title": "Receive Specialist CVs",
+          "description": "Within 24 hours, we send 2\u20133 CVs from psychologists/psychiatrists with expertise in your client's country or region. All accept Legal Aid rates."
+        },
+        {
+          "number": 3,
+          "title": "Instruct & We Handle Everything",
+          "description": "We arrange appointments (in-person or remote), coordinate with interpreters, and manage all logistics."
+        },
+        {
+          "number": 4,
+          "title": "Tribunal-Ready Report",
+          "description": "You get a comprehensive, trauma-informed report that's 100% quality-checked. Standard turnaround is 4\u20136 weeks. Fast-track available."
+        }
+      ],
+      "ctaText": "Get Your Expert Now",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why We're Your Smarter Choice",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        { "feature": "Country-Specific Expertise", "col1": "Experts matched by country and context", "col2": "Generic trauma only" },
+        { "feature": "Cultural Competency", "col1": "Specialists in asylum and persecution", "col2": "Limited cultural knowledge" },
+        { "feature": "Torture Assessment Experience", "col1": "Experts trained in torture assessment protocols", "col2": "General psychology only" },
+        { "feature": "CVs in 24 Hours", "col1": "Fast matching from specialist network", "col2": "Weeks of searching" },
+        { "feature": "Interpreter Coordination", "col1": "We arrange interpreters if needed", "col2": "You manage everything" },
+        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by practitioner" },
+        { "feature": "Case Management", "col1": "Dedicated Client Manager", "col2": "You manage all logistics" },
+        { "feature": "Cost", "col1": "Same or less than instructing directly", "col2": "Same or more" }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Immigration & Asylum Solicitors Say About Us",
+      "testimonials": [
+        {
+          "quote": "Their experts understand asylum trauma and country contexts. Reports are detailed, credible, and persuasive to tribunals.",
+          "name": "Immigration Solicitor",
+          "title": "",
+          "organization": "Specialist Asylum Firm"
+        },
+        {
+          "quote": "Cultural competency and trauma expertise. Essential for asylum work.",
+          "name": "Asylum Representation Specialist",
+          "title": "",
+          "organization": ""
+        },
+        {
+          "quote": "Fast, reliable, and understand the nuances of asylum assessment. Invaluable.",
+          "name": "Senior Immigration Lawyer",
+          "title": "",
+          "organization": ""
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Immigration & Asylum Cases We've Supported",
+      "caseStudies": [
+        {
+          "title": "Syrian Refugee Torture Assessment",
+          "summary": "Expert torture and PTSD assessment for a claimant fleeing persecution. We matched a Syria-specialist psychologist quickly.",
+          "sector": "Immigration",
+          "link": "/case-studies/syrian-refugee-assessment/"
+        },
+        {
+          "title": "Country-Specific Persecution Evaluation",
+          "summary": "Country-context assessment for a claimant persecuted for political opposition. We provided a regional trauma specialist.",
+          "sector": "Asylum",
+          "link": "/case-studies/country-persecution-assessment/"
+        },
+        {
+          "title": "Mental Health Detention Appeal",
+          "summary": "Psychiatric assessment for a detained asylum claimant with severe PTSD. We provided urgent Mental Health Act tribunal report.",
+          "sector": "Immigration",
+          "link": "/case-studies/mental-health-detention-appeal/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Immigration & Asylum FAQs",
+      "faqs": [
+        {
+          "question": "What psychological conditions are common in asylum claimants?",
+          "answer": "PTSD, complex PTSD, depression, anxiety, and adjustment disorders are common. Some experience psychotic symptoms following severe trauma. Expert assessment links the diagnosis to your client's specific persecution history."
+        },
+        {
+          "question": "How do experts assess torture?",
+          "answer": "Experts use validated torture assessment protocols, detailed history-taking, and psychological testing. They examine consistency of accounts, physical and psychological effects, and the impact on your client's functioning."
+        },
+        {
+          "question": "Do I need a psychologist or a psychiatrist?",
+          "answer": "A psychologist is usually enough for trauma and PTSD assessment. Add a psychiatrist when medication, medical issues, or medical diagnosis opinion matters. Many cases benefit from both."
+        },
+        {
+          "question": "Do your experts have country-specific expertise?",
+          "answer": "Yes. We have experts with knowledge of asylum trauma, persecution patterns, and cultural contexts across regions. During matching, we'll prioritize experts with relevant regional knowledge for your client's country."
+        },
+        {
+          "question": "Can assessments be done through an interpreter?",
+          "answer": "Yes. Many of your clients need interpreter support, and we arrange it. Our experts are experienced in trauma assessment through interpreters, and assessment quality is maintained with professional interpretation."
+        },
+        {
+          "question": "How long does a tribunal-ready report take?",
+          "answer": "Standard turnaround is 4\u20136 weeks. For urgent cases with tribunal deadlines, we offer fast-track services. Call us on 01306 879 975 to discuss your timeline."
+        },
+        {
+          "question": "Will the expert attend the tribunal?",
+          "answer": "Your report stands alone for tribunal purposes. If you need the expert to attend and give evidence, we can arrange that separately. Discuss this with your Client Manager."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Strengthen Your Asylum Case?",
+      "bodyText": "We'll match you with a trauma-informed expert who understands your client's country and culture. We handle matching, appointments, interpreters, and delivery.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call Us",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

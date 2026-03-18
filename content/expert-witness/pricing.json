@@ -1,0 +1,126 @@
+{
+  "title": "Expert Witness Pricing & Legal Aid Rates | Psychology Direct",
+  "description": "Transparent expert witness pricing. Legal Aid rates accepted. No hidden costs. Use our free fee calculator.",
+  "url": "/expert-witness-psychologists/pricing/",
+  "keywords": [
+    "expert witness fees legal aid",
+    "expert witness costs",
+    "legal aid rates expert witness",
+    "psychology report cost",
+    "psychiatric report price"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Know Your Expert Witness Costs Upfront",
+      "subtitle": "No surprises. Legal Aid rates guaranteed. Get a transparent quote in 60 seconds with our free calculator.",
+      "primaryCtaText": "Use the Fee Calculator",
+      "primaryCtaLink": "/tools/fee-calculator/",
+      "secondaryCtaText": "View Pricing Table",
+      "secondaryCtaLink": "/expert-witness-psychologists/pricing/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "Legal Aid Rates Guaranteed" },
+        { "text": "No Hidden Costs" },
+        { "text": "Upfront Quotes" },
+        { "text": "Competitive vs. Direct Instruction" }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Psychology Direct vs. Instructing an Expert Directly",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        { "feature": "Setup/Admin Fees", "col1": "None \u2014 included in expert fees", "col2": "You manage all coordination" },
+        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies; some won't accept LAA" },
+        { "feature": "Upfront Quote", "col1": "Yes \u2014 full breakdown provided", "col2": "Uncertain; may increase" },
+        { "feature": "Hidden Costs", "col1": "None", "col2": "Possible additional fees" },
+        { "feature": "Quality Assurance", "col1": "100% of reports QA-checked (no extra cost)", "col2": "No independent check" },
+        { "feature": "Case Management", "col1": "Dedicated Client Manager (no extra cost)", "col2": "You manage everything" },
+        { "feature": "Multi-Party Coordination", "col1": "Included in our service (no extra cost)", "col2": "You coordinate and pay separately" },
+        { "feature": "Typical Cost", "col1": "Same or less than direct instruction", "col2": "Same or more" }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How Pricing Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Submit Your Brief",
+          "description": "Tell us about your case, the assessment needed, location, and deadline."
+        },
+        {
+          "number": 2,
+          "title": "Use the Fee Calculator",
+          "description": "Get an instant estimate based on case type, complexity, and timeline."
+        },
+        {
+          "number": 3,
+          "title": "Receive a Detailed Quote",
+          "description": "Once we've matched experts, we provide a full quote showing assessment hours, report writing hours, and total fee \u2014 all itemized."
+        },
+        {
+          "number": 4,
+          "title": "Agree & Instruct",
+          "description": "You approve the quote and we proceed. No hidden costs, no surprises."
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Pricing & Legal Aid FAQs",
+      "faqs": [
+        {
+          "question": "What's included in the expert witness fee?",
+          "answer": "The expert's fee covers assessment, report writing, and court attendance (if required). Your dedicated Client Manager's coordination and quality assurance are included at no extra cost."
+        },
+        {
+          "question": "What are Legal Aid rates?",
+          "answer": "The Legal Aid Agency sets fixed rates for expert witness fees in publicly funded cases. We work at these rates on all eligible cases. Rates vary by specialism and complexity. They're transparent and non-negotiable."
+        },
+        {
+          "question": "Does Psychology Direct charge a markup?",
+          "answer": "No. The fee you pay is the expert's fee only. Our matching, coordination, QA, and case management are included at no extra cost. You pay the same or less than instructing an expert directly."
+        },
+        {
+          "question": "What if my case is complex or urgent?",
+          "answer": "Complex cases (multiple parties, unusual specialism) may cost more than standard cases. Urgent cases may incur a fast-track premium. We'll be upfront about any additional cost before you proceed."
+        },
+        {
+          "question": "What happens if costs change?",
+          "answer": "We provide a detailed quote upfront and won't proceed without your agreement. If extra work emerges (e.g., additional assessment sessions), we'll confirm the cost with you first."
+        },
+        {
+          "question": "Can I negotiate fees?",
+          "answer": "For Legal Aid cases, fees are set by the LAA \u2014 we can't negotiate them. For private cases, our fees are market-rate and competitive with direct instruction. We stand by our transparent quotes."
+        },
+        {
+          "question": "What if I'm on a tight budget?",
+          "answer": "Our fee calculator helps you estimate costs upfront. We work with solicitors of all sizes and budgets. Call us on 01306 879 975 to find cost-effective options for your case."
+        },
+        {
+          "question": "Are there any other costs I need to know about?",
+          "answer": "No hidden costs. Fees cover assessment, report writing, and QA. Court attendance is a separate fee we'll confirm upfront. Travel expenses may apply in some cases."
+        },
+        {
+          "question": "How do I get a formal quote?",
+          "answer": "Use the fee calculator for an instant estimate. Or call us on 01306 879 975 to discuss your case with a Client Manager. We'll provide a detailed written quote once we've matched experts."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Get Your Cost Estimate Now",
+      "bodyText": "Use our free calculator or call us for a detailed quote. Transparent pricing, no hidden costs, Legal Aid rates guaranteed.",
+      "primaryCtaText": "Use Fee Calculator",
+      "primaryCtaLink": "/tools/fee-calculator/",
+      "secondaryCtaText": "Call 01306 879 975",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "title": "Prison Law Expert Witness | Psychology Direct",
+  "description": "Psychological and psychiatric reports for parole boards, IPP sentences, and prison law proceedings.",
+  "url": "/expert-witness-psychologists/prison-law/",
+  "keywords": [
+    "prison law expert witness psychologist",
+    "parole board psychologist",
+    "IPP sentence assessment",
+    "prison psychiatrist",
+    "mental health prison"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get Parole Reports That Persuade",
+      "subtitle": "Specialist forensic assessment for parole boards and IPP reviews. We match experienced psychologists and psychiatrists in 24 hours. We handle prison coordination and deliver court-ready reports at Legal Aid rates.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Estimate Expert Costs",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC & GMC Registered" },
+        { "text": "Forensic Risk Assessment Expertise" },
+        { "text": "CVs in 24 Hours" },
+        { "text": "100% Court-Ready Reports" }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "What Our Experts Assess",
+      "tabs": [
+        {
+          "label": "Psychology Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Our forensic psychologists assess risk using validated tools and professional judgment. They evaluate mental health, release suitability, and management needs for parole boards and IPP reviews." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Services include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Risk of re-offending assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Risk management and release planning" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health and personality assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychological suitability for release" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment and rehabilitation recommendations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parole board reports" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "IPP sentence review assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Dangerousness assessments" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatry Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Our psychiatrists provide mental health diagnosis, capacity assessment, and treatment recommendations. They bring medical expertise to parole and prison law proceedings." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Services include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health diagnosis and assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity and fitness assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Risk assessment (psychiatric perspective)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health treatment needs and prognosis" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Substance misuse and dependency assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parole board reports" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "IPP sentence assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Act considerations" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Comprehensive Risk & Release Planning",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Complex cases often need both perspectives. Our psychologists assess psychological and behavioural factors. Our psychiatrists assess medical and mental health factors. Your dedicated Client Manager ensures the right expert combination for a thorough, persuasive report." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Not sure which expert you need? Try our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Cases We Handle",
+      "cards": [
+        {
+          "title": "Parole Board Assessments",
+          "description": "We assess risk, mental health, and release suitability for parole boards.",
+          "link": "/expert-witness-psychologists/prison-law/"
+        },
+        {
+          "title": "IPP Sentence Reviews",
+          "description": "Comprehensive assessment for indeterminate sentence reviews.",
+          "link": "/expert-witness-psychologists/prison-law/"
+        },
+        {
+          "title": "Risk of Re-offending",
+          "description": "Validated risk assessment using structured tools and professional judgment.",
+          "link": "/expert-witness-psychologists/prison-law/"
+        },
+        {
+          "title": "Mental Health in Prison",
+          "description": "Assessment of mental health conditions and treatment needs.",
+          "link": "/expert-witness-psychologists/prison-law/"
+        },
+        {
+          "title": "Dangerousness Assessment",
+          "description": "Expert assessment of dangerousness and risk to the public.",
+          "link": "/expert-witness-psychologists/prison-law/"
+        },
+        {
+          "title": "Release Planning & Rehabilitation",
+          "description": "Detailed assessment and recommendations for release planning.",
+          "link": "/expert-witness-psychologists/prison-law/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Tell Us Your Case",
+          "description": "Call us on 01306 879 975. We'll take your prisoner's background, offence, sentence, and mental health history. Then we'll clarify the specific question."
+        },
+        {
+          "number": 2,
+          "title": "Get Expert CVs in 24 Hours",
+          "description": "We send 2\u20133 qualified forensic psychologists or psychiatrists. All accept Legal Aid rates."
+        },
+        {
+          "number": 3,
+          "title": "We Manage Everything",
+          "description": "We arrange assessments (in-prison where needed), liaise with prison services, and handle logistics."
+        },
+        {
+          "number": 4,
+          "title": "Court-Ready Report",
+          "description": "Your expert delivers a comprehensive report assessing risk, mental health, and release suitability. 100% quality-checked. 4\u20136 weeks standard; fast-track available."
+        }
+      ],
+      "ctaText": "Get Your Expert Now",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Work With Us?",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        { "feature": "Forensic Risk Assessment", "col1": "Validated expertise in risk tools", "col2": "May lack specialization" },
+        { "feature": "Parole Board Experience", "col1": "Experts trained in parole procedure", "col2": "General psychology only" },
+        { "feature": "CVs in 24 Hours", "col1": "Fast matching from our forensic network", "col2": "Weeks of searching" },
+        { "feature": "Prison Coordination", "col1": "We liaise with prison services", "col2": "You manage everything" },
+        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by expert" },
+        { "feature": "Case Management", "col1": "Your dedicated Client Manager", "col2": "You handle it all" },
+        { "feature": "Quality Assurance", "col1": "100% of reports reviewed and checked", "col2": "No independent review" },
+        { "feature": "Cost", "col1": "Same or less than direct instruction", "col2": "Often more" }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Solicitors Tell Us",
+      "testimonials": [
+        {
+          "quote": "Excellent forensic expertise. Their risk reports are detailed, structured, and truly persuasive to parole boards.",
+          "name": "Prison Law Solicitor",
+          "title": "",
+          "organization": "Specialist Firm"
+        },
+        {
+          "quote": "Fast expert matching and parole-focused reports. Essential to our prison law practice.",
+          "name": "Senior Prison Law Adviser",
+          "title": "",
+          "organization": ""
+        },
+        {
+          "quote": "They understand parole procedure and risk assessment. Invaluable for complex cases.",
+          "name": "Parole Board Representative",
+          "title": "",
+          "organization": ""
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Cases That Show Our Expertise",
+      "caseStudies": [
+        {
+          "title": "IPP Sentence Review with Dual Assessment",
+          "summary": "A prisoner seeking IPP review needed both psychological and psychiatric assessment. We coordinated a comprehensive dual expert evaluation.",
+          "sector": "Prison Law",
+          "link": "/case-studies/ipp-sentence-review/"
+        },
+        {
+          "title": "Parole Board Risk Assessment",
+          "summary": "A prisoner approaching parole eligibility needed risk and release planning assessment. We delivered a forensic psychologist's comprehensive parole board report.",
+          "sector": "Prison Law",
+          "link": "/case-studies/parole-board-assessment/"
+        },
+        {
+          "title": "Mental Health Dangerousness Assessment",
+          "summary": "A prisoner with complex mental health needed dangerousness assessment and treatment recommendations. We matched the right dual experts for parole.",
+          "sector": "Prison Law",
+          "link": "/case-studies/mental-health-dangerousness-assessment/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is a parole board assessment?",
+          "answer": "Parole boards assess whether a prisoner is safe for release. They consider risk of re-offending, mental health, release planning, and rehabilitation. Expert psychological and psychiatric assessment is central to these proceedings."
+        },
+        {
+          "question": "What is an IPP sentence and why do reviews matter?",
+          "answer": "IPP (Indeterminate Sentence for Public Protection) sentences had no fixed end date. They were later ruled unjust. Prisoners now seek reviews to reduce their sentences, and assessment of current dangerousness is critical."
+        },
+        {
+          "question": "Do I need a psychologist or a psychiatrist?",
+          "answer": "Psychologists excel at risk assessment and psychological factors. Psychiatrists excel at mental health diagnosis and medical assessment. Most parole and IPP assessments benefit from both experts."
+        },
+        {
+          "question": "How do experts assess risk?",
+          "answer": "Experts use validated tools like HCR-20 and LS/CMI, along with structured professional judgment. They assess static factors (history) and dynamic factors (current mental health and social support). This combination informs the overall risk level."
+        },
+        {
+          "question": "How long does a parole board report take?",
+          "answer": "Standard turnaround is 4\u20136 weeks. Parole board deadlines are often tight, so we offer fast-track services. Call us on 01306 879 975 to discuss your timeline."
+        },
+        {
+          "question": "Can assessments be done in-prison?",
+          "answer": "Yes. Prisoners are typically assessed in-prison. We arrange all coordination with prison services and handle logistics. Some supplementary information may be gathered externally."
+        },
+        {
+          "question": "What happens after the assessment?",
+          "answer": "The expert writes a report addressing your parole board or IPP review questions. The report is 100% quality-checked before delivery. Parole boards may request the expert attend the hearing."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready for Your Parole Expert?",
+      "bodyText": "We'll match you with a forensic expert in 24 hours, handle all prison coordination, and deliver a court-ready report.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Estimate Costs",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "title": "Criminal Law Expert Witness | Psychologists & Psychiatrists",
+  "description": "Fitness to plead, risk assessments, and mental health reports for criminal courts. Fast CVs, Legal Aid rates guaranteed.",
+  "url": "/expert-witness-psychologists/criminal/",
+  "keywords": [
+    "criminal law expert witness psychologist",
+    "fitness to plead assessment",
+    "Pritchard criteria",
+    "criminal psychiatrist",
+    "forensic psychologist expert witness",
+    "risk assessment"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Meet Your Criminal Expert Witness Fast",
+      "subtitle": "Whether you need a fitness to plead assessment, risk evaluation, or pre-sentencing report, we'll match you with an expert in 24 hours. All our psychologists and psychiatrists work at Legal Aid rates.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "What Does a Fitness to Plead Assessment Cover?",
+      "secondaryCtaLink": "/expert-witness-psychologists/criminal/#faqs"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC & GMC Registered" },
+        { "text": "Section 12 Approved Psychiatrists" },
+        { "text": "CVs Within 24 Hours" },
+        { "text": "100% Legal Aid Compliant" }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "What Our Experts Provide",
+      "tabs": [
+        {
+          "label": "Psychology Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our forensic psychologists deliver expert psychological assessments that stand up in court. Every psychologist on our register is HCPC-registered, trained in forensic assessment, and experienced in defending their findings under cross-examination."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychology services for criminal cases include:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Fitness to plead assessments (Pritchard criteria)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mental capacity and criminal responsibility evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Risk of re-offending assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Suggestibility and false confession evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Witness reliability assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "IQ and cognitive functioning assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Neuropsychological evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mental health and personality assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Sexual offender risk assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Pre-sentencing psychological reports" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Prison parole and IPP assessments" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatry Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our GMC-registered, Section 12 approved psychiatrists deliver expert opinion that shapes sentencing and parole outcomes. They assess mental state at the time of offence, diagnose mental health conditions, and recommend treatment \u2014 all backed by clinical expertise."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychiatry services for criminal cases include:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Fitness to plead and fitness to stand trial (Pritchard criteria)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mental capacity assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Psychiatric assessment of mental state at time of offence" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Criminal responsibility and mens rea evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Risk of re-offending assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Sexual and violent offender evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Personality disorder and psychosis assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "PTSD and trauma-related evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Substance misuse and dependency assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Neuropsychiatric assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Pre-sentencing and probation reports" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Parole hearing and IPP assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Treatment recommendations and prognosis" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Working Together",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fitness to plead assessments often require both psychologist and psychiatrist input. A psychologist assesses cognitive functioning and suggestibility; a psychiatrist assesses mental state and medical factors. For risk assessments, a psychologist evaluates behaviour and psychology; a psychiatrist assesses mental health and medical aspects. Your Client Manager will advise on the best combination for your case."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Not sure? Use our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Expert Assessments That Win Cases",
+      "subheading": "From fitness to plead to risk assessment, we've supported defence, prosecution, and CPS work.",
+      "cards": [
+        {
+          "title": "Fitness to Plead Assessments",
+          "description": "Pritchard criteria assessments for defendants lacking capacity to participate in proceedings. Urgent turnaround available.",
+          "link": "/expert-witness-psychologists/criminal/"
+        },
+        {
+          "title": "Pre-Sentencing & Probation Reports",
+          "description": "Psychological and psychiatric reports informing sentencing decisions and probation conditions.",
+          "link": "/expert-witness-psychologists/criminal/"
+        },
+        {
+          "title": "Risk Assessments",
+          "description": "Re-offending risk, sexual offender risk, violent offender risk, and self-harm risk evaluations.",
+          "link": "/expert-witness-psychologists/criminal/"
+        },
+        {
+          "title": "Mental State at Time of Offence",
+          "description": "Psychiatric evaluation of the defendant's mental state at the time of the alleged offence.",
+          "link": "/expert-witness-psychologists/criminal/"
+        },
+        {
+          "title": "IPP & Parole Assessments",
+          "description": "Indeterminate Prisoner and parole board assessments evaluating suitability for release.",
+          "link": "/expert-witness-psychologists/criminal/"
+        },
+        {
+          "title": "Witness Reliability & Suggestibility",
+          "description": "Psychological evaluation of witness credibility, suggestibility, and reliability of evidence.",
+          "link": "/expert-witness-psychologists/criminal/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Brief Us Urgently",
+          "description": "Call 01306 879 975 or email your brief. Our Client Manager will capture your case details, the defendant's background, and your deadline. We'll note which Pritchard criteria or specific issues matter most."
+        },
+        {
+          "number": 2,
+          "title": "Receive CVs Within 24 Hours",
+          "description": "We'll send 2\u20133 matched CVs from forensic psychologists or psychiatrists. Each expert fits your case's needs, location, and timeline. All work at Legal Aid rates."
+        },
+        {
+          "number": 3,
+          "title": "Instruct & We Handle Everything",
+          "description": "Pick your expert and we take it from there. We manage appointments, correspond with other parties, and handle all admin. Your case stays on track."
+        },
+        {
+          "number": 4,
+          "title": "Court-Ready Report Delivered",
+          "description": "Your report gets 100% quality-checked and proofread. We verify it meets your letter of instruction and court standards. Standard turnaround: 4\u20136 weeks; fast-track available."
+        }
+      ],
+      "ctaText": "Get Your Expert Now",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Instruct Through Psychology Direct?",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        {
+          "feature": "CVs & Quotes",
+          "col1": "Within 24 hours, 2\u20133 options, all Legal Aid rates",
+          "col2": "Days of searching; rates uncertain"
+        },
+        {
+          "feature": "Speed",
+          "col1": "Expert matched same day or next morning",
+          "col2": "Weeks of calling around"
+        },
+        {
+          "feature": "Legal Aid Compliance",
+          "col1": "100% guaranteed on every case",
+          "col2": "May not work at Legal Aid rates"
+        },
+        {
+          "feature": "Case Management",
+          "col1": "Dedicated Client Manager handles all admin",
+          "col2": "You manage everything"
+        },
+        {
+          "feature": "Quality Assurance",
+          "col1": "100% of reports proofread and QA-checked",
+          "col2": "No independent check"
+        },
+        {
+          "feature": "Expert Vetting",
+          "col1": "HCPC/GMC registered, forensic experience verified",
+          "col2": "You verify credentials yourself"
+        },
+        {
+          "feature": "Availability",
+          "col1": "24/7 emergency contact for urgent cases",
+          "col2": "Limited availability"
+        },
+        {
+          "feature": "Cost",
+          "col1": "Same or less than instructing directly",
+          "col2": "Same or more"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Criminal Law Solicitors Say About Us",
+      "testimonials": [
+        {
+          "quote": "We appreciate the speed with which Psychology Direct can source and provide suitable expert witnesses. Their team works well with our tight court deadlines.",
+          "name": "Criminal Defence Solicitor",
+          "title": "",
+          "organization": "UK Legal Aid Firm"
+        },
+        {
+          "quote": "The quality of experts and the speed of service make this essential for our defence practice. We recommend them to colleagues regularly.",
+          "name": "Senior Solicitor",
+          "title": "Criminal Defence",
+          "organization": ""
+        },
+        {
+          "quote": "A reliable, professional service. They understand the pressure we're under and deliver accordingly.",
+          "name": "CPS-Instructed Solicitor",
+          "title": "",
+          "organization": ""
+        },
+        {
+          "quote": "Having local experts available at short notice has been invaluable. Their coordination of complex assessments is excellent.",
+          "name": "Solicitor Advocate",
+          "title": "",
+          "organization": "Major Crime Team"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Criminal Law Cases We've Supported",
+      "caseStudies": [
+        {
+          "title": "24-Hour Fitness to Plead Assessment",
+          "summary": "An original assessor became unavailable. We stepped in and delivered a replacement psychologist's court-ready fitness to plead report within 24 hours, meeting the court's deadline.",
+          "sector": "Criminal Law",
+          "link": "/case-studies/delivering-court-report-within-days/"
+        },
+        {
+          "title": "Urgent Pre-Sentencing Psychiatric Report",
+          "summary": "A CPS matter required an urgent psychiatric assessment to inform sentencing. We matched a Section 12 approved psychiatrist and delivered the report within the court's timeline.",
+          "sector": "Criminal Law",
+          "link": "/case-studies/expert-witness-for-cps/"
+        },
+        {
+          "title": "Complex Risk Assessment",
+          "summary": "A multi-faceted risk assessment for a violent offence required both psychological and psychiatric expertise. We coordinated both experts and delivered a comprehensive report on time.",
+          "sector": "Criminal Law",
+          "link": "/case-studies/complex-criminal-assessment/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Criminal Law Expert Witness FAQs",
+      "faqs": [
+        {
+          "question": "What is a Fitness to Plead assessment?",
+          "answer": "Fitness to plead is a court assessment of whether a defendant has the mental capacity to participate in their trial. The Pritchard criteria evaluates four key capacities: understanding the charge, understanding guilty vs. not guilty pleas, instructing a solicitor, and following court proceedings. If a defendant fails these, the court may stay proceedings or order psychiatric treatment."
+        },
+        {
+          "question": "Who can assess Fitness to Plead?",
+          "answer": "Under the Mental Health Act, fitness to plead assessments must be carried out by a psychiatrist or psychologist with appropriate training. Section 12 approval is not required for fitness to plead (though many of our psychiatrists are Section 12 approved). We have extensive experience in this area."
+        },
+        {
+          "question": "How quickly can you provide an expert?",
+          "answer": "For criminal cases, we prioritize urgent requests. We typically provide 2\u20133 CVs within 24 hours. For truly urgent fitness to plead assessments, we can sometimes offer same-day expert matching. Call 01306 879 975 to discuss your timeline."
+        },
+        {
+          "question": "Do your experts work at Legal Aid rates?",
+          "answer": "Yes. All our psychologists and psychiatrists work at Legal Aid rates for publicly funded criminal cases. We understand the budget constraints and provide full fee breakdowns upfront. For privately funded cases, we offer transparent quotes."
+        },
+        {
+          "question": "Can you provide both a psychologist and psychiatrist for a single case?",
+          "answer": "Absolutely. Many fitness to plead and risk assessment cases benefit from both perspectives. A psychologist assesses cognitive functioning and psychology. A psychiatrist assesses mental health and medical factors. Your Client Manager will advise on the best combination for your case."
+        },
+        {
+          "question": "What if the case is very urgent?",
+          "answer": "We have a proven track record of delivering even in the most demanding timescales. Call us on 01306 879 975 to discuss your deadline. We offer fast-track services and have experts available at short notice."
+        },
+        {
+          "question": "How long do assessments take?",
+          "answer": "Most fitness to plead assessments take 2\u20134 hours depending on complexity. Risk assessments and pre-sentencing reports may take longer. The expert will advise on the assessment plan during the booking phase."
+        },
+        {
+          "question": "What happens after the assessment?",
+          "answer": "The expert writes a court-ready report addressing all Pritchard criteria or your letter of instruction questions. All reports get 100% quality-checked by our team before delivery. Standard turnaround is 4\u20136 weeks; fast-track is available."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Instruct Your Expert?",
+      "bodyText": "We'll match you with the right psychologist or psychiatrist in 24 hours. Your Client Manager handles appointments, correspondence, and reports. You focus on your case.",
+      "primaryCtaText": "Instruct an Expert Now",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call 01306 879 975",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

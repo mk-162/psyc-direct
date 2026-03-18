@@ -1,0 +1,622 @@
+{
+  "title": "Expert Witness Psychologists & Psychiatrists | Psychology Direct",
+  "description": "Court-ready expert witness reports from 1,000+ vetted psychologists and psychiatrists. CVs in 24hrs. Legal Aid rates guaranteed.",
+  "url": "/expert-witness-psychologists/",
+  "keywords": [
+    "expert witness psychologist psychiatrist",
+    "expert witness UK",
+    "psychology expert witness",
+    "psychiatric expert witness",
+    "medico legal report"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Expert Witness Reports, Faster. Court-Ready, Guaranteed.",
+      "subtitle": "Access 1,000+ HCPC/GMC-registered experts across all practice areas. We deliver CVs within 24 hours and court-ready reports in 4–6 weeks. Legal Aid rates guaranteed on every case. One dedicated Client Manager owns your case from matching to delivery.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Not Sure What You Need?",
+      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "1,000+ Vetted Professionals" },
+        { "text": "CVs Within 24 Hours" },
+        { "text": "Legal Aid Rates Guaranteed" },
+        { "text": "100% Quality-Checked Reports" }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "15+", "label": "Years' Experience" },
+        { "value": "7", "label": "Practice Areas Covered" },
+        { "value": "4-6 Week", "label": "Standard Turnaround" },
+        { "value": "100%", "label": "DBS Enhanced & Registered" }
+      ]
+    },
+    {
+      "_template": "practiceAreaCards",
+      "heading": "Fast Access to Specialists Across Seven Practice Areas",
+      "cards": [
+        {
+          "title": "Family Law",
+          "description": "Parenting capacity, attachment, domestic abuse, care proceedings assessments.",
+          "link": "/expert-witness-psychologists/family/"
+        },
+        {
+          "title": "Criminal Law",
+          "description": "Fitness to plead, risk assessments, mental state evaluations, pre-sentencing reports.",
+          "link": "/expert-witness-psychologists/criminal/"
+        },
+        {
+          "title": "Personal Injury & Civil",
+          "description": "PTSD, psychological injury, work stress, negligence, tribunal assessments.",
+          "link": "/expert-witness-psychologists/civil-personal-injury/"
+        },
+        {
+          "title": "Clinical Negligence",
+          "description": "Breach of duty analysis, causation, prognosis, treatment recommendations.",
+          "link": "/expert-witness-psychologists/clinical-negligence/"
+        },
+        {
+          "title": "Immigration & Asylum",
+          "description": "Torture assessments, PTSD, country-specific trauma, tribunal evidence.",
+          "link": "/expert-witness-psychologists/asylum-immigration/"
+        },
+        {
+          "title": "Employment Law",
+          "description": "Workplace bullying, discrimination, occupational stress, tribunal reports.",
+          "link": "/expert-witness-psychologists/employment/"
+        },
+        {
+          "title": "Prison Law",
+          "description": "Parole assessments, IPP sentences, mental health evaluations, release planning.",
+          "link": "/expert-witness-psychologists/prison-law/"
+        }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Psychologists or Psychiatrists — What Your Case Needs",
+      "tabs": [
+        {
+          "label": "Psychology Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our psychologists deliver objective, evidence-based psychological assessments for every area of law. All are HCPC-registered, enhanced DBS-checked, and experienced in producing reports that meet court standards and comply with MoJ Practice Directions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychology assessments include:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Parenting capacity and attachment evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Whole family assessments and child development evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Fitness to plead and criminal responsibility assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "PTSD and psychological trauma evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Cognitive and neuropsychological assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Workplace stress and occupational assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Risk assessments (re-offending, harm to others, self-harm)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mental capacity evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Substance misuse and dependency assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Immigration and asylum trauma assessments" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatry Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our psychiatrists are GMC-registered and Section 12 approved. They deliver expert psychiatric opinion, diagnosis, and treatment recommendations based on ICD-10 and DSM-5 criteria. When cases need medical-level assessment of mental health, personality disorder, or capacity, our psychiatrists provide thorough, court-ready reports."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychiatric assessments include:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mental health diagnosis and capacity assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Fitness to plead and criminal capacity evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mental state at time of offence assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Personality disorder and psychotic disorder evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "PTSD and trauma-related conditions" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Substance misuse and dependency evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Risk assessments (violence, self-harm, neglect)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Care and contact proceedings assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Pre-sentencing and probation reports" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Parole hearing and IPP assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Treatment recommendations and prognosis" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "When Do You Need Both?",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Many complex cases benefit from both perspectives. A psychologist assesses behaviour, cognition, family dynamics, and psychological state. A psychiatrist provides medical diagnosis, treatment recommendations, and addresses medication-related factors. Your Client Manager will advise on which expert type — or both — best fits your case."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Not sure?",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " Use our free tool: "
+                  },
+                  {
+                    "type": "a",
+                    "url": "/tools/psychologist-or-psychiatrist/",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Psychologist or Psychiatrist?",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Tell Us Your Requirements",
+          "description": "Call us on 01306 879 975 or complete our online form. Your Client Manager takes a full brief of your case, timeline, and any specific needs."
+        },
+        {
+          "number": 2,
+          "title": "Receive Expert CVs & Quotes",
+          "description": "Within 24 hours, we send 2–3 CVs and fee quotes. All experts are matched to your case's specialism, location, and timeline."
+        },
+        {
+          "number": 3,
+          "title": "Instruct & We Handle the Admin",
+          "description": "Select your expert and we manage everything: bookings, liaison, and logistics. You focus on the case."
+        },
+        {
+          "number": 4,
+          "title": "Court-Ready Report Delivered",
+          "description": "We 100% quality-check every report for accuracy, compliance, and completeness. Standard turnaround is 4–6 weeks; fast-track is available."
+        }
+      ],
+      "ctaText": "Get Your Expert Now",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Instruct Through Psychology Direct?",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        {
+          "feature": "CVs & Quotes",
+          "col1": "Within 24 hours, 2–3 options",
+          "col2": "Days or weeks of searching"
+        },
+        {
+          "feature": "Legal Aid Rates",
+          "col1": "Guaranteed on every case",
+          "col2": "Varies by practitioner"
+        },
+        {
+          "feature": "Dedicated Case Manager",
+          "col1": "Yes — handles all admin",
+          "col2": "You manage everything"
+        },
+        {
+          "feature": "Quality Assurance",
+          "col1": "100% of reports proofread & QA-checked",
+          "col2": "No independent check"
+        },
+        {
+          "feature": "Multi-party Coordination",
+          "col1": "We manage all logistics",
+          "col2": "You coordinate yourself"
+        },
+        {
+          "feature": "Expert Vetting",
+          "col1": "HCPC/GMC registered, DBS checked, report reviewed",
+          "col2": "You verify credentials"
+        },
+        {
+          "feature": "Specialist Matching",
+          "col1": "We match to your exact needs (culture, language, location)",
+          "col2": "Limited to your network"
+        },
+        {
+          "feature": "Cost",
+          "col1": "Same or less than instructing directly",
+          "col2": "Same or more"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "Trusted by Solicitors Nationwide",
+      "testimonials": [
+        {
+          "quote": "Staff are helpful and informative and their range of experts is second to none. Reports are delivered securely and on time. They take the hard work out of locating relevant available experts.",
+          "name": "Brent Patterson",
+          "role": "Solicitor",
+          "organisation": "Howard Bernstein Solicitors"
+        },
+        {
+          "quote": "I was very grateful for the speed and quality of response in identifying suitable experts who could hit tight timeframes. A very helpful service.",
+          "name": "Tom Battarbee",
+          "role": "Solicitor",
+          "organisation": "Swain & Co"
+        },
+        {
+          "quote": "Deadlines needed to be met and it was extremely useful having the services of a local expert. I would definitely use your service in the future and will recommend you.",
+          "name": "Steve Harman",
+          "role": "Solicitor",
+          "organisation": "Williamsons Solicitors"
+        },
+        {
+          "quote": "It is invaluable to defence solicitors to be able to work with agencies who appreciate the importance of the time frames we invariably work within.",
+          "name": "Paralegal",
+          "role": "",
+          "organisation": "Albin and Co. Solicitors"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Real Cases, Real Results",
+      "caseStudies": [
+        {
+          "title": "24-Hour Turnaround for the CPS",
+          "description": "An urgent court-ordered report was required at short notice. Our efficient handling and expert matching exceeded the CPS's expectations and delivered the report within 24 hours.",
+          "tag": "Criminal Law",
+          "link": "/case-studies/expert-witness-for-cps/"
+        },
+        {
+          "title": "Complex Logistics in Family Law",
+          "description": "A specialist family firm needed assessments across multiple parties in a complex domestic violence case with funding uncertainty. We coordinated eight individual assessments and delivered on time.",
+          "tag": "Family Law",
+          "link": "/case-studies/complex-logistics-family-law/"
+        },
+        {
+          "title": "Delivering a Court Report Within Days",
+          "description": "Fitness to plead assessment issues arose mid-case. We stepped in to provide a replacement psychologist and delivered a court-ready report within days.",
+          "tag": "Criminal Law",
+          "link": "/case-studies/delivering-court-report-within-days/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Expert Witness FAQs",
+      "faqs": [
+        {
+          "question": "How quickly can I receive CVs?",
+          "answer": "We typically deliver 2–3 CVs and quotes within 24 hours. For urgent cases, we often respond faster. Each CV includes qualifications, relevant experience, and a fee breakdown that meets Legal Aid Agency requirements."
+        },
+        {
+          "question": "Do your experts work at Legal Aid rates?",
+          "answer": "Yes. All our experts work at Legal Aid rates for publicly funded cases. We send full fee breakdowns upfront with no surprises. For private cases, we offer transparent quotes with no hidden costs."
+        },
+        {
+          "question": "What's the standard turnaround for reports?",
+          "answer": "Most reports are delivered in 4–6 weeks. We offer fast-track services for urgent deadlines. Complex or multi-party cases may take longer — we confirm timelines upfront."
+        },
+        {
+          "question": "Do I need a psychologist or a psychiatrist?",
+          "answer": "It depends on what the court needs. Psychologists assess behaviour, cognition, attachment, and family dynamics. Psychiatrists diagnose, assess capacity, and recommend treatment. Many cases benefit from both. Use our tool: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
+        },
+        {
+          "question": "Can you handle complex, multi-party cases?",
+          "answer": "Absolutely. This is a core strength for us. Our Client Managers excel at coordinating assessments across multiple parties, locations, and solicitors. We handle all logistics — you focus on the case."
+        },
+        {
+          "question": "How do you ensure report quality?",
+          "answer": "Every report is 100% proofread and quality-checked before delivery. We verify all instructions are addressed and recommendations are clear. We also vet all experts before registration, reviewing sample work and verifying credentials."
+        },
+        {
+          "question": "Can I speak directly to the expert?",
+          "answer": "Your Client Manager is your main contact. They're fully briefed on your case and handle all queries and coordination. Where appropriate, they arrange direct contact with the expert."
+        },
+        {
+          "question": "What areas of law do you cover?",
+          "answer": "We cover seven practice areas: Family Law, Criminal Law, PI & Civil, Clinical Negligence, Immigration & Asylum, Employment, and Prison Law. Explore each area using the links above."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Need an Expert Witness Today?",
+      "bodyText": "Whether you need a family law expert, criminal specialist, or civil witness, we match you with the right person and handle everything.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call Us",
+      "secondaryCtaLink": "tel:01306879975"
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Explore Our Services",
+      "cards": [
+        {
+          "title": "Not Sure Which Expert You Need?",
+          "description": "Different cases need different expertise. Our free 2-minute tool identifies whether you need a psychologist, psychiatrist, or both — with clear explanations of each.",
+          "link": "/tools/psychologist-or-psychiatrist/"
+        },
+        {
+          "title": "What Will It Cost?",
+          "description": "Get a transparent cost estimate in 60 seconds. Our free calculator factors in your case type, complexity, and timeline.",
+          "link": "/tools/fee-calculator/"
+        },
+        {
+          "title": "View Our Pricing",
+          "description": "Transparent pricing, Legal Aid rates guaranteed. No hidden costs.",
+          "link": "/expert-witness-psychologists/pricing/"
+        }
+      ]
+    }
+  ]
+}

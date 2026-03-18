@@ -3,8 +3,8 @@ import client from "../../tina/__generated__/client";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
 
 export const metadata: Metadata = {
-  title: "Psychology Direct | Expert Witness & Educational Psychologists",
-  description: "Fast, reliable access to HCPC-registered psychologists and psychiatrists for legal, education, and professional services. CVs in 24 hours. UK-wide coverage.",
+  title: "Expert Psychologists & Psychiatrists for Your Case | Psychology Direct",
+  description: "Access 1,000+ vetted psychologists and psychiatrists for expert witness reports and educational assessments. Fast matching, Legal Aid rates.",
   alternates: {
     canonical: "https://www.psychologydirect.co.uk/",
   },

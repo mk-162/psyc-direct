@@ -1,0 +1,287 @@
+{
+  "title": "Employment Law Expert Witness | Psychology Direct",
+  "description": "Expert psychological and psychiatric assessments for employment tribunals. Workplace stress, bullying, discrimination, and occupational health.",
+  "url": "/expert-witness-psychologists/employment/",
+  "keywords": ["employment tribunal expert witness psychologist", "workplace bullying psychologist", "occupational psychiatrist", "employment discrimination expert"],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Win Employment Tribunal Cases with Expert Psychological Evidence",
+      "subtitle": "We match you with occupational psychologists and psychiatrists who understand employment law. You get detailed reports on workplace harm, causation, and prognosis\u2014ready for tribunal and Legal Aid rates included.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "What's Your Case Worth?",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC & GMC Registered" },
+        { "text": "Occupational Psychology Expertise" },
+        { "text": "CVs in 24 Hours" },
+        { "text": "100% Tribunal-Ready Reports" }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Expert Services for Employment Tribunal Claims",
+      "tabs": [
+        {
+          "label": "Psychology Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Occupational psychologists assess psychological harm from workplace conduct. They evaluate bullying, stress, discrimination trauma, and functional impairment. Most importantly, they show the clear link between what happened at work and the claimant's mental health impact." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Services include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Workplace stress and stress-related disorders assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Bullying and harassment impact evaluation" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Discrimination trauma and harm assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Occupational health and fitness to work evaluation" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Functional impairment assessment" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations and prognosis" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Causation opinions (linking workplace conduct to harm)" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatry Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Psychiatrists provide medical opinion on mental health conditions from workplace harm. They diagnose conditions, explain causation, recommend treatment, and assess prognosis for tribunal evidence." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Services include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health diagnosis secondary to workplace harm" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and trauma-related disorders" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Depression and anxiety secondary to workplace conduct" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity assessments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medical reports for tribunal proceedings" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Workplace Context & Causation",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Employment tribunal cases hinge on proving workplace conduct caused psychological harm. Our experts understand employment law, workplace dynamics, and occupational health. They assess three key questions: Was the harm foreseeable? Did the employer fall below the standard of care? Is there a clear causal link? We match you with an expert whose employment law background fits your case." }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Not sure? Use our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Claims We Support",
+      "cards": [
+        {
+          "title": "Workplace Bullying",
+          "description": "Assessment of bullying impact, psychological harm, and causation.",
+          "link": "/expert-witness-psychologists/employment/"
+        },
+        {
+          "title": "Workplace Discrimination",
+          "description": "Assessment of discrimination trauma, mental health impact, and causation.",
+          "link": "/expert-witness-psychologists/employment/"
+        },
+        {
+          "title": "Occupational Stress & Burnout",
+          "description": "Work stress, role-related stress, and occupational health assessment.",
+          "link": "/expert-witness-psychologists/employment/"
+        },
+        {
+          "title": "Harassment",
+          "description": "Assessment of harassment impact on mental health and functioning.",
+          "link": "/expert-witness-psychologists/employment/"
+        },
+        {
+          "title": "Constructive Dismissal Impact",
+          "description": "Assessment of psychological harm from constructive dismissal and hostile environment.",
+          "link": "/expert-witness-psychologists/employment/"
+        },
+        {
+          "title": "Return-to-Work Assessment",
+          "description": "Occupational health assessment of fitness to return to work after workplace harm.",
+          "link": "/expert-witness-psychologists/employment/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Brief Us on the Case",
+          "description": "Call us on 01306 879 975 with details of the workplace conduct, the claimant's response, and your tribunal timeline."
+        },
+        {
+          "number": 2,
+          "title": "Receive Matched Experts",
+          "description": "Within 24 hours, we send 2\u20133 CVs from occupational psychologists or psychiatrists with employment tribunal experience."
+        },
+        {
+          "number": 3,
+          "title": "Instruct & We Handle Logistics",
+          "description": "We arrange appointments, coordinate with employers, and manage all administration. You stay in control."
+        },
+        {
+          "number": 4,
+          "title": "Get Your Tribunal Report",
+          "description": "The expert delivers a detailed report on harm, causation, and prognosis. We quality-check everything. Standard turnaround 4\u20136 weeks; fast-track available."
+        }
+      ],
+      "ctaText": "Get Your Expert Now",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why We're Your Better Choice",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        { "feature": "Employment Law Expertise", "col1": "Experts matched with tribunal experience", "col2": "Generic psychology only" },
+        { "feature": "Occupational Psychology", "col1": "Specialists in workplace harm", "col2": "May lack occupational focus" },
+        { "feature": "CVs in 24 Hours", "col1": "Fast matching from specialist network", "col2": "Weeks of searching" },
+        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by practitioner" },
+        { "feature": "Case Management", "col1": "Dedicated Client Manager", "col2": "You manage everything" },
+        { "feature": "Quality Assurance", "col1": "100% of reports proofread and QA-checked", "col2": "No independent check" },
+        { "feature": "Cost", "col1": "Same or less than instructing directly", "col2": "Same or more" },
+        { "feature": "Turnaround", "col1": "4\u20136 weeks standard; fast-track available", "col2": "Variable, often longer" }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Employment Law Solicitors Say About Us",
+      "testimonials": [
+        {
+          "quote": "Excellent employment law expertise. Reports are detailed, causation-focused, and convincing to tribunals.",
+          "name": "Employment Solicitor",
+          "title": "",
+          "organization": "Specialist Firm"
+        },
+        {
+          "quote": "Fast expert matching and tribunal-ready reports. Essential to our employment law practice.",
+          "name": "Senior Employment Law Adviser",
+          "title": "",
+          "organization": ""
+        },
+        {
+          "quote": "They understand workplace dynamics and employment law context. Invaluable for complex cases.",
+          "name": "In-house Employment Team",
+          "title": "",
+          "organization": ""
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Employment Tribunal Cases We've Supported",
+      "caseStudies": [
+        {
+          "title": "Workplace Bullying & Constructive Dismissal",
+          "summary": "A claimant driven to resignation by prolonged bullying required psychological assessment of bullying harm and causation. We provided an occupational psychologist's detailed report.",
+          "sector": "Employment",
+          "link": "/case-studies/workplace-bullying-assessment/"
+        },
+        {
+          "title": "Discrimination & Mental Health",
+          "summary": "A discrimination claim required psychological assessment of discrimination trauma and mental health impact. We matched an employment-specialist psychologist.",
+          "sector": "Employment",
+          "link": "/case-studies/discrimination-assessment/"
+        },
+        {
+          "title": "Return to Work after Workplace Trauma",
+          "summary": "A claimant recovering from workplace harassment needed occupational health assessment of fitness to return to work. We provided specialized assessment.",
+          "sector": "Employment",
+          "link": "/case-studies/return-to-work-assessment/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Employment Tribunal FAQs",
+      "faqs": [
+        {
+          "question": "What is the test for workplace stress claims?",
+          "answer": "Employers owe a duty of care to employees. If an employer knew (or should have known) that workplace conduct was causing psychological harm, and failed to prevent it, they may be liable. Expert evidence on foreseeability and causation is critical."
+        },
+        {
+          "question": "Do I need a psychologist or a psychiatrist?",
+          "answer": "Occupational psychologists are best for stress, bullying, and discrimination assessment. Psychiatrists are helpful when diagnosed conditions need medical opinion or medication is involved. Many cases benefit from both."
+        },
+        {
+          "question": "How do experts assess causation?",
+          "answer": "Experts assess three things: Was the harm foreseeable? Did the employer fall below the standard of care? Is there a clear link between the workplace conduct and the claimant's psychological condition? They also consider alternative causes."
+        },
+        {
+          "question": "How long does a tribunal report take?",
+          "answer": "Standard turnaround is 4\u20136 weeks. We offer fast-track services for urgent dates. Contact us on 01306 879 975 to discuss your timeline."
+        },
+        {
+          "question": "What if the claimant is still in employment?",
+          "answer": "Assessments work either way \u2014 during employment or after departure. The expert will advise on optimal timing for your specific case and any impact on findings."
+        },
+        {
+          "question": "How much does an employment tribunal expert cost?",
+          "answer": "Costs vary by case complexity and assessment scope. Use our fee calculator for an instant estimate, or call 01306 879 975. For Legal Aid cases, we work at LAA rates."
+        },
+        {
+          "question": "Will the expert attend the tribunal?",
+          "answer": "Reports stand alone for tribunal purposes. If you need direct evidence, the expert can be instructed separately for tribunal attendance. Discuss this with your Client Manager."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Instruct Your Expert?",
+      "bodyText": "We'll match you with an expert who knows employment tribunals and handle everything from briefing to report delivery.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Estimate Costs",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    }
+  ]
+}

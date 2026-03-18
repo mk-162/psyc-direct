@@ -1,0 +1,111 @@
+{
+  "title": "How to Instruct an Expert Witness | Psychology Direct",
+  "description": "Step-by-step guide to instructing an expert witness. From enquiry to court-ready report in 4-6 weeks.",
+  "url": "/expert-witness-psychologists/process/",
+  "keywords": [
+    "instruct expert witness process",
+    "how to instruct expert witness",
+    "expert witness timeline",
+    "what to expect"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get Your Expert Report Without the Headaches",
+      "subtitle": "From enquiry to court-ready report in 4-6 weeks. We handle the complexity. You focus on your case.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Explore Practice Areas",
+      "secondaryCtaLink": "/expert-witness-psychologists/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "24-Hour Expert Matching" },
+        { "text": "4-6 Week Standard Turnaround" },
+        { "text": "100% Quality Assurance" },
+        { "text": "Dedicated Client Manager" }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Expert Witness Process FAQs",
+      "faqs": [
+        {
+          "question": "How do I start?",
+          "answer": "Call us on 01306 879 975 or complete our online form at /contact/. Tell us your case type, legal questions, deadline, and any specialist needs. A Client Manager will take it from there."
+        },
+        {
+          "question": "What should I tell the Client Manager?",
+          "answer": "Share your case type (family law, criminal, PI, etc.), the core legal questions the expert needs to answer, key facts about the client and situation, location, and your deadline. More detail means a better expert match."
+        },
+        {
+          "question": "How are experts matched?",
+          "answer": "Our Client Managers know our 1,000+ registered professionals deeply. We match on specialism (family, criminal, forensic, etc.), sub-specialty (trauma, occupational), geography, experience level, and cultural/language needs."
+        },
+        {
+          "question": "Will I definitely like the 3 CVs?",
+          "answer": "We aim to send 3 strong matches. If you'd prefer different experts, tell us and we'll send more CVs at no cost. You're in full control of the selection."
+        },
+        {
+          "question": "What if I'm on a very tight deadline?",
+          "answer": "Tell us. We have a fast-track service for urgent cases and can often deliver within days rather than weeks. Call 01306 879 975 to discuss your timeline."
+        },
+        {
+          "question": "What's a letter of instruction?",
+          "answer": "A letter of instruction formally tells the expert what to assess and report on. It sets out your legal questions, case background, and any specific requirements. It guides the expert's entire work and report. We can help you draft it."
+        },
+        {
+          "question": "Can I speak to the expert before instructing?",
+          "answer": "Your Client Manager is your primary contact and handles all queries. They're fully briefed on your case. Direct expert contact can sometimes be arranged for specific case discussions."
+        },
+        {
+          "question": "What if the expert becomes unavailable?",
+          "answer": "It's rare, but if it happens, we immediately find a replacement at no extra cost. Your timeline is protected."
+        },
+        {
+          "question": "How long does the assessment take?",
+          "answer": "Most assessments take 2\u20134 hours depending on complexity. The expert will confirm the expected duration during booking. Complex cases may take longer."
+        },
+        {
+          "question": "Can assessments be done remotely?",
+          "answer": "Yes. Many experts offer remote assessments via video call. Some cases need in-person assessment. The expert will advise what's best for your case."
+        },
+        {
+          "question": "What if the client can't attend the assessment?",
+          "answer": "Some cases suit remote assessment. Others need in-person attendance. The expert will advise. If there's an unavoidable conflict, we can reschedule when possible."
+        },
+        {
+          "question": "How long until I get the report?",
+          "answer": "Standard turnaround is 4\u20136 weeks from instruction. Fast-track (2\u20133 weeks) is available for urgent cases. Very complex cases may take longer \u2014 we'll tell you upfront."
+        },
+        {
+          "question": "What if I need the report earlier?",
+          "answer": "Contact us right away. We offer fast-track and urgent services. Call 01306 879 975 to discuss your deadline \u2014 we often deliver faster than standard."
+        },
+        {
+          "question": "Can the expert attend court?",
+          "answer": "Yes. Court attendance is available and charged separately (typically \u00a3800-\u00a31,600 per day). Discuss this with your Client Manager when you instruct the expert."
+        },
+        {
+          "question": "What happens after the report is delivered?",
+          "answer": "The report is yours to use. If the expert needs to attend court or be cross-examined, we'll arrange that. If revisions are needed, we'll work with the expert."
+        },
+        {
+          "question": "How much does all this cost?",
+          "answer": "Expert fees vary by case type and complexity. Use our fee calculator for an instant estimate. Or call us on 01306 879 975 for a detailed quote. No hidden costs. No Psychology Direct markup. You pay the expert's fee plus our coordination (at no extra cost)."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Instruct an Expert?",
+      "bodyText": "Follow this process and we'll handle the complexity. From initial enquiry to court-ready report in 4\u20136 weeks.",
+      "primaryCtaText": "Instruct an Expert Now",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call 01306 879 975",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

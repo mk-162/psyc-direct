@@ -1,0 +1,578 @@
+{
+  "title": "Family Law Expert Witness | Psychologists & Psychiatrists",
+  "description": "Expert psychological and psychiatric assessments for family courts. Parenting capacity, attachment, domestic abuse. CVs in 24hrs. Legal Aid rates.",
+  "url": "/expert-witness-psychologists/family/",
+  "keywords": [
+    "family law expert witness psychologist",
+    "family court psychologist",
+    "parenting capacity assessment",
+    "child custody expert",
+    "family law psychiatrist",
+    "care proceedings expert witness"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Resolve Family Cases Faster with Court-Ready Expert Reports",
+      "subtitle": "Access experienced psychologists and psychiatrists for family law proceedings. CVs within 24 hours, reports in 4–6 weeks, Legal Aid rates guaranteed. We handle everything from matching to delivery.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Not Sure Which Expert You Need?",
+      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC & GMC Registered Experts" },
+        { "text": "CVs Within 24 Hours" },
+        { "text": "Legal Aid Rates Guaranteed" },
+        { "text": "100% Reports Quality-Checked" }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Family Law Expert Witness Services",
+      "tabs": [
+        {
+          "label": "Psychology Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our psychologists provide objective, evidence-based assessments covering the full range of family law needs. Every psychologist on our register is HCPC-registered, enhanced DBS-checked, and experienced in providing reports that meet the standards required by family courts."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychology assessments for family law include:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Parenting capacity assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Parent-child attachment evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Whole family assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Child and adolescent psychological assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Cognitive functioning and learning difficulties" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Domestic abuse impact assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Sexual abuse and risk evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Ability to protect assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "ABE interview analysis" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Substance abuse assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Family dynamics and relationship assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Child development and educational needs" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatry Services",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our psychiatrists are GMC-registered, Section 12 approved medical professionals. They provide expert psychiatric opinion, diagnosis, and treatment recommendations based on ICD-10 and DSM-5 criteria. Where a case requires medical-level assessment of mental health, our psychiatrists deliver thorough, court-ready reports."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychiatric assessments for family law include:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mental health diagnosis and assessment" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Personality disorder evaluations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Effects of trauma and PTSD" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Capacity assessments (mental capacity to parent)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Substance misuse and dependency" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Care and contact proceedings" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Risk assessments (violence neglect self-harm)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Review of medical notes and psychiatric histories" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Treatment recommendations and prognosis" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "When Do You Need Both?",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Many family law cases benefit from both psychological and psychiatric input. A psychologist assesses behaviour, cognition, and family dynamics. A psychiatrist provides medical diagnosis and treatment recommendations. Your dedicated Client Manager can advise on which expert type \u2014 or combination \u2014 best fits your case."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Not sure? Use our free tool to find out: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Tell Us About Your Case",
+          "description": "Call us on 01306 879 975 or complete our online instruction form. A dedicated Client Manager will take a detailed brief of your requirements."
+        },
+        {
+          "number": 2,
+          "title": "Receive Expert CVs",
+          "description": "Within 24 hours, we'll send you 2\u20133 CVs and quotes from psychologists or psychiatrists matched to your case's specialism, location, and timeline."
+        },
+        {
+          "number": 3,
+          "title": "We Handle Everything",
+          "description": "Once you instruct, we manage all assessment bookings \u2014 including complex multi-party logistics \u2014 liaison with all solicitors, and administration."
+        },
+        {
+          "number": 4,
+          "title": "Court-Ready Report Delivered",
+          "description": "Your report is 100% quality-checked for accuracy, completeness, and compliance before delivery. Standard turnaround is 4\u20136 weeks; fast-track available."
+        }
+      ],
+      "ctaText": "Instruct an Expert Today",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Not Sure What Expert You Need?",
+      "bodyText": "Family law cases often require specialist knowledge \u2014 but choosing between a psychologist and a psychiatrist isn't always straightforward. Our free tool helps you work out which expert your case needs in under 2 minutes.",
+      "primaryCtaText": "Try the Free Tool",
+      "primaryCtaLink": "/tools/psychologist-or-psychiatrist/",
+      "secondaryCtaText": "Estimate Fees",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Common Family Law Case Types We Support",
+      "subheading": "Our experts have experience across the full range of public and private family law proceedings.",
+      "cards": [
+        {
+          "title": "Public Law Care Proceedings",
+          "description": "We provide expert assessments in care proceedings, helping courts understand parenting capacity, risk, and the needs of children in care.",
+          "link": "/expert-witness-psychologists/family/"
+        },
+        {
+          "title": "Private Law Contact & Residence",
+          "description": "Assessments for disputes over child arrangements, including custody, contact, and relocation cases.",
+          "link": "/expert-witness-psychologists/family/"
+        },
+        {
+          "title": "Parenting Capacity Assessments",
+          "description": "Detailed evaluations of a parent's ability to meet their child's physical, emotional, and developmental needs.",
+          "link": "/expert-witness-psychologists/family/"
+        },
+        {
+          "title": "Domestic Abuse & Violence",
+          "description": "Psychological and psychiatric impact assessments for cases involving domestic violence, coercive control, and abuse.",
+          "link": "/expert-witness-psychologists/family/"
+        },
+        {
+          "title": "Substance Misuse & Dependency",
+          "description": "Expert assessment of substance misuse patterns, their impact on parenting, and treatment prognosis.",
+          "link": "/expert-witness-psychologists/family/"
+        },
+        {
+          "title": "Capacity & Mental Health",
+          "description": "Psychiatric evaluations of mental health conditions affecting parenting capacity, including personality disorders and PTSD.",
+          "link": "/expert-witness-psychologists/family/"
+        }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Instruct Through Psychology Direct?",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        {
+          "feature": "CVs and quotes",
+          "col1": "Within 24 hours, 2\u20133 options",
+          "col2": "Days or weeks of searching"
+        },
+        {
+          "feature": "Legal Aid rates",
+          "col1": "Guaranteed on every case",
+          "col2": "Varies by practitioner"
+        },
+        {
+          "feature": "Case management",
+          "col1": "Dedicated Client Manager handles everything",
+          "col2": "You manage all logistics"
+        },
+        {
+          "feature": "Quality assurance",
+          "col1": "100% of reports proofread and QA-checked",
+          "col2": "No independent check"
+        },
+        {
+          "feature": "Multi-party coordination",
+          "col1": "We book and manage all assessments",
+          "col2": "You coordinate yourself"
+        },
+        {
+          "feature": "Expert vetting",
+          "col1": "HCPC/GMC registered, DBS checked, report sample reviewed",
+          "col2": "You verify credentials"
+        },
+        {
+          "feature": "Cost to you",
+          "col1": "Same or less than instructing directly",
+          "col2": "Same or more"
+        },
+        {
+          "feature": "Cultural/language matching",
+          "col1": "We match to specific requirements",
+          "col2": "Limited to your network"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How We've Helped in Family Law Cases",
+      "caseStudies": [
+        {
+          "title": "Complex Logistics in a Family Law Case",
+          "summary": "A specialist family law firm needed assessments of a large dysfunctional family across multiple locations, with domestic violence and funding uncertainty. Our Client Manager coordinated assessments of eight individuals, managed the timetable, and delivered a quality-checked report on time. The children returned home on a supervision order.",
+          "sector": "Family Law",
+          "link": "/case-studies/complex-logistics-family-law/"
+        },
+        {
+          "title": "Court Helped Decide in Care Proceedings",
+          "summary": "A court needed a psychiatric assessment to make an informed decision on a mother's ability to parent. We matched a Section 12 approved psychiatrist who delivered a thorough report within the court's timeline.",
+          "sector": "Family Law",
+          "link": "/case-studies/care-proceedings-psychiatric-assessment/"
+        },
+        {
+          "title": "Assessing Parental Access in Care Proceedings",
+          "summary": "In sensitive care proceedings involving decisions about parental access, we provided an experienced psychiatrist to assess the situation and deliver a clear, evidence-based report to support the court's decision.",
+          "sector": "Family Law",
+          "link": "/case-studies/parental-access-care-proceedings/"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Family Law Solicitors Say About Us",
+      "testimonials": [
+        {
+          "quote": "Staff are helpful and informative and their range of experts is second to none. Reports are delivered securely and on time. They take the hard work out of locating relevant available experts.",
+          "name": "Brent Patterson",
+          "title": "Solicitor",
+          "organization": "Howard Bernstein Solicitors"
+        },
+        {
+          "quote": "I was very grateful for the speed and quality of response in identifying suitable experts who could hit tight timeframes. A very helpful service.",
+          "name": "Tom Battarbee",
+          "title": "Solicitor",
+          "organization": "Swain & Co"
+        },
+        {
+          "quote": "It is invaluable to defence solicitors to be able to work with agencies who appreciate the importance of the time frames we invariably work within.",
+          "name": "Paralegal",
+          "title": "",
+          "organization": "Albin and Co. Solicitors"
+        },
+        {
+          "quote": "Deadlines needed to be met and it was extremely useful having the services of a local expert. I would definitely use your service in the future and will recommend you.",
+          "name": "Steve Harman",
+          "title": "Solicitor",
+          "organization": "Williamsons Solicitors"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Family Law Expert Witness FAQs",
+      "faqs": [
+        {
+          "question": "How quickly can I receive CVs for a family law case?",
+          "answer": "We typically provide 2\u20133 CVs and full quotes within 24 hours of receiving your brief. For urgent cases, we can often respond even faster. Each CV includes the expert's qualifications, relevant experience, and fee breakdown as required by the Legal Aid Agency."
+        },
+        {
+          "question": "Do your experts work at Legal Aid rates?",
+          "answer": "Yes, all our psychologists and psychiatrists work at Legal Aid rates for publicly funded family law cases. We provide full fee breakdowns with every quote so there are no surprises. For privately funded cases, we provide transparent quotes upfront."
+        },
+        {
+          "question": "Can you work within the 26-week pre-proceedings timetable?",
+          "answer": "Absolutely. We understand the statutory timelines in family proceedings and regularly deliver reports within these frameworks. Standard turnaround is 4\u20136 weeks, and we offer a fast-track service for cases with tighter deadlines."
+        },
+        {
+          "question": "Do I need a psychologist or a psychiatrist for my family law case?",
+          "answer": "It depends on what the court needs to understand. A psychologist assesses behaviour, parenting capacity, attachment, and family dynamics. A psychiatrist provides medical diagnosis of mental health conditions and treatment recommendations. Many cases benefit from both."
+        },
+        {
+          "question": "How do you ensure the quality of expert reports?",
+          "answer": "Every report is 100% proofread and quality-checked by our Client Management team before it reaches you. We verify that all instructions have been addressed, that recommendations are clear and actionable, and that the report meets family court standards."
+        },
+        {
+          "question": "Can you handle multi-party cases with complex logistics?",
+          "answer": "Yes \u2014 this is one of our strengths. Our Client Managers are experienced in coordinating assessments across multiple parties, locations, and solicitors. We handle all booking, liaison, and administration so you can focus on your case."
+        },
+        {
+          "question": "Can I speak to the expert directly?",
+          "answer": "Your dedicated Client Manager is your primary point of contact and is fully briefed on your case. They handle all queries, administration, and coordination. In rare circumstances where direct contact with the expert is appropriate, your Client Manager can arrange this."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Need a Family Law Expert Witness?",
+      "bodyText": "Whether it's a parenting capacity assessment, care proceedings, or a complex multi-party case, we'll match you with the right expert. We handle everything from instruction to delivery.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Estimate Fees",
+      "secondaryCtaLink": "/tools/fee-calculator/"
+    }
+  ]
+}
