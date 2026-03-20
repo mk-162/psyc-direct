@@ -12,21 +12,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Parole Reports That Persuade",
       "subtitle": "Specialist forensic assessment for parole boards and IPP reviews. We match experienced psychologists and psychiatrists in 24 hours. We handle prison coordination and deliver court-ready reports at Legal Aid rates.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Estimate Expert Costs",
-      "secondaryCtaLink": "/tools/fee-calculator/"
+      "secondaryCtaLink": "/tools/fee-calculator/",
+      "backgroundImage": "/images/heroes/prison-law-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC & GMC Registered" },
-        { "text": "Forensic Risk Assessment Expertise" },
-        { "text": "CVs in 24 Hours" },
-        { "text": "100% Court-Ready Reports" }
+        {
+          "text": "HCPC & GMC Registered"
+        },
+        {
+          "text": "Forensic Risk Assessment Expertise"
+        },
+        {
+          "text": "CVs in 24 Hours"
+        },
+        {
+          "text": "100% Court-Ready Reports"
+        }
       ]
     },
     {
@@ -41,26 +50,136 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Our forensic psychologists assess risk using validated tools and professional judgment. They evaluate mental health, release suitability, and management needs for parole boards and IPP reviews." }
+                  {
+                    "type": "text",
+                    "text": "Our forensic psychologists assess risk using validated tools and professional judgment. They evaluate mental health, release suitability, and management needs for parole boards and IPP reviews."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Services include:" }
+                  {
+                    "type": "text",
+                    "text": "Services include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Risk of re-offending assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Risk management and release planning" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health and personality assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychological suitability for release" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment and rehabilitation recommendations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parole board reports" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "IPP sentence review assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Dangerousness assessments" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Risk of re-offending assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Risk management and release planning"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental health and personality assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychological suitability for release"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Treatment and rehabilitation recommendations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Parole board reports"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "IPP sentence review assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Dangerousness assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -74,26 +193,136 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Our psychiatrists provide mental health diagnosis, capacity assessment, and treatment recommendations. They bring medical expertise to parole and prison law proceedings." }
+                  {
+                    "type": "text",
+                    "text": "Our psychiatrists provide mental health diagnosis, capacity assessment, and treatment recommendations. They bring medical expertise to parole and prison law proceedings."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Services include:" }
+                  {
+                    "type": "text",
+                    "text": "Services include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health diagnosis and assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity and fitness assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Risk assessment (psychiatric perspective)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health treatment needs and prognosis" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Substance misuse and dependency assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parole board reports" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "IPP sentence assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Act considerations" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental health diagnosis and assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Capacity and fitness assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Risk assessment (psychiatric perspective)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental health treatment needs and prognosis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Substance misuse and dependency assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Parole board reports"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "IPP sentence assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental Health Act considerations"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -107,13 +336,19 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Complex cases often need both perspectives. Our psychologists assess psychological and behavioural factors. Our psychiatrists assess medical and mental health factors. Your dedicated Client Manager ensures the right expert combination for a thorough, persuasive report." }
+                  {
+                    "type": "text",
+                    "text": "Complex cases often need both perspectives. Our psychologists assess psychological and behavioural factors. Our psychiatrists assess medical and mental health factors. Your dedicated Client Manager ensures the right expert combination for a thorough, persuasive report."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Not sure which expert you need? Try our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/" }
+                  {
+                    "type": "text",
+                    "text": "Not sure which expert you need? Try our tool: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
+                  }
                 ]
               }
             ]
@@ -169,7 +404,7 @@
         {
           "number": 2,
           "title": "Get Expert CVs in 24 Hours",
-          "description": "We send 2\u20133 qualified forensic psychologists or psychiatrists. All accept Legal Aid rates."
+          "description": "We send 2–3 qualified forensic psychologists or psychiatrists. All accept Legal Aid rates."
         },
         {
           "number": 3,
@@ -179,7 +414,7 @@
         {
           "number": 4,
           "title": "Court-Ready Report",
-          "description": "Your expert delivers a comprehensive report assessing risk, mental health, and release suitability. 100% quality-checked. 4\u20136 weeks standard; fast-track available."
+          "description": "Your expert delivers a comprehensive report assessing risk, mental health, and release suitability. 100% quality-checked. 4–6 weeks standard; fast-track available."
         }
       ],
       "ctaText": "Get Your Expert Now",
@@ -191,14 +426,46 @@
       "col1Header": "Psychology Direct",
       "col2Header": "Instructing Directly",
       "rows": [
-        { "feature": "Forensic Risk Assessment", "col1": "Validated expertise in risk tools", "col2": "May lack specialization" },
-        { "feature": "Parole Board Experience", "col1": "Experts trained in parole procedure", "col2": "General psychology only" },
-        { "feature": "CVs in 24 Hours", "col1": "Fast matching from our forensic network", "col2": "Weeks of searching" },
-        { "feature": "Prison Coordination", "col1": "We liaise with prison services", "col2": "You manage everything" },
-        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by expert" },
-        { "feature": "Case Management", "col1": "Your dedicated Client Manager", "col2": "You handle it all" },
-        { "feature": "Quality Assurance", "col1": "100% of reports reviewed and checked", "col2": "No independent review" },
-        { "feature": "Cost", "col1": "Same or less than direct instruction", "col2": "Often more" }
+        {
+          "feature": "Forensic Risk Assessment",
+          "col1": "Validated expertise in risk tools",
+          "col2": "May lack specialization"
+        },
+        {
+          "feature": "Parole Board Experience",
+          "col1": "Experts trained in parole procedure",
+          "col2": "General psychology only"
+        },
+        {
+          "feature": "CVs in 24 Hours",
+          "col1": "Fast matching from our forensic network",
+          "col2": "Weeks of searching"
+        },
+        {
+          "feature": "Prison Coordination",
+          "col1": "We liaise with prison services",
+          "col2": "You manage everything"
+        },
+        {
+          "feature": "Legal Aid Rates",
+          "col1": "Guaranteed on every case",
+          "col2": "Varies by expert"
+        },
+        {
+          "feature": "Case Management",
+          "col1": "Your dedicated Client Manager",
+          "col2": "You handle it all"
+        },
+        {
+          "feature": "Quality Assurance",
+          "col1": "100% of reports reviewed and checked",
+          "col2": "No independent review"
+        },
+        {
+          "feature": "Cost",
+          "col1": "Same or less than direct instruction",
+          "col2": "Often more"
+        }
       ]
     },
     {
@@ -271,7 +538,7 @@
         },
         {
           "question": "How long does a parole board report take?",
-          "answer": "Standard turnaround is 4\u20136 weeks. Parole board deadlines are often tight, so we offer fast-track services. Call us on 01306 879 975 to discuss your timeline."
+          "answer": "Standard turnaround is 4–6 weeks. Parole board deadlines are often tight, so we offer fast-track services. Call us on 01306 879 975 to discuss your timeline."
         },
         {
           "question": "Can assessments be done in-prison?",

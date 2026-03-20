@@ -13,21 +13,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Resolve Family Cases Faster with Court-Ready Expert Reports",
       "subtitle": "Access experienced psychologists and psychiatrists for family law proceedings. CVs within 24 hours, reports in 4–6 weeks, Legal Aid rates guaranteed. We handle everything from matching to delivery.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Not Sure Which Expert You Need?",
-      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/"
+      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/",
+      "backgroundImage": "/images/heroes/family-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC & GMC Registered Experts" },
-        { "text": "CVs Within 24 Hours" },
-        { "text": "Legal Aid Rates Guaranteed" },
-        { "text": "100% Reports Quality-Checked" }
+        {
+          "text": "HCPC & GMC Registered Experts"
+        },
+        {
+          "text": "CVs Within 24 Hours"
+        },
+        {
+          "text": "Legal Aid Rates Guaranteed"
+        },
+        {
+          "text": "100% Reports Quality-Checked"
+        }
       ]
     },
     {
@@ -66,7 +75,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Parenting capacity assessments" }
+                          {
+                            "type": "text",
+                            "text": "Parenting capacity assessments"
+                          }
                         ]
                       }
                     ]
@@ -77,7 +89,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Parent-child attachment evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Parent-child attachment evaluations"
+                          }
                         ]
                       }
                     ]
@@ -88,7 +103,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Whole family assessments" }
+                          {
+                            "type": "text",
+                            "text": "Whole family assessments"
+                          }
                         ]
                       }
                     ]
@@ -99,7 +117,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Child and adolescent psychological assessments" }
+                          {
+                            "type": "text",
+                            "text": "Child and adolescent psychological assessments"
+                          }
                         ]
                       }
                     ]
@@ -110,7 +131,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Cognitive functioning and learning difficulties" }
+                          {
+                            "type": "text",
+                            "text": "Cognitive functioning and learning difficulties"
+                          }
                         ]
                       }
                     ]
@@ -121,7 +145,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Domestic abuse impact assessments" }
+                          {
+                            "type": "text",
+                            "text": "Domestic abuse impact assessments"
+                          }
                         ]
                       }
                     ]
@@ -132,7 +159,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Sexual abuse and risk evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Sexual abuse and risk evaluations"
+                          }
                         ]
                       }
                     ]
@@ -143,7 +173,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Ability to protect assessments" }
+                          {
+                            "type": "text",
+                            "text": "Ability to protect assessments"
+                          }
                         ]
                       }
                     ]
@@ -154,7 +187,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "ABE interview analysis" }
+                          {
+                            "type": "text",
+                            "text": "ABE interview analysis"
+                          }
                         ]
                       }
                     ]
@@ -165,7 +201,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Substance abuse assessments" }
+                          {
+                            "type": "text",
+                            "text": "Substance abuse assessments"
+                          }
                         ]
                       }
                     ]
@@ -176,7 +215,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Family dynamics and relationship assessments" }
+                          {
+                            "type": "text",
+                            "text": "Family dynamics and relationship assessments"
+                          }
                         ]
                       }
                     ]
@@ -187,7 +229,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Child development and educational needs" }
+                          {
+                            "type": "text",
+                            "text": "Child development and educational needs"
+                          }
                         ]
                       }
                     ]
@@ -229,7 +274,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mental health diagnosis and assessment" }
+                          {
+                            "type": "text",
+                            "text": "Mental health diagnosis and assessment"
+                          }
                         ]
                       }
                     ]
@@ -240,7 +288,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Personality disorder evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Personality disorder evaluations"
+                          }
                         ]
                       }
                     ]
@@ -251,7 +302,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Effects of trauma and PTSD" }
+                          {
+                            "type": "text",
+                            "text": "Effects of trauma and PTSD"
+                          }
                         ]
                       }
                     ]
@@ -262,7 +316,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Capacity assessments (mental capacity to parent)" }
+                          {
+                            "type": "text",
+                            "text": "Capacity assessments (mental capacity to parent)"
+                          }
                         ]
                       }
                     ]
@@ -273,7 +330,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Substance misuse and dependency" }
+                          {
+                            "type": "text",
+                            "text": "Substance misuse and dependency"
+                          }
                         ]
                       }
                     ]
@@ -284,7 +344,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Care and contact proceedings" }
+                          {
+                            "type": "text",
+                            "text": "Care and contact proceedings"
+                          }
                         ]
                       }
                     ]
@@ -295,7 +358,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Risk assessments (violence neglect self-harm)" }
+                          {
+                            "type": "text",
+                            "text": "Risk assessments (violence neglect self-harm)"
+                          }
                         ]
                       }
                     ]
@@ -306,7 +372,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Review of medical notes and psychiatric histories" }
+                          {
+                            "type": "text",
+                            "text": "Review of medical notes and psychiatric histories"
+                          }
                         ]
                       }
                     ]
@@ -317,7 +386,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Treatment recommendations and prognosis" }
+                          {
+                            "type": "text",
+                            "text": "Treatment recommendations and prognosis"
+                          }
                         ]
                       }
                     ]
@@ -337,7 +409,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Many family law cases benefit from both psychological and psychiatric input. A psychologist assesses behaviour, cognition, and family dynamics. A psychiatrist provides medical diagnosis and treatment recommendations. Your dedicated Client Manager can advise on which expert type \u2014 or combination \u2014 best fits your case."
+                    "text": "Many family law cases benefit from both psychological and psychiatric input. A psychologist assesses behaviour, cognition, and family dynamics. A psychiatrist provides medical diagnosis and treatment recommendations. Your dedicated Client Manager can advise on which expert type — or combination — best fits your case."
                   }
                 ]
               },
@@ -346,7 +418,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Not sure? Use our free tool to find out: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/"
+                    "text": "Not sure? Use our free tool to find out: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
                   }
                 ]
               }
@@ -367,17 +439,17 @@
         {
           "number": 2,
           "title": "Receive Expert CVs",
-          "description": "Within 24 hours, we'll send you 2\u20133 CVs and quotes from psychologists or psychiatrists matched to your case's specialism, location, and timeline."
+          "description": "Within 24 hours, we'll send you 2–3 CVs and quotes from psychologists or psychiatrists matched to your case's specialism, location, and timeline."
         },
         {
           "number": 3,
           "title": "We Handle Everything",
-          "description": "Once you instruct, we manage all assessment bookings \u2014 including complex multi-party logistics \u2014 liaison with all solicitors, and administration."
+          "description": "Once you instruct, we manage all assessment bookings — including complex multi-party logistics — liaison with all solicitors, and administration."
         },
         {
           "number": 4,
           "title": "Court-Ready Report Delivered",
-          "description": "Your report is 100% quality-checked for accuracy, completeness, and compliance before delivery. Standard turnaround is 4\u20136 weeks; fast-track available."
+          "description": "Your report is 100% quality-checked for accuracy, completeness, and compliance before delivery. Standard turnaround is 4–6 weeks; fast-track available."
         }
       ],
       "ctaText": "Instruct an Expert Today",
@@ -386,7 +458,7 @@
     {
       "_template": "ctaInline",
       "heading": "Not Sure What Expert You Need?",
-      "bodyText": "Family law cases often require specialist knowledge \u2014 but choosing between a psychologist and a psychiatrist isn't always straightforward. Our free tool helps you work out which expert your case needs in under 2 minutes.",
+      "bodyText": "Family law cases often require specialist knowledge — but choosing between a psychologist and a psychiatrist isn't always straightforward. Our free tool helps you work out which expert your case needs in under 2 minutes.",
       "primaryCtaText": "Try the Free Tool",
       "primaryCtaLink": "/tools/psychologist-or-psychiatrist/",
       "secondaryCtaText": "Estimate Fees",
@@ -437,7 +509,7 @@
       "rows": [
         {
           "feature": "CVs and quotes",
-          "col1": "Within 24 hours, 2\u20133 options",
+          "col1": "Within 24 hours, 2–3 options",
           "col2": "Days or weeks of searching"
         },
         {
@@ -537,7 +609,7 @@
       "faqs": [
         {
           "question": "How quickly can I receive CVs for a family law case?",
-          "answer": "We typically provide 2\u20133 CVs and full quotes within 24 hours of receiving your brief. For urgent cases, we can often respond even faster. Each CV includes the expert's qualifications, relevant experience, and fee breakdown as required by the Legal Aid Agency."
+          "answer": "We typically provide 2–3 CVs and full quotes within 24 hours of receiving your brief. For urgent cases, we can often respond even faster. Each CV includes the expert's qualifications, relevant experience, and fee breakdown as required by the Legal Aid Agency."
         },
         {
           "question": "Do your experts work at Legal Aid rates?",
@@ -545,7 +617,7 @@
         },
         {
           "question": "Can you work within the 26-week pre-proceedings timetable?",
-          "answer": "Absolutely. We understand the statutory timelines in family proceedings and regularly deliver reports within these frameworks. Standard turnaround is 4\u20136 weeks, and we offer a fast-track service for cases with tighter deadlines."
+          "answer": "Absolutely. We understand the statutory timelines in family proceedings and regularly deliver reports within these frameworks. Standard turnaround is 4–6 weeks, and we offer a fast-track service for cases with tighter deadlines."
         },
         {
           "question": "Do I need a psychologist or a psychiatrist for my family law case?",
@@ -557,7 +629,7 @@
         },
         {
           "question": "Can you handle multi-party cases with complex logistics?",
-          "answer": "Yes \u2014 this is one of our strengths. Our Client Managers are experienced in coordinating assessments across multiple parties, locations, and solicitors. We handle all booking, liaison, and administration so you can focus on your case."
+          "answer": "Yes — this is one of our strengths. Our Client Managers are experienced in coordinating assessments across multiple parties, locations, and solicitors. We handle all booking, liaison, and administration so you can focus on your case."
         },
         {
           "question": "Can I speak to the expert directly?",

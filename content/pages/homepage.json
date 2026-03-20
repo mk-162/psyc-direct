@@ -2,25 +2,40 @@
   "title": "Expert Psychologists & Psychiatrists for Your Case | Psychology Direct",
   "description": "Access 1,000+ vetted psychologists and psychiatrists for expert witness reports and educational assessments. Fast matching, Legal Aid rates.",
   "url": "/",
-  "keywords": ["psychology direct", "expert witness psychologist", "educational psychologist", "psychiatrist expert witness", "psychology services UK"],
+  "keywords": [
+    "psychology direct",
+    "expert witness psychologist",
+    "educational psychologist",
+    "psychiatrist expert witness",
+    "psychology services UK"
+  ],
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get the Right Expert for Your Case in Hours",
       "subtitle": "Find the right expert fast. With 1,000+ vetted psychologists and psychiatrists nationwide, we match you in hours and deliver court-ready reports in 4–6 weeks. Legal Aid rates? Always accepted.",
       "primaryCtaText": "Arrange an Assessment",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Discuss Your Case",
-      "secondaryCtaLink": "/contact/"
+      "secondaryCtaLink": "/contact/",
+      "backgroundImage": "/images/heroes/homepage-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "1,000+ Vetted Experts" },
-        { "text": "CVs in 24 Hours" },
-        { "text": "15+ Years Established" },
-        { "text": "100% Reports QA-Checked" }
+        {
+          "text": "1,000+ Vetted Experts"
+        },
+        {
+          "text": "CVs in 24 Hours"
+        },
+        {
+          "text": "15+ Years Established"
+        },
+        {
+          "text": "100% Reports QA-Checked"
+        }
       ]
     },
     {
@@ -48,10 +63,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "1,000+", "label": "Psychologists & Psychiatrists" },
-        { "value": "4-6 Week", "label": "Standard Turnaround" },
-        { "value": "24-Hour", "label": "CV Matching" },
-        { "value": "100%", "label": "Legal Aid Rates" }
+        {
+          "value": "1,000+",
+          "label": "Psychologists & Psychiatrists"
+        },
+        {
+          "value": "4-6 Week",
+          "label": "Standard Turnaround"
+        },
+        {
+          "value": "24-Hour",
+          "label": "CV Matching"
+        },
+        {
+          "value": "100%",
+          "label": "Legal Aid Rates"
+        }
       ]
     },
     {

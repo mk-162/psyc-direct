@@ -2,25 +2,40 @@
   "title": "Personal Injury & Civil Expert Witness | Psychology Direct",
   "description": "Psychological and psychiatric injury assessments for personal injury and civil claims. PTSD, trauma, chronic pain reports.",
   "url": "/expert-witness-psychologists/civil-personal-injury/",
-  "keywords": ["personal injury expert witness psychologist", "civil litigation psychologist", "PTSD assessment", "psychological injury report", "PI psychiatrist"],
+  "keywords": [
+    "personal injury expert witness psychologist",
+    "civil litigation psychologist",
+    "PTSD assessment",
+    "psychological injury report",
+    "PI psychiatrist"
+  ],
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Court-Ready Expert Psychological Evidence Fast",
       "subtitle": "Personal injury and civil claims need expert psychological or psychiatric assessments to quantify psychological harm and support damages. We match the right expert, handle all coordination, and deliver court-ready reports on Legal Aid rates.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "What's Your Case Worth? Use Fee Calculator",
-      "secondaryCtaLink": "/tools/fee-calculator/"
+      "secondaryCtaLink": "/tools/fee-calculator/",
+      "backgroundImage": "/images/heroes/civil-pi-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC & GMC Registered Experts" },
-        { "text": "CVs Within 24 Hours" },
-        { "text": "Legal Aid Rates Guaranteed" },
-        { "text": "100% Quality-Checked Reports" }
+        {
+          "text": "HCPC & GMC Registered Experts"
+        },
+        {
+          "text": "CVs Within 24 Hours"
+        },
+        {
+          "text": "Legal Aid Rates Guaranteed"
+        },
+        {
+          "text": "100% Quality-Checked Reports"
+        }
       ]
     },
     {
@@ -35,29 +50,178 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Our HCPC-registered psychologists assess the psychological impact of accidents, negligence, and workplace incidents. All are enhanced DBS-checked and experienced in trauma assessment." }
+                  {
+                    "type": "text",
+                    "text": "Our HCPC-registered psychologists assess the psychological impact of accidents, negligence, and workplace incidents. All are enhanced DBS-checked and experienced in trauma assessment."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Psychology assessments for PI and civil cases include:" }
+                  {
+                    "type": "text",
+                    "text": "Psychology assessments for PI and civil cases include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and post-traumatic stress evaluations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychological injury and trauma assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Workplace stress and burnout evaluations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Road traffic accident psychological impact" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "General anxiety and depression assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Chronic pain and pain-related psychology" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fitness to work evaluations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Disability discrimination assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Tribunal assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Neuropsychological assessments (cognitive changes post-injury)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Clinical negligence and malpractice impact assessments" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "PTSD and post-traumatic stress evaluations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychological injury and trauma assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Workplace stress and burnout evaluations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Road traffic accident psychological impact"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "General anxiety and depression assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Chronic pain and pain-related psychology"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fitness to work evaluations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Disability discrimination assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental Health Tribunal assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Neuropsychological assessments (cognitive changes post-injury)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Clinical negligence and malpractice impact assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -71,29 +235,178 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Our GMC-registered psychiatrists assess mental health diagnoses, treatment needs, and medical causation. They provide psychiatric opinions that strengthen damages awards and court evidence." }
+                  {
+                    "type": "text",
+                    "text": "Our GMC-registered psychiatrists assess mental health diagnoses, treatment needs, and medical causation. They provide psychiatric opinions that strengthen damages awards and court evidence."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Psychiatry assessments for PI and civil cases include:" }
+                  {
+                    "type": "text",
+                    "text": "Psychiatry assessments for PI and civil cases include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health diagnosis and evaluation" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and trauma-related psychiatric disorders" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Depression and anxiety disorder evaluations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Personality change and adjustment disorders" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity assessments (mental capacity post-incident)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Substance misuse secondary to injury" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations and prognosis" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Causation opinions (linking injury to mental health)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medical negligence and malpractice assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Chronic pain syndrome and psychiatric comorbidity" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Tribunal reports" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental health diagnosis and evaluation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "PTSD and trauma-related psychiatric disorders"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Depression and anxiety disorder evaluations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Personality change and adjustment disorders"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Capacity assessments (mental capacity post-incident)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Substance misuse secondary to injury"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Treatment recommendations and prognosis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Causation opinions (linking injury to mental health)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Medical negligence and malpractice assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Chronic pain syndrome and psychiatric comorbidity"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental Health Tribunal reports"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -107,13 +420,19 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Complex cases often benefit from both a psychologist and psychiatrist. A psychologist quantifies psychological impact and functional loss. A psychiatrist provides medical diagnosis and treatment opinions." }
+                  {
+                    "type": "text",
+                    "text": "Complex cases often benefit from both a psychologist and psychiatrist. A psychologist quantifies psychological impact and functional loss. A psychiatrist provides medical diagnosis and treatment opinions."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Together, they give courts the full picture needed for fair damages assessment. Not sure which you need? Use our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/" }
+                  {
+                    "type": "text",
+                    "text": "Together, they give courts the full picture needed for fair damages assessment. Not sure which you need? Use our tool: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
+                  }
                 ]
               }
             ]
@@ -169,7 +488,7 @@
         {
           "number": 2,
           "title": "Receive Matched Experts",
-          "description": "Within 24 hours, you'll get 2\u20133 CVs from trauma-experienced experts. All offer Legal Aid rates."
+          "description": "Within 24 hours, you'll get 2–3 CVs from trauma-experienced experts. All offer Legal Aid rates."
         },
         {
           "number": 3,
@@ -179,7 +498,7 @@
         {
           "number": 4,
           "title": "Court-Ready Report",
-          "description": "Your report is fully quality-checked and proofread. We ensure all legal questions are answered and findings are clear. Standard turnaround is 4\u20136 weeks; fast-track available."
+          "description": "Your report is fully quality-checked and proofread. We ensure all legal questions are answered and findings are clear. Standard turnaround is 4–6 weeks; fast-track available."
         }
       ],
       "ctaText": "Get Your Expert Now",
@@ -191,14 +510,46 @@
       "col1Header": "Psychology Direct",
       "col2Header": "Instructing Directly",
       "rows": [
-        { "feature": "CVs & Quotes", "col1": "Within 24 hours, 2\u20133 trauma experts", "col2": "Days or weeks of searching" },
-        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by practitioner" },
-        { "feature": "Trauma Specialization", "col1": "Experts vetted for PTSD and trauma assessment", "col2": "May lack trauma focus" },
-        { "feature": "Case Management", "col1": "Dedicated Client Manager handles all logistics", "col2": "You manage appointments" },
-        { "feature": "Quality Assurance", "col1": "100% of reports proofread and QA-checked", "col2": "No independent check" },
-        { "feature": "Medical Coordination", "col1": "We liaise with treating doctors and hospitals", "col2": "You manage all contact" },
-        { "feature": "Cost", "col1": "Same or less than instructing directly", "col2": "Same or more" },
-        { "feature": "Turnaround", "col1": "4\u20136 weeks standard; fast-track available", "col2": "Variable, often longer" }
+        {
+          "feature": "CVs & Quotes",
+          "col1": "Within 24 hours, 2–3 trauma experts",
+          "col2": "Days or weeks of searching"
+        },
+        {
+          "feature": "Legal Aid Rates",
+          "col1": "Guaranteed on every case",
+          "col2": "Varies by practitioner"
+        },
+        {
+          "feature": "Trauma Specialization",
+          "col1": "Experts vetted for PTSD and trauma assessment",
+          "col2": "May lack trauma focus"
+        },
+        {
+          "feature": "Case Management",
+          "col1": "Dedicated Client Manager handles all logistics",
+          "col2": "You manage appointments"
+        },
+        {
+          "feature": "Quality Assurance",
+          "col1": "100% of reports proofread and QA-checked",
+          "col2": "No independent check"
+        },
+        {
+          "feature": "Medical Coordination",
+          "col1": "We liaise with treating doctors and hospitals",
+          "col2": "You manage all contact"
+        },
+        {
+          "feature": "Cost",
+          "col1": "Same or less than instructing directly",
+          "col2": "Same or more"
+        },
+        {
+          "feature": "Turnaround",
+          "col1": "4–6 weeks standard; fast-track available",
+          "col2": "Variable, often longer"
+        }
       ]
     },
     {
@@ -269,7 +620,7 @@
         },
         {
           "question": "How long after an incident should an assessment be done?",
-          "answer": "Ideally, wait until acute distress has settled (typically 2\u20136 months post-incident). Early assessments may overestimate severity; delayed assessments may miss acute effects. Your expert will advise on the right timing for your case."
+          "answer": "Ideally, wait until acute distress has settled (typically 2–6 months post-incident). Early assessments may overestimate severity; delayed assessments may miss acute effects. Your expert will advise on the right timing for your case."
         },
         {
           "question": "Can assessments be done remotely?",
@@ -289,7 +640,7 @@
         },
         {
           "question": "Can I get a report within weeks, not months?",
-          "answer": "Standard turnaround is 4\u20136 weeks. We offer fast-track services for urgent cases. Contact us to discuss your timeline. We often deliver faster when needed."
+          "answer": "Standard turnaround is 4–6 weeks. We offer fast-track services for urgent cases. Contact us to discuss your timeline. We often deliver faster when needed."
         }
       ]
     },

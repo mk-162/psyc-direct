@@ -2,25 +2,40 @@
   "title": "Immigration & Asylum Expert Witness | Psychology Direct",
   "description": "Psychological and psychiatric assessments for immigration tribunals and asylum claims. Torture, PTSD, and country-specific trauma.",
   "url": "/expert-witness-psychologists/asylum-immigration/",
-  "keywords": ["immigration expert witness psychologist", "asylum psychological report", "torture assessment", "immigration psychiatrist", "PTSD asylum"],
+  "keywords": [
+    "immigration expert witness psychologist",
+    "asylum psychological report",
+    "torture assessment",
+    "immigration psychiatrist",
+    "PTSD asylum"
+  ],
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Win Your Asylum Case with Expert Trauma Evidence",
       "subtitle": "We match you with culturally competent psychologists and psychiatrists who understand asylum trauma, torture, and persecution. Court-ready reports in 4–6 weeks. Legal Aid rates always.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "See Our Immigration Expertise",
-      "secondaryCtaLink": "/expert-witness-psychologists/asylum-immigration/"
+      "secondaryCtaLink": "/expert-witness-psychologists/asylum-immigration/",
+      "backgroundImage": "/images/heroes/immigration-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC & GMC Registered" },
-        { "text": "Culturally Competent Experts" },
-        { "text": "CVs in 24 Hours" },
-        { "text": "100% Tribunal-Ready Reports" }
+        {
+          "text": "HCPC & GMC Registered"
+        },
+        {
+          "text": "Culturally Competent Experts"
+        },
+        {
+          "text": "CVs in 24 Hours"
+        },
+        {
+          "text": "100% Tribunal-Ready Reports"
+        }
       ]
     },
     {
@@ -35,26 +50,136 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Psychologists assess trauma from persecution and torture. They diagnose PTSD, evaluate the credibility of your client's account, and assess how the trauma affects their day-to-day functioning." }
+                  {
+                    "type": "text",
+                    "text": "Psychologists assess trauma from persecution and torture. They diagnose PTSD, evaluate the credibility of your client's account, and assess how the trauma affects their day-to-day functioning."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Services include:" }
+                  {
+                    "type": "text",
+                    "text": "Services include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and trauma-related disorders assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Torture and persecution impact evaluation" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Country-specific trauma and persecution assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Credibility of trauma account evaluation" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity to give evidence assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Functional impairment and impact on asylum claim" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations and prognosis" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health Tribunal reports" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "PTSD and trauma-related disorders assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Torture and persecution impact evaluation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Country-specific trauma and persecution assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Credibility of trauma account evaluation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Capacity to give evidence assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Functional impairment and impact on asylum claim"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Treatment recommendations and prognosis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental Health Tribunal reports"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -68,25 +193,122 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Psychiatrists provide expert medical opinion on mental health conditions from persecution and torture. They diagnose based on international criteria, establish causation, and recommend treatment." }
+                  {
+                    "type": "text",
+                    "text": "Psychiatrists provide expert medical opinion on mental health conditions from persecution and torture. They diagnose based on international criteria, establish causation, and recommend treatment."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Services include:" }
+                  {
+                    "type": "text",
+                    "text": "Services include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychiatric diagnosis and assessment (ICD-10/DSM-5)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "PTSD and complex PTSD evaluation" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Depression anxiety and adjustment disorders" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychotic disorders secondary to trauma" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medical reports for tribunal proceedings" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychiatric diagnosis and assessment (ICD-10/DSM-5)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "PTSD and complex PTSD evaluation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Depression anxiety and adjustment disorders"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychotic disorders secondary to trauma"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Capacity assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Treatment recommendations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Medical reports for tribunal proceedings"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -100,13 +322,19 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Asylum work needs experts who understand trauma psychology and the persecution contexts your clients face. Our network includes specialists in asylum trauma, torture assessment, and regional cultural competency. When you brief us, your Client Manager will find an expert familiar with your client's country and trauma context." }
+                  {
+                    "type": "text",
+                    "text": "Asylum work needs experts who understand trauma psychology and the persecution contexts your clients face. Our network includes specialists in asylum trauma, torture assessment, and regional cultural competency. When you brief us, your Client Manager will find an expert familiar with your client's country and trauma context."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Not sure which type of expert you need? Try our Psychologist or Psychiatrist? tool \u2192 /tools/psychologist-or-psychiatrist/" }
+                  {
+                    "type": "text",
+                    "text": "Not sure which type of expert you need? Try our Psychologist or Psychiatrist? tool → /tools/psychologist-or-psychiatrist/"
+                  }
                 ]
               }
             ]
@@ -162,7 +390,7 @@
         {
           "number": 2,
           "title": "Receive Specialist CVs",
-          "description": "Within 24 hours, we send 2\u20133 CVs from psychologists/psychiatrists with expertise in your client's country or region. All accept Legal Aid rates."
+          "description": "Within 24 hours, we send 2–3 CVs from psychologists/psychiatrists with expertise in your client's country or region. All accept Legal Aid rates."
         },
         {
           "number": 3,
@@ -172,7 +400,7 @@
         {
           "number": 4,
           "title": "Tribunal-Ready Report",
-          "description": "You get a comprehensive, trauma-informed report that's 100% quality-checked. Standard turnaround is 4\u20136 weeks. Fast-track available."
+          "description": "You get a comprehensive, trauma-informed report that's 100% quality-checked. Standard turnaround is 4–6 weeks. Fast-track available."
         }
       ],
       "ctaText": "Get Your Expert Now",
@@ -184,14 +412,46 @@
       "col1Header": "Psychology Direct",
       "col2Header": "Instructing Directly",
       "rows": [
-        { "feature": "Country-Specific Expertise", "col1": "Experts matched by country and context", "col2": "Generic trauma only" },
-        { "feature": "Cultural Competency", "col1": "Specialists in asylum and persecution", "col2": "Limited cultural knowledge" },
-        { "feature": "Torture Assessment Experience", "col1": "Experts trained in torture assessment protocols", "col2": "General psychology only" },
-        { "feature": "CVs in 24 Hours", "col1": "Fast matching from specialist network", "col2": "Weeks of searching" },
-        { "feature": "Interpreter Coordination", "col1": "We arrange interpreters if needed", "col2": "You manage everything" },
-        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by practitioner" },
-        { "feature": "Case Management", "col1": "Dedicated Client Manager", "col2": "You manage all logistics" },
-        { "feature": "Cost", "col1": "Same or less than instructing directly", "col2": "Same or more" }
+        {
+          "feature": "Country-Specific Expertise",
+          "col1": "Experts matched by country and context",
+          "col2": "Generic trauma only"
+        },
+        {
+          "feature": "Cultural Competency",
+          "col1": "Specialists in asylum and persecution",
+          "col2": "Limited cultural knowledge"
+        },
+        {
+          "feature": "Torture Assessment Experience",
+          "col1": "Experts trained in torture assessment protocols",
+          "col2": "General psychology only"
+        },
+        {
+          "feature": "CVs in 24 Hours",
+          "col1": "Fast matching from specialist network",
+          "col2": "Weeks of searching"
+        },
+        {
+          "feature": "Interpreter Coordination",
+          "col1": "We arrange interpreters if needed",
+          "col2": "You manage everything"
+        },
+        {
+          "feature": "Legal Aid Rates",
+          "col1": "Guaranteed on every case",
+          "col2": "Varies by practitioner"
+        },
+        {
+          "feature": "Case Management",
+          "col1": "Dedicated Client Manager",
+          "col2": "You manage all logistics"
+        },
+        {
+          "feature": "Cost",
+          "col1": "Same or less than instructing directly",
+          "col2": "Same or more"
+        }
       ]
     },
     {
@@ -268,7 +528,7 @@
         },
         {
           "question": "How long does a tribunal-ready report take?",
-          "answer": "Standard turnaround is 4\u20136 weeks. For urgent cases with tribunal deadlines, we offer fast-track services. Call us on 01306 879 975 to discuss your timeline."
+          "answer": "Standard turnaround is 4–6 weeks. For urgent cases with tribunal deadlines, we offer fast-track services. Call us on 01306 879 975 to discuss your timeline."
         },
         {
           "question": "Will the expert attend the tribunal?",

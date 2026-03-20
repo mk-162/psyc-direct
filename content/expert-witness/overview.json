@@ -12,30 +12,51 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Expert Witness Reports, Faster. Court-Ready, Guaranteed.",
       "subtitle": "Access 1,000+ HCPC/GMC-registered experts across all practice areas. We deliver CVs within 24 hours and court-ready reports in 4–6 weeks. Legal Aid rates guaranteed on every case. One dedicated Client Manager owns your case from matching to delivery.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Not Sure What You Need?",
-      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/"
+      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/",
+      "backgroundImage": "/images/heroes/expert-witness-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "1,000+ Vetted Professionals" },
-        { "text": "CVs Within 24 Hours" },
-        { "text": "Legal Aid Rates Guaranteed" },
-        { "text": "100% Quality-Checked Reports" }
+        {
+          "text": "1,000+ Vetted Professionals"
+        },
+        {
+          "text": "CVs Within 24 Hours"
+        },
+        {
+          "text": "Legal Aid Rates Guaranteed"
+        },
+        {
+          "text": "100% Quality-Checked Reports"
+        }
       ]
     },
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "15+", "label": "Years' Experience" },
-        { "value": "7", "label": "Practice Areas Covered" },
-        { "value": "4-6 Week", "label": "Standard Turnaround" },
-        { "value": "100%", "label": "DBS Enhanced & Registered" }
+        {
+          "value": "15+",
+          "label": "Years' Experience"
+        },
+        {
+          "value": "7",
+          "label": "Practice Areas Covered"
+        },
+        {
+          "value": "4-6 Week",
+          "label": "Standard Turnaround"
+        },
+        {
+          "value": "100%",
+          "label": "DBS Enhanced & Registered"
+        }
       ]
     },
     {
@@ -115,7 +136,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Parenting capacity and attachment evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Parenting capacity and attachment evaluations"
+                          }
                         ]
                       }
                     ]
@@ -126,7 +150,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Whole family assessments and child development evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Whole family assessments and child development evaluations"
+                          }
                         ]
                       }
                     ]
@@ -137,7 +164,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Fitness to plead and criminal responsibility assessments" }
+                          {
+                            "type": "text",
+                            "text": "Fitness to plead and criminal responsibility assessments"
+                          }
                         ]
                       }
                     ]
@@ -148,7 +178,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "PTSD and psychological trauma evaluations" }
+                          {
+                            "type": "text",
+                            "text": "PTSD and psychological trauma evaluations"
+                          }
                         ]
                       }
                     ]
@@ -159,7 +192,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Cognitive and neuropsychological assessments" }
+                          {
+                            "type": "text",
+                            "text": "Cognitive and neuropsychological assessments"
+                          }
                         ]
                       }
                     ]
@@ -170,7 +206,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Workplace stress and occupational assessments" }
+                          {
+                            "type": "text",
+                            "text": "Workplace stress and occupational assessments"
+                          }
                         ]
                       }
                     ]
@@ -181,7 +220,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Risk assessments (re-offending, harm to others, self-harm)" }
+                          {
+                            "type": "text",
+                            "text": "Risk assessments (re-offending, harm to others, self-harm)"
+                          }
                         ]
                       }
                     ]
@@ -192,7 +234,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mental capacity evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Mental capacity evaluations"
+                          }
                         ]
                       }
                     ]
@@ -203,7 +248,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Substance misuse and dependency assessments" }
+                          {
+                            "type": "text",
+                            "text": "Substance misuse and dependency assessments"
+                          }
                         ]
                       }
                     ]
@@ -214,7 +262,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Immigration and asylum trauma assessments" }
+                          {
+                            "type": "text",
+                            "text": "Immigration and asylum trauma assessments"
+                          }
                         ]
                       }
                     ]
@@ -256,7 +307,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mental health diagnosis and capacity assessments" }
+                          {
+                            "type": "text",
+                            "text": "Mental health diagnosis and capacity assessments"
+                          }
                         ]
                       }
                     ]
@@ -267,7 +321,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Fitness to plead and criminal capacity evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Fitness to plead and criminal capacity evaluations"
+                          }
                         ]
                       }
                     ]
@@ -278,7 +335,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mental state at time of offence assessments" }
+                          {
+                            "type": "text",
+                            "text": "Mental state at time of offence assessments"
+                          }
                         ]
                       }
                     ]
@@ -289,7 +349,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Personality disorder and psychotic disorder evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Personality disorder and psychotic disorder evaluations"
+                          }
                         ]
                       }
                     ]
@@ -300,7 +363,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "PTSD and trauma-related conditions" }
+                          {
+                            "type": "text",
+                            "text": "PTSD and trauma-related conditions"
+                          }
                         ]
                       }
                     ]
@@ -311,7 +377,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Substance misuse and dependency evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Substance misuse and dependency evaluations"
+                          }
                         ]
                       }
                     ]
@@ -322,7 +391,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Risk assessments (violence, self-harm, neglect)" }
+                          {
+                            "type": "text",
+                            "text": "Risk assessments (violence, self-harm, neglect)"
+                          }
                         ]
                       }
                     ]
@@ -333,7 +405,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Care and contact proceedings assessments" }
+                          {
+                            "type": "text",
+                            "text": "Care and contact proceedings assessments"
+                          }
                         ]
                       }
                     ]
@@ -344,7 +419,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Pre-sentencing and probation reports" }
+                          {
+                            "type": "text",
+                            "text": "Pre-sentencing and probation reports"
+                          }
                         ]
                       }
                     ]
@@ -355,7 +433,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Parole hearing and IPP assessments" }
+                          {
+                            "type": "text",
+                            "text": "Parole hearing and IPP assessments"
+                          }
                         ]
                       }
                     ]
@@ -366,7 +447,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Treatment recommendations and prognosis" }
+                          {
+                            "type": "text",
+                            "text": "Treatment recommendations and prognosis"
+                          }
                         ]
                       }
                     ]

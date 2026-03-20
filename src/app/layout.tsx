@@ -47,8 +47,12 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <a href="/" className="font-bold text-lg" style={{ color: 'var(--brand-navy)' }}>
-              {settings?.site?.name || 'Psychology Direct'}
+            <a href="/" className="flex items-center">
+              <img
+                src="/images/logo-header.png"
+                alt="Psychology Direct"
+                className="h-10 w-auto"
+              />
             </a>
             <nav className="hidden md:flex items-center gap-6">
               {navigation?.mainNav?.map((item: any) => (

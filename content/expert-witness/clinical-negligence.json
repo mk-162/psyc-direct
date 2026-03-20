@@ -2,25 +2,39 @@
   "title": "Clinical Negligence Expert Witness | Psychology Direct",
   "description": "Expert psychological and psychiatric opinion for clinical negligence claims. Breach of duty, causation, and prognosis reports.",
   "url": "/expert-witness-psychologists/clinical-negligence/",
-  "keywords": ["clinical negligence expert witness psychologist", "medical negligence psychologist", "clinical negligence psychiatrist", "breach of duty expert"],
+  "keywords": [
+    "clinical negligence expert witness psychologist",
+    "medical negligence psychologist",
+    "clinical negligence psychiatrist",
+    "breach of duty expert"
+  ],
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Prove Clinical Negligence Claims with Expert Evidence",
-      "subtitle": "We provide detailed breach of duty and causation assessments from experienced psychologists and psychiatrists. Your reports are court-ready, available at Legal Aid rates, and typically completed within 4\u20136 weeks.",
+      "subtitle": "We provide detailed breach of duty and causation assessments from experienced psychologists and psychiatrists. Your reports are court-ready, available at Legal Aid rates, and typically completed within 4–6 weeks.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "What's Your Case Worth?",
-      "secondaryCtaLink": "/tools/fee-calculator/"
+      "secondaryCtaLink": "/tools/fee-calculator/",
+      "backgroundImage": "/images/heroes/civil-pi-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC & GMC Registered" },
-        { "text": "CVs in 24 Hours" },
-        { "text": "Legal Aid Rates" },
-        { "text": "100% QA-Checked Reports" }
+        {
+          "text": "HCPC & GMC Registered"
+        },
+        {
+          "text": "CVs in 24 Hours"
+        },
+        {
+          "text": "Legal Aid Rates"
+        },
+        {
+          "text": "100% QA-Checked Reports"
+        }
       ]
     },
     {
@@ -35,26 +49,136 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Our psychologists assess psychological harm arising from medical negligence. They investigate misdiagnosis, delayed treatment, surgical error, and other medical failings. They evaluate whether the breach of duty caused the claimant's psychological condition." }
+                  {
+                    "type": "text",
+                    "text": "Our psychologists assess psychological harm arising from medical negligence. They investigate misdiagnosis, delayed treatment, surgical error, and other medical failings. They evaluate whether the breach of duty caused the claimant's psychological condition."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Services include:" }
+                  {
+                    "type": "text",
+                    "text": "Services include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychological harm assessment (trauma PTSD anxiety depression)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Breach of duty and causation opinions" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Prognosis and treatment recommendations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Impact on function and quality of life" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Comparative fault analysis" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Negligent infliction of emotional distress assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Delayed diagnosis psychological impact" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Surgical/procedural error impact assessment" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychological harm assessment (trauma PTSD anxiety depression)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Breach of duty and causation opinions"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Prognosis and treatment recommendations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Impact on function and quality of life"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Comparative fault analysis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Negligent infliction of emotional distress assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Delayed diagnosis psychological impact"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Surgical/procedural error impact assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -68,26 +192,136 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Our psychiatrists provide expert medical opinion on mental health conditions stemming from clinical negligence. They assess diagnosis, treatment, medical causation, and prognosis. They're essential when the breach involves psychiatric treatment, medication error, or mental health malpractice." }
+                  {
+                    "type": "text",
+                    "text": "Our psychiatrists provide expert medical opinion on mental health conditions stemming from clinical negligence. They assess diagnosis, treatment, medical causation, and prognosis. They're essential when the breach involves psychiatric treatment, medication error, or mental health malpractice."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Services include:" }
+                  {
+                    "type": "text",
+                    "text": "Services include:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychiatric harm assessment and diagnosis" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Breach of duty and causation opinions (medical standard of care)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Treatment recommendations and prognosis" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medication error and iatrogenic harm assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Delayed psychiatric diagnosis impact" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medical negligence in mental health treatment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity and decision-making post-negligence" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Impact on ongoing treatment needs" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychiatric harm assessment and diagnosis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Breach of duty and causation opinions (medical standard of care)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Treatment recommendations and prognosis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Medication error and iatrogenic harm assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Delayed psychiatric diagnosis impact"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Medical negligence in mental health treatment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Capacity and decision-making post-negligence"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Impact on ongoing treatment needs"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -101,13 +335,19 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Your case hinges on proving breach of duty and demonstrating causation. Our experts provide evidence-based opinions on the standard of care and whether it was breached. They also assess whether that breach caused the claimant's harm. Your dedicated Client Manager will advise which expert type best serves your specific breach and causation questions." }
+                  {
+                    "type": "text",
+                    "text": "Your case hinges on proving breach of duty and demonstrating causation. Our experts provide evidence-based opinions on the standard of care and whether it was breached. They also assess whether that breach caused the claimant's harm. Your dedicated Client Manager will advise which expert type best serves your specific breach and causation questions."
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Not sure which discipline you need? Try our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/" }
+                  {
+                    "type": "text",
+                    "text": "Not sure which discipline you need? Try our tool: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
+                  }
                 ]
               }
             ]
@@ -163,7 +403,7 @@
         {
           "number": 2,
           "title": "Receive Expert CVs Within 24 Hours",
-          "description": "We'll send 2\u20133 CVs from psychologists or psychiatrists experienced in breach and causation work. All accept Legal Aid rates."
+          "description": "We'll send 2–3 CVs from psychologists or psychiatrists experienced in breach and causation work. All accept Legal Aid rates."
         },
         {
           "number": 3,
@@ -173,7 +413,7 @@
         {
           "number": 4,
           "title": "Detailed Breach & Causation Report",
-          "description": "Your expert addresses the standard of care, whether it was breached, and whether the breach caused harm. Every report is 100% quality-checked before delivery. Standard turnaround is 4\u20136 weeks."
+          "description": "Your expert addresses the standard of care, whether it was breached, and whether the breach caused harm. Every report is 100% quality-checked before delivery. Standard turnaround is 4–6 weeks."
         }
       ],
       "ctaText": "Get Your Expert Now",
@@ -185,14 +425,46 @@
       "col1Header": "Psychology Direct",
       "col2Header": "Instructing Directly",
       "rows": [
-        { "feature": "Clinical Negligence Expertise", "col1": "Experts vetted for breach and causation work", "col2": "May lack negligence experience" },
-        { "feature": "CVs in 24 Hours", "col1": "Fast matching of breach-experienced experts", "col2": "Weeks of searching" },
-        { "feature": "Medical Law Understanding", "col1": "Experts trained in medical law and duty of care", "col2": "General psychology/psychiatry only" },
-        { "feature": "Legal Aid Rates", "col1": "Guaranteed on every case", "col2": "Varies by practitioner" },
-        { "feature": "Case Management", "col1": "Dedicated manager handles all coordination", "col2": "You manage everything" },
-        { "feature": "Quality Assurance", "col1": "100% of reports proofread and QA-checked", "col2": "No independent check" },
-        { "feature": "Cost", "col1": "Same or less than instructing directly", "col2": "Same or more" },
-        { "feature": "Breach/Causation Focus", "col1": "Experts understand the legal test", "col2": "May focus only on diagnosis" }
+        {
+          "feature": "Clinical Negligence Expertise",
+          "col1": "Experts vetted for breach and causation work",
+          "col2": "May lack negligence experience"
+        },
+        {
+          "feature": "CVs in 24 Hours",
+          "col1": "Fast matching of breach-experienced experts",
+          "col2": "Weeks of searching"
+        },
+        {
+          "feature": "Medical Law Understanding",
+          "col1": "Experts trained in medical law and duty of care",
+          "col2": "General psychology/psychiatry only"
+        },
+        {
+          "feature": "Legal Aid Rates",
+          "col1": "Guaranteed on every case",
+          "col2": "Varies by practitioner"
+        },
+        {
+          "feature": "Case Management",
+          "col1": "Dedicated manager handles all coordination",
+          "col2": "You manage everything"
+        },
+        {
+          "feature": "Quality Assurance",
+          "col1": "100% of reports proofread and QA-checked",
+          "col2": "No independent check"
+        },
+        {
+          "feature": "Cost",
+          "col1": "Same or less than instructing directly",
+          "col2": "Same or more"
+        },
+        {
+          "feature": "Breach/Causation Focus",
+          "col1": "Experts understand the legal test",
+          "col2": "May focus only on diagnosis"
+        }
       ]
     },
     {
@@ -273,7 +545,7 @@
         },
         {
           "question": "Can an expert opine on damages?",
-          "answer": "Experts opine on causation, severity, prognosis, and treatment needs \u2014 all relevant to damages. Quantum remains a matter for the court, but psychological/psychiatric evidence strongly informs damages awards."
+          "answer": "Experts opine on causation, severity, prognosis, and treatment needs — all relevant to damages. Quantum remains a matter for the court, but psychological/psychiatric evidence strongly informs damages awards."
         }
       ]
     },

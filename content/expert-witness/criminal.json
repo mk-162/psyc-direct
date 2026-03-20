@@ -13,21 +13,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Meet Your Criminal Expert Witness Fast",
       "subtitle": "Whether you need a fitness to plead assessment, risk evaluation, or pre-sentencing report, we'll match you with an expert in 24 hours. All our psychologists and psychiatrists work at Legal Aid rates.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "What Does a Fitness to Plead Assessment Cover?",
-      "secondaryCtaLink": "/expert-witness-psychologists/criminal/#faqs"
+      "secondaryCtaLink": "/expert-witness-psychologists/criminal/#faqs",
+      "backgroundImage": "/images/heroes/criminal-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC & GMC Registered" },
-        { "text": "Section 12 Approved Psychiatrists" },
-        { "text": "CVs Within 24 Hours" },
-        { "text": "100% Legal Aid Compliant" }
+        {
+          "text": "HCPC & GMC Registered"
+        },
+        {
+          "text": "Section 12 Approved Psychiatrists"
+        },
+        {
+          "text": "CVs Within 24 Hours"
+        },
+        {
+          "text": "100% Legal Aid Compliant"
+        }
       ]
     },
     {
@@ -66,7 +75,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Fitness to plead assessments (Pritchard criteria)" }
+                          {
+                            "type": "text",
+                            "text": "Fitness to plead assessments (Pritchard criteria)"
+                          }
                         ]
                       }
                     ]
@@ -77,7 +89,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mental capacity and criminal responsibility evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Mental capacity and criminal responsibility evaluations"
+                          }
                         ]
                       }
                     ]
@@ -88,7 +103,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Risk of re-offending assessments" }
+                          {
+                            "type": "text",
+                            "text": "Risk of re-offending assessments"
+                          }
                         ]
                       }
                     ]
@@ -99,7 +117,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Suggestibility and false confession evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Suggestibility and false confession evaluations"
+                          }
                         ]
                       }
                     ]
@@ -110,7 +131,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Witness reliability assessments" }
+                          {
+                            "type": "text",
+                            "text": "Witness reliability assessments"
+                          }
                         ]
                       }
                     ]
@@ -121,7 +145,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "IQ and cognitive functioning assessments" }
+                          {
+                            "type": "text",
+                            "text": "IQ and cognitive functioning assessments"
+                          }
                         ]
                       }
                     ]
@@ -132,7 +159,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Neuropsychological evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Neuropsychological evaluations"
+                          }
                         ]
                       }
                     ]
@@ -143,7 +173,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mental health and personality assessments" }
+                          {
+                            "type": "text",
+                            "text": "Mental health and personality assessments"
+                          }
                         ]
                       }
                     ]
@@ -154,7 +187,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Sexual offender risk assessments" }
+                          {
+                            "type": "text",
+                            "text": "Sexual offender risk assessments"
+                          }
                         ]
                       }
                     ]
@@ -165,7 +201,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Pre-sentencing psychological reports" }
+                          {
+                            "type": "text",
+                            "text": "Pre-sentencing psychological reports"
+                          }
                         ]
                       }
                     ]
@@ -176,7 +215,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Prison parole and IPP assessments" }
+                          {
+                            "type": "text",
+                            "text": "Prison parole and IPP assessments"
+                          }
                         ]
                       }
                     ]
@@ -196,7 +238,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Our GMC-registered, Section 12 approved psychiatrists deliver expert opinion that shapes sentencing and parole outcomes. They assess mental state at the time of offence, diagnose mental health conditions, and recommend treatment \u2014 all backed by clinical expertise."
+                    "text": "Our GMC-registered, Section 12 approved psychiatrists deliver expert opinion that shapes sentencing and parole outcomes. They assess mental state at the time of offence, diagnose mental health conditions, and recommend treatment — all backed by clinical expertise."
                   }
                 ]
               },
@@ -218,7 +260,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Fitness to plead and fitness to stand trial (Pritchard criteria)" }
+                          {
+                            "type": "text",
+                            "text": "Fitness to plead and fitness to stand trial (Pritchard criteria)"
+                          }
                         ]
                       }
                     ]
@@ -229,7 +274,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mental capacity assessments" }
+                          {
+                            "type": "text",
+                            "text": "Mental capacity assessments"
+                          }
                         ]
                       }
                     ]
@@ -240,7 +288,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Psychiatric assessment of mental state at time of offence" }
+                          {
+                            "type": "text",
+                            "text": "Psychiatric assessment of mental state at time of offence"
+                          }
                         ]
                       }
                     ]
@@ -251,7 +302,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Criminal responsibility and mens rea evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Criminal responsibility and mens rea evaluations"
+                          }
                         ]
                       }
                     ]
@@ -262,7 +316,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Risk of re-offending assessments" }
+                          {
+                            "type": "text",
+                            "text": "Risk of re-offending assessments"
+                          }
                         ]
                       }
                     ]
@@ -273,7 +330,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Sexual and violent offender evaluations" }
+                          {
+                            "type": "text",
+                            "text": "Sexual and violent offender evaluations"
+                          }
                         ]
                       }
                     ]
@@ -284,7 +344,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Personality disorder and psychosis assessments" }
+                          {
+                            "type": "text",
+                            "text": "Personality disorder and psychosis assessments"
+                          }
                         ]
                       }
                     ]
@@ -295,7 +358,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "PTSD and trauma-related evaluations" }
+                          {
+                            "type": "text",
+                            "text": "PTSD and trauma-related evaluations"
+                          }
                         ]
                       }
                     ]
@@ -306,7 +372,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Substance misuse and dependency assessments" }
+                          {
+                            "type": "text",
+                            "text": "Substance misuse and dependency assessments"
+                          }
                         ]
                       }
                     ]
@@ -317,7 +386,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Neuropsychiatric assessments" }
+                          {
+                            "type": "text",
+                            "text": "Neuropsychiatric assessments"
+                          }
                         ]
                       }
                     ]
@@ -328,7 +400,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Pre-sentencing and probation reports" }
+                          {
+                            "type": "text",
+                            "text": "Pre-sentencing and probation reports"
+                          }
                         ]
                       }
                     ]
@@ -339,7 +414,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Parole hearing and IPP assessments" }
+                          {
+                            "type": "text",
+                            "text": "Parole hearing and IPP assessments"
+                          }
                         ]
                       }
                     ]
@@ -350,7 +428,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Treatment recommendations and prognosis" }
+                          {
+                            "type": "text",
+                            "text": "Treatment recommendations and prognosis"
+                          }
                         ]
                       }
                     ]
@@ -379,7 +460,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Not sure? Use our tool: Psychologist or Psychiatrist? \u2192 /tools/psychologist-or-psychiatrist/"
+                    "text": "Not sure? Use our tool: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
                   }
                 ]
               }
@@ -437,7 +518,7 @@
         {
           "number": 2,
           "title": "Receive CVs Within 24 Hours",
-          "description": "We'll send 2\u20133 matched CVs from forensic psychologists or psychiatrists. Each expert fits your case's needs, location, and timeline. All work at Legal Aid rates."
+          "description": "We'll send 2–3 matched CVs from forensic psychologists or psychiatrists. Each expert fits your case's needs, location, and timeline. All work at Legal Aid rates."
         },
         {
           "number": 3,
@@ -447,7 +528,7 @@
         {
           "number": 4,
           "title": "Court-Ready Report Delivered",
-          "description": "Your report gets 100% quality-checked and proofread. We verify it meets your letter of instruction and court standards. Standard turnaround: 4\u20136 weeks; fast-track available."
+          "description": "Your report gets 100% quality-checked and proofread. We verify it meets your letter of instruction and court standards. Standard turnaround: 4–6 weeks; fast-track available."
         }
       ],
       "ctaText": "Get Your Expert Now",
@@ -461,7 +542,7 @@
       "rows": [
         {
           "feature": "CVs & Quotes",
-          "col1": "Within 24 hours, 2\u20133 options, all Legal Aid rates",
+          "col1": "Within 24 hours, 2–3 options, all Legal Aid rates",
           "col2": "Days of searching; rates uncertain"
         },
         {
@@ -569,7 +650,7 @@
         },
         {
           "question": "How quickly can you provide an expert?",
-          "answer": "For criminal cases, we prioritize urgent requests. We typically provide 2\u20133 CVs within 24 hours. For truly urgent fitness to plead assessments, we can sometimes offer same-day expert matching. Call 01306 879 975 to discuss your timeline."
+          "answer": "For criminal cases, we prioritize urgent requests. We typically provide 2–3 CVs within 24 hours. For truly urgent fitness to plead assessments, we can sometimes offer same-day expert matching. Call 01306 879 975 to discuss your timeline."
         },
         {
           "question": "Do your experts work at Legal Aid rates?",
@@ -585,11 +666,11 @@
         },
         {
           "question": "How long do assessments take?",
-          "answer": "Most fitness to plead assessments take 2\u20134 hours depending on complexity. Risk assessments and pre-sentencing reports may take longer. The expert will advise on the assessment plan during the booking phase."
+          "answer": "Most fitness to plead assessments take 2–4 hours depending on complexity. Risk assessments and pre-sentencing reports may take longer. The expert will advise on the assessment plan during the booking phase."
         },
         {
           "question": "What happens after the assessment?",
-          "answer": "The expert writes a court-ready report addressing all Pritchard criteria or your letter of instruction questions. All reports get 100% quality-checked by our team before delivery. Standard turnaround is 4\u20136 weeks; fast-track is available."
+          "answer": "The expert writes a court-ready report addressing all Pritchard criteria or your letter of instruction questions. All reports get 100% quality-checked by our team before delivery. Standard turnaround is 4–6 weeks; fast-track is available."
         }
       ]
     },

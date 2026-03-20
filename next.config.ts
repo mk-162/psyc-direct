@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   turbopack: {
     root: __dirname,
+    resolveAlias: {
+      "tinacms/dist/client": "tinacms/dist/client",
+      "tinacms/dist/rich-text": "tinacms/dist/rich-text",
+      "tinacms/dist/react": "tinacms/dist/react",
+    },
   },
   async rewrites() {
     return [

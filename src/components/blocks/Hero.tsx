@@ -30,7 +30,7 @@ export const Hero = ({ data }: { data: HeroData }) => {
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[var(--brand-azure-vivid)]/20 to-transparent" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-[var(--brand-azure)]/10 rounded-full -translate-x-1/2 translate-y-1/2" />
       </div>
-      {isImage && <div className="absolute inset-0 bg-[var(--brand-navy)]/60" />}
+      {isImage && <div className="absolute inset-0 bg-[var(--brand-navy)]/30" />}
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
         <div className="max-w-3xl">

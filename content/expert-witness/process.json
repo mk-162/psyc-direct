@@ -11,21 +11,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Your Expert Report Without the Headaches",
       "subtitle": "From enquiry to court-ready report in 4-6 weeks. We handle the complexity. You focus on your case.",
       "primaryCtaText": "Instruct an Expert",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Explore Practice Areas",
-      "secondaryCtaLink": "/expert-witness-psychologists/"
+      "secondaryCtaLink": "/expert-witness-psychologists/",
+      "backgroundImage": "/images/heroes/process-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "24-Hour Expert Matching" },
-        { "text": "4-6 Week Standard Turnaround" },
-        { "text": "100% Quality Assurance" },
-        { "text": "Dedicated Client Manager" }
+        {
+          "text": "24-Hour Expert Matching"
+        },
+        {
+          "text": "4-6 Week Standard Turnaround"
+        },
+        {
+          "text": "100% Quality Assurance"
+        },
+        {
+          "text": "Dedicated Client Manager"
+        }
       ]
     },
     {
@@ -66,7 +75,7 @@
         },
         {
           "question": "How long does the assessment take?",
-          "answer": "Most assessments take 2\u20134 hours depending on complexity. The expert will confirm the expected duration during booking. Complex cases may take longer."
+          "answer": "Most assessments take 2–4 hours depending on complexity. The expert will confirm the expected duration during booking. Complex cases may take longer."
         },
         {
           "question": "Can assessments be done remotely?",
@@ -78,15 +87,15 @@
         },
         {
           "question": "How long until I get the report?",
-          "answer": "Standard turnaround is 4\u20136 weeks from instruction. Fast-track (2\u20133 weeks) is available for urgent cases. Very complex cases may take longer \u2014 we'll tell you upfront."
+          "answer": "Standard turnaround is 4–6 weeks from instruction. Fast-track (2–3 weeks) is available for urgent cases. Very complex cases may take longer — we'll tell you upfront."
         },
         {
           "question": "What if I need the report earlier?",
-          "answer": "Contact us right away. We offer fast-track and urgent services. Call 01306 879 975 to discuss your deadline \u2014 we often deliver faster than standard."
+          "answer": "Contact us right away. We offer fast-track and urgent services. Call 01306 879 975 to discuss your deadline — we often deliver faster than standard."
         },
         {
           "question": "Can the expert attend court?",
-          "answer": "Yes. Court attendance is available and charged separately (typically \u00a3800-\u00a31,600 per day). Discuss this with your Client Manager when you instruct the expert."
+          "answer": "Yes. Court attendance is available and charged separately (typically £800-£1,600 per day). Discuss this with your Client Manager when you instruct the expert."
         },
         {
           "question": "What happens after the report is delivered?",
@@ -101,7 +110,7 @@
     {
       "_template": "ctaBanner",
       "heading": "Ready to Instruct an Expert?",
-      "bodyText": "Follow this process and we'll handle the complexity. From initial enquiry to court-ready report in 4\u20136 weeks.",
+      "bodyText": "Follow this process and we'll handle the complexity. From initial enquiry to court-ready report in 4–6 weeks.",
       "primaryCtaText": "Instruct an Expert Now",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Call 01306 879 975",
