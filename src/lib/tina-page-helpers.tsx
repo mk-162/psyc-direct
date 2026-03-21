@@ -1,20 +1,19 @@
 import { cache } from "react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-import client from "../../tina/__generated__/client";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
 
 export const SITE_URL = "https://www.psychologydirect.co.uk";
 const OVERVIEW_FILE = "overview";
 
-// ── Cached Tina fetchers (avoid duplicate calls in generateMetadata + page) ──
+// ── Cached Tina fetcher (deduplicates generateMetadata + page within one render) ──
 
-function makeCachedQuery(queryFn: (args: { relativePath: string }) => Promise<any>) {
-  return cache(async (relativePath: string) => {
+function makeCachedQuery<T>(queryFn: (args: { relativePath: string }) => Promise<T>) {
+  return cache(async (relativePath: string): Promise<T | null> => {
     try {
       return await queryFn({ relativePath });
     } catch (e) {
-      if (process.env.NODE_ENV === "development") console.error(e);
+      console.error(`[tina] Failed to fetch "${relativePath}":`, e);
       return null;
     }
   });
@@ -123,20 +122,18 @@ export function makeSlugPage(config: SlugConfig) {
         alternates: { canonical: `${SITE_URL}${config.canonicalPrefix}${slug}/` },
       };
     }
-    return {};
+    return { title: `${slug.replace(/-/g, " ")} | Psychology Direct` };
   }
 
   async function generateStaticParams() {
-    try {
-      const tinaRes = await config.connectionFn();
-      const edges = tinaRes.data?.[config.connectionKey]?.edges;
-      return (edges ?? [])
-        .filter((edge: any) => edge?.node?._sys.filename && edge.node._sys.filename !== OVERVIEW_FILE)
-        .map((edge: any) => ({ slug: edge.node._sys.filename }));
-    } catch (e) {
-      if (process.env.NODE_ENV === "development") console.error(e);
-      return [];
+    const tinaRes = await config.connectionFn();
+    const edges = tinaRes.data?.[config.connectionKey]?.edges;
+    if (!edges?.length) {
+      console.warn(`[tina] No edges returned for ${config.connectionKey} — zero static pages will be generated`);
     }
+    return (edges ?? [])
+      .filter((edge: any) => edge?.node?._sys.filename && edge.node._sys.filename !== OVERVIEW_FILE)
+      .map((edge: any) => ({ slug: edge.node._sys.filename }));
   }
 
   async function Page({ params }: { params: Promise<{ slug: string }> }) {
