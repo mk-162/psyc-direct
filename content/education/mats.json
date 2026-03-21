@@ -1,0 +1,581 @@
+{
+  "title": "Educational Psychology for Multi-Academy Trusts | Psychology Direct",
+  "description": "Trust-wide consistency and coordination. Dedicated EP support per school, centralised billing, volume pricing, whole-trust SEND strategy.",
+  "url": "/educational-psychologist/mats/",
+  "keywords": [
+    "educational psychology multi academy trust",
+    "MAT EP services",
+    "academy SEND support",
+    "trust-wide educational psychology",
+    "consistent EP provision"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Consistent Educational Psychology Across Your Entire Trust",
+      "subtitle": "Centralised coordination, dedicated EPs per school, volume pricing, unified SEND strategy. One point of contact. Quality and consistency guaranteed.",
+      "primaryCtaText": "Discuss Your Needs",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "View MAT Case Studies",
+      "secondaryCtaLink": "/case-studies/?category=education"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "Trust-Wide Coordination" },
+        { "text": "Dedicated EP Per School" },
+        { "text": "Standardised Quality" },
+        { "text": "Flexible Scaling" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Trust-Wide Educational Psychology Services",
+      "subheading": "Tailored solutions for MATs of any size, from 3 schools to 30+.",
+      "cards": [
+        {
+          "title": "Dedicated EP Allocation",
+          "description": "Assign a dedicated EP to each school or school group. They become familiar with your setting and reduce transition friction.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Central Commissioning",
+          "description": "Single point of contact for all trust assessments. Centralised billing, coordinated scheduling, unified quality standards.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Trust SEND Strategy",
+          "description": "EP expertise supporting trust-wide SEND policy, early identification frameworks, and intervention consistency.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Staff Training & CPD",
+          "description": "SEND training across your trust. Bespoke packages tailored to your schools' needs. CPD-accredited.",
+          "link": "/about/training/"
+        },
+        {
+          "title": "Statutory Compliance",
+          "description": "All EHCP assessments delivered to SEND Code of Practice standards. Your template format for all schools.",
+          "link": "/educational-psychologist/ehcp-assessments/"
+        },
+        {
+          "title": "Flexible Scaling",
+          "description": "Demand varies by school and term. We scale up or down without penalty. No long-term commitment.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How MATs Partner with Psychology Direct",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Understand Your Trust",
+          "description": "We meet with central SEND leadership to understand your structure, schools' needs, and preferred coordination model."
+        },
+        {
+          "number": 2,
+          "title": "Design Your Model",
+          "description": "Together we create a bespoke model: per-school allocation, flexible pool, or hybrid. We agree pricing, staffing, and escalation."
+        },
+        {
+          "number": 3,
+          "title": "Implement & Coordinate",
+          "description": "EPs are matched to schools or a central pool. A centralised Client Manager coordinates scheduling, quality, and communication."
+        },
+        {
+          "number": 4,
+          "title": "Ongoing Partnership",
+          "description": "Regular reviews ensure the model is working. Scaling adjusts as school needs change. One trusted contact."
+        }
+      ],
+      "ctaText": "Plan Your Trust Solution",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Commissioning Models for MATs",
+      "tabs": [
+        {
+          "label": "Dedicated EP Per School (or School Group)",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Each school (or pair of schools) receives a dedicated EP. Benefits:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "EP becomes familiar with your setting and staff" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Consistent point of contact" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Continuity for ongoing cases" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Reduced disruption when EPs change" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Central trust office manages allocation and billing" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Best for larger trusts with significant EP demand at each school." }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Flexible Central Pool",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "EPs available across your trust, allocated on demand. Benefits:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Flexibility for variable demand across schools" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Costs scale with usage, not fixed allocation" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "EPs develop expertise across multiple settings" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Rapid response to urgent cases" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Centralised coordination, one trusted contact" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Best for trusts with variable demand or tight budgets." }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Hybrid Model",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Combination of dedicated EPs and flexible pool. Benefits:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Dedicated EPs for high-demand schools" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Flexible pool for lower-demand schools" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Tailored cost model" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Flexibility and consistency balanced" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Optimised resource use" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Best for large, complex trusts with varied school sizes and needs." }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Trainee & Development Support",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "For trusts developing their own EPs:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Trainees/assistants gain experience across multiple trust schools" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Exposure to varied presentations and settings" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Supervision and CPD from experienced EPs" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Strengthened applications for training courses" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Building the EP pipeline" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Discuss if your trust is developing new professional pathways." }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "MAT Commissioning: Unified Partnership vs. School-by-School",
+      "col1Header": "Psychology Direct (Trust Partnership)",
+      "col2Header": "School-by-School / In-House Team",
+      "rows": [
+        {
+          "feature": "Consistency across trust",
+          "col1": "Unified standards, training, templates",
+          "col2": "Variable by school or easier to control but hard to scale"
+        },
+        {
+          "feature": "Coordination overhead",
+          "col1": "Centralised Client Manager",
+          "col2": "Each school manages independently or in-house management burden"
+        },
+        {
+          "feature": "Cost efficiency",
+          "col1": "Volume pricing, scaling flexibility",
+          "col2": "Higher costs, less negotiating power, or high fixed salary costs"
+        },
+        {
+          "feature": "Recruitment burden",
+          "col1": "None \u2014 we source and vet all EPs",
+          "col2": "Each school sources independently or ongoing recruitment challenges"
+        },
+        {
+          "feature": "Scalability",
+          "col1": "Up/down by demand, no penalty",
+          "col2": "School-by-school negotiation or fixed staff, inflexible"
+        },
+        {
+          "feature": "Consistency in quality",
+          "col1": "100% QA across all schools",
+          "col2": "Depends on each EP or controlled internally"
+        },
+        {
+          "feature": "Relationship continuity",
+          "col1": "One trust contact, familiar EPs",
+          "col2": "Multiple EP relationships or depends on staff retention"
+        },
+        {
+          "feature": "Access to specialists",
+          "col1": "Network of 1,000+ EPs",
+          "col2": "Limited search capability or limited specialist knowledge"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What MAT Leaders Say",
+      "testimonials": [
+        {
+          "quote": "Psychology Direct provides reliable service across our trust. EPs deliver practical reports within expected timelines. Professional and responsive.",
+          "name": "Trust Lead",
+          "role": "",
+          "organisation": "Multi-Academy Trust"
+        },
+        {
+          "quote": "We value the flexibility and consistency. Different schools have different needs, and they scale with us. One contact, unified standards, excellent value.",
+          "name": "SEND Lead",
+          "role": "",
+          "organisation": "Large Secondary Trust"
+        },
+        {
+          "quote": "Instead of recruiting and managing in-house EPs, we partnered with Psychology Direct. Freed up our time, reduced cost, and gave us access to specialists.",
+          "name": "Chief Operating Officer",
+          "role": "",
+          "organisation": "Education Trust"
+        },
+        {
+          "quote": "Coordination across our six schools is seamless. EPs understand they're part of a trust. That consistency benefits all our students.",
+          "name": "Trust Executive Principal",
+          "role": "",
+          "organisation": ""
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How Trusts Have Benefited",
+      "caseStudies": [
+        {
+          "title": "Full EP Service for Multi-Academy Trust",
+          "summary": "A large MAT replaced their in-house EP with a blended model: dedicated EPs at large schools, flexible pool for smaller sites. Reduced cost, improved access, maintained quality.",
+          "sector": "Education",
+          "link": "/case-studies/full-ep-service-for-local-authority/"
+        },
+        {
+          "title": "Flexibility for a Cluster of Schools",
+          "summary": "Five schools in a trust needed variable EP support. Psychology Direct provided flexible commissioning that scaled with demand, without requiring fixed staffing or long-term commitment.",
+          "sector": "Education",
+          "link": "/case-studies/flexibility-is-key-to-cluster-of-schools/"
+        },
+        {
+          "title": "Trust SEND Strategy Development",
+          "summary": "A trust partnered with Psychology Direct for ongoing strategic SEND support, including policy guidance, staff training, and early identification frameworks across all schools.",
+          "sector": "Education",
+          "link": "/case-studies/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "MAT Commissioning FAQs",
+      "faqs": [
+        {
+          "question": "How does centralised coordination work across multiple schools?",
+          "answer": "You have a single Client Manager who manages all EP requests, scheduling, quality assurance, and billing. They liaise with each school's SENCO. Schools contact them directly for urgent cases."
+        },
+        {
+          "question": "Can we have a dedicated EP at each school?",
+          "answer": "Yes. We can allocate dedicated EPs to individual schools or school groups. This ensures consistency, relationship continuity, and familiarity with your setting. Combined with centralised coordination, this works well for larger trusts."
+        },
+        {
+          "question": "What if we only need an EP for some schools, not all?",
+          "answer": "Completely flexible. Use us for some schools, handle others in-house, or use a hybrid model. We scale to your needs. No all-or-nothing commitment."
+        },
+        {
+          "question": "How much does a trust partnership cost?",
+          "answer": "Pricing depends on your model (dedicated vs. pool), volume, and trust size. We provide detailed, transparent quotes. We offer volume discounts. Contact us with your anticipated volume."
+        },
+        {
+          "question": "Can you provide EPs experienced in our schools' contexts?",
+          "answer": "Yes. We have EPs working across primary, secondary, academies, special schools, and alternative provision. We'll match them to your trust's needs."
+        },
+        {
+          "question": "What about statutory compliance across all our schools?",
+          "answer": "All EHCP assessments meet SEND Code of Practice standards. All EPs are HCPC-registered and enhanced DBS checked. We provide unified templates for consistency."
+        },
+        {
+          "question": "Do you handle communication between schools and your EPs?",
+          "answer": "Yes. The Client Manager handles all coordination. Schools communicate through them. We brief EPs in advance for each school."
+        },
+        {
+          "question": "Can you support staff training across the trust?",
+          "answer": "Yes. We offer SEND training and CPD-accredited courses. Delivered to individual schools or across the trust. Often by your dedicated EP if you have one."
+        },
+        {
+          "question": "What if demand increases mid-year?",
+          "answer": "We scale with you. If you need additional assessments, we provide them without penalty. Conversely, if demand drops, costs scale down. No long-term lock-in."
+        },
+        {
+          "question": "How do you ensure quality consistency across all schools?",
+          "answer": "Every report is 100% quality-checked before delivery. We maintain unified standards regardless of which EP conducted the assessment. Regular reviews ensure the partnership is working."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Bring Consistency to Your Trust's SEND Provision?",
+      "bodyText": "Dedicated EPs, flexible pool, or hybrid model. We can design a solution that fits your trust's structure and budget. One contact, consistent quality, scalable support.",
+      "primaryCtaText": "Discuss Your MAT Needs",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Download MAT Commissioning Guide",
+      "secondaryCtaLink": "/resources/mat-guide/"
+    }
+  ]
+}

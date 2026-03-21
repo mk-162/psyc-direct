@@ -1,0 +1,183 @@
+{
+  "title": "Specialist Assessments | Autism, Dyslexia, ADHD | Psychology Direct",
+  "description": "Expert educational psychology assessments for autism, dyslexia, ADHD. Clear diagnosis, practical classroom strategies. Schools and LAs.",
+  "url": "/educational-psychologist/specialist-assessments/",
+  "keywords": [
+    "autism assessment educational psychologist",
+    "dyslexia assessment schools",
+    "ADHD assessment educational psychologist",
+    "specific learning difficulty assessment",
+    "autism diagnosis educational psychology"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Specialist Assessments That Explain What's Going On and How to Help",
+      "subtitle": "Expert EPs assessing autism, dyslexia, ADHD, and other learning difficulties. Clear diagnosis, practical strategies, classroom guidance. Schools and LAs nationwide.",
+      "primaryCtaText": "Book an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Understand Your Child's Needs",
+      "secondaryCtaLink": "#conditions"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC-Registered Specialists" },
+        { "text": "Evidence-Based Diagnosis" },
+        { "text": "Practical Classroom Strategies" },
+        { "text": "Clear, Actionable Reports" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Specialist Assessment Services",
+      "subheading": "Comprehensive assessment and diagnosis for the most common specific learning difficulties and developmental conditions.",
+      "cards": [
+        {
+          "title": "Autism Spectrum Assessment",
+          "description": "Comprehensive assessment for autism in children and young people. Diagnostic clarity, strengths profile, support needs identified. Practical strategies for home and school.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Dyslexia & Specific Learning Difficulties",
+          "description": "Detailed assessment of dyslexia, dyscalculia, dysgraphia. Understanding of processing strengths and weaknesses. Exam access arrangements support.",
+          "link": "/contact/"
+        },
+        {
+          "title": "ADHD Assessment",
+          "description": "Educational perspective on ADHD presentation, impact on learning and behaviour, strategies for focus and organisation. Complements medical diagnosis.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Language & Communication Assessment",
+          "description": "Assessment of speech, language, and communication needs. How communication difficulties affect learning. Recommendations for support and intervention.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Social-Emotional Assessment",
+          "description": "Understanding of emotional development, resilience, friendship difficulties, social anxiety. Strategies for emotional support.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Attachment & Relationship Assessment",
+          "description": "Assessment of attachment patterns, relationship difficulties, or trauma effects. Recommendations for therapeutic and relational support.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Schools and Parents Say",
+      "testimonials": [
+        {
+          "quote": "The autism assessment was thorough. The report explained our child's strengths and challenges clearly. The school has been able to implement recommendations that made a real difference.",
+          "name": "Parent",
+          "role": "",
+          "organisation": "Primary School Child"
+        },
+        {
+          "quote": "The dyslexia assessment gave us the evidence we needed for exam access arrangements. Clear diagnosis, practical teaching strategies, and appropriate school support.",
+          "name": "SENCO",
+          "role": "",
+          "organisation": "Secondary School"
+        },
+        {
+          "quote": "The assessment clarified that our child has ADHD. More importantly, the school now understands how to support them. Game-changer.",
+          "name": "Parent",
+          "role": "",
+          "organisation": "Secondary Student"
+        },
+        {
+          "quote": "We suspected autism but weren't sure. The assessment gave us diagnostic clarity and understanding. Staff training followed, and the whole school response improved.",
+          "name": "Assistant Principal",
+          "role": "",
+          "organisation": "Academy"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How Specialist Assessments Have Helped",
+      "caseStudies": [
+        {
+          "title": "Autism Assessment Led to Whole-School Understanding",
+          "summary": "A secondary student with undiagnosed autism was struggling with social relationships and sensory overwhelm. An educational psychology assessment provided diagnostic clarity and led to school adjustments that helped the student thrive.",
+          "sector": "Education",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "Dyslexia Identification Unlocked Literacy Support",
+          "summary": "A primary school child was falling behind in literacy despite effort. An educational psychology assessment confirmed dyslexia and identified the child's strengths (visual-spatial, practical). Targeted intervention followed.",
+          "sector": "Education",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "ADHD Support Improved Classroom Behaviour and Engagement",
+          "summary": "A child was struggling with focus and impulsive behaviour. A specialist educational psychology assessment clarified ADHD patterns and provided the teacher with evidence-based strategies for supporting focus and self-regulation.",
+          "sector": "Education",
+          "link": "/case-studies/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Specialist Assessment FAQs",
+      "faqs": [
+        {
+          "question": "What's the difference between an educational psychology assessment and a medical diagnosis?",
+          "answer": "A medical diagnosis (e.g., autism, ADHD from a doctor) confirms the condition. An educational psychology assessment provides the school-based perspective: how the condition affects learning, what classroom support helps, and what exam adjustments are appropriate. Both are valuable; they answer different questions."
+        },
+        {
+          "question": "Can an educational psychologist diagnose autism or ADHD?",
+          "answer": "Educational Psychologists assess and provide educational perspectives on autism and ADHD. Formal medical diagnosis is made by a doctor (GP or psychiatrist). Often both assessments are helpful \u2014 medical diagnosis confirms the condition, educational psychology assessment informs school support."
+        },
+        {
+          "question": "How long does a specialist assessment take?",
+          "answer": "The assessment itself typically takes 2\u20134 hours across 1\u20133 visits depending on the child and condition. The full report, including analysis and write-up, usually takes 2 weeks. From referral to receiving the report, expect 3\u20134 weeks."
+        },
+        {
+          "question": "How much does a specialist assessment cost?",
+          "answer": "Costs vary by assessment type and complexity. Typically \u00a3900\u20131,500. We always provide a fixed quotation upfront. For schools and LAs, volume discounts may be available."
+        },
+        {
+          "question": "Will the school accept the assessment report?",
+          "answer": "Yes. Educational Psychology reports are recognised by schools and local authorities as evidence for support planning, exam access arrangements, and EHCP assessments. Schools accept reports from HCPC-registered Educational Psychologists."
+        },
+        {
+          "question": "Can I get a specialist assessment if my child's teacher hasn't referred them?",
+          "answer": "Assessments commissioned by schools go through the school. If a parent suspects their child needs assessment, they should speak to their school SENCO. We work with schools and LAs, not directly with private families."
+        },
+        {
+          "question": "What if the assessment doesn't show a difficulty? What's the point?",
+          "answer": "Assessments can clarify that a difficulty is not present \u2014 which is valuable information. Or they can identify other factors affecting learning (anxiety, processing differences, learning styles) that weren't previously clear. Assessment informs what support is actually needed."
+        },
+        {
+          "question": "Can we get an assessment if the child has never had a diagnosis?",
+          "answer": "Absolutely. An assessment can identify whether a condition like autism or dyslexia is present, even without a previous diagnosis. This is often the first step toward understanding and supporting a child."
+        },
+        {
+          "question": "What happens after the assessment report?",
+          "answer": "The school uses the report to plan support. Depending on the findings, the school might implement classroom strategies, provide targeted intervention, apply for exam access arrangements, or begin EHCP assessment if needs are more complex. The EP is available for follow-up consultation."
+        },
+        {
+          "question": "Can we use the assessment report for exam access arrangements?",
+          "answer": "Yes, if the assessment identifies needs for exam access arrangements (e.g., dyslexia \u2192 extra time/reader; ADHD \u2192 separate invigilation). The report provides the formal evidence for the exam board."
+        },
+        {
+          "question": "How long is the assessment report?",
+          "answer": "Typically 10\u201320 pages depending on the assessment type and complexity. Written for multiple audiences: schools, parents, and exam boards. Clear language, practical recommendations, and actionable strategies included."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Unsure If Your Child Needs a Specialist Assessment?",
+      "bodyText": "Talk to your school SENCO. If you think an assessment might help, we're here to provide thorough, practical expertise. Clear diagnosis, practical strategies, clear next steps.",
+      "primaryCtaText": "Book an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Request a Free Consultation",
+      "secondaryCtaLink": "/contact/"
+    }
+  ]
+}

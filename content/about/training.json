@@ -1,0 +1,292 @@
+{
+  "title": "Staff Training & Consultancy | SEND Training for Schools | Psychology Direct",
+  "description": "CPD-accredited SEND training for teachers and school staff. Bespoke packages delivered by practising Educational Psychologists. Whole-school impact.",
+  "url": "/about/training/",
+  "keywords": [
+    "SEND training for schools",
+    "educational psychology consultancy",
+    "CPD for teachers",
+    "school staff training",
+    "behaviour management training",
+    "SEND CPD"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Upskill Your School Staff with Expert SEND Training",
+      "subtitle": "CPD-accredited training delivered by practising EPs. Bespoke packages on autism, SEND, behaviour, attachment, and more. Whole-school impact, practical tools, proven outcomes.",
+      "primaryCtaText": "Enquire About Training",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "View Available Topics",
+      "secondaryCtaLink": "#topics"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        {
+          "text": "Practising EPs as Trainers"
+        },
+        {
+          "text": "CPD-Accredited Courses"
+        },
+        {
+          "text": "Bespoke Packages"
+        },
+        {
+          "text": "Whole-School Impact"
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Training & Consultancy Services",
+      "subheading": "From one-off staff meetings to term-long consultancy, tailored to your school's needs.",
+      "cards": [
+        {
+          "title": "Understanding Autism",
+          "description": "Practical training on autism presentation, sensory needs, communication support, and classroom adaptation. Evidence-based strategies, not assumptions.",
+          "link": "/contact/"
+        },
+        {
+          "title": "SEND Support & Early Identification",
+          "description": "How to identify children with SEND early, what support helps, and how to work collaboratively with families. Reception to secondary.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Behaviour Management & Relationships",
+          "description": "Trauma-informed approaches, attachment-aware practice, and strategies for managing behaviour while maintaining relationships. Whole-school impact.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Attachment & Emotional Wellbeing",
+          "description": "Understanding attachment patterns, supporting children with attachment difficulties, and building emotional safety in classrooms.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Supporting Specific Learning Difficulties",
+          "description": "Dyslexia, dyscalculia, language disorder: how to identify and support in the classroom. Teaching strategies and exam access support.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Staff Wellbeing & SENCO Support",
+          "description": "Supporting staff managing stress and compassion fatigue. SENCO training on strategic SEND leadership and workload management.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Bespoke Consultancy",
+          "description": "Customized training on topics specific to your school's needs. Delivered by experienced EPs familiar with your context.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Training from Educational Psychologists?",
+      "col1Header": "EP-Led Training",
+      "col2Header": "Generic SEND Training",
+      "rows": [
+        {
+          "feature": "Expertise",
+          "col1": "Practising psychologists with school experience",
+          "col2": "Delivery by non-specialists"
+        },
+        {
+          "feature": "Relevance to your school",
+          "col1": "Bespoke content addressing your school's reality",
+          "col2": "Generic content for any school"
+        },
+        {
+          "feature": "Practical tools",
+          "col1": "Evidence-based, classroom-ready strategies",
+          "col2": "May be generic or theoretical"
+        },
+        {
+          "feature": "Follow-up support",
+          "col1": "Available for questions and consultancy",
+          "col2": "Not typically available"
+        },
+        {
+          "feature": "CPD accreditation",
+          "col1": "Full CPD hours accredited",
+          "col2": "Variable"
+        },
+        {
+          "feature": "Team building",
+          "col1": "Collaborative learning, shared understanding",
+          "col2": "Dependent on delivery"
+        },
+        {
+          "feature": "Lasting impact",
+          "col1": "Embedded practice change",
+          "col2": "May be forgotten after training"
+        },
+        {
+          "feature": "Cost efficiency",
+          "col1": "Upfront cost, long-term impact",
+          "col2": "Often more expensive over time"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How Training & Consultancy Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Identify Your Needs",
+          "description": "Speak with us about what your school needs. Are you training all staff on one topic, or seeking deeper consultancy on a specific challenge?"
+        },
+        {
+          "number": 2,
+          "title": "Co-Design Content",
+          "description": "We work with you to design training that fits your school's context and values. Custom outline, learning outcomes, timings."
+        },
+        {
+          "number": 3,
+          "title": "Delivery",
+          "description": "An experienced EP delivers the training. Interactive, practical, case-study-based. Teachers leave with tools they can use immediately."
+        },
+        {
+          "number": 4,
+          "title": "Impact & Follow-Up",
+          "description": "Optional follow-up consultation to embed learning and answer questions. We're available for ongoing support if you choose."
+        }
+      ],
+      "ctaText": "Discuss Training Needs",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Schools Say About Our Training",
+      "testimonials": [
+        {
+          "quote": "The autism training was brilliant. Practical, evidence-based, delivered by someone who understands school. Staff feedback was overwhelmingly positive.",
+          "name": "SENCO",
+          "title": "",
+          "organization": "Primary School"
+        },
+        {
+          "quote": "We've had the EP support behaviour management and attachment. Both one-off training and ongoing consultancy have really changed how our staff approach children.",
+          "name": "Deputy Head",
+          "title": "",
+          "organization": "Academy"
+        },
+        {
+          "quote": "The SEND training gave us a common language and approach. Staff felt equipped and confident. The follow-up consultation helped us embed what we'd learned.",
+          "name": "Head of Year",
+          "title": "",
+          "organization": "Secondary School"
+        },
+        {
+          "quote": "The bespoke training was tailored perfectly to our school's context. It was about us, our children, our challenges. Worth every penny.",
+          "name": "Principal",
+          "title": "",
+          "organization": "MAT School"
+        },
+        {
+          "quote": "SENCO support has been invaluable. Having someone to consult on tricky cases and discuss strategy has made my role more manageable.",
+          "name": "SENCO",
+          "title": "",
+          "organization": "Secondary School"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Whole-School Impact Through Training",
+      "caseStudies": [
+        {
+          "title": "Whole-School Autism Approach",
+          "description": "A secondary academy delivered autism training to all staff. Resulted in better understanding, fewer sensory incidents, and improved experiences for autistic students. Staff reported increased confidence.",
+          "tag": "Education",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "Behaviour Management Consultancy",
+          "description": "A primary school implemented trauma-informed behaviour practice through EP consultancy. Exclusions reduced, relationships improved, and staff wellbeing increased.",
+          "tag": "Education",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "SENCO Leadership Support",
+          "description": "A SENCO received ongoing consultancy on strategic SEND leadership, workload management, and staff support. Better able to manage LA demands while supporting her team.",
+          "tag": "Education",
+          "link": "/case-studies/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Training & Consultancy FAQs",
+      "faqs": [
+        {
+          "question": "What topics can you provide training on?",
+          "answer": "We can deliver training on any SEND or educational psychology topic. Common ones include: autism, specific learning difficulties (dyslexia, dyscalculia, ADHD), behaviour management, attachment and emotional wellbeing, communication support, inclusion, early identification. Ask us if your topic isn't listed."
+        },
+        {
+          "question": "Is the training CPD-accredited?",
+          "answer": "Yes. Our courses are eligible for teacher CPD hours. A certificate will be provided specifying the number of hours earned. Teachers can record these toward their annual CPD requirement."
+        },
+        {
+          "question": "How long does training take?",
+          "answer": "Options range from 1-hour staff meeting, to half-day (3-4 hours), full-day (6-7 hours), or multi-session courses (e.g., 6 sessions over a term). We're flexible based on your school's schedule."
+        },
+        {
+          "question": "How much does training cost?",
+          "answer": "Pricing depends on length, topic, and whether it's bespoke or a standard course. Typical: \u00a3400-800 for half-day, \u00a3700-1,200 for full-day. Multi-session courses priced per school. We always provide a quotation upfront."
+        },
+        {
+          "question": "Can we customise the training content?",
+          "answer": "Yes. We can design bespoke training addressing your school's specific challenges. Initial consultation to understand your needs, then custom content design and delivery."
+        },
+        {
+          "question": "Who delivers the training?",
+          "answer": "An experienced Educational Psychologist with school experience. They understand classroom reality and relate training to your staff's day-to-day work."
+        },
+        {
+          "question": "Can we involve parents in the training?",
+          "answer": "Yes. Some schools deliver training to staff and parents together. Discuss this when you book. We can adapt content for mixed audiences."
+        },
+        {
+          "question": "What materials do we get?",
+          "answer": "Handouts, slide decks, practical resource packs, templates, and follow-up materials relevant to the training topic. Everything designed to be immediately usable in your school."
+        },
+        {
+          "question": "Do we get follow-up support?",
+          "answer": "Follow-up is optional. Some schools book a follow-up consultation 4-6 weeks after training to embed learning and answer questions that have arisen. This often increases impact."
+        },
+        {
+          "question": "Can your EP come in regularly for ongoing consultancy?",
+          "answer": "Yes. We can arrange regular consultancy sessions (monthly, fortnightly, etc.) where your SENCO or leadership team can discuss cases, strategy, and challenges. This has real impact over time."
+        },
+        {
+          "question": "What if we want to train teachers at specific year groups?",
+          "answer": "We can tailor training by phase or year group. EYFS-specific, KS1, KS2, secondary \u2014 content is adapted to age-appropriate context."
+        },
+        {
+          "question": "How do I book training?",
+          "answer": "Call 01306 879 975 or email enquiries@psychologydirect.co.uk. Describe what you're hoping to achieve, when you'd like training, and how many staff. We'll send options and a quote."
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Ready to Upskill Your Team?",
+      "bodyText": "Quality SEND training transforms how schools support students. Our EPs design bespoke content, deliver with real-world expertise, and provide follow-up support. Let's discuss what your school needs.",
+      "primaryCtaText": "Enquire About Training",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "View Available Courses",
+      "secondaryCtaLink": "#topics"
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Invest in Your Staff, Transform Your School",
+      "bodyText": "Training and consultancy from experienced EPs creates whole-school impact. Upskilled staff, confident children, better outcomes. Let's design a solution for your school.",
+      "primaryCtaText": "Contact Us to Discuss Training",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Download Training Brochure",
+      "secondaryCtaLink": "/resources/training-brochure/"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "title": "Join Our Network | Careers at Psychology Direct",
+  "description": "Join 1,000+ psychologists and psychiatrists. Flexible work, fair pay, professional support, and a steady pipeline of cases.",
+  "url": "/about/careers/",
+  "keywords": [
+    "join psychology direct",
+    "work as expert witness",
+    "educational psychologist jobs",
+    "freelance psychiatrist",
+    "psychology direct careers",
+    "register psychologist"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Join 1,000+ Psychologists & Psychiatrists",
+      "subtitle": "Build a career on your terms. Free to join. No obligation to take cases. Steady stream of expert witness and educational assessments matched to your specialism and location. We handle the admin. You focus on client care.",
+      "primaryCtaText": "Register Your Interest",
+      "primaryCtaLink": "#registration-form",
+      "secondaryCtaText": "Learn How It Works",
+      "secondaryCtaLink": "#how-it-works"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        {
+          "text": "1,000+ Trusted Professionals"
+        },
+        {
+          "text": "15+ Years' Experience"
+        },
+        {
+          "text": "Founded 2008"
+        },
+        {
+          "text": "HCPC/GMC/BPS Registered"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How to Join (It's Simple)",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Register Your Interest",
+          "description": "Fill in a short form. Your qualifications. Registration numbers. Areas of specialism. Sectors you work in. No commitment yet."
+        },
+        {
+          "number": 2,
+          "title": "We Review Your Profile",
+          "description": "Our team gets to know your expertise and interests. We may ask for a CV and sample reports."
+        },
+        {
+          "number": 3,
+          "title": "You're Approved & Activated",
+          "description": "Once approved (usually 2 weeks), you're live on our system. You get a welcome pack and introduction to your Client Manager."
+        },
+        {
+          "number": 4,
+          "title": "Start Receiving Cases",
+          "description": "Cases matching your profile come through. You review each one and decide to accept. No pressure. Only work you want."
+        }
+      ],
+      "ctaText": "Register Now",
+      "ctaLink": "#registration-form"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Expert Professionals Say",
+      "testimonials": [
+        {
+          "quote": "I have worked with Psychology Direct for several years. The staff are helpful and supportive. Whenever I work on a case, they ensure the administration runs smoothly, making the process stress-free. They resolve any complications and make independent expert work easier.",
+          "name": "Dr E A",
+          "title": "Chartered Counselling Psychologist",
+          "organization": ""
+        },
+        {
+          "quote": "The team is supportive and welcoming. They're organised, responsive to questions, and ensure the process runs smoothly. I never lack work when I want it. All lovely, friendly, professional.",
+          "name": "L B",
+          "title": "Educational Psychologist",
+          "organization": ""
+        },
+        {
+          "quote": "I've been working with Psychology Direct since 2016. They're efficient and easy to work with. Coordinators plan visits on dates I provide. The team is friendly and professional and makes my life straightforward.",
+          "name": "L A",
+          "title": "Educational Psychologist",
+          "organization": ""
+        },
+        {
+          "quote": "Psychology Direct has created a space where we have a voice in reviewing and constructing the best possible work environment. Teaching, training, and mentoring are abundant. I form long-lasting professional relationships and we exercise team strength as a collective.",
+          "name": "Chloe",
+          "title": "Client Manager (Expert Witness)",
+          "organization": "Psychology Direct"
+        },
+        {
+          "quote": "I look forward to work every day because of my amazing team, which includes the Educational Psychologists we work with. Hard-working people who encourage me to reach my best potential.",
+          "name": "Katie",
+          "title": "Team Manager (Education)",
+          "organization": "Psychology Direct"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What qualifications do I need?",
+          "answer": "You must be HCPC registered (psychologists), GMC registered (psychiatrists), and have a valid enhanced DBS check. BPS membership is valued but not required. We verify all registrations during onboarding."
+        },
+        {
+          "question": "Is there a fee to join?",
+          "answer": "No. Registration is completely free. No subscription, no membership fees. We only earn when you complete cases."
+        },
+        {
+          "question": "Do I have to accept every case offered?",
+          "answer": "Absolutely not. You review each case and decide if it's a good fit. You can decline without penalty. We learn your interests and match cases you'll want."
+        },
+        {
+          "question": "How much will I earn?",
+          "answer": "Rates vary by case type, complexity, travel, and turnaround time. You get a quote with each offer before deciding. We work at Legal Aid rates for publicly funded cases. Rates are transparent and paid promptly."
+        },
+        {
+          "question": "When will I get paid?",
+          "answer": "Payment is made on delivery of your report or completion of the assessment. Usually within 30 days of invoice. You're always paid by us, even if the referring party has issues. We guarantee your payment."
+        },
+        {
+          "question": "What kind of cases are available?",
+          "answer": "Expert witness assessments (family law, criminal, civil, immigration, employment) and educational psychology assessments (EHCP, SEND evaluations, statutory assessments). Cases come from solicitors, local authorities, schools, and other organisations."
+        },
+        {
+          "question": "How much admin support will I get?",
+          "answer": "Your Client Manager handles appointment scheduling, coordination, case logistics, and all correspondence. They manage report QA feedback and queries. You focus on client care. They focus on everything else."
+        },
+        {
+          "question": "Will I get support and training?",
+          "answer": "Yes. We offer CPD sessions, supervision from our in-house psychologists, consultation on complex cases, and webinars. You have access to a community of other professionals for peer support."
+        },
+        {
+          "question": "Can I work for other agencies at the same time?",
+          "answer": "Yes. Many professionals work with multiple agencies or maintain private practices. No exclusivity clause. You manage your own workload."
+        },
+        {
+          "question": "How do I register?",
+          "answer": "Fill in the registration form below. Include your qualifications, registration numbers, areas of specialism, and sectors you work in. We'll review and contact you within 2 weeks."
+        },
+        {
+          "question": "What happens after I register?",
+          "answer": "Our team reviews your registration. We may request a CV and sample reports. Once approved, you get a welcome pack, introduction to your Client Manager, and case portal access. Cases start coming through based on your profile."
+        },
+        {
+          "question": "I'm interested but not ready to register yet. Can I get more information?",
+          "answer": "Contact us at enquiries@psychologydirect.co.uk with \"Join Our Network\" in the subject line. We'll send you a detailed information pack about working with us."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Grow Your Career With Us?",
+      "bodyText": "Join respected professionals who value flexibility, fair pay, professional support, and meaningful work. No fees. No obligation. One form.",
+      "primaryCtaText": "Register Your Interest",
+      "primaryCtaLink": "#registration-form",
+      "secondaryCtaText": "Contact Us First",
+      "secondaryCtaLink": "/contact/"
+    }
+  ]
+}

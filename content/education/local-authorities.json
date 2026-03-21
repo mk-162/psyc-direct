@@ -1,0 +1,606 @@
+{
+  "title": "Educational Psychology for Local Authorities | Psychology Direct",
+  "description": "Clear your EHCP backlog with experienced, HCPC-registered Educational Psychologists. Flexible commissioning, statutory compliance, volume capacity.",
+  "url": "/educational-psychologist/local-authorities/",
+  "keywords": [
+    "educational psychologist local authority",
+    "LA EP services",
+    "EHCP backlog support",
+    "statutory assessment outsourcing",
+    "LA SEND support"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Clear Your EHCP Backlog with Flexible, Statutory-Compliant EPs",
+      "subtitle": "HCPC-registered EPs, no long-term contract. Volume capacity to meet 16-week timelines, experienced in LA processes, dedicated coordination. We've completed hundreds of assessments while maintaining quality.",
+      "primaryCtaText": "Discuss Your Needs",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "View Case Studies",
+      "secondaryCtaLink": "/case-studies/?category=education"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "1,000+ HCPC-Registered EPs" },
+        { "text": "Statutory Compliance Guaranteed" },
+        { "text": "100% Quality Assurance" },
+        { "text": "No Long-Term Lock-In" }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "500+", "label": "Annual LA Assessments" },
+        { "value": "16-Week", "label": "EHCP Timelines Met" },
+        { "value": "98%", "label": "Client Retention" },
+        { "value": "10+", "label": "Years' LA Partnership" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Flexible EP Support Tailored to LA Needs",
+      "subheading": "Backlog clearance, ongoing partnership, or trainee support. We scale to your demand.",
+      "cards": [
+        {
+          "title": "EHCP Assessment Clearance",
+          "description": "Bulk assessments to clear backlogs and meet statutory timelines. We scale volume without compromising quality.",
+          "link": "/educational-psychologist/ehcp-assessments/"
+        },
+        {
+          "title": "Ongoing Partnership",
+          "description": "Long-term agreements with flexible scaling. Dedicated EPs or flexible case-by-case access \u2014 your choice.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Trainee & Assistant EP Support",
+          "description": "We work with LAs developing new EPs. Trainees gain diverse case experience, supervision, and CPD.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Statutory Compliance",
+          "description": "Assessments delivered to SEND Code of Practice standards. Your template format, on-time delivery, full compliance.",
+          "link": "/educational-psychologist/ehcp-assessments/"
+        },
+        {
+          "title": "Staff Training & Development",
+          "description": "SEND training for teachers and other professionals. Delivered by practising EPs to build your team's skills.",
+          "link": "/about/training/"
+        },
+        {
+          "title": "Multi-Agency Coordination",
+          "description": "Complex cases requiring health, social care, and education input. We coordinate assessments and reporting.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How Local Authorities Work with Psychology Direct",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Discuss Your Needs",
+          "description": "We understand your capacity, timelines, and volume. A senior manager explores options: backlog clearance, ongoing partnership, or hybrid model."
+        },
+        {
+          "number": 2,
+          "title": "Agree Terms",
+          "description": "Flexible options: pay-per-assessment, volume rates, or partnership contract. Fixed pricing, no hidden costs, clear transparency."
+        },
+        {
+          "number": 3,
+          "title": "Assessments Begin",
+          "description": "EPs are matched to cases and scheduled efficiently. Our Client Managers coordinate everything. You get regular progress updates."
+        },
+        {
+          "number": 4,
+          "title": "Reports Delivered",
+          "description": "All reports are 100% quality-checked to SEND Code of Practice standards. Your template format. Delivered to your timelines."
+        }
+      ],
+      "ctaText": "Discuss Your LA Needs",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "LA Commissioning: Outsourcing vs. Direct Instruction",
+      "col1Header": "Psychology Direct Partnership",
+      "col2Header": "Instructing EPs Directly / In-House Only",
+      "rows": [
+        {
+          "feature": "Capacity scaling",
+          "col1": "Scale up/down as demand changes",
+          "col2": "Case-by-case sourcing time or fixed staff costs"
+        },
+        {
+          "feature": "Recruitment time",
+          "col1": "Immediate access, no recruitment",
+          "col2": "Weeks of advertising and vetting, or months for training"
+        },
+        {
+          "feature": "Cost transparency",
+          "col1": "Fixed pricing, volume discounts",
+          "col2": "Variable by EP or salary + overhead + training"
+        },
+        {
+          "feature": "Statutory compliance",
+          "col1": "Guaranteed SEND CoP standards",
+          "col2": "Variable quality or high but resource-constrained"
+        },
+        {
+          "feature": "Flexibility",
+          "col1": "Month-to-month or partnership",
+          "col2": "No commitment or high commitment"
+        },
+        {
+          "feature": "Admin burden",
+          "col1": "We manage scheduling, tracking",
+          "col2": "You manage everything or in-house management"
+        },
+        {
+          "feature": "Backlog clearing",
+          "col1": "Our speciality",
+          "col2": "Weeks to source EPs; not possible with fixed staff"
+        },
+        {
+          "feature": "Quality assurance",
+          "col1": "100% report QA",
+          "col2": "Depends on EP choice; consistent but limited by capacity"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Local Authority Leaders Say",
+      "testimonials": [
+        {
+          "quote": "Psychology Direct have provided assessments for our EHCP pathway since 2016. They've saved our SEN Team precious time and helped us meet statutory timelines.",
+          "name": "Special Needs Manager",
+          "role": "",
+          "organisation": "Calderdale Council"
+        },
+        {
+          "quote": "We've relied on them since 2019. Their reports are invaluable, and they understand the LA perspective. Reliable and professional.",
+          "name": "Principal Educational Psychologist",
+          "role": "",
+          "organisation": "Norfolk County Council"
+        },
+        {
+          "quote": "When we faced a major assessment backlog, Psychology Direct gave us the capacity we needed. They scaled with our demand and helped us clear it.",
+          "name": "SEND Service Manager",
+          "role": "",
+          "organisation": "Southeast LA (anonymised)"
+        },
+        {
+          "quote": "What I value most is the flexibility. We can commission assessments as demand fluctuates without worrying about fixed staff costs or recruitment.",
+          "name": "Assistant Director, Education Services",
+          "role": "",
+          "organisation": "Midlands LA (anonymised)"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How Local Authorities Have Benefited",
+      "caseStudies": [
+        {
+          "title": "County Council Clears Major Backlog",
+          "summary": "A local authority with 200+ pending EHCP assessments partnered with Psychology Direct to provide bulk assessment capacity. Backlog cleared in 18 months while maintaining quality and statutory compliance.",
+          "sector": "Education",
+          "link": "/case-studies/county-council-faces-major-challenge/"
+        },
+        {
+          "title": "Full EP Service for Local Authority",
+          "summary": "An LA outsourced a portion of their EP service to Psychology Direct, blending internal capacity with national network for consistent, high-quality provision across all their schools.",
+          "sector": "Education",
+          "link": "/case-studies/full-ep-service-for-local-authority/"
+        },
+        {
+          "title": "Statutory Timelines Met During Staffing Gap",
+          "summary": "When two principal EPs left an LA simultaneously, Psychology Direct provided interim capacity to ensure EHCP assessments continued without delays.",
+          "sector": "Education",
+          "link": "/case-studies/"
+        }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "LA-Specific Service Models",
+      "tabs": [
+        {
+          "label": "Backlog Clearance",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Need to clear a large backlog of pending EHCP assessments? We can:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Supply volume capacity on a pay-per-assessment basis" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Meet your statutory 16-week timelines" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Provide all EPs HCPC-registered and LA-experienced" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Deliver reports in your template format" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Scale up or down as the backlog reduces" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "No long-term commitment beyond the clearing period" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Ongoing Partnership",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Looking for long-term outsourced EP capacity? Options include:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Fixed number of assessments per month" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Dedicated EP allocation if preferred" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Mix of statutory assessments and consultation" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Trainee and assistant EP support" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Volume discounts on larger contracts" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Flexible scaling as your needs change" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Trainee & Assistant EP Development",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "We work with LAs developing new EPs:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Trainees and assistants gain diverse case experience" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Supervised practice across a range of SEND presentations" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "CPD and professional development support" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Guidance from experienced EPs" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Real outcomes that strengthen future applications" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Access to our 1,000+ EP network for peer learning" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Quality Assurance & Compliance",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Every assessment delivered meets:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "HCPC registration requirements (all EPs)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "SEND Code of Practice standards" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Your LA's report template (if provided)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Enhanced DBS checks (all EPs)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Professional indemnity insurance" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "100% quality assurance before delivery" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Local Authority Commissioning FAQs",
+      "faqs": [
+        {
+          "question": "How much does it cost to outsource assessments?",
+          "answer": "Pricing is bespoke based on volume and assessment type. We offer pay-per-assessment rates, volume discounts, and partnership pricing. We always provide a detailed quote upfront with no hidden charges. Contact us with your anticipated volume for a bespoke proposal."
+        },
+        {
+          "question": "Do your EPs understand LA processes and use our templates?",
+          "answer": "Yes. Our EPs work regularly with local authorities and know SEND Code of Practice requirements. We use your template or provide our own. We align with your LA's processes and systems."
+        },
+        {
+          "question": "How flexible is the arrangement? Can we scale up and down?",
+          "answer": "Very flexible. Whether you need 10 assessments per month or 100, we match that. If demand drops, costs drop too. No long-term lock-in \u2014 partnership contracts available if you want stability."
+        },
+        {
+          "question": "What about trainee and assistant EP development?",
+          "answer": "We actively support LAs developing new EPs. Trainees gain diverse case experience, supervision, and CPD access. We help strengthen their applications. Discuss this when you contact us."
+        },
+        {
+          "question": "How quickly can you start providing assessments?",
+          "answer": "We can begin within weeks. Once terms are agreed, EPs are matched to cases and assessments scheduled. Our Client Managers coordinate everything, so your staff can focus on statutory decision-making."
+        },
+        {
+          "question": "Will the LA accept reports from your EPs?",
+          "answer": "Yes. All our EPs are HCPC-registered and LA-experienced. We work to your templates and provide evidence of our vetting and quality assurance. Your authority should accept reports from registered professionals."
+        },
+        {
+          "question": "Can you handle complex cases involving multiple agencies?",
+          "answer": "Yes. We're experienced in coordinating health, education, and social care assessments. Our Client Managers liaise with all agencies and ensure all perspectives are included."
+        },
+        {
+          "question": "What if an EP isn't available for a case?",
+          "answer": "We have 1,000+ EPs nationwide, so availability is rarely an issue. If an EP becomes unavailable, we quickly identify a replacement without delay. We keep you informed throughout."
+        },
+        {
+          "question": "How do you ensure consistent quality across all assessments?",
+          "answer": "Every report is 100% quality-checked before delivery. We verify that all statutory questions are answered, recommendations are clear, and reports meet SEND Code of Practice standards."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Explore Flexible EP Commissioning?",
+      "bodyText": "Backlog clearance, capacity scaling, or trainee development. We have a flexible model that fits your LA. Let's discuss your situation.",
+      "primaryCtaText": "Discuss Your Needs",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Download Commissioning Guide",
+      "secondaryCtaLink": "/resources/la-commissioning-guide/"
+    }
+  ]
+}

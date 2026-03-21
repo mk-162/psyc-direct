@@ -1,0 +1,110 @@
+{
+  "title": "Our Team | Psychology Direct",
+  "description": "Meet the dedicated client managers and leadership team supporting your cases and assessments.",
+  "url": "/about/meet-the-team/",
+  "keywords": [
+    "psychology direct team",
+    "client managers",
+    "expert witness team",
+    "psychology direct staff",
+    "team members"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Meet the People Who'll Handle Your Case",
+      "subtitle": "Your Client Manager comes from legal, education, or psychology. They understand your world. They advocate for you.",
+      "primaryCtaText": "Get in Touch",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "View Open Roles",
+      "secondaryCtaLink": "/about/careers/"
+    },
+    {
+      "_template": "teamGrid",
+      "heading": "Our Leadership & Management Team",
+      "team": [
+        {
+          "name": "Aaron Banham",
+          "role": "Managing Director",
+          "bio": "Built Psychology Direct over 15+ years. Drives quality, professionalism, and people-first values. Passionate about connecting experts with the cases that matter most."
+        },
+        {
+          "name": "Denise Leander",
+          "role": "Operations Manager",
+          "bio": "Oversees quality, performance, and team development. Ensures every case meets our standards. Supports every team member."
+        },
+        {
+          "name": "Daisy Hill",
+          "role": "Team Manager – Expert Witness",
+          "bio": "Legal sector specialist. Knows CPR, Legal Aid, and court timelines. Manages expert matching for solicitors and courts."
+        },
+        {
+          "name": "Katie Séverin",
+          "role": "Education Team Manager",
+          "bio": "Educational Psychology specialist. Knows EHCP, SEND, and statutory assessment timelines. Matches experts for local authorities and schools."
+        },
+        {
+          "name": "Emily Creaven",
+          "role": "Client Manager, Expert Witness",
+          "bio": "Solicitor-facing specialist. Manages complex legal cases with precision and professionalism. Your point of contact for fast, efficient service."
+        },
+        {
+          "name": "Sinead McCaffrey",
+          "role": "Client Manager, Expert Witness",
+          "bio": "Expert in multi-party case coordination. Brings logistics expertise and calm problem-solving to every case."
+        },
+        {
+          "name": "Chloe Beaumont",
+          "role": "Client Manager, Expert Witness",
+          "bio": "Global mindset with cultural sensitivity. Matches experts with specific language or cultural requirements."
+        },
+        {
+          "name": "Lauren Blackett",
+          "role": "Client Manager, Expert Witness",
+          "bio": "Education and organisation specialist. Manages school and local authority relationships with warmth and efficiency."
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Meet the Teams",
+      "subheading": "Organised by sector, united by one mission: support you.",
+      "cards": [
+        {
+          "title": "Expert Witness Team",
+          "description": "Specialists in family law, criminal, civil, and immigration cases. They understand court deadlines and what solicitors need to win. You get a dedicated manager from day one.",
+          "link": ""
+        },
+        {
+          "title": "Education Team",
+          "description": "Experts in EHCP assessments, SEND support, and statutory evaluations. They match Educational Psychologists who understand what you need.",
+          "link": ""
+        },
+        {
+          "title": "Support & Administration",
+          "description": "The backbone of our service. They manage appointments, coordination, and case logistics. You focus on your case.",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Looking to Join Our Team?",
+      "bodyText": "We're hiring Client Managers, coordinators, and support professionals. Flexible work. Supportive culture. Real difference. Apply if you're passionate about serving both experts and clients.",
+      "primaryCtaText": "View Open Roles",
+      "primaryCtaLink": "/about/careers/",
+      "secondaryCtaText": "Get in Touch",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Work With Our Team?",
+      "bodyText": "Your Client Manager is a call away. We answer questions, match you with experts, and handle the rest.",
+      "primaryCtaText": "Contact Us",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call 01306 879 975",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

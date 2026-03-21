@@ -1,0 +1,65 @@
+{
+  "title": "Events & Training | Psychology Direct",
+  "description": "Upcoming conferences, CPD workshops, and webinars for psychologists, psychiatrists, and education professionals.",
+  "url": "/about/events/",
+  "keywords": [
+    "psychology direct events",
+    "educational psychology conference",
+    "expert witness training",
+    "CPD events",
+    "psychology webinars",
+    "professional development"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Learn, Grow, and Connect",
+      "subtitle": "We run regular CPD webinars, training workshops, and conferences for psychologists, psychiatrists, and education professionals. Topics range from cutting-edge clinical practice to professional development and mental health awareness. Stay ahead in your field.",
+      "primaryCtaText": "Browse Upcoming Events",
+      "primaryCtaLink": "#upcoming-events",
+      "secondaryCtaText": "Subscribe for Updates",
+      "secondaryCtaLink": "#subscribe"
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "What We Offer",
+      "subheading": "Professional development, peer learning, and community",
+      "cards": [
+        {
+          "title": "CPD Webinars",
+          "description": "Interactive online sessions on topical issues relevant to psychologists and psychiatrists. Experts lead discussions. Earn CPD hours. Free for our professionals.",
+          "link": ""
+        },
+        {
+          "title": "Training Workshops",
+          "description": "In-depth workshops on specialist topics: AI and the Law, Understanding PDA, Supporting Gender-Diverse Young People, and more. Low cost for professionals.",
+          "link": ""
+        },
+        {
+          "title": "Annual Conference",
+          "description": "Our annual conference brings our community together to learn, network, and celebrate. Full day of talks, workshops, and social events.",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Want to Know About Future Events?",
+      "bodyText": "Subscribe to our mailing list to get notified of upcoming webinars, workshops, and conferences. Never miss a professional development opportunity.",
+      "primaryCtaText": "Subscribe to Mailing List",
+      "primaryCtaLink": "#subscribe",
+      "secondaryCtaText": "Suggest a Topic",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Have an Event or Topic to Suggest?",
+      "bodyText": "We welcome feedback on topics our professionals want to explore. Got a webinar idea? Know an expert who should lead a workshop? Tell us.",
+      "primaryCtaText": "Suggest a Topic",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Contact Us",
+      "secondaryCtaLink": "/contact/"
+    }
+  ]
+}

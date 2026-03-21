@@ -1,0 +1,443 @@
+{
+  "title": "Educational Psychologist Services for Schools & LAs | Psychology Direct",
+  "description": "Fast, reliable access to HCPC-registered Educational Psychologists. EHCP assessments, SEND support, and consultancy for schools, MATs and LAs.",
+  "url": "/educational-psychologist/",
+  "keywords": [
+    "educational psychologist services",
+    "educational psychologist",
+    "educational psychology for schools",
+    "SEND support",
+    "EHCP assessment",
+    "school psychology UK",
+    "LA educational psychology",
+    "educational psychologist near me"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get Educational Psychologists When You Need Them",
+      "subtitle": "Your schools and settings need expert support fast. We connect you with HCPC-registered EPs for statutory assessments, SEND support, and training. No long waits. Nationwide coverage, flexible agreements, real outcomes.",
+      "primaryCtaText": "Discuss Your Needs",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Explore Services by Role",
+      "secondaryCtaLink": "/educational-psychologist/schools-academies-colleges/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "1,000+ HCPC-Registered EPs" },
+        { "text": "CVs & Quotes Within 48 Hours" },
+        { "text": "100% Quality-Checked Reports" },
+        { "text": "Nationwide UK Coverage" }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "15+", "label": "Years' Experience" },
+        { "value": "500+", "label": "Annual Assessments" },
+        { "value": "98%", "label": "Client Satisfaction" },
+        { "value": "2-Week", "label": "Typical Turnaround" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "What Our Educational Psychologists Provide",
+      "subheading": "One service, multiple needs. School, local authority, trust, or higher education provider — we have the right support.",
+      "cards": [
+        {
+          "title": "Schools & Academies",
+          "description": "Fast access to vetted EPs without long-term contracts. Flexible packages, assessments within days, practical recommendations you can use immediately.",
+          "link": "/educational-psychologist/schools-academies-colleges/"
+        },
+        {
+          "title": "Local Authorities",
+          "description": "Clear your EHCP backlog. Statutory-compliant assessments, volume capacity, and dedicated Client Managers who understand LA timelines. No long-term lock-in.",
+          "link": "/educational-psychologist/local-authorities/"
+        },
+        {
+          "title": "Multi-Academy Trusts",
+          "description": "Consistent EP support across your trust. We coordinate across schools, allocate dedicated EPs, and offer volume pricing with centralised administration.",
+          "link": "/educational-psychologist/mats/"
+        },
+        {
+          "title": "Higher Education",
+          "description": "DSA assessments, access arrangements for exams, and mental health evaluations. Quick turnaround when your students need it most.",
+          "link": "/educational-psychologist/higher-education/"
+        },
+        {
+          "title": "EHCP Assessments",
+          "description": "Expert support through the statutory EHCP pathway. Compliant reports, clear recommendations, fast delivery, even for complex cases.",
+          "link": "/educational-psychologist/ehcp-assessments/"
+        },
+        {
+          "title": "Specialist Assessments",
+          "description": "Autism, dyslexia, ADHD, and specific learning assessments. Evidence-based evaluation and practical guidance schools can act on.",
+          "link": "/educational-psychologist/specialist-assessments/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How Psychology Direct Works for Education",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Tell us what you need and your timeline. Your dedicated Client Manager listens and understands your challenge."
+        },
+        {
+          "number": 2,
+          "title": "Receive Expert Matches",
+          "description": "Within 48 hours, we send you CVs and fixed quotes. The EP is matched to your assessment type and location."
+        },
+        {
+          "number": 3,
+          "title": "We Manage the Logistics",
+          "description": "Once you've chosen your EP, we handle administration, scheduling, and coordination. You focus on the child."
+        },
+        {
+          "number": 4,
+          "title": "Quality Report Delivered",
+          "description": "You receive a report that's 100% quality-checked. Practical recommendations, clear language, delivered on time."
+        }
+      ],
+      "ctaText": "Start Your Enquiry",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "Trusted by Schools and Local Authorities",
+      "testimonials": [
+        {
+          "quote": "Psychology Direct is reliable, practical, and genuinely supportive. Reports are actionable and delivered fast. We know we can count on them.",
+          "name": "Jan Maxted",
+          "role": "Principal and Lead SENCO",
+          "organisation": "Maltby Learning Trust"
+        },
+        {
+          "quote": "They've taken the pressure off our SEN Team. Since 2016, we've trusted them with EHCP assessments because they understand what we need and deliver it.",
+          "name": "John Perry",
+          "role": "Special Needs Manager",
+          "organisation": "Calderdale Council"
+        },
+        {
+          "quote": "Fast, reliable, and experts who get the LA side of things. Their reports have made a real difference to our EHC Plans.",
+          "name": "Stephen Higgins",
+          "role": "Principal Educational Psychologist",
+          "organisation": "Norfolk County Council"
+        },
+        {
+          "quote": "We needed an EHCP report urgently. They turned it around within days without cutting corners. We'll definitely use them again.",
+          "name": "Primary School SENCO",
+          "role": "",
+          "organisation": "(anonymised)"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How Schools and LAs Solve Their EP Challenges",
+      "caseStudies": [
+        {
+          "title": "County Council Clears EHCP Backlog",
+          "summary": "A local authority faced a 6-month EHCP assessment backlog. Psychology Direct's network capacity and dedicated support cleared it while meeting statutory deadlines.",
+          "sector": "Education",
+          "link": "/case-studies/county-council-faces-major-challenge/"
+        },
+        {
+          "title": "EP Report Delivered Before End of Term",
+          "summary": "A primary school needed an urgent EHCP report before term ended. We matched the right EP, scheduled the assessment, and delivered within days.",
+          "sector": "Education",
+          "link": "/case-studies/an-ep-report-before-the-end-of-term/"
+        },
+        {
+          "title": "National EP Service for Local Authority",
+          "summary": "One local authority combined our national network with their internal team. Result: consistent, high-quality EP provision across their area without growing headcount.",
+          "sector": "Education",
+          "link": "/case-studies/full-ep-service-for-local-authority/"
+        }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "What We Offer for Your Needs",
+      "tabs": [
+        {
+          "label": "EHCP & Statutory Assessments",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We specialise in Education, Health and Care Plan assessments. Our EPs understand statutory timelines and deliver reports that meet all legal requirements."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We help schools and LAs:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Complete EHCP assessments within the 16-week window" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Provide evidence-based recommendations for support plans" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Work collaboratively with parents, schools, and health professionals" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Assess complex cases with confidence" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "SEND Support Beyond Assessment",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beyond one-off assessments, we offer ongoing support:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Educational psychology consultation" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Staff training and CPD for teachers and SENCOs" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Behaviour intervention and support planning" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Attachment and emotional wellbeing assessments" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Whole-school SEND strategy development" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "When Time is Tight",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Education timelines are demanding. When you need an EP urgently:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "We source available EPs nationwide within 24\u201348 hours" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Flexible scheduling that fits your timetable" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Fast-track report turnaround available" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Your dedicated Client Manager keeps you updated every step" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Questions About Educational Psychology Services",
+      "faqs": [
+        {
+          "question": "What's the difference between Psychology Direct and instructing an EP directly?",
+          "answer": "You get the same independent expert. Psychology Direct handles the admin — matching, scheduling, invoicing, quality assurance. The EP retains full clinical independence. You save time; the EP focuses on assessment."
+        },
+        {
+          "question": "How quickly can you find an EP for an assessment?",
+          "answer": "Our UK-wide network means we typically supply CVs and quotes within 48 hours. Appointments usually follow within 2–3 weeks. For urgent cases, we often move faster."
+        },
+        {
+          "question": "Are your EPs registered and DBS checked?",
+          "answer": "Yes. Every EP is HCPC-registered and enhanced DBS checked. They're on the DBS update service and hold professional indemnity insurance. Many also hold BPS and AEP membership."
+        },
+        {
+          "question": "Do you help with EHCP assessments?",
+          "answer": "Yes. We specialise in statutory EHCP pathway support from initial assessment through to report delivery. We understand LA timelines and statutory requirements. Our reports meet all SEND Code of Practice standards."
+        },
+        {
+          "question": "What if we need ongoing support, not just a one-off assessment?",
+          "answer": "We offer flexibility. Schools and LAs can commission single assessments or establish longer-term arrangements with dedicated EP allocation. No rigid contracts. You choose what suits you."
+        },
+        {
+          "question": "How much does an assessment cost?",
+          "answer": "Fees vary by assessment type, complexity, and location. We always provide a fixed quote upfront with no hidden costs. Volume discounts available for education contracts."
+        },
+        {
+          "question": "Will a local authority accept reports from your EPs?",
+          "answer": "Yes. Our EPs are HCPC-registered and meet LA statutory requirements. We can tailor reports to your LA's template if needed. Early conversation helps ensure alignment."
+        },
+        {
+          "question": "Can you handle complex cases involving multiple agencies?",
+          "answer": "Yes. Our Client Managers coordinate multi-agency cases, liaising with health, social care, and other professionals. We manage logistics so you focus on the child's needs."
+        },
+        {
+          "question": "How do you ensure the quality of EP reports?",
+          "answer": "All reports are 100% proofread and quality-checked against the assessment brief. Your dedicated Client Manager oversees the process for clarity and actionable recommendations."
+        },
+        {
+          "question": "What happens if a child needs a different type of support after assessment?",
+          "answer": "Your EP can recommend further assessment, intervention, or consultancy. We can provide ongoing support or signpost to specialist services based on the child's needs."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Find the Right Educational Psychologist",
+      "bodyText": "Schools need urgent EHCP assessments. LAs face backlogs. Trusts need consistent EP support. Whatever your challenge, we can help. Let's find the right EP for you.",
+      "primaryCtaText": "Discuss Your Needs",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Download SEND Support Guide",
+      "secondaryCtaLink": "/resources/send-guide-download/"
+    }
+  ]
+}

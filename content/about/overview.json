@@ -1,0 +1,155 @@
+{
+  "title": "About Psychology Direct | 15+ Years Connecting Experts",
+  "description": "Founded in 2008, Psychology Direct connects organisations with 1,000+ vetted psychologists and psychiatrists across the UK.",
+  "url": "/about/",
+  "keywords": [
+    "about psychology direct",
+    "psychology direct team",
+    "expert witness company",
+    "educational psychology services company UK",
+    "psychology direct values"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get Expert Matched in Hours, Not Weeks",
+      "subtitle": "Since 2008, we've grown into the UK's most trusted network. 1,000+ vetted professionals nationwide. We handle the hard part so you can focus on your case.",
+      "primaryCtaText": "Meet Our Team",
+      "primaryCtaLink": "/about/meet-the-team/",
+      "secondaryCtaText": "Get in Touch",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        {
+          "value": "2008",
+          "label": "Founded"
+        },
+        {
+          "value": "1,000+",
+          "label": "Professionals"
+        },
+        {
+          "value": "100%",
+          "label": "QA Checked Reports"
+        },
+        {
+          "value": "UK-Wide",
+          "label": "Nationwide Coverage"
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "How We Work",
+      "subheading": "A people-first approach built into every interaction",
+      "cards": [
+        {
+          "title": "Dedicated Client Managers",
+          "description": "You get one person who knows your case, your deadlines, and your needs. They advocate for you from start to finish.",
+          "link": ""
+        },
+        {
+          "title": "Rigorous Vetting & QA",
+          "description": "Every expert is registered with HCPC or GMC. All are DBS checked and insured. Every report is proofread and quality-checked before we send it.",
+          "link": ""
+        },
+        {
+          "title": "Fair Pay, Professional Support",
+          "description": "We pay our experts fairly. We handle the admin so they focus on client care. We offer supervision and CPD opportunities.",
+          "link": ""
+        },
+        {
+          "title": "Professionalism & Accountability",
+          "description": "We do what we promise, on time, transparently. No hidden fees. No surprises. Your Client Manager is accountable to you.",
+          "link": ""
+        },
+        {
+          "title": "Empathy & Respect",
+          "description": "We know the pressure you're under. Tight deadlines. Complex cases. Budget constraints. We care about every enquiry and every expert.",
+          "link": ""
+        },
+        {
+          "title": "Openness, Honesty & Integrity",
+          "description": "We're honest about what we can deliver. We're open to feedback. Integrity guides how we treat you and our professionals.",
+          "link": ""
+        },
+        {
+          "title": "Teamwork & Shared Success",
+          "description": "Your success is our success. We work as a team — with you, our experts, and each other — to get the best outcome for every case.",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "_template": "teamGrid",
+      "heading": "Meet the Leadership Team",
+      "team": [
+        {
+          "name": "Aaron Banham",
+          "role": "Managing Director",
+          "bio": "Built Psychology Direct over 15+ years into the UK's most trusted expert-matching service."
+        },
+        {
+          "name": "Denise Leander",
+          "role": "Operations Manager",
+          "bio": "Ensures every case meets our standards. Supports and develops every team member."
+        },
+        {
+          "name": "Daisy Hill",
+          "role": "Team Manager – Expert Witness",
+          "bio": "Leads legal expert matching. Deep knowledge of courts and solicitor needs."
+        },
+        {
+          "name": "Katie Séverin",
+          "role": "Education Team Manager",
+          "bio": "Manages our educational psychology team. Knows what local authorities and schools need."
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Want to Learn More About Our Team?",
+      "bodyText": "Meet the people who handle your cases, support your experts, and drive our commitment to quality. You'll work with someone you trust.",
+      "primaryCtaText": "Meet the Full Team",
+      "primaryCtaLink": "/about/meet-the-team/",
+      "secondaryCtaText": "View Open Roles",
+      "secondaryCtaLink": "/about/careers/"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Our Partners Say",
+      "testimonials": [
+        {
+          "quote": "Psychology Direct provides services that are reliable, efficient, flexible, cost effective, proactive and totally empathetic to our needs.",
+          "name": "Stephen Higgins",
+          "title": "Principal Educational Psychologist",
+          "organization": "Norfolk County Council"
+        },
+        {
+          "quote": "Staff are helpful and informative with a range of experts second to none.",
+          "name": "Brent Patterson",
+          "title": "Solicitor",
+          "organization": "Howard Bernstein Solicitors"
+        },
+        {
+          "quote": "I have worked with Psychology Direct as their associate for several years. They go out of their way to ensure the administration runs smoothly and make the process stress-free.",
+          "name": "Dr E A",
+          "title": "Chartered Counselling Psychologist",
+          "organization": ""
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Work With Us?",
+      "bodyText": "Whether you're looking to instruct an expert or join our network, let's talk. No pressure. Just real conversations.",
+      "primaryCtaText": "Contact Us",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Join Our Network",
+      "secondaryCtaLink": "/about/careers/"
+    }
+  ]
+}

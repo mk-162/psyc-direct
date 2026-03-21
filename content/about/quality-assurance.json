@@ -1,0 +1,165 @@
+{
+  "title": "Quality Assurance | Psychology Direct",
+  "description": "Every report is quality-checked before delivery. All experts are HCPC/GMC registered and DBS checked.",
+  "url": "/about/quality-assurance/",
+  "keywords": [
+    "quality assurance expert witness and educational reports",
+    "report quality control",
+    "vetting process",
+    "HCPC registered",
+    "expert verification",
+    "report QA"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "100% Report Quality Assurance. Every Time.",
+      "subtitle": "Every report is proofread, checked for accuracy, and verified against court standards. All experts are registered, DBS checked, and insured. Quality isn't negotiable.",
+      "primaryCtaText": "Arrange an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Learn Our Vetting Process",
+      "secondaryCtaLink": "#vetting-section"
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How We Ensure Quality",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Expert Vetting",
+          "description": "All psychologists are HCPC registered. All psychiatrists are GMC registered. All have enhanced DBS checks and professional indemnity insurance. We review sample reports before accepting anyone."
+        },
+        {
+          "number": 2,
+          "title": "Detailed Instruction",
+          "description": "Your Client Manager takes a detailed brief. Your requirements. Timelines. Budget. Special circumstances. The expert gets a thorough brief."
+        },
+        {
+          "number": 3,
+          "title": "Expert Delivers Assessment",
+          "description": "The expert conducts the assessment to best practice standards and your instructions."
+        },
+        {
+          "number": 4,
+          "title": "Report QA Check",
+          "description": "100% proofreading: grammar, clarity, legal compliance. We verify all your questions are answered. Recommendations are clear. Report is court-ready."
+        },
+        {
+          "number": 5,
+          "title": "Delivery",
+          "description": "Report is delivered securely, on time, ready to file. Your Client Manager is available if you have questions."
+        }
+      ],
+      "ctaText": "Start Your Match",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Reports QA-Checked"
+        },
+        {
+          "value": "All",
+          "label": "Experts HCPC/GMC Registered"
+        },
+        {
+          "value": "Enhanced",
+          "label": "DBS for Every Expert"
+        },
+        {
+          "value": "Full",
+          "label": "Professional Indemnity Insurance"
+        }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Quality Through Psychology Direct?",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly",
+      "rows": [
+        {
+          "feature": "Expert Vetting",
+          "col1": "Thorough verification: HCPC/GMC/DBS/Insurance. Sample reports reviewed.",
+          "col2": "You verify independently. Risk of missed credentials."
+        },
+        {
+          "feature": "Pre-assessment Brief",
+          "col1": "Dedicated Client Manager ensures expert fully understands your requirements.",
+          "col2": "You brief the expert directly. Risk of miscommunication."
+        },
+        {
+          "feature": "Report QA Check",
+          "col1": "100% proofread and accuracy-checked. All instructions verified as addressed.",
+          "col2": "No independent quality check. You rely on expert's standard."
+        },
+        {
+          "feature": "Compliance Verification",
+          "col1": "We verify reports meet court standards, CPR, and legal requirements.",
+          "col2": "You review for compliance. Extra work for you."
+        },
+        {
+          "feature": "Problem-Solving",
+          "col1": "Expert unavailable? Assessment needs rescheduling? We step in and resolve.",
+          "col2": "You manage all logistics and issues yourself."
+        },
+        {
+          "feature": "Cost",
+          "col1": "Same or less than direct instruction. We handle admin you'd otherwise do.",
+          "col2": "Direct instruction fees, plus your admin time."
+        },
+        {
+          "feature": "Peace of Mind",
+          "col1": "Guaranteed payment, insured, professional indemnity cover.",
+          "col2": "Reliant on expert's own arrangements."
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Quality Assurance FAQs",
+      "faqs": [
+        {
+          "question": "What happens if a report doesn't meet your QA standards?",
+          "answer": "It goes back to the expert for revision before we send it. You never receive a substandard report. We give the expert feedback to help them improve. This is rare (less than 5% of reports). It's built in to protect you."
+        },
+        {
+          "question": "Are all your experts HCPC or GMC registered?",
+          "answer": "Yes, 100%. All psychologists are HCPC registered with BPS. All psychiatrists are GMC registered and Section 12 approved. We verify before onboarding and check ongoing."
+        },
+        {
+          "question": "What if an expert becomes unavailable mid-case?",
+          "answer": "Your Client Manager steps in immediately. We match you with an alternative expert. We have 1,000+ professionals. We almost always find a replacement quickly. You're never left without support."
+        },
+        {
+          "question": "How do you ensure reports meet court requirements?",
+          "answer": "Our QA team includes legal and court professionals. We check every report against court standards and CPR requirements. We verify that expert opinion is evidence-based, recommendations are actionable, and presentation is clear."
+        },
+        {
+          "question": "What is professional indemnity insurance and why does it matter?",
+          "answer": "It protects you and the expert if a claim arises about the assessment or report. All our experts carry this insurance. It's a crucial safety net in legal cases."
+        },
+        {
+          "question": "Can I request a specific expert?",
+          "answer": "Yes. If you've worked with an expert before, tell us. We'll match them if available. We also consider location, specialism, and personality fit."
+        },
+        {
+          "question": "How long does the QA check take?",
+          "answer": "QA review typically takes 3-5 days. This is built into our 4-6 week standard turnaround. For urgent cases, we have a fast-track process."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Need a Court-Ready Expert Report?",
+      "bodyText": "Our QA process guarantees a court-ready report that answers your instructions. Delivered on time. Zero surprises.",
+      "primaryCtaText": "Arrange an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Download Our QA Guide",
+      "secondaryCtaLink": "/resources/qa-guide.pdf"
+    }
+  ]
+}

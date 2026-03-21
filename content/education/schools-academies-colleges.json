@@ -1,0 +1,242 @@
+{
+  "title": "Educational Psychology for Schools & Academies | Psychology Direct",
+  "description": "Fast EP access for schools and academies. Flexible packages, no long-term contract, SEND assessments, staff training, and ongoing support.",
+  "url": "/educational-psychologist/schools-academies-colleges/",
+  "keywords": [
+    "educational psychologist for schools",
+    "school EP services",
+    "academy educational psychology",
+    "SEND support schools",
+    "EP assessment primary school"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get Expert Educational Psychologists to Your School Fast",
+      "subtitle": "Assessments within weeks, reports within 2 weeks, no long-term contracts. Whether you need a single assessment or ongoing support, we fit around your school's schedule.",
+      "primaryCtaText": "Book an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Explore Other Services",
+      "secondaryCtaLink": "/educational-psychologist/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC-Registered EPs" },
+        { "text": "Available Within Weeks" },
+        { "text": "100% Quality Reports" },
+        { "text": "Nationwide Coverage" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Services We Offer Schools",
+      "subheading": "From one-off assessments to ongoing support, tailored to your school's needs.",
+      "cards": [
+        {
+          "title": "EHCP Assessments",
+          "description": "Statutory assessments for Education, Health and Care plans. We handle the process. You get a clear, evidence-based report ready for next steps.",
+          "link": "/educational-psychologist/ehcp-assessments/"
+        },
+        {
+          "title": "Specialist Assessments",
+          "description": "Autism, dyslexia, ADHD, and other specific learning needs. We provide diagnosis and practical classroom strategies staff can use immediately.",
+          "link": "/educational-psychologist/specialist-assessments/"
+        },
+        {
+          "title": "School Consultations",
+          "description": "Direct support for complex cases. Our EP meets with staff, observes in classroom, and helps you develop workable strategies.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Staff Training & CPD",
+          "description": "SEND training, behaviour management, attachment-aware practice \u2014 all delivered by practising EPs. CPD-accredited and tailored to your school.",
+          "link": "/about/training/"
+        },
+        {
+          "title": "Exam Access Arrangements",
+          "description": "Fast assessment for exam access arrangements (extra time, reader, scribe). We work to exam board deadlines.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "After your report, our EP can return for follow-up consultations, staff briefings, and strategy reviews as needed.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How It Works for Schools",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Tell Us About the Child",
+          "description": "Ring us or complete our brief online form. Tell us what you're seeing and what you need from the assessment."
+        },
+        {
+          "number": 2,
+          "title": "Receive EP Options",
+          "description": "Within 48 hours, we send you CVs and fixed quotes from EPs who fit your timetable."
+        },
+        {
+          "number": 3,
+          "title": "EP Comes to School",
+          "description": "The EP visits your school, meets the child, observes in class if needed, and consults with staff and parents."
+        },
+        {
+          "number": 4,
+          "title": "Practical Report Delivered",
+          "description": "Within 2 weeks, you get a clear report with concrete recommendations your staff can use immediately."
+        }
+      ],
+      "ctaText": "Get Started",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Schools Choose Psychology Direct",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Going Direct / LA Only Service",
+      "rows": [
+        {
+          "feature": "Speed to assessment",
+          "col1": "2\u20133 weeks availability",
+          "col2": "4\u20138 weeks or LA waiting list (variable)"
+        },
+        {
+          "feature": "Cost transparency",
+          "col1": "Fixed quote upfront",
+          "col2": "Variable by EP or often no choice"
+        },
+        {
+          "feature": "Flexibility",
+          "col1": "No long-term contract",
+          "col2": "Case-by-case or depends on LA model"
+        },
+        {
+          "feature": "Report quality",
+          "col1": "100% QA-checked",
+          "col2": "Depends on EP or high but waiting times"
+        },
+        {
+          "feature": "Staff training",
+          "col1": "Available",
+          "col2": "Sometimes extra or depends on LA"
+        },
+        {
+          "feature": "Admin burden",
+          "col1": "We handle it all",
+          "col2": "You manage everything or shared with LA"
+        },
+        {
+          "feature": "Choice of EP",
+          "col1": "Match to your school",
+          "col2": "Limited search time or not available"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Schools Say",
+      "testimonials": [
+        {
+          "quote": "Psychology Direct provides a comprehensive, reliable service. All EPs completed detailed assessments and produced quality reports within a couple of weeks. Professionalism and communication have been excellent.",
+          "name": "Principal and Lead SENCO",
+          "role": "",
+          "organisation": "Multi-Academy Trust"
+        },
+        {
+          "quote": "We needed an EP report urgently before the end of term. Psychology Direct delivered within days without cutting corners. Will definitely use them again.",
+          "name": "Primary School SENCO",
+          "role": "",
+          "organisation": ""
+        },
+        {
+          "quote": "The EP was brilliant with our students. The observations were thorough, the report was practical, and we've already implemented some of her recommendations.",
+          "name": "Secondary School Deputy SENCO",
+          "role": "",
+          "organisation": ""
+        },
+        {
+          "quote": "No faffing around. They understood our tight timelines and delivered. Great value for money.",
+          "name": "Academy Head of Pastoral Care",
+          "role": "",
+          "organisation": ""
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How Schools Have Benefited",
+      "caseStudies": [
+        {
+          "title": "EP Report Delivered Before End of Term",
+          "summary": "A primary school urgently needed an EHCP assessment report before the academic year ended. Psychology Direct matched an EP, conducted the assessment, and delivered a quality report within days.",
+          "sector": "Education",
+          "link": "/case-studies/an-ep-report-before-the-end-of-term/"
+        },
+        {
+          "title": "Flexibility for a Cluster of Schools",
+          "summary": "Five schools in a cluster needed EP support for a challenging volume of assessments. Psychology Direct provided flexible EP access, scaling up support as demand grew, without requiring long-term commitment.",
+          "sector": "Education",
+          "link": "/case-studies/flexibility-is-key-to-cluster-of-schools/"
+        },
+        {
+          "title": "Full EP Service Supporting LA",
+          "summary": "A local authority partnered with Psychology Direct to supplement their in-house EP service. Schools in that area gained faster access to EPs while the LA managed statutory timelines effectively.",
+          "sector": "Education",
+          "link": "/case-studies/full-ep-service-for-local-authority/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Schools' Most Common Questions",
+      "faqs": [
+        {
+          "question": "How quickly can an EP visit my school?",
+          "answer": "Once you've selected your EP and fixed an assessment date, most appointments are scheduled within 2\u20133 weeks. For urgent cases, we can sometimes move faster."
+        },
+        {
+          "question": "What does an EP assessment actually involve?",
+          "answer": "The EP will meet your child, observe in class if relevant, and interview staff and parents. We may use psychometric tests. Assessments typically take 2\u20134 hours spread across one or more visits."
+        },
+        {
+          "question": "How much will an assessment cost?",
+          "answer": "We provide a fixed quotation upfront based on assessment type. No hidden charges. Costs are competitive with going direct and often lower than expected. Ask about school package discounts."
+        },
+        {
+          "question": "Do you provide a report template that fits our school's needs?",
+          "answer": "Yes. We can work to your school's template, LA template, or our own format. Just let us know your preference."
+        },
+        {
+          "question": "Can the EP provide follow-up support after the report?",
+          "answer": "Absolutely. After assessment, the EP can deliver staff training, hold strategy review meetings, or provide ongoing consultation. Discuss this when you book the initial assessment."
+        },
+        {
+          "question": "What if we need training for staff, not just an assessment?",
+          "answer": "We offer CPD-accredited training on SEND, behaviour management, attachment-aware practice, and other topics. Can be bespoke to your school's needs. Delivered by practising EPs."
+        },
+        {
+          "question": "Are your EPs experienced in working with our type of school/cohort?",
+          "answer": "We have EPs working across primary, secondary, academies, free schools, SEN settings, and PRUs. Tell us about your school and we'll match you with someone who understands your setting."
+        },
+        {
+          "question": "Do you accept referrals from parents directly?",
+          "answer": "No. We work with schools and local authorities, not private families. Parents should speak to their school SENCO or local authority if they think an EP assessment would help."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Access an Educational Psychologist?",
+      "bodyText": "Whether you need a single assessment, ongoing support, or staff training, we'll connect you with a qualified EP who fits your school. Let's get started.",
+      "primaryCtaText": "Book an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "View Training Courses",
+      "secondaryCtaLink": "/about/training/"
+    }
+  ]
+}

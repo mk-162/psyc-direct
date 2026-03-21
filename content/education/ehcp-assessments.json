@@ -1,0 +1,536 @@
+{
+  "title": "EHCP Assessments | Educational Psychology | Psychology Direct",
+  "description": "Expert EHCP assessments meeting statutory timelines. Clear reports, fast turnaround, SEND Code of Practice compliance. Schools and LAs nationwide.",
+  "url": "/educational-psychologist/ehcp-assessments/",
+  "keywords": [
+    "EHCP assessment educational psychologist",
+    "education health care plan assessment",
+    "statutory assessment EP",
+    "EHCP process",
+    "SEND assessment psychology"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get EHCP Assessments That Meet Your Statutory Deadlines",
+      "subtitle": "HCPC-registered EPs delivering evidence-based EHCP assessments within 16 weeks. Clear recommendations, practical guidance, statutory compliance guaranteed.",
+      "primaryCtaText": "Book an EHCP Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Download EHCP Guide",
+      "secondaryCtaLink": "/resources/ehcp-guide/"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "16-Week Statutory Compliance" },
+        { "text": "HCPC-Registered EPs" },
+        { "text": "100% QA Reports" },
+        { "text": "Evidence-Based Recommendations" }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "500+", "label": "EHCP Assessments Annually" },
+        { "value": "98%", "label": "Statutory Timeline Met" },
+        { "value": "95%", "label": "Panel Recommendations Accepted" },
+        { "value": "2-Week", "label": "Typical Turnaround" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "What We Provide for EHCP Assessments",
+      "subheading": "A complete assessment service, from initial enquiry to panel-ready report.",
+      "cards": [
+        {
+          "title": "Initial Consultation",
+          "description": "Free consultation with an experienced EP to understand the child's needs and confirm assessment is appropriate. Helps you prepare for the formal assessment.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Comprehensive Assessment",
+          "description": "2\u20134 hours covering cognitive ability, attainment, learning style, social-emotional development, and functional impact. Multiple methods: testing, observation, interviews.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Evidence-Based Report",
+          "description": "Detailed report addressing all statutory questions. Clear diagnosis, practical recommendations, actionable strategies for support. Meets SEND Code of Practice standards.",
+          "link": "/contact/"
+        },
+        {
+          "title": "100% Quality Assurance",
+          "description": "Every report is quality-checked before delivery. Verified for statutory compliance, completeness, and clarity.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Practical Recommendations",
+          "description": "We provide specific, actionable recommendations for school support, specialist input, and intervention strategies.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Post-Assessment Support",
+          "description": "After report delivery, the EP can brief the school, attend EHCP meetings, or provide follow-up consultation.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Understanding the EHCP Assessment Process",
+      "tabs": [
+        {
+          "label": "Before the Assessment",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Preparation is key. Before the EP arrives:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Schools and parents should gather initial observations (how does the child struggle?)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Previous assessments, reports, or diagnoses should be available" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Key people involved (teachers, parents, other professionals) should be ready to speak with the EP" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "The referral form provided by the LA should be completed fully" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Our referral form gathers this information in advance, so the EP arrives fully briefed. Less time wasted getting up to speed, more time focused on assessment." }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "During the Assessment",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "A typical EHCP assessment includes:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Interview with parent/carer (background, development, home context)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Interview with teacher/SENCO (school presentation, observed difficulties, strategies tried)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Direct assessment: cognitive testing, attainment testing, observation, functional assessment" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Review of previous assessments or diagnoses" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Structured interviews exploring emotional, social, and behavioural factors" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "The EP will be warm, professional, and sensitive to the child's experience. Assessment may be split across multiple visits as needed." }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "After the Assessment",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "Once the EP completes the assessment, we:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Analyse findings and write the report (typically 2 weeks)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Quality-check the report to ensure all statutory questions are answered" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Deliver the report to you (school and/or LA)" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Offer to brief the school if helpful" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Make the EP available for EHCP panel meetings or follow-up if needed" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "The report is written for the LA, schools, parents, and other professionals. Language is clear, not jargony." }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Statutory Questions the Assessment Must Address",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "LA officers will ask the EP about:" }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "The child's cognitive ability and attainment" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Specific learning difficulties or disabilities" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Social, emotional, and mental health needs" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Communication and interaction abilities" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "Sensory or physical needs" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "How these needs affect the child's learning" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          { "type": "text", "text": "What support would help the child thrive" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  { "type": "text", "text": "A quality assessment report answers all these questions with evidence." }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Ready to Commission an EHCP Assessment?",
+      "bodyText": "Whether you're a school needing an urgent assessment or an LA clearing a backlog, we'll match you with an experienced EP and deliver a statutory-compliant report on time. Let's get started.",
+      "primaryCtaText": "Book an EHCP Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Request a Quote",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Schools and LAs Say About Our EHCP Assessments",
+      "testimonials": [
+        {
+          "quote": "Psychology Direct provided EHCP assessments that met all statutory deadlines. Reports were detailed, evidence-based, and the LA had no concerns. Highly professional.",
+          "name": "SEND Commissioner",
+          "role": "",
+          "organisation": "Local Authority"
+        },
+        {
+          "quote": "The assessment was thorough and the report practical. Our school now understands the child's needs clearly. The recommendations have been invaluable.",
+          "name": "SENCO",
+          "role": "",
+          "organisation": "Primary School"
+        },
+        {
+          "quote": "We needed to clear 80+ EHCP assessments. Psychology Direct provided reliable, quality capacity. Reports were delivered on time and our panel accepted 98%.",
+          "name": "Principal EP",
+          "role": "",
+          "organisation": "Local Authority"
+        },
+        {
+          "quote": "The EP was sensitive to the child's needs. The report was written in plain language that parents and teachers could understand. Excellent service.",
+          "name": "Parent",
+          "role": "",
+          "organisation": "via School"
+        }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "Real EHCP Assessments We've Delivered",
+      "caseStudies": [
+        {
+          "title": "County Council Clears EHCP Backlog",
+          "summary": "A local authority with 200+ pending assessments partnered with Psychology Direct to provide bulk capacity. Backlog cleared in 18 months while maintaining statutory compliance and quality.",
+          "sector": "Education",
+          "link": "/case-studies/county-council-faces-major-challenge/"
+        },
+        {
+          "title": "EP Report Delivered Before End of Term",
+          "summary": "A primary school urgently needed an EHCP assessment report before the summer holidays to inform the child's transition plan. Psychology Direct matched an EP, conducted assessment, and delivered within 2 weeks.",
+          "sector": "Education",
+          "link": "/case-studies/an-ep-report-before-the-end-of-term/"
+        },
+        {
+          "title": "Full EP Service for Local Authority",
+          "summary": "An LA blended internal capacity with Psychology Direct to manage variable EHCP demand. Assessment timelines improved and the backlog steadily reduced.",
+          "sector": "Education",
+          "link": "/case-studies/full-ep-service-for-local-authority/"
+        }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Choose Psychology Direct for EHCP Assessments?",
+      "col1Header": "Psychology Direct",
+      "col2Header": "Instructing Directly / LA Services Only",
+      "rows": [
+        {
+          "feature": "Speed",
+          "col1": "2-week report turnaround, 16-week statutory path met",
+          "col2": "Variable; depends on individual EP or LA waiting list"
+        },
+        {
+          "feature": "Expertise in EHCP",
+          "col1": "Dedicated EHCP assessment focus",
+          "col2": "Depends on EP choice; LA has high expertise but capacity limits"
+        },
+        {
+          "feature": "Quality assurance",
+          "col1": "100% QA before delivery, statutory compliance verified",
+          "col2": "Depends on EP; LA manages internally but is resource-constrained"
+        },
+        {
+          "feature": "Cost transparency",
+          "col1": "Fixed quote upfront, no hidden charges",
+          "col2": "Variable pricing or no choice on cost"
+        },
+        {
+          "feature": "Flexibility",
+          "col1": "Scale up/down, no long-term commitment",
+          "col2": "Case-by-case or depends on LA model"
+        },
+        {
+          "feature": "Access",
+          "col1": "Nationwide network of 1,000+ EPs",
+          "col2": "Limited by search time or to LA EPs only"
+        },
+        {
+          "feature": "Report tailoring",
+          "col1": "Template for your LA or school",
+          "col2": "Custom to referrer or LA standard"
+        },
+        {
+          "feature": "Admin burden",
+          "col1": "We handle everything",
+          "col2": "You manage coordination or shared with LA"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Commission an EHCP Assessment Today",
+      "bodyText": "Schools and local authorities trust us for statutory-compliant EHCP assessments delivered on time. Let's help you understand the child's needs and get the right support in place.",
+      "primaryCtaText": "Book an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Download EHCP Process Guide",
+      "secondaryCtaLink": "/resources/ehcp-guide/"
+    }
+  ]
+}

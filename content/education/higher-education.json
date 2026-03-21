@@ -1,0 +1,183 @@
+{
+  "title": "Educational Psychology for Higher Education | Disability Support | Psychology Direct",
+  "description": "DSA assessments, access arrangements, and disability support for students. Fast turnaround for exam access arrangements. Mental health and specialist assessments.",
+  "url": "/educational-psychologist/higher-education/",
+  "keywords": [
+    "educational psychologist higher education",
+    "DSA assessment university",
+    "exam access arrangements higher education",
+    "disability support student",
+    "university psychology assessment"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Get Students DSA-Eligible Assessments in Time for Funding",
+      "subtitle": "Specialist psychologists for DSA assessments and disability support. Fast turnaround to meet funding deadlines. Practical recommendations that help students succeed.",
+      "primaryCtaText": "Book an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Learn About the DSA Process",
+      "secondaryCtaLink": "#dsa-info"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "Specialist HE Psychologists" },
+        { "text": "Fast Turnaround for Deadlines" },
+        { "text": "Evidence-Based Recommendations" },
+        { "text": "Ongoing Support Available" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Assessment Services for Higher Education",
+      "subheading": "From initial DSA assessment to ongoing student support, we provide the expertise universities need.",
+      "cards": [
+        {
+          "title": "DSA Assessments",
+          "description": "Psychological and educational assessments for DSA eligibility. Evidence for reasonable adjustments and support planning. Fast turnaround to meet funding deadlines.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Exam Access Arrangements",
+          "description": "Assessment for exam access arrangements (extra time, rest breaks, reader, scribe). Quick turnaround to meet exam board deadlines.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Learning Disability Assessment",
+          "description": "Assessment for dyslexia, dyscalculia, ADHD. Evidence-based diagnosis with practical recommendations for academic success.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Mental Health Assessment",
+          "description": "Psychological assessment for anxiety, depression, trauma, and other mental health conditions affecting academic performance.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Autism Spectrum Assessment",
+          "description": "Comprehensive assessment for autism in young adults. Informs support strategies and reasonable adjustments.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Ongoing Student Support",
+          "description": "After the initial assessment, EPs can provide follow-up consultation, strategy review, and liaison with academic staff.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "How the DSA Assessment Process Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Student Contacts University",
+          "description": "Student approaches Disability Services. The team discusses support needs and recommends assessment if relevant."
+        },
+        {
+          "number": 2,
+          "title": "University Contacts Us",
+          "description": "Disability Services contacts us with student's requirements and preferred timeline."
+        },
+        {
+          "number": 3,
+          "title": "Assessment is Scheduled",
+          "description": "We match a specialist psychologist and brief them on the student's context. Assessment typically takes 2\u20134 hours."
+        },
+        {
+          "number": 4,
+          "title": "Report Delivered",
+          "description": "Within 2 weeks, you receive a comprehensive report with findings and practical support strategies. Student uses this for DSA funding."
+        }
+      ],
+      "ctaText": "Contact Us About DSA Assessments",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Universities Say",
+      "testimonials": [
+        {
+          "quote": "Psychology Direct provided timely DSA assessments. Reports are clear, practical, and give staff what they need. Fast turnaround to meet our deadlines.",
+          "name": "Disability Services Manager",
+          "role": "",
+          "organisation": "Russell Group University"
+        },
+        {
+          "quote": "The psychologists understand the university context. Their reports give practical recommendations staff can actually implement.",
+          "name": "Student Support Co-ordinator",
+          "role": "",
+          "organisation": "Post-1992 University"
+        },
+        {
+          "quote": "Meeting DSA deadlines is stressful. Psychology Direct's quick turnaround made the process smooth. Highly recommended.",
+          "name": "Access & Inclusion Manager",
+          "role": "",
+          "organisation": "Specialist HE Institution"
+        },
+        {
+          "quote": "We use Psychology Direct for new DSA assessments and re-assessments. Consistent quality, understands university timelines, excellent service.",
+          "name": "Disability Services Coordinator",
+          "role": "",
+          "organisation": "Large HE Provider"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Higher Education Assessment FAQs",
+      "faqs": [
+        {
+          "question": "What is DSA and who is eligible?",
+          "answer": "DSA is funding for students with disabilities. This includes learning difficulties (dyslexia, ADHD), mental health conditions, physical and sensory disabilities. To access DSA, students typically need specialist psychological or medical assessment confirming their disability and support needs."
+        },
+        {
+          "question": "How quickly can you complete a DSA assessment?",
+          "answer": "We aim for 2 weeks from assessment to report delivery. This meets most university and DSA deadlines. For urgent cases, faster turnaround is available. Discuss timing when you contact us."
+        },
+        {
+          "question": "What will the assessment report include?",
+          "answer": "A comprehensive assessment covering cognitive and attainment testing, mental health screening, functional impact analysis, diagnosis or disability clarification, recommendations for adjustments, and practical strategies for academic success. Language is clear for students, DSA assessors, and academic staff."
+        },
+        {
+          "question": "Can the report be used for exam access arrangements?",
+          "answer": "Yes. Many of our reports evidence needs for exam access arrangements (extra time, rest breaks, reader, scribe). If this is the primary need, we can conduct a focused exam access assessment with fast turnaround."
+        },
+        {
+          "question": "Is the assessment just for DSA, or does it help with academic support too?",
+          "answer": "Both. The assessment provides evidence for DSA funding and practical recommendations for academic staff. We help students understand their strengths and needs, not just access funding."
+        },
+        {
+          "question": "What if a student has already been diagnosed (e.g., with dyslexia) \u2014 do they still need an assessment?",
+          "answer": "It depends. If they have a recent assessment (within 5 years) from a chartered psychologist, that may be sufficient for DSA. If not, a new assessment may be needed. Check with Disability Services about what evidence DSA requires."
+        },
+        {
+          "question": "Can you assess international students?",
+          "answer": "Yes. We assess both UK and international students. Assessments can be conducted in person or remotely depending on location. Discuss any specific needs when you book."
+        },
+        {
+          "question": "What about students with mental health conditions?",
+          "answer": "We provide psychological assessment for anxiety, depression, PTSD, eating disorders, and other mental health conditions affecting academic work. These assessments help determine reasonable adjustments and support strategies."
+        },
+        {
+          "question": "Can you provide ongoing support after the assessment?",
+          "answer": "Yes. Beyond the initial assessment, we can provide follow-up consultation, strategy review, liaison with academic departments, or mid-year check-ins. Discuss this when you book the initial assessment."
+        },
+        {
+          "question": "How should universities contact you for student assessments?",
+          "answer": "Call 01306 879 975 or email enquiries@psychologydirect.co.uk. Tell us about the student's needs, deadline, and preferred timing. We'll match an experienced HE psychologist and provide a quote."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Book DSA Assessments for Your Students?",
+      "bodyText": "Initial assessments for new students or ongoing support for returning students. Fast turnaround, practical recommendations, experienced in university contexts.",
+      "primaryCtaText": "Book an Assessment",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Email Disability Services",
+      "secondaryCtaLink": "mailto:enquiries@psychologydirect.co.uk"
+    }
+  ]
+}
