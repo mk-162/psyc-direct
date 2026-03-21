@@ -12,14 +12,15 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     return [
-      {
-        source: "/admin",
-        destination: "/admin/index.html",
-      },
-      {
-        source: "/admin/:path*",
-        destination: "/admin/:path*",
-      },
+      { source: "/admin", destination: "/admin/index.html" },
+      { source: "/admin/:path*", destination: "/admin/:path*" },
+      // Policy/utility pages served at root URLs (content lives in utility collection)
+      { source: "/privacy-policy", destination: "/utility/privacy-policy" },
+      { source: "/terms-conditions", destination: "/utility/terms-conditions" },
+      { source: "/cookie-policy", destination: "/utility/cookie-policy" },
+      { source: "/accessibility", destination: "/utility/accessibility" },
+      // complaints-policy is in pages collection, served by [slug] catch-all
+      // client-login and expert-login are in pages collection, served by [slug] catch-all
     ];
   },
   async redirects() {
