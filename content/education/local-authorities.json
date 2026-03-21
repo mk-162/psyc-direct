@@ -12,30 +12,51 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Clear Your EHCP Backlog with Flexible, Statutory-Compliant EPs",
       "subtitle": "HCPC-registered EPs, no long-term contract. Volume capacity to meet 16-week timelines, experienced in LA processes, dedicated coordination. We've completed hundreds of assessments while maintaining quality.",
       "primaryCtaText": "Discuss Your Needs",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "View Case Studies",
-      "secondaryCtaLink": "/case-studies/?category=education"
+      "secondaryCtaLink": "/case-studies/?category=education",
+      "backgroundImage": "/images/heroes/local-authorities-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "1,000+ HCPC-Registered EPs" },
-        { "text": "Statutory Compliance Guaranteed" },
-        { "text": "100% Quality Assurance" },
-        { "text": "No Long-Term Lock-In" }
+        {
+          "text": "1,000+ HCPC-Registered EPs"
+        },
+        {
+          "text": "Statutory Compliance Guaranteed"
+        },
+        {
+          "text": "100% Quality Assurance"
+        },
+        {
+          "text": "No Long-Term Lock-In"
+        }
       ]
     },
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "500+", "label": "Annual LA Assessments" },
-        { "value": "16-Week", "label": "EHCP Timelines Met" },
-        { "value": "98%", "label": "Client Retention" },
-        { "value": "10+", "label": "Years' LA Partnership" }
+        {
+          "value": "500+",
+          "label": "Annual LA Assessments"
+        },
+        {
+          "value": "16-Week",
+          "label": "EHCP Timelines Met"
+        },
+        {
+          "value": "98%",
+          "label": "Client Retention"
+        },
+        {
+          "value": "10+",
+          "label": "Years' LA Partnership"
+        }
       ]
     },
     {
@@ -50,7 +71,7 @@
         },
         {
           "title": "Ongoing Partnership",
-          "description": "Long-term agreements with flexible scaling. Dedicated EPs or flexible case-by-case access \u2014 your choice.",
+          "description": "Long-term agreements with flexible scaling. Dedicated EPs or flexible case-by-case access — your choice.",
           "link": "/contact/"
         },
         {
@@ -217,7 +238,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Need to clear a large backlog of pending EHCP assessments? We can:" }
+                  {
+                    "type": "text",
+                    "text": "Need to clear a large backlog of pending EHCP assessments? We can:"
+                  }
                 ]
               },
               {
@@ -229,7 +253,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Supply volume capacity on a pay-per-assessment basis" }
+                          {
+                            "type": "text",
+                            "text": "Supply volume capacity on a pay-per-assessment basis"
+                          }
                         ]
                       }
                     ]
@@ -240,7 +267,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Meet your statutory 16-week timelines" }
+                          {
+                            "type": "text",
+                            "text": "Meet your statutory 16-week timelines"
+                          }
                         ]
                       }
                     ]
@@ -251,7 +281,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Provide all EPs HCPC-registered and LA-experienced" }
+                          {
+                            "type": "text",
+                            "text": "Provide all EPs HCPC-registered and LA-experienced"
+                          }
                         ]
                       }
                     ]
@@ -262,7 +295,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Deliver reports in your template format" }
+                          {
+                            "type": "text",
+                            "text": "Deliver reports in your template format"
+                          }
                         ]
                       }
                     ]
@@ -273,7 +309,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Scale up or down as the backlog reduces" }
+                          {
+                            "type": "text",
+                            "text": "Scale up or down as the backlog reduces"
+                          }
                         ]
                       }
                     ]
@@ -284,7 +323,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "No long-term commitment beyond the clearing period" }
+                          {
+                            "type": "text",
+                            "text": "No long-term commitment beyond the clearing period"
+                          }
                         ]
                       }
                     ]
@@ -302,7 +344,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Looking for long-term outsourced EP capacity? Options include:" }
+                  {
+                    "type": "text",
+                    "text": "Looking for long-term outsourced EP capacity? Options include:"
+                  }
                 ]
               },
               {
@@ -314,7 +359,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Fixed number of assessments per month" }
+                          {
+                            "type": "text",
+                            "text": "Fixed number of assessments per month"
+                          }
                         ]
                       }
                     ]
@@ -325,7 +373,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Dedicated EP allocation if preferred" }
+                          {
+                            "type": "text",
+                            "text": "Dedicated EP allocation if preferred"
+                          }
                         ]
                       }
                     ]
@@ -336,7 +387,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Mix of statutory assessments and consultation" }
+                          {
+                            "type": "text",
+                            "text": "Mix of statutory assessments and consultation"
+                          }
                         ]
                       }
                     ]
@@ -347,7 +401,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Trainee and assistant EP support" }
+                          {
+                            "type": "text",
+                            "text": "Trainee and assistant EP support"
+                          }
                         ]
                       }
                     ]
@@ -358,7 +415,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Volume discounts on larger contracts" }
+                          {
+                            "type": "text",
+                            "text": "Volume discounts on larger contracts"
+                          }
                         ]
                       }
                     ]
@@ -369,7 +429,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Flexible scaling as your needs change" }
+                          {
+                            "type": "text",
+                            "text": "Flexible scaling as your needs change"
+                          }
                         ]
                       }
                     ]
@@ -387,7 +450,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "We work with LAs developing new EPs:" }
+                  {
+                    "type": "text",
+                    "text": "We work with LAs developing new EPs:"
+                  }
                 ]
               },
               {
@@ -399,7 +465,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Trainees and assistants gain diverse case experience" }
+                          {
+                            "type": "text",
+                            "text": "Trainees and assistants gain diverse case experience"
+                          }
                         ]
                       }
                     ]
@@ -410,7 +479,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Supervised practice across a range of SEND presentations" }
+                          {
+                            "type": "text",
+                            "text": "Supervised practice across a range of SEND presentations"
+                          }
                         ]
                       }
                     ]
@@ -421,7 +493,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "CPD and professional development support" }
+                          {
+                            "type": "text",
+                            "text": "CPD and professional development support"
+                          }
                         ]
                       }
                     ]
@@ -432,7 +507,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Guidance from experienced EPs" }
+                          {
+                            "type": "text",
+                            "text": "Guidance from experienced EPs"
+                          }
                         ]
                       }
                     ]
@@ -443,7 +521,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Real outcomes that strengthen future applications" }
+                          {
+                            "type": "text",
+                            "text": "Real outcomes that strengthen future applications"
+                          }
                         ]
                       }
                     ]
@@ -454,7 +535,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Access to our 1,000+ EP network for peer learning" }
+                          {
+                            "type": "text",
+                            "text": "Access to our 1,000+ EP network for peer learning"
+                          }
                         ]
                       }
                     ]
@@ -472,7 +556,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Every assessment delivered meets:" }
+                  {
+                    "type": "text",
+                    "text": "Every assessment delivered meets:"
+                  }
                 ]
               },
               {
@@ -484,7 +571,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "HCPC registration requirements (all EPs)" }
+                          {
+                            "type": "text",
+                            "text": "HCPC registration requirements (all EPs)"
+                          }
                         ]
                       }
                     ]
@@ -495,7 +585,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "SEND Code of Practice standards" }
+                          {
+                            "type": "text",
+                            "text": "SEND Code of Practice standards"
+                          }
                         ]
                       }
                     ]
@@ -506,7 +599,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Your LA's report template (if provided)" }
+                          {
+                            "type": "text",
+                            "text": "Your LA's report template (if provided)"
+                          }
                         ]
                       }
                     ]
@@ -517,7 +613,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Enhanced DBS checks (all EPs)" }
+                          {
+                            "type": "text",
+                            "text": "Enhanced DBS checks (all EPs)"
+                          }
                         ]
                       }
                     ]
@@ -528,7 +627,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Professional indemnity insurance" }
+                          {
+                            "type": "text",
+                            "text": "Professional indemnity insurance"
+                          }
                         ]
                       }
                     ]
@@ -539,7 +641,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "100% quality assurance before delivery" }
+                          {
+                            "type": "text",
+                            "text": "100% quality assurance before delivery"
+                          }
                         ]
                       }
                     ]
@@ -565,7 +670,7 @@
         },
         {
           "question": "How flexible is the arrangement? Can we scale up and down?",
-          "answer": "Very flexible. Whether you need 10 assessments per month or 100, we match that. If demand drops, costs drop too. No long-term lock-in \u2014 partnership contracts available if you want stability."
+          "answer": "Very flexible. Whether you need 10 assessments per month or 100, we match that. If demand drops, costs drop too. No long-term lock-in — partnership contracts available if you want stability."
         },
         {
           "question": "What about trainee and assistant EP development?",

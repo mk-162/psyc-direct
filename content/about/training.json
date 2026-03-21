@@ -13,13 +13,14 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Upskill Your School Staff with Expert SEND Training",
       "subtitle": "CPD-accredited training delivered by practising EPs. Bespoke packages on autism, SEND, behaviour, attachment, and more. Whole-school impact, practical tools, proven outcomes.",
       "primaryCtaText": "Enquire About Training",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "View Available Topics",
-      "secondaryCtaLink": "#topics"
+      "secondaryCtaLink": "#topics",
+      "backgroundImage": "/images/heroes/training-hero.jpg"
     },
     {
       "_template": "trustBar",
@@ -234,7 +235,7 @@
         },
         {
           "question": "How much does training cost?",
-          "answer": "Pricing depends on length, topic, and whether it's bespoke or a standard course. Typical: \u00a3400-800 for half-day, \u00a3700-1,200 for full-day. Multi-session courses priced per school. We always provide a quotation upfront."
+          "answer": "Pricing depends on length, topic, and whether it's bespoke or a standard course. Typical: £400-800 for half-day, £700-1,200 for full-day. Multi-session courses priced per school. We always provide a quotation upfront."
         },
         {
           "question": "Can we customise the training content?",
@@ -262,7 +263,7 @@
         },
         {
           "question": "What if we want to train teachers at specific year groups?",
-          "answer": "We can tailor training by phase or year group. EYFS-specific, KS1, KS2, secondary \u2014 content is adapted to age-appropriate context."
+          "answer": "We can tailor training by phase or year group. EYFS-specific, KS1, KS2, secondary — content is adapted to age-appropriate context."
         },
         {
           "question": "How do I book training?",

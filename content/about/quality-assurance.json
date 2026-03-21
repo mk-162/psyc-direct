@@ -13,13 +13,14 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "100% Report Quality Assurance. Every Time.",
       "subtitle": "Every report is proofread, checked for accuracy, and verified against court standards. All experts are registered, DBS checked, and insured. Quality isn't negotiable.",
       "primaryCtaText": "Arrange an Assessment",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Learn Our Vetting Process",
-      "secondaryCtaLink": "#vetting-section"
+      "secondaryCtaLink": "#vetting-section",
+      "backgroundImage": "/images/heroes/quality-assurance-hero.jpg"
     },
     {
       "_template": "processSteps",

@@ -12,30 +12,51 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get EHCP Assessments That Meet Your Statutory Deadlines",
       "subtitle": "HCPC-registered EPs delivering evidence-based EHCP assessments within 16 weeks. Clear recommendations, practical guidance, statutory compliance guaranteed.",
       "primaryCtaText": "Book an EHCP Assessment",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Download EHCP Guide",
-      "secondaryCtaLink": "/resources/ehcp-guide/"
+      "secondaryCtaLink": "/resources/ehcp-guide/",
+      "backgroundImage": "/images/heroes/ehcp-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "16-Week Statutory Compliance" },
-        { "text": "HCPC-Registered EPs" },
-        { "text": "100% QA Reports" },
-        { "text": "Evidence-Based Recommendations" }
+        {
+          "text": "16-Week Statutory Compliance"
+        },
+        {
+          "text": "HCPC-Registered EPs"
+        },
+        {
+          "text": "100% QA Reports"
+        },
+        {
+          "text": "Evidence-Based Recommendations"
+        }
       ]
     },
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "500+", "label": "EHCP Assessments Annually" },
-        { "value": "98%", "label": "Statutory Timeline Met" },
-        { "value": "95%", "label": "Panel Recommendations Accepted" },
-        { "value": "2-Week", "label": "Typical Turnaround" }
+        {
+          "value": "500+",
+          "label": "EHCP Assessments Annually"
+        },
+        {
+          "value": "98%",
+          "label": "Statutory Timeline Met"
+        },
+        {
+          "value": "95%",
+          "label": "Panel Recommendations Accepted"
+        },
+        {
+          "value": "2-Week",
+          "label": "Typical Turnaround"
+        }
       ]
     },
     {
@@ -50,7 +71,7 @@
         },
         {
           "title": "Comprehensive Assessment",
-          "description": "2\u20134 hours covering cognitive ability, attainment, learning style, social-emotional development, and functional impact. Multiple methods: testing, observation, interviews.",
+          "description": "2–4 hours covering cognitive ability, attainment, learning style, social-emotional development, and functional impact. Multiple methods: testing, observation, interviews.",
           "link": "/contact/"
         },
         {
@@ -87,7 +108,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Preparation is key. Before the EP arrives:" }
+                  {
+                    "type": "text",
+                    "text": "Preparation is key. Before the EP arrives:"
+                  }
                 ]
               },
               {
@@ -99,7 +123,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Schools and parents should gather initial observations (how does the child struggle?)" }
+                          {
+                            "type": "text",
+                            "text": "Schools and parents should gather initial observations (how does the child struggle?)"
+                          }
                         ]
                       }
                     ]
@@ -110,7 +137,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Previous assessments, reports, or diagnoses should be available" }
+                          {
+                            "type": "text",
+                            "text": "Previous assessments, reports, or diagnoses should be available"
+                          }
                         ]
                       }
                     ]
@@ -121,7 +151,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Key people involved (teachers, parents, other professionals) should be ready to speak with the EP" }
+                          {
+                            "type": "text",
+                            "text": "Key people involved (teachers, parents, other professionals) should be ready to speak with the EP"
+                          }
                         ]
                       }
                     ]
@@ -132,7 +165,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "The referral form provided by the LA should be completed fully" }
+                          {
+                            "type": "text",
+                            "text": "The referral form provided by the LA should be completed fully"
+                          }
                         ]
                       }
                     ]
@@ -142,7 +178,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Our referral form gathers this information in advance, so the EP arrives fully briefed. Less time wasted getting up to speed, more time focused on assessment." }
+                  {
+                    "type": "text",
+                    "text": "Our referral form gathers this information in advance, so the EP arrives fully briefed. Less time wasted getting up to speed, more time focused on assessment."
+                  }
                 ]
               }
             ]
@@ -156,7 +195,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "A typical EHCP assessment includes:" }
+                  {
+                    "type": "text",
+                    "text": "A typical EHCP assessment includes:"
+                  }
                 ]
               },
               {
@@ -168,7 +210,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Interview with parent/carer (background, development, home context)" }
+                          {
+                            "type": "text",
+                            "text": "Interview with parent/carer (background, development, home context)"
+                          }
                         ]
                       }
                     ]
@@ -179,7 +224,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Interview with teacher/SENCO (school presentation, observed difficulties, strategies tried)" }
+                          {
+                            "type": "text",
+                            "text": "Interview with teacher/SENCO (school presentation, observed difficulties, strategies tried)"
+                          }
                         ]
                       }
                     ]
@@ -190,7 +238,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Direct assessment: cognitive testing, attainment testing, observation, functional assessment" }
+                          {
+                            "type": "text",
+                            "text": "Direct assessment: cognitive testing, attainment testing, observation, functional assessment"
+                          }
                         ]
                       }
                     ]
@@ -201,7 +252,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Review of previous assessments or diagnoses" }
+                          {
+                            "type": "text",
+                            "text": "Review of previous assessments or diagnoses"
+                          }
                         ]
                       }
                     ]
@@ -212,7 +266,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Structured interviews exploring emotional, social, and behavioural factors" }
+                          {
+                            "type": "text",
+                            "text": "Structured interviews exploring emotional, social, and behavioural factors"
+                          }
                         ]
                       }
                     ]
@@ -222,7 +279,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "The EP will be warm, professional, and sensitive to the child's experience. Assessment may be split across multiple visits as needed." }
+                  {
+                    "type": "text",
+                    "text": "The EP will be warm, professional, and sensitive to the child's experience. Assessment may be split across multiple visits as needed."
+                  }
                 ]
               }
             ]
@@ -236,7 +296,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Once the EP completes the assessment, we:" }
+                  {
+                    "type": "text",
+                    "text": "Once the EP completes the assessment, we:"
+                  }
                 ]
               },
               {
@@ -248,7 +311,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Analyse findings and write the report (typically 2 weeks)" }
+                          {
+                            "type": "text",
+                            "text": "Analyse findings and write the report (typically 2 weeks)"
+                          }
                         ]
                       }
                     ]
@@ -259,7 +325,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Quality-check the report to ensure all statutory questions are answered" }
+                          {
+                            "type": "text",
+                            "text": "Quality-check the report to ensure all statutory questions are answered"
+                          }
                         ]
                       }
                     ]
@@ -270,7 +339,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Deliver the report to you (school and/or LA)" }
+                          {
+                            "type": "text",
+                            "text": "Deliver the report to you (school and/or LA)"
+                          }
                         ]
                       }
                     ]
@@ -281,7 +353,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Offer to brief the school if helpful" }
+                          {
+                            "type": "text",
+                            "text": "Offer to brief the school if helpful"
+                          }
                         ]
                       }
                     ]
@@ -292,7 +367,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Make the EP available for EHCP panel meetings or follow-up if needed" }
+                          {
+                            "type": "text",
+                            "text": "Make the EP available for EHCP panel meetings or follow-up if needed"
+                          }
                         ]
                       }
                     ]
@@ -302,7 +380,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "The report is written for the LA, schools, parents, and other professionals. Language is clear, not jargony." }
+                  {
+                    "type": "text",
+                    "text": "The report is written for the LA, schools, parents, and other professionals. Language is clear, not jargony."
+                  }
                 ]
               }
             ]
@@ -316,7 +397,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "LA officers will ask the EP about:" }
+                  {
+                    "type": "text",
+                    "text": "LA officers will ask the EP about:"
+                  }
                 ]
               },
               {
@@ -328,7 +412,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "The child's cognitive ability and attainment" }
+                          {
+                            "type": "text",
+                            "text": "The child's cognitive ability and attainment"
+                          }
                         ]
                       }
                     ]
@@ -339,7 +426,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Specific learning difficulties or disabilities" }
+                          {
+                            "type": "text",
+                            "text": "Specific learning difficulties or disabilities"
+                          }
                         ]
                       }
                     ]
@@ -350,7 +440,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Social, emotional, and mental health needs" }
+                          {
+                            "type": "text",
+                            "text": "Social, emotional, and mental health needs"
+                          }
                         ]
                       }
                     ]
@@ -361,7 +454,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Communication and interaction abilities" }
+                          {
+                            "type": "text",
+                            "text": "Communication and interaction abilities"
+                          }
                         ]
                       }
                     ]
@@ -372,7 +468,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Sensory or physical needs" }
+                          {
+                            "type": "text",
+                            "text": "Sensory or physical needs"
+                          }
                         ]
                       }
                     ]
@@ -383,7 +482,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "How these needs affect the child's learning" }
+                          {
+                            "type": "text",
+                            "text": "How these needs affect the child's learning"
+                          }
                         ]
                       }
                     ]
@@ -394,7 +496,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "What support would help the child thrive" }
+                          {
+                            "type": "text",
+                            "text": "What support would help the child thrive"
+                          }
                         ]
                       }
                     ]
@@ -404,7 +509,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "A quality assessment report answers all these questions with evidence." }
+                  {
+                    "type": "text",
+                    "text": "A quality assessment report answers all these questions with evidence."
+                  }
                 ]
               }
             ]

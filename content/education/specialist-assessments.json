@@ -12,21 +12,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Specialist Assessments That Explain What's Going On and How to Help",
       "subtitle": "Expert EPs assessing autism, dyslexia, ADHD, and other learning difficulties. Clear diagnosis, practical strategies, classroom guidance. Schools and LAs nationwide.",
       "primaryCtaText": "Book an Assessment",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Understand Your Child's Needs",
-      "secondaryCtaLink": "#conditions"
+      "secondaryCtaLink": "#conditions",
+      "backgroundImage": "/images/heroes/specialist-assessments-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC-Registered Specialists" },
-        { "text": "Evidence-Based Diagnosis" },
-        { "text": "Practical Classroom Strategies" },
-        { "text": "Clear, Actionable Reports" }
+        {
+          "text": "HCPC-Registered Specialists"
+        },
+        {
+          "text": "Evidence-Based Diagnosis"
+        },
+        {
+          "text": "Practical Classroom Strategies"
+        },
+        {
+          "text": "Clear, Actionable Reports"
+        }
       ]
     },
     {
@@ -130,15 +139,15 @@
         },
         {
           "question": "Can an educational psychologist diagnose autism or ADHD?",
-          "answer": "Educational Psychologists assess and provide educational perspectives on autism and ADHD. Formal medical diagnosis is made by a doctor (GP or psychiatrist). Often both assessments are helpful \u2014 medical diagnosis confirms the condition, educational psychology assessment informs school support."
+          "answer": "Educational Psychologists assess and provide educational perspectives on autism and ADHD. Formal medical diagnosis is made by a doctor (GP or psychiatrist). Often both assessments are helpful — medical diagnosis confirms the condition, educational psychology assessment informs school support."
         },
         {
           "question": "How long does a specialist assessment take?",
-          "answer": "The assessment itself typically takes 2\u20134 hours across 1\u20133 visits depending on the child and condition. The full report, including analysis and write-up, usually takes 2 weeks. From referral to receiving the report, expect 3\u20134 weeks."
+          "answer": "The assessment itself typically takes 2–4 hours across 1–3 visits depending on the child and condition. The full report, including analysis and write-up, usually takes 2 weeks. From referral to receiving the report, expect 3–4 weeks."
         },
         {
           "question": "How much does a specialist assessment cost?",
-          "answer": "Costs vary by assessment type and complexity. Typically \u00a3900\u20131,500. We always provide a fixed quotation upfront. For schools and LAs, volume discounts may be available."
+          "answer": "Costs vary by assessment type and complexity. Typically £900–1,500. We always provide a fixed quotation upfront. For schools and LAs, volume discounts may be available."
         },
         {
           "question": "Will the school accept the assessment report?",
@@ -150,7 +159,7 @@
         },
         {
           "question": "What if the assessment doesn't show a difficulty? What's the point?",
-          "answer": "Assessments can clarify that a difficulty is not present \u2014 which is valuable information. Or they can identify other factors affecting learning (anxiety, processing differences, learning styles) that weren't previously clear. Assessment informs what support is actually needed."
+          "answer": "Assessments can clarify that a difficulty is not present — which is valuable information. Or they can identify other factors affecting learning (anxiety, processing differences, learning styles) that weren't previously clear. Assessment informs what support is actually needed."
         },
         {
           "question": "Can we get an assessment if the child has never had a diagnosis?",
@@ -162,11 +171,11 @@
         },
         {
           "question": "Can we use the assessment report for exam access arrangements?",
-          "answer": "Yes, if the assessment identifies needs for exam access arrangements (e.g., dyslexia \u2192 extra time/reader; ADHD \u2192 separate invigilation). The report provides the formal evidence for the exam board."
+          "answer": "Yes, if the assessment identifies needs for exam access arrangements (e.g., dyslexia → extra time/reader; ADHD → separate invigilation). The report provides the formal evidence for the exam board."
         },
         {
           "question": "How long is the assessment report?",
-          "answer": "Typically 10\u201320 pages depending on the assessment type and complexity. Written for multiple audiences: schools, parents, and exam boards. Clear language, practical recommendations, and actionable strategies included."
+          "answer": "Typically 10–20 pages depending on the assessment type and complexity. Written for multiple audiences: schools, parents, and exam boards. Clear language, practical recommendations, and actionable strategies included."
         }
       ]
     },

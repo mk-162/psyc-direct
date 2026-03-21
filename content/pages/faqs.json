@@ -12,7 +12,7 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Answers to Your Expert Witness & Education Questions",
       "subtitle": "Quick answers to your questions about instruction, costs, and timelines. Can't find your answer? Call us on 01306 879 975.",
       "primaryCtaText": "Browse FAQs",
@@ -24,10 +24,18 @@
     {
       "_template": "trustBar",
       "items": [
-        { "text": "1,000+ Cases Managed" },
-        { "text": "15+ Years' Experience" },
-        { "text": "24-Hour CVs" },
-        { "text": "100% Report Quality Assurance" }
+        {
+          "text": "1,000+ Cases Managed"
+        },
+        {
+          "text": "15+ Years' Experience"
+        },
+        {
+          "text": "24-Hour CVs"
+        },
+        {
+          "text": "100% Report Quality Assurance"
+        }
       ]
     },
     {
@@ -41,51 +49,117 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How quickly can I get CVs for an expert witness?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How quickly can I get CVs for an expert witness?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "We typically provide 2\u20133 CVs and quotes within 24 hours of your brief. For urgent cases, we respond faster. Each CV includes qualifications, relevant experience, and the fee breakdown required by the Legal Aid Agency." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We typically provide 2–3 CVs and quotes within 24 hours of your brief. For urgent cases, we respond faster. Each CV includes qualifications, relevant experience, and the fee breakdown required by the Legal Aid Agency."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Do your experts work at Legal Aid rates?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do your experts work at Legal Aid rates?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Yes, all our experts work at Legal Aid rates for publicly funded cases. We provide full fee breakdowns with every quote. For privately funded cases, we provide transparent quotes upfront." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes, all our experts work at Legal Aid rates for publicly funded cases. We provide full fee breakdowns with every quote. For privately funded cases, we provide transparent quotes upfront."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How much does an expert witness cost?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How much does an expert witness cost?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Standard reports typically range from \u00a33,200\u2013\u00a35,500 depending on expertise, complexity, and timeline. Psychiatric assessments are typically \u00a34,000\u2013\u00a37,000. Fast-track reports cost more. Use our Fee Calculator to estimate costs." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Standard reports typically range from £3,200–£5,500 depending on expertise, complexity, and timeline. Psychiatric assessments are typically £4,000–£7,000. Fast-track reports cost more. Use our Fee Calculator to estimate costs."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How long will it take to get the report?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How long will it take to get the report?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Standard turnaround is 4\u20136 weeks from assessment. We offer fast-track (2\u20133 weeks) and urgent options at premium rates. Timelines vary by expert availability and case complexity." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Standard turnaround is 4–6 weeks from assessment. We offer fast-track (2–3 weeks) and urgent options at premium rates. Timelines vary by expert availability and case complexity."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Do I need a psychologist or a psychiatrist for my case?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do I need a psychologist or a psychiatrist for my case?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "It depends on what the court needs. A psychologist assesses behaviour, parenting capacity, and psychological functioning. A psychiatrist provides medical diagnosis of mental health conditions. Many cases benefit from both. Use our free tool at /tools/psychologist-or-psychiatrist/" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "It depends on what the court needs. A psychologist assesses behaviour, parenting capacity, and psychological functioning. A psychiatrist provides medical diagnosis of mental health conditions. Many cases benefit from both. Use our free tool at /tools/psychologist-or-psychiatrist/"
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How do you ensure the quality of expert reports?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How do you ensure the quality of expert reports?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Every report is 100% proofread and quality-checked before reaching you. We verify instructions are addressed, recommendations are clear, and reports meet court standards. We vet all experts before registration." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Every report is 100% proofread and quality-checked before reaching you. We verify instructions are addressed, recommendations are clear, and reports meet court standards. We vet all experts before registration."
+                  }
+                ]
               }
             ]
           }
@@ -97,51 +171,117 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "What is an Educational Psychologist?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What is an Educational Psychologist?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "EPs are HCPC-registered professionals with doctoral training in psychology and education. They assess children's learning, behaviour, and development in schools. They help identify special educational needs, assess for EHCP, and recommend interventions." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "EPs are HCPC-registered professionals with doctoral training in psychology and education. They assess children's learning, behaviour, and development in schools. They help identify special educational needs, assess for EHCP, and recommend interventions."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "When should we commission an EP assessment?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When should we commission an EP assessment?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Consider an EP assessment when: a child has learning difficulties or developmental delays; behaviour is concerning; you're considering EHCP; or you're seeking exam access arrangements. An EP can help identify what support is needed." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Consider an EP assessment when: a child has learning difficulties or developmental delays; behaviour is concerning; you're considering EHCP; or you're seeking exam access arrangements. An EP can help identify what support is needed."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How quickly can you find an Educational Psychologist?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How quickly can you find an Educational Psychologist?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "We provide CVs and quotes within 24 hours of your brief. Assessment usually begins within 1\u20132 weeks depending on EP availability and urgency." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We provide CVs and quotes within 24 hours of your brief. Assessment usually begins within 1–2 weeks depending on EP availability and urgency."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "What does an EP assessment cost?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What does an EP assessment cost?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Assessments typically range from \u00a3800\u2013\u00a32,500 depending on complexity and type. EHCP statutory assessments may be higher. Many LAs and schools have service contracts with discounted rates. Contact us for a quote." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Assessments typically range from £800–£2,500 depending on complexity and type. EHCP statutory assessments may be higher. Many LAs and schools have service contracts with discounted rates. Contact us for a quote."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Will our LA accept reports from your EPs?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Will our LA accept reports from your EPs?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Yes. All our EPs are HCPC-registered and meet LA professional standards. Many LAs have worked with our EPs and accept their reports. We can provide LA references." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. All our EPs are HCPC-registered and meet LA professional standards. Many LAs have worked with our EPs and accept their reports. We can provide LA references."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Can an EP report be used for exam access arrangements?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Can an EP report be used for exam access arrangements?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Yes. EP psychometric assessment is used to evidence exam access arrangements like extra time or a reader. The EP conducts standardised tests and provides JCQ-compliant reports." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. EP psychometric assessment is used to evidence exam access arrangements like extra time or a reader. The EP conducts standardised tests and provides JCQ-compliant reports."
+                  }
+                ]
               }
             ]
           }
@@ -153,51 +293,117 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How does Psychology Direct work?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How does Psychology Direct work?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "We're a managed service connecting organisations with vetted experts. A dedicated Client Manager takes your requirements, matches you with appropriate experts, and manages everything." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We're a managed service connecting organisations with vetted experts. A dedicated Client Manager takes your requirements, matches you with appropriate experts, and manages everything."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "What organisations do you work with?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What organisations do you work with?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "We work with solicitors and law firms, Local Authorities, schools and academies, multi-academy trusts, and government bodies. We don't provide direct services to private individuals seeking personal therapy." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We work with solicitors and law firms, Local Authorities, schools and academies, multi-academy trusts, and government bodies. We don't provide direct services to private individuals seeking personal therapy."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Do you provide services across the whole UK?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do you provide services across the whole UK?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Yes. We work with experts nationwide: England, Wales, Scotland, and Northern Ireland. Wherever your case or assessment needs to take place, we can find a local expert." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. We work with experts nationwide: England, Wales, Scotland, and Northern Ireland. Wherever your case or assessment needs to take place, we can find a local expert."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How much does it cost to use your service?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How much does it cost to use your service?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "We don't add a markup to expert fees. You pay the same rates as instructing directly, but benefit from our matching, vetting, and client management. Legal Aid rates are fixed LAA rates. Use our Fee Calculator for estimates." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We don't add a markup to expert fees. You pay the same rates as instructing directly, but benefit from our matching, vetting, and client management. Legal Aid rates are fixed LAA rates. Use our Fee Calculator for estimates."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Do you charge a fee for getting quotes or expert CVs?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do you charge a fee for getting quotes or expert CVs?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "No. There's no charge for assessment or quotes. You only pay if you formally instruct an expert." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "No. There's no charge for assessment or quotes. You only pay if you formally instruct an expert."
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "How do I contact you?", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How do I contact you?",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Phone: 01306 879 975 | Email: enquiries@psychologydirect.co.uk | Contact form: /contact/ | Business hours Monday\u2013Friday." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Phone: 01306 879 975 | Email: enquiries@psychologydirect.co.uk | Contact form: /contact/ | Business hours Monday–Friday."
+                  }
+                ]
               }
             ]
           }
@@ -223,10 +429,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "30+", "label": "FAQs" },
-        { "value": "All", "label": "Services Covered" },
-        { "value": "Regularly", "label": "Updated" },
-        { "value": "24-Hour", "label": "Response" }
+        {
+          "value": "30+",
+          "label": "FAQs"
+        },
+        {
+          "value": "All",
+          "label": "Services Covered"
+        },
+        {
+          "value": "Regularly",
+          "label": "Updated"
+        },
+        {
+          "value": "24-Hour",
+          "label": "Response"
+        }
       ]
     },
     {

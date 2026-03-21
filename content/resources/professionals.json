@@ -13,7 +13,7 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Build and Grow Your Professional Practice",
       "subtitle": "CV guides, report templates, compliance documents, fee guidance, and professional development resources. Free resources to build and grow your practice.",
       "primaryCtaText": "Browse Resources",
@@ -25,10 +25,18 @@
     {
       "_template": "trustBar",
       "items": [
-        { "text": "15+ Expert Resources" },
-        { "text": "Written by Practitioners" },
-        { "text": "Compliance-Approved" },
-        { "text": "Free to All Professionals" }
+        {
+          "text": "15+ Expert Resources"
+        },
+        {
+          "text": "Written by Practitioners"
+        },
+        {
+          "text": "Compliance-Approved"
+        },
+        {
+          "text": "Free to All Professionals"
+        }
       ]
     },
     {
@@ -78,21 +86,97 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Building and growing your independent practice:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Building and growing your independent practice:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Write an Effective CV \u2014 What to include, formatting for agencies and solicitors" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Expert Witness Profile \u2014 Creating an online presence and marketing to solicitors" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Business Planning for Independent Practitioners \u2014 Setting business goals and financial planning" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Professional Indemnity Insurance \u2014 Why it's essential and what coverage you need" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Practice Administration & Systems \u2014 Client management, scheduling, and invoicing" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "How to Write an Effective CV — What to include, formatting for agencies and solicitors"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Building Your Expert Witness Profile — Creating an online presence and marketing to solicitors"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Business Planning for Independent Practitioners — Setting business goals and financial planning"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Professional Indemnity Insurance — Why it's essential and what coverage you need"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Practice Administration & Systems — Client management, scheduling, and invoicing"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Build a professional practice, market yourself effectively, and manage administration efficiently.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Build a professional practice, market yourself effectively, and manage administration efficiently.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -104,21 +188,97 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Ready-to-use report templates:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ready-to-use report templates:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychology Medico-Legal Report Template \u2014 Structure and content guidance" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychiatry Report Template \u2014 Diagnostic assessment frameworks, ICD-10 and DSM-5" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Declaration \u2014 MOJ standard declaration and how to incorporate into reports" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Report Editing Checklist \u2014 What to review before submitting" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Report Writing Best Practices \u2014 Clarity, completeness, and meeting court standards" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychology Medico-Legal Report Template — Structure and content guidance"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychiatry Report Template — Diagnostic assessment frameworks, ICD-10 and DSM-5"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Declaration — MOJ standard declaration and how to incorporate into reports"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Report Editing Checklist — What to review before submitting"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Report Writing Best Practices — Clarity, completeness, and meeting court standards"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Write professional, court-ready reports that meet quality standards.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Write professional, court-ready reports that meet quality standards.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -130,21 +290,97 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Meeting legal and professional obligations:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Meeting legal and professional obligations:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Data Protection Act & GDPR Compliance \u2014 Legal requirements, patient rights, and data security" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "ICO Registration for Psychologists \u2014 What registration means and the application process" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Regulatory Compliance \u2014 HCPC and GMC registration, CPD requirements, fitness to practise" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Declarations & Obligations \u2014 MOJ standard declarations, duty to the court" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Confidentiality & Privilege \u2014 Legal privilege, when to disclose, client consent requirements" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Data Protection Act & GDPR Compliance — Legal requirements, patient rights, and data security"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "ICO Registration for Psychologists — What registration means and the application process"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Regulatory Compliance — HCPC and GMC registration, CPD requirements, fitness to practise"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Declarations & Obligations — MOJ standard declarations, duty to the court"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Confidentiality & Privilege — Legal privilege, when to disclose, client consent requirements"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Stay compliant, protect your clients, and understand your professional obligations.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stay compliant, protect your clients, and understand your professional obligations.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -156,21 +392,97 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Getting paid fairly and managing finances:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Getting paid fairly and managing finances:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Fees \u2014 The Facts \u2014 What to charge and how to set rates" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Understanding Legal Aid Rates \u2014 Current LAA rates for psychology and psychiatry" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fee Negotiation & Agreements \u2014 Negotiating with solicitors and standard agreement terms" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Billing & Invoice Best Practices \u2014 What to include and timely billing" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Managing Cash Flow in Private Practice \u2014 Forecasting income and tax planning" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Fees — The Facts — What to charge and how to set rates"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Understanding Legal Aid Rates — Current LAA rates for psychology and psychiatry"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fee Negotiation & Agreements — Negotiating with solicitors and standard agreement terms"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Billing & Invoice Best Practices — What to include and timely billing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Managing Cash Flow in Private Practice — Forecasting income and tax planning"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Get paid fairly, manage invoicing, and maintain healthy cash flow.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Get paid fairly, manage invoicing, and maintain healthy cash flow.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -182,21 +494,97 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Building expertise and advancing your career:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Building expertise and advancing your career:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Continuing Professional Development \u2014 CPD requirements for HCPC and GMC" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Specialism \u2014 Developing expertise, training, and attracting specialist work" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Advanced Skills in Expert Witness Work \u2014 Court preparation, cross-examination, complex cases" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Supervision & Peer Review \u2014 Getting supervision in private practice" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Managing Vicarious Trauma & Burnout \u2014 Self-care strategies and building resilience" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Continuing Professional Development — CPD requirements for HCPC and GMC"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Building Your Specialism — Developing expertise, training, and attracting specialist work"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Advanced Skills in Expert Witness Work — Court preparation, cross-examination, complex cases"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Supervision & Peer Review — Getting supervision in private practice"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Managing Vicarious Trauma & Burnout — Self-care strategies and building resilience"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Develop expertise, maintain standards, and build a sustainable, fulfilling career.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Develop expertise, maintain standards, and build a sustainable, fulfilling career.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -208,21 +596,97 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Building referral relationships and growing your workload:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Building referral relationships and growing your workload:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Find Expert Witness Work \u2014 Agencies, referral networks, and direct relationships" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Partnering with Psychology Direct \u2014 How our network works and benefits of joining" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Networking & Relationship Building \u2014 Events, conferences, and building direct relationships" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Online Presence \u2014 Website, LinkedIn, directory listings" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Tender Processes & Competitive Bidding \u2014 Responding to LA and NHS tenders" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "How to Find Expert Witness Work — Agencies, referral networks, and direct relationships"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Partnering with Psychology Direct — How our network works and benefits of joining"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Networking & Relationship Building — Events, conferences, and building direct relationships"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Building Your Online Presence — Website, LinkedIn, directory listings"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Tender Processes & Competitive Bidding — Responding to LA and NHS tenders"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Build a steady referral pipeline, grow your network, and achieve consistent workload.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Build a steady referral pipeline, grow your network, and achieve consistent workload.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -241,10 +705,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "15+", "label": "Expert Resources" },
-        { "value": "12+", "label": "Ready-to-Use Templates" },
-        { "value": "1,000+", "label": "Practitioners Trust Us" },
-        { "value": "Free", "label": "To All Professionals" }
+        {
+          "value": "15+",
+          "label": "Expert Resources"
+        },
+        {
+          "value": "12+",
+          "label": "Ready-to-Use Templates"
+        },
+        {
+          "value": "1,000+",
+          "label": "Practitioners Trust Us"
+        },
+        {
+          "value": "Free",
+          "label": "To All Professionals"
+        }
       ]
     },
     {

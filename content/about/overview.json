@@ -12,13 +12,14 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Expert Matched in Hours, Not Weeks",
       "subtitle": "Since 2008, we've grown into the UK's most trusted network. 1,000+ vetted professionals nationwide. We handle the hard part so you can focus on your case.",
       "primaryCtaText": "Meet Our Team",
       "primaryCtaLink": "/about/meet-the-team/",
       "secondaryCtaText": "Get in Touch",
-      "secondaryCtaLink": "/contact/"
+      "secondaryCtaLink": "/contact/",
+      "backgroundImage": "/images/heroes/about-hero.jpg"
     },
     {
       "_template": "statsBar",

@@ -13,7 +13,7 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Find Expert Resources, Fast",
       "subtitle": "We've gathered guides, templates, and case studies for solicitors, schools, and professionals. Everything you need to navigate expert instruction and EHCP assessments.",
       "primaryCtaText": "Browse Resources",
@@ -25,10 +25,18 @@
     {
       "_template": "trustBar",
       "items": [
-        { "text": "50+ Free Resources" },
-        { "text": "Expert-Written Guides" },
-        { "text": "Regularly Updated" },
-        { "text": "Used by 1,000+ Professionals" }
+        {
+          "text": "50+ Free Resources"
+        },
+        {
+          "text": "Expert-Written Guides"
+        },
+        {
+          "text": "Regularly Updated"
+        },
+        {
+          "text": "Used by 1,000+ Professionals"
+        }
       ]
     },
     {
@@ -62,12 +70,90 @@
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What is a Psychology Expert Witness? \u2014 Introduction to psychological evidence in court" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Fees \u2014 The Facts \u2014 Understanding costs, Legal Aid rates, and billing" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Write a Letter of Instruction \u2014 Best practices for expert briefs" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Standards for Expert Witnesses in Family Court \u2014 Minimum standards and compliance" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychologists as Expert Witnesses \u2014 Discipline-specific guidance" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Do I Need a Psychologist or Psychiatrist? \u2014 Choosing the right expert type" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What is a Psychology Expert Witness? — Introduction to psychological evidence in court"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Fees — The Facts — Understanding costs, Legal Aid rates, and billing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "How to Write a Letter of Instruction — Best practices for expert briefs"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Standards for Expert Witnesses in Family Court — Minimum standards and compliance"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychologists as Expert Witnesses — Discipline-specific guidance"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Do I Need a Psychologist or Psychiatrist? — Choosing the right expert type"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -83,10 +169,62 @@
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fitness to Plead Assessment \u2014 Criminal procedure and what to expect" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parenting Capacity Assessment \u2014 Family law assessments explained" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Assessing Reliability of Children's Evidence \u2014 ABE interviews and testimony credibility" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Domestic Abuse Expert Assessment \u2014 Trauma, impact, and risk in family proceedings" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fitness to Plead Assessment — Criminal procedure and what to expect"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Parenting Capacity Assessment — Family law assessments explained"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Assessing Reliability of Children's Evidence — ABE interviews and testimony credibility"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Domestic Abuse Expert Assessment — Trauma, impact, and risk in family proceedings"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -129,11 +267,76 @@
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The EHCP Process Explained \u2014 Step-by-step guide for schools and LAs" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What is an Educational Psychologist? \u2014 Role, qualifications, and when to instruct" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Educational Psychology Reports \u2014 What They Cover" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP Timelines and Compliance \u2014 Meeting statutory deadlines" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Statutory Assessment Guide for Schools \u2014 Legal requirements and best practice" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The EHCP Process Explained — Step-by-step guide for schools and LAs"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What is an Educational Psychologist? — Role, qualifications, and when to instruct"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Educational Psychology Reports — What They Cover"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EHCP Timelines and Compliance — Meeting statutory deadlines"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Statutory Assessment Guide for Schools — Legal requirements and best practice"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -149,9 +352,48 @@
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Examination Access Arrangements \u2014 SENCo guide for exams and reasonable adjustments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EP Assessments for Learning Difficulties \u2014 Assessing dyslexia, dyscalculia, and ADHD" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Supporting Students with SEND \u2014 Intervention strategies and whole-school approaches" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Examination Access Arrangements — SENCo guide for exams and reasonable adjustments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EP Assessments for Learning Difficulties — Assessing dyslexia, dyscalculia, and ADHD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Supporting Students with SEND — Intervention strategies and whole-school approaches"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -194,9 +436,48 @@
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Write a Good CV (Independent Psychologists) \u2014 Marketing yourself to agencies and solicitors" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychology Medico-Legal Report Template \u2014 Best practices and formatting guide" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Declarations for Expert Witness Reports \u2014 MOJ requirements and compliance" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "How to Write a Good CV (Independent Psychologists) — Marketing yourself to agencies and solicitors"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychology Medico-Legal Report Template — Best practices and formatting guide"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Declarations for Expert Witness Reports — MOJ requirements and compliance"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -212,9 +493,48 @@
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Data Protection Act & ICO Registration \u2014 Legal requirements for private practitioners" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "GDPR and Patient Records \u2014 Confidentiality and data security" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Professional Indemnity Insurance Guide \u2014 Requirements and best practice" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Data Protection Act & ICO Registration — Legal requirements for private practitioners"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "GDPR and Patient Records — Confidentiality and data security"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Professional Indemnity Insurance Guide — Requirements and best practice"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -230,9 +550,48 @@
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Fees \u2014 What to Charge \u2014 Setting rates, negotiating fees, Legal Aid rates" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Expert Witness Profile \u2014 Marketing and growing your practice" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Partnering with Psychology Direct \u2014 Joining our network and getting regular referrals" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Fees — What to Charge — Setting rates, negotiating fees, Legal Aid rates"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Building Your Expert Witness Profile — Marketing and growing your practice"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Partnering with Psychology Direct — Joining our network and getting regular referrals"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -298,10 +657,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "50+", "label": "Free Guides & Articles" },
-        { "value": "20+", "label": "Templates & Forms" },
-        { "value": "8+", "label": "Case Studies" },
-        { "value": "Monthly", "label": "New Content" }
+        {
+          "value": "50+",
+          "label": "Free Guides & Articles"
+        },
+        {
+          "value": "20+",
+          "label": "Templates & Forms"
+        },
+        {
+          "value": "8+",
+          "label": "Case Studies"
+        },
+        {
+          "value": "Monthly",
+          "label": "New Content"
+        }
       ]
     },
     {

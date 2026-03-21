@@ -12,21 +12,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Expert Educational Psychologists to Your School Fast",
       "subtitle": "Assessments within weeks, reports within 2 weeks, no long-term contracts. Whether you need a single assessment or ongoing support, we fit around your school's schedule.",
       "primaryCtaText": "Book an Assessment",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Explore Other Services",
-      "secondaryCtaLink": "/educational-psychologist/"
+      "secondaryCtaLink": "/educational-psychologist/",
+      "backgroundImage": "/images/heroes/schools-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC-Registered EPs" },
-        { "text": "Available Within Weeks" },
-        { "text": "100% Quality Reports" },
-        { "text": "Nationwide Coverage" }
+        {
+          "text": "HCPC-Registered EPs"
+        },
+        {
+          "text": "Available Within Weeks"
+        },
+        {
+          "text": "100% Quality Reports"
+        },
+        {
+          "text": "Nationwide Coverage"
+        }
       ]
     },
     {
@@ -51,7 +60,7 @@
         },
         {
           "title": "Staff Training & CPD",
-          "description": "SEND training, behaviour management, attachment-aware practice \u2014 all delivered by practising EPs. CPD-accredited and tailored to your school.",
+          "description": "SEND training, behaviour management, attachment-aware practice — all delivered by practising EPs. CPD-accredited and tailored to your school.",
           "link": "/about/training/"
         },
         {
@@ -102,8 +111,8 @@
       "rows": [
         {
           "feature": "Speed to assessment",
-          "col1": "2\u20133 weeks availability",
-          "col2": "4\u20138 weeks or LA waiting list (variable)"
+          "col1": "2–3 weeks availability",
+          "col2": "4–8 weeks or LA waiting list (variable)"
         },
         {
           "feature": "Cost transparency",
@@ -197,11 +206,11 @@
       "faqs": [
         {
           "question": "How quickly can an EP visit my school?",
-          "answer": "Once you've selected your EP and fixed an assessment date, most appointments are scheduled within 2\u20133 weeks. For urgent cases, we can sometimes move faster."
+          "answer": "Once you've selected your EP and fixed an assessment date, most appointments are scheduled within 2–3 weeks. For urgent cases, we can sometimes move faster."
         },
         {
           "question": "What does an EP assessment actually involve?",
-          "answer": "The EP will meet your child, observe in class if relevant, and interview staff and parents. We may use psychometric tests. Assessments typically take 2\u20134 hours spread across one or more visits."
+          "answer": "The EP will meet your child, observe in class if relevant, and interview staff and parents. We may use psychometric tests. Assessments typically take 2–4 hours spread across one or more visits."
         },
         {
           "question": "How much will an assessment cost?",

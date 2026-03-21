@@ -14,20 +14,27 @@
       "_template": "hero",
       "variant": "gradient",
       "headline": "Does Your Case Need Expert Evidence?",
-      "subtitle": "Many cases benefit from expert evidence. Others don't. In 2 minutes, we'll tell you whether expert witness assessment would strengthen your case \u2014 and what type.",
+      "subtitle": "Many cases benefit from expert evidence. Others don't. In 2 minutes, we'll tell you whether expert witness assessment would strengthen your case — and what type.",
       "primaryCtaText": "Check Your Case",
       "primaryCtaLink": "#checker",
       "secondaryCtaText": "Read About Our Process",
-      "secondaryCtaLink": "/expert-witness-psychologists/process/",
-      "backgroundImage": "/images/heroes/suitability-checker-hero.jpg"
+      "secondaryCtaLink": "/expert-witness-psychologists/process/"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "15+ Years' Experience" },
-        { "text": "1,000+ Successful Cases" },
-        { "text": "Court-Ready Reports" },
-        { "text": "Expert Guidance Always Free" }
+        {
+          "text": "15+ Years' Experience"
+        },
+        {
+          "text": "1,000+ Successful Cases"
+        },
+        {
+          "text": "Court-Ready Reports"
+        },
+        {
+          "text": "Expert Guidance Always Free"
+        }
       ]
     },
     {
@@ -47,13 +54,13 @@
           "col2": "Expert can assess attachment, child's needs, safeguarding concerns"
         },
         {
-          "feature": "Personal injury \u2014 psychological injury",
+          "feature": "Personal injury — psychological injury",
           "col1": "Yes",
           "col2": "Psychologist assesses trauma, PTSD, functional impact, prognosis"
         },
         {
           "feature": "Fitness to plead (criminal)",
-          "col1": "Yes \u2014 essential",
+          "col1": "Yes — essential",
           "col2": "Psychiatrist/psychologist assesses defendant's mental state and capacity"
         },
         {
@@ -63,7 +70,7 @@
         },
         {
           "feature": "Asylum claim involving torture",
-          "col1": "Yes \u2014 essential",
+          "col1": "Yes — essential",
           "col2": "Psychiatrist assesses trauma, torture sequelae, medical and psychological impact"
         },
         {
@@ -89,16 +96,86 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Expert witness evidence is essential in cases where:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Expert witness evidence is essential in cases where:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity is in question \u2014 Is a parent able to look after their child? Is someone fit to plead?" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health is central \u2014 Domestic abuse, PTSD, depression, psychosis require expert diagnosis" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Behaviour must be assessed \u2014 Is someone aggressive? Do they pose a risk?" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The court/tribunal lacks expertise \u2014 Judges need expert help with complex psychological issues" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The dispute hinges on psychology \u2014 Criminal, family, and asylum cases often need expert evidence" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Capacity is in question — Is a parent able to look after their child? Is someone fit to plead?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental health is central — Domestic abuse, PTSD, depression, psychosis require expert diagnosis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Behaviour must be assessed — Is someone aggressive? Do they pose a risk?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The court/tribunal lacks expertise — Judges need expert help with complex psychological issues"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The dispute hinges on psychology — Criminal, family, and asylum cases often need expert evidence"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -111,15 +188,72 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Expert witness evidence is valuable but not essential when:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Expert witness evidence is valuable but not essential when:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It adds credibility \u2014 Expert opinion reinforces your narrative with professional evidence" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It clarifies complexity \u2014 An expert can untangle psychological factors in disputed cases" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It preempts the other side \u2014 The other party may instruct an expert; getting yours in first protects your position" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It satisfies procedural rules \u2014 Some courts expect expert evidence on certain issues" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "It adds credibility — Expert opinion reinforces your narrative with professional evidence"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "It clarifies complexity — An expert can untangle psychological factors in disputed cases"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "It preempts the other side — The other party may instruct an expert; getting yours in first protects your position"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "It satisfies procedural rules — Some courts expect expert evidence on certain issues"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -132,19 +266,68 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Expert evidence is unlikely to help when:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Expert evidence is unlikely to help when:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The dispute is purely legal or financial \u2014 Contract interpretation, property boundary, debt" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The facts are undisputed \u2014 Everyone agrees what happened; the disagreement is about legal consequence" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychology is tangential \u2014 The case is primarily about something else" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The dispute is purely legal or financial — Contract interpretation, property boundary, debt"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The facts are undisputed — Everyone agrees what happened; the disagreement is about legal consequence"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychology is tangential — The case is primarily about something else"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "However: if the other side may instruct an expert, consider it anyway for balance." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "However: if the other side may instruct an expert, consider it anyway for balance."
+                  }
+                ]
               }
             ]
           }
@@ -154,10 +337,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "500+", "label": "Cases With Expert Evidence" },
-        { "value": "Stronger", "label": "Settlement Terms on Average" },
-        { "value": "4\u20136 Week", "label": "Standard Turnaround" },
-        { "value": "100%", "label": "Report Quality Assurance" }
+        {
+          "value": "500+",
+          "label": "Cases With Expert Evidence"
+        },
+        {
+          "value": "Stronger",
+          "label": "Settlement Terms on Average"
+        },
+        {
+          "value": "4–6 Week",
+          "label": "Standard Turnaround"
+        },
+        {
+          "value": "100%",
+          "label": "Report Quality Assurance"
+        }
       ]
     },
     {
@@ -166,18 +361,18 @@
       "caseStudies": [
         {
           "title": "Parenting Capacity Was Central",
-          "description": "A family law firm was unsure whether parenting capacity assessment was necessary. The judge required it. Expert psychology assessment showed the parent could provide safe care with support \u2014 outcomes that influenced the court's decision.",
+          "description": "A family law firm was unsure whether parenting capacity assessment was necessary. The judge required it. Expert psychology assessment showed the parent could provide safe care with support — outcomes that influenced the court's decision.",
           "tag": "Family Law",
           "link": "/case-studies/"
         },
         {
-          "title": "Fitness to Plead \u2014 Without Which, No Trial",
+          "title": "Fitness to Plead — Without Which, No Trial",
           "description": "A criminal defendant claimed unfitness to plead. Expert psychiatric assessment confirmed genuine fitness concerns. The case didn't proceed to trial; instead, the defendant received appropriate mental health support.",
           "tag": "Criminal Law",
           "link": "/case-studies/"
         },
         {
-          "title": "Psychological Injury Claim \u2014 Quantified Damages",
+          "title": "Psychological Injury Claim — Quantified Damages",
           "description": "A PI claim for psychological injury seemed weak until a psychologist's report documented PTSD, functional impairment, and long-term prognosis. This strengthened the damages claim substantially.",
           "tag": "Civil/PI",
           "link": "/case-studies/"
@@ -190,7 +385,7 @@
       "faqs": [
         {
           "question": "How do I know if I really need an expert?",
-          "answer": "Use our Suitability Checker above (takes 2 minutes). Or call us on 01306 879 975. Our Client Managers have 15+ years' experience and can assess whether your case warrants expert evidence based on a brief discussion \u2014 at no cost."
+          "answer": "Use our Suitability Checker above (takes 2 minutes). Or call us on 01306 879 975. Our Client Managers have 15+ years' experience and can assess whether your case warrants expert evidence based on a brief discussion — at no cost."
         },
         {
           "question": "What if I instruct an expert and the court doesn't use their evidence?",
@@ -205,7 +400,7 @@
           "answer": "You can, but it's not necessary. Instead, discuss your case with us first. If we think an expert would help, we'll recommend it. If not, we'll be honest about that. We don't over-service."
         },
         {
-          "question": "What if the other side instructs an expert \u2014 do I need one too?",
+          "question": "What if the other side instructs an expert — do I need one too?",
           "answer": "Very likely, yes. If your opponent has expert evidence supporting their position, having your own expert balance it is usually wise."
         },
         {
@@ -225,13 +420,13 @@
     {
       "_template": "alertBanner",
       "type": "info",
-      "text": "Not all cases need expert evidence. We'll give you honest guidance on whether it would help yours \u2014 and if it won't, we'll say so.",
+      "text": "Not all cases need expert evidence. We'll give you honest guidance on whether it would help yours — and if it won't, we'll say so.",
       "ctaText": "Get Free Guidance",
       "ctaLink": "/contact/"
     },
     {
       "_template": "ctaInline",
-      "heading": "Get Expert Guidance \u2014 It's Free",
+      "heading": "Get Expert Guidance — It's Free",
       "bodyText": "Unsure whether expert evidence would help? Our Client Managers can discuss your case and recommend next steps. No obligation, no sales pitch.",
       "primaryCtaText": "Get Free Advice",
       "primaryCtaLink": "/contact/",

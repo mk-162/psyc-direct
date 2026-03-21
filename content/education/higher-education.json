@@ -12,21 +12,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Students DSA-Eligible Assessments in Time for Funding",
       "subtitle": "Specialist psychologists for DSA assessments and disability support. Fast turnaround to meet funding deadlines. Practical recommendations that help students succeed.",
       "primaryCtaText": "Book an Assessment",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Learn About the DSA Process",
-      "secondaryCtaLink": "#dsa-info"
+      "secondaryCtaLink": "#dsa-info",
+      "backgroundImage": "/images/heroes/higher-education-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "Specialist HE Psychologists" },
-        { "text": "Fast Turnaround for Deadlines" },
-        { "text": "Evidence-Based Recommendations" },
-        { "text": "Ongoing Support Available" }
+        {
+          "text": "Specialist HE Psychologists"
+        },
+        {
+          "text": "Fast Turnaround for Deadlines"
+        },
+        {
+          "text": "Evidence-Based Recommendations"
+        },
+        {
+          "text": "Ongoing Support Available"
+        }
       ]
     },
     {
@@ -83,7 +92,7 @@
         {
           "number": 3,
           "title": "Assessment is Scheduled",
-          "description": "We match a specialist psychologist and brief them on the student's context. Assessment typically takes 2\u20134 hours."
+          "description": "We match a specialist psychologist and brief them on the student's context. Assessment typically takes 2–4 hours."
         },
         {
           "number": 4,
@@ -149,7 +158,7 @@
           "answer": "Both. The assessment provides evidence for DSA funding and practical recommendations for academic staff. We help students understand their strengths and needs, not just access funding."
         },
         {
-          "question": "What if a student has already been diagnosed (e.g., with dyslexia) \u2014 do they still need an assessment?",
+          "question": "What if a student has already been diagnosed (e.g., with dyslexia) — do they still need an assessment?",
           "answer": "It depends. If they have a recent assessment (within 5 years) from a chartered psychologist, that may be sufficient for DSA. If not, a new assessment may be needed. Check with Disability Services about what evidence DSA requires."
         },
         {

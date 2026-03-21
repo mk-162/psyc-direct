@@ -12,8 +12,7 @@
       "primaryCtaText": "Log In to Portal",
       "primaryCtaLink": "https://psychologydirect.zohocreatorportal.eu/",
       "secondaryCtaText": "Can't Log In?",
-      "secondaryCtaLink": "#help",
-      "backgroundImage": "/images/heroes/expert-login-hero.jpg"
+      "secondaryCtaLink": "#help"
     },
     {
       "_template": "alertBanner",
@@ -91,7 +90,7 @@
       "cards": [
         {
           "title": "Regular Referrals",
-          "description": "Access a steady stream of cases nationwide. No more chasing referrals \u2014 we bring work to you.",
+          "description": "Access a steady stream of cases nationwide. No more chasing referrals — we bring work to you.",
           "link": "/about/careers/"
         },
         {

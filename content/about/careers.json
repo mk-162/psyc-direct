@@ -13,13 +13,14 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Join 1,000+ Psychologists & Psychiatrists",
       "subtitle": "Build a career on your terms. Free to join. No obligation to take cases. Steady stream of expert witness and educational assessments matched to your specialism and location. We handle the admin. You focus on client care.",
       "primaryCtaText": "Register Your Interest",
       "primaryCtaLink": "#registration-form",
       "secondaryCtaText": "Learn How It Works",
-      "secondaryCtaLink": "#how-it-works"
+      "secondaryCtaLink": "#how-it-works",
+      "backgroundImage": "/images/heroes/careers-hero.jpg"
     },
     {
       "_template": "trustBar",

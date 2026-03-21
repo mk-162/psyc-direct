@@ -12,13 +12,14 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Meet the People Who'll Handle Your Case",
       "subtitle": "Your Client Manager comes from legal, education, or psychology. They understand your world. They advocate for you.",
       "primaryCtaText": "Get in Touch",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "View Open Roles",
-      "secondaryCtaLink": "/about/careers/"
+      "secondaryCtaLink": "/about/careers/",
+      "backgroundImage": "/images/heroes/meet-the-team-hero.jpg"
     },
     {
       "_template": "teamGrid",

@@ -12,13 +12,14 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "What Clients & Experts Say About Us",
       "subtitle": "Real feedback from solicitors, local authorities, schools, and professionals who work with us. See why people trust us.",
       "primaryCtaText": "Work With Us",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Join Our Network",
-      "secondaryCtaLink": "/about/careers/"
+      "secondaryCtaLink": "/about/careers/",
+      "backgroundImage": "/images/heroes/about-hero.jpg"
     },
     {
       "_template": "tabbedContent",

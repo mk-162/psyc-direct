@@ -12,7 +12,7 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Expert Insights on Psychology, Psychiatry & Education",
       "subtitle": "Articles on expert witness best practice, SEND guidance, professional development, and industry insights. Subscribe for monthly updates.",
       "primaryCtaText": "Read Latest Articles",
@@ -24,19 +24,39 @@
     {
       "_template": "trustBar",
       "items": [
-        { "text": "50+ Articles Published" },
-        { "text": "Expert Authors" },
-        { "text": "Monthly Updates" },
-        { "text": "5,000+ Subscribers" }
+        {
+          "text": "50+ Articles Published"
+        },
+        {
+          "text": "Expert Authors"
+        },
+        {
+          "text": "Monthly Updates"
+        },
+        {
+          "text": "5,000+ Subscribers"
+        }
       ]
     },
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "50+", "label": "Articles Published" },
-        { "value": "5,000+", "label": "Newsletter Subscribers" },
-        { "value": "Monthly", "label": "Content Updates" },
-        { "value": "Expert", "label": "Authors" }
+        {
+          "value": "50+",
+          "label": "Articles Published"
+        },
+        {
+          "value": "5,000+",
+          "label": "Newsletter Subscribers"
+        },
+        {
+          "value": "Monthly",
+          "label": "Content Updates"
+        },
+        {
+          "value": "Expert",
+          "label": "Authors"
+        }
       ]
     },
     {
@@ -49,7 +69,7 @@
         },
         {
           "question": "Can I unsubscribe?",
-          "answer": "Yes, anytime. Every email has an unsubscribe link. No hard feelings \u2014 you can resubscribe anytime."
+          "answer": "Yes, anytime. Every email has an unsubscribe link. No hard feelings — you can resubscribe anytime."
         },
         {
           "question": "Will you share my email address?",

@@ -12,21 +12,30 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Consistent Educational Psychology Across Your Entire Trust",
       "subtitle": "Centralised coordination, dedicated EPs per school, volume pricing, unified SEND strategy. One point of contact. Quality and consistency guaranteed.",
       "primaryCtaText": "Discuss Your Needs",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "View MAT Case Studies",
-      "secondaryCtaLink": "/case-studies/?category=education"
+      "secondaryCtaLink": "/case-studies/?category=education",
+      "backgroundImage": "/images/heroes/mats-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "Trust-Wide Coordination" },
-        { "text": "Dedicated EP Per School" },
-        { "text": "Standardised Quality" },
-        { "text": "Flexible Scaling" }
+        {
+          "text": "Trust-Wide Coordination"
+        },
+        {
+          "text": "Dedicated EP Per School"
+        },
+        {
+          "text": "Standardised Quality"
+        },
+        {
+          "text": "Flexible Scaling"
+        }
       ]
     },
     {
@@ -106,7 +115,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Each school (or pair of schools) receives a dedicated EP. Benefits:" }
+                  {
+                    "type": "text",
+                    "text": "Each school (or pair of schools) receives a dedicated EP. Benefits:"
+                  }
                 ]
               },
               {
@@ -118,7 +130,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "EP becomes familiar with your setting and staff" }
+                          {
+                            "type": "text",
+                            "text": "EP becomes familiar with your setting and staff"
+                          }
                         ]
                       }
                     ]
@@ -129,7 +144,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Consistent point of contact" }
+                          {
+                            "type": "text",
+                            "text": "Consistent point of contact"
+                          }
                         ]
                       }
                     ]
@@ -140,7 +158,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Continuity for ongoing cases" }
+                          {
+                            "type": "text",
+                            "text": "Continuity for ongoing cases"
+                          }
                         ]
                       }
                     ]
@@ -151,7 +172,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Reduced disruption when EPs change" }
+                          {
+                            "type": "text",
+                            "text": "Reduced disruption when EPs change"
+                          }
                         ]
                       }
                     ]
@@ -162,7 +186,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Central trust office manages allocation and billing" }
+                          {
+                            "type": "text",
+                            "text": "Central trust office manages allocation and billing"
+                          }
                         ]
                       }
                     ]
@@ -172,7 +199,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Best for larger trusts with significant EP demand at each school." }
+                  {
+                    "type": "text",
+                    "text": "Best for larger trusts with significant EP demand at each school."
+                  }
                 ]
               }
             ]
@@ -186,7 +216,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "EPs available across your trust, allocated on demand. Benefits:" }
+                  {
+                    "type": "text",
+                    "text": "EPs available across your trust, allocated on demand. Benefits:"
+                  }
                 ]
               },
               {
@@ -198,7 +231,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Flexibility for variable demand across schools" }
+                          {
+                            "type": "text",
+                            "text": "Flexibility for variable demand across schools"
+                          }
                         ]
                       }
                     ]
@@ -209,7 +245,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Costs scale with usage, not fixed allocation" }
+                          {
+                            "type": "text",
+                            "text": "Costs scale with usage, not fixed allocation"
+                          }
                         ]
                       }
                     ]
@@ -220,7 +259,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "EPs develop expertise across multiple settings" }
+                          {
+                            "type": "text",
+                            "text": "EPs develop expertise across multiple settings"
+                          }
                         ]
                       }
                     ]
@@ -231,7 +273,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Rapid response to urgent cases" }
+                          {
+                            "type": "text",
+                            "text": "Rapid response to urgent cases"
+                          }
                         ]
                       }
                     ]
@@ -242,7 +287,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Centralised coordination, one trusted contact" }
+                          {
+                            "type": "text",
+                            "text": "Centralised coordination, one trusted contact"
+                          }
                         ]
                       }
                     ]
@@ -252,7 +300,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Best for trusts with variable demand or tight budgets." }
+                  {
+                    "type": "text",
+                    "text": "Best for trusts with variable demand or tight budgets."
+                  }
                 ]
               }
             ]
@@ -266,7 +317,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Combination of dedicated EPs and flexible pool. Benefits:" }
+                  {
+                    "type": "text",
+                    "text": "Combination of dedicated EPs and flexible pool. Benefits:"
+                  }
                 ]
               },
               {
@@ -278,7 +332,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Dedicated EPs for high-demand schools" }
+                          {
+                            "type": "text",
+                            "text": "Dedicated EPs for high-demand schools"
+                          }
                         ]
                       }
                     ]
@@ -289,7 +346,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Flexible pool for lower-demand schools" }
+                          {
+                            "type": "text",
+                            "text": "Flexible pool for lower-demand schools"
+                          }
                         ]
                       }
                     ]
@@ -300,7 +360,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Tailored cost model" }
+                          {
+                            "type": "text",
+                            "text": "Tailored cost model"
+                          }
                         ]
                       }
                     ]
@@ -311,7 +374,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Flexibility and consistency balanced" }
+                          {
+                            "type": "text",
+                            "text": "Flexibility and consistency balanced"
+                          }
                         ]
                       }
                     ]
@@ -322,7 +388,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Optimised resource use" }
+                          {
+                            "type": "text",
+                            "text": "Optimised resource use"
+                          }
                         ]
                       }
                     ]
@@ -332,7 +401,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Best for large, complex trusts with varied school sizes and needs." }
+                  {
+                    "type": "text",
+                    "text": "Best for large, complex trusts with varied school sizes and needs."
+                  }
                 ]
               }
             ]
@@ -346,7 +418,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "For trusts developing their own EPs:" }
+                  {
+                    "type": "text",
+                    "text": "For trusts developing their own EPs:"
+                  }
                 ]
               },
               {
@@ -358,7 +433,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Trainees/assistants gain experience across multiple trust schools" }
+                          {
+                            "type": "text",
+                            "text": "Trainees/assistants gain experience across multiple trust schools"
+                          }
                         ]
                       }
                     ]
@@ -369,7 +447,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Exposure to varied presentations and settings" }
+                          {
+                            "type": "text",
+                            "text": "Exposure to varied presentations and settings"
+                          }
                         ]
                       }
                     ]
@@ -380,7 +461,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Supervision and CPD from experienced EPs" }
+                          {
+                            "type": "text",
+                            "text": "Supervision and CPD from experienced EPs"
+                          }
                         ]
                       }
                     ]
@@ -391,7 +475,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Strengthened applications for training courses" }
+                          {
+                            "type": "text",
+                            "text": "Strengthened applications for training courses"
+                          }
                         ]
                       }
                     ]
@@ -402,7 +489,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Building the EP pipeline" }
+                          {
+                            "type": "text",
+                            "text": "Building the EP pipeline"
+                          }
                         ]
                       }
                     ]
@@ -412,7 +502,10 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Discuss if your trust is developing new professional pathways." }
+                  {
+                    "type": "text",
+                    "text": "Discuss if your trust is developing new professional pathways."
+                  }
                 ]
               }
             ]
@@ -443,7 +536,7 @@
         },
         {
           "feature": "Recruitment burden",
-          "col1": "None \u2014 we source and vet all EPs",
+          "col1": "None — we source and vet all EPs",
           "col2": "Each school sources independently or ongoing recruitment challenges"
         },
         {

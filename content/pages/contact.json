@@ -13,7 +13,7 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Matched With the Right Expert",
       "subtitle": "One call or form. 24-hour response guaranteed. We'll gather your requirements and send matched expert CVs within 24 hours, with full quotes and timescales.",
       "primaryCtaText": "Submit Enquiry",
@@ -33,22 +33,110 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Need a psychologist or psychiatrist for court? We specialise in family law, criminal, civil, immigration, and employment cases. Include:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Need a psychologist or psychiatrist for court? We specialise in family law, criminal, civil, immigration, and employment cases. Include:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Case type (family law, criminal, etc.)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert type (psychologist, psychiatrist, or unsure)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Client location" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Deadline for report" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Funding type (Legal Aid, private, mixed)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Brief case summary" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Case type (family law, criminal, etc.)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert type (psychologist, psychiatrist, or unsure)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Client location"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Deadline for report"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Funding type (Legal Aid, private, mixed)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Brief case summary"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "We'll respond within 24 hours with matched CVs and quotes." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We'll respond within 24 hours with matched CVs and quotes."
+                  }
+                ]
               }
             ]
           }
@@ -60,21 +148,96 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Need an Educational Psychologist for EHCP, SEND support, or statutory evaluation? Tell us:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Need an Educational Psychologist for EHCP, SEND support, or statutory evaluation? Tell us:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Local Authority or School name" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Assessment type (EHCP, SEND, etc.)" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Number of assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Timeline needed" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Location" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Local Authority or School name"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Assessment type (EHCP, SEND, etc.)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Number of assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Timeline needed"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Location"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "We'll match experienced EPs and provide quotes within 24 hours." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We'll match experienced EPs and provide quotes within 24 hours."
+                  }
+                ]
               }
             ]
           }
@@ -86,7 +249,12 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Have a question or feedback? Contact us directly. We'll respond within one business day." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Have a question or feedback? Contact us directly. We'll respond within one business day."
+                  }
+                ]
               }
             ]
           }
@@ -98,7 +266,12 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Are you a psychologist or psychiatrist? Register your interest in joining our network. No obligation. No costs. Access regular referrals, fair fees, and professional support." }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Are you a psychologist or psychiatrist? Register your interest in joining our network. No obligation. No costs. Access regular referrals, fair fees, and professional support."
+                  }
+                ]
               }
             ]
           }
@@ -111,7 +284,7 @@
       "faqs": [
         {
           "question": "How long does it take to receive expert CVs?",
-          "answer": "We provide 2\u20133 expert CVs with quotes within 24 hours of your enquiry. For urgent cases, we often respond faster. You get options quickly so you can decide and instruct."
+          "answer": "We provide 2–3 expert CVs with quotes within 24 hours of your enquiry. For urgent cases, we often respond faster. You get options quickly so you can decide and instruct."
         },
         {
           "question": "What information do I need to provide in my enquiry?",
@@ -127,11 +300,11 @@
         },
         {
           "question": "How long does an assessment take?",
-          "answer": "Typically 2\u20134 hours depending on complexity. Your Client Manager coordinates the appointment at a time that works for all parties."
+          "answer": "Typically 2–4 hours depending on complexity. Your Client Manager coordinates the appointment at a time that works for all parties."
         },
         {
           "question": "How long will the report take?",
-          "answer": "Standard turnaround is 4\u20136 weeks from the assessment date. Fast-track options are available for tighter deadlines. Timescales are agreed upfront and included in your quote."
+          "answer": "Standard turnaround is 4–6 weeks from the assessment date. Fast-track options are available for tighter deadlines. Timescales are agreed upfront and included in your quote."
         },
         {
           "question": "Can you accommodate urgent or emergency cases?",
@@ -162,10 +335,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "24-Hour", "label": "Response" },
-        { "value": "24-Hour", "label": "CV Matching" },
-        { "value": "4\u20136 Week", "label": "Reports" },
-        { "value": "100%", "label": "Legal Aid Rates Guaranteed" }
+        {
+          "value": "24-Hour",
+          "label": "Response"
+        },
+        {
+          "value": "24-Hour",
+          "label": "CV Matching"
+        },
+        {
+          "value": "4–6 Week",
+          "label": "Reports"
+        },
+        {
+          "value": "100%",
+          "label": "Legal Aid Rates Guaranteed"
+        }
       ]
     },
     {

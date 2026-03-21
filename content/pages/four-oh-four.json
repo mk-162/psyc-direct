@@ -12,8 +12,7 @@
       "primaryCtaText": "Search Our Site",
       "primaryCtaLink": "#search",
       "secondaryCtaText": "Go to Homepage",
-      "secondaryCtaLink": "/",
-      "backgroundImage": "/images/heroes/404-hero.jpg"
+      "secondaryCtaLink": "/"
     },
     {
       "_template": "faqAccordion",
@@ -29,7 +28,7 @@
         },
         {
           "question": "How do I contact you?",
-          "answer": "Call 01306 879 975, email enquiries@psychologydirect.co.uk, or use our contact form at /contact/. We're available during business hours Monday\u2013Friday."
+          "answer": "Call 01306 879 975, email enquiries@psychologydirect.co.uk, or use our contact form at /contact/. We're available during business hours Monday–Friday."
         },
         {
           "question": "I'm looking for a resource. Is it available?",

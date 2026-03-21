@@ -15,20 +15,27 @@
       "_template": "hero",
       "variant": "gradient",
       "headline": "Know Your Expert Witness Costs Upfront",
-      "subtitle": "Get an instant estimate for psychological or psychiatric expert witness reports. Legal Aid rates, private funding, fast-track options \u2014 all transparent. No hidden fees.",
+      "subtitle": "Get an instant estimate for psychological or psychiatric expert witness reports. Legal Aid rates, private funding, fast-track options — all transparent. No hidden fees.",
       "primaryCtaText": "Try the Calculator",
       "primaryCtaLink": "#calculator",
       "secondaryCtaText": "Get a Detailed Quote",
-      "secondaryCtaLink": "/contact/",
-      "backgroundImage": "/images/heroes/fee-calculator-hero.jpg"
+      "secondaryCtaLink": "/contact/"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "HCPC & GMC Registered Experts" },
-        { "text": "100% Transparent Pricing" },
-        { "text": "Full Breakdown Provided" },
-        { "text": "Quality-Checked Reports" }
+        {
+          "text": "HCPC & GMC Registered Experts"
+        },
+        {
+          "text": "100% Transparent Pricing"
+        },
+        {
+          "text": "Full Breakdown Provided"
+        },
+        {
+          "text": "Quality-Checked Reports"
+        }
       ]
     },
     {
@@ -38,12 +45,12 @@
       "col2Header": "What This Means",
       "rows": [
         {
-          "feature": "Standard report (4\u20136 weeks)",
+          "feature": "Standard report (4–6 weeks)",
           "col1": "Detailed assessment, comprehensive report, full QA review",
           "col2": "Most common option for non-urgent cases"
         },
         {
-          "feature": "Fast-track report (2\u20133 weeks)",
+          "feature": "Fast-track report (2–3 weeks)",
           "col1": "Expedited processing, priority scheduling, same quality",
           "col2": "Higher cost due to rescheduling and prioritisation"
         },
@@ -79,7 +86,7 @@
         },
         {
           "question": "Why do fast-track reports cost more?",
-          "answer": "Fast-track reports require prioritised scheduling. Our Client Managers often coordinate tightly around court deadlines. The expert may need to rearrange their schedule. The quality remains the same \u2014 only the timeline is accelerated."
+          "answer": "Fast-track reports require prioritised scheduling. Our Client Managers often coordinate tightly around court deadlines. The expert may need to rearrange their schedule. The quality remains the same — only the timeline is accelerated."
         },
         {
           "question": "Do you offer discounts for multi-party assessments?",
@@ -110,10 +117,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "1,000+", "label": "Vetted Experts Nationwide" },
-        { "value": "24-Hour", "label": "CV Matching" },
-        { "value": "4\u20136 Week", "label": "Standard Turnaround" },
-        { "value": "100%", "label": "Report QA" }
+        {
+          "value": "1,000+",
+          "label": "Vetted Experts Nationwide"
+        },
+        {
+          "value": "24-Hour",
+          "label": "CV Matching"
+        },
+        {
+          "value": "4–6 Week",
+          "label": "Standard Turnaround"
+        },
+        {
+          "value": "100%",
+          "label": "Report QA"
+        }
       ]
     },
     {
@@ -130,12 +149,12 @@
       "heading": "Transparent Pricing Across All Services",
       "cards": [
         {
-          "title": "Expert Witness \u2014 Psychology",
+          "title": "Expert Witness — Psychology",
           "description": "Psychology assessments for family, criminal, civil, and employment cases. Full cost breakdown provided upfront.",
           "link": "/expert-witness-psychologists/"
         },
         {
-          "title": "Expert Witness \u2014 Psychiatry",
+          "title": "Expert Witness — Psychiatry",
           "description": "Psychiatric evaluations with medical-level diagnosis and treatment recommendations. Transparent pricing for all specialisms.",
           "link": "/expert-witness-psychologists/"
         },

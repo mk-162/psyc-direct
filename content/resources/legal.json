@@ -13,9 +13,9 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Expert Witness Guides for Legal Professionals",
-      "subtitle": "Free, expert-written guides on instruction, compliance, costs, and case-specific guidance. Download templates, understand procedures, and best practices \u2014 all free.",
+      "subtitle": "Free, expert-written guides on instruction, compliance, costs, and case-specific guidance. Download templates, understand procedures, and best practices — all free.",
       "primaryCtaText": "Browse Guides",
       "primaryCtaLink": "#tabbed-content",
       "secondaryCtaText": "Instruct an Expert",
@@ -25,10 +25,18 @@
     {
       "_template": "trustBar",
       "items": [
-        { "text": "25+ Expert Guides" },
-        { "text": "HCPC & GMC Approved" },
-        { "text": "Updated Quarterly" },
-        { "text": "Trusted by 1,000+ Solicitors" }
+        {
+          "text": "25+ Expert Guides"
+        },
+        {
+          "text": "HCPC & GMC Approved"
+        },
+        {
+          "text": "Updated Quarterly"
+        },
+        {
+          "text": "Trusted by 1,000+ Solicitors"
+        }
       ]
     },
     {
@@ -78,23 +86,125 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Essential guides for choosing and instructing an expert witness:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Essential guides for choosing and instructing an expert witness:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What is a Psychology Expert Witness? \u2014 Understanding the role, qualifications, and what experts do in court" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Find a Psychology Expert Witness \u2014 Sourcing, assessing, and selecting experts" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Writing a Letter of Instruction \u2014 Best practices for clear, comprehensive briefs" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Do I Need a Psychologist or a Psychiatrist? \u2014 Decision tree and comparison guide" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fitness to Plead Assessment \u2014 Pritchard criteria, procedure, and what to expect" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parenting Capacity Assessment \u2014 Family law assessments explained" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Multi-Party Assessments \u2014 Managing logistics when multiple individuals need assessment" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What is a Psychology Expert Witness? — Understanding the role, qualifications, and what experts do in court"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "How to Find a Psychology Expert Witness — Sourcing, assessing, and selecting experts"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Writing a Letter of Instruction — Best practices for clear, comprehensive briefs"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Do I Need a Psychologist or a Psychiatrist? — Decision tree and comparison guide"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fitness to Plead Assessment — Pritchard criteria, procedure, and what to expect"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Parenting Capacity Assessment — Family law assessments explained"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Multi-Party Assessments — Managing logistics when multiple individuals need assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Use our Suitability Checker to confirm you need an expert, then download guides on instruction best practice.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Use our Suitability Checker to confirm you need an expert, then download guides on instruction best practice.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -106,18 +216,114 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Meeting standards and court requirements:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Meeting standards and court requirements:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Standards for Expert Witnesses in Family Court \u2014 Updated guidance on minimum standards and competencies" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Declarations \u2014 MOJ standard declarations explained, with examples" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Legal Aid Fee Compliance \u2014 Meeting LAA billing standards, hourly rates, and fee breakdowns" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "CPR Expert Evidence Rules \u2014 Civil Procedure Rules requirements for expert evidence" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Criminal Procedure Rules for Experts \u2014 Expert evidence requirements in criminal proceedings" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Code of Conduct \u2014 Professional obligations and duties to the court" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Quality Assurance in Expert Reports \u2014 What to look for in a well-written report" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Standards for Expert Witnesses in Family Court — Updated guidance on minimum standards and competencies"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Declarations — MOJ standard declarations explained, with examples"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Legal Aid Fee Compliance — Meeting LAA billing standards, hourly rates, and fee breakdowns"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "CPR Expert Evidence Rules — Civil Procedure Rules requirements for expert evidence"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Criminal Procedure Rules for Experts — Expert evidence requirements in criminal proceedings"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Code of Conduct — Professional obligations and duties to the court"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Quality Assurance in Expert Reports — What to look for in a well-written report"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -130,43 +336,196 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Guides for different legal areas:" }]
-              },
-              {
-                "type": "p",
-                "children": [{ "type": "text", "text": "Family Law:", "bold": true }]
-              },
-              {
-                "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parenting capacity assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Domestic abuse and trauma assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Child protection and risk assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Attachment and relationship assessment" }] }] }
+                  {
+                    "type": "text",
+                    "text": "Guides for different legal areas:"
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Criminal Law:", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Family Law:",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fitness to plead and unfitness procedures" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Dangerousness and risk assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Forensic psychology assessment" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Parenting capacity assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Domestic abuse and trauma assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Child protection and risk assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Attachment and relationship assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Civil, Employment & Immigration:", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Criminal Law:",
+                    "bold": true
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychological injury and PTSD assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health and discrimination claims" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Torture survivor and asylum assessments" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fitness to plead and unfitness procedures"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Dangerousness and risk assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Forensic psychology assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Civil, Employment & Immigration:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychological injury and PTSD assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental health and discrimination claims"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Torture survivor and asylum assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -179,17 +538,100 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Ready-to-use documents:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ready-to-use documents:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Letter of Instruction Template \u2014 Annotated template with best practices" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Declaration \u2014 MOJ-compliant declaration template" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Assessment Briefing Form \u2014 What to include when briefing an expert" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "CV Guidance for Experts \u2014 Help your expert present themselves effectively" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fee Agreement Template \u2014 Standard fee agreement terms" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Report Evaluation Checklist \u2014 What to look for in a quality expert report" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Letter of Instruction Template — Annotated template with best practices"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Declaration — MOJ-compliant declaration template"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Assessment Briefing Form — What to include when briefing an expert"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "CV Guidance for Experts — Help your expert present themselves effectively"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fee Agreement Template — Standard fee agreement terms"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Report Evaluation Checklist — What to look for in a quality expert report"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -202,21 +644,97 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Understanding expert witness fees:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Understanding expert witness fees:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Fees \u2014 The Facts \u2014 Comprehensive guide to costs, billing, and payment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Legal Aid Rates \u2014 Current LAA hourly rates and fee structures" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fee Negotiation Guide \u2014 Understanding costs and negotiating fair rates" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Hidden Costs to Watch For \u2014 Identifying and avoiding unexpected charges" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Cost-Saving Tips \u2014 How to instruct cost-effectively without compromising quality" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Fees — The Facts — Comprehensive guide to costs, billing, and payment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Legal Aid Rates — Current LAA hourly rates and fee structures"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fee Negotiation Guide — Understanding costs and negotiating fair rates"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Hidden Costs to Watch For — Identifying and avoiding unexpected charges"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Cost-Saving Tips — How to instruct cost-effectively without compromising quality"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Use our Expert Witness Fees Calculator to estimate costs for your case in 60 seconds.", "bold": true }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Use our Expert Witness Fees Calculator to estimate costs for your case in 60 seconds.",
+                    "bold": true
+                  }
+                ]
               }
             ]
           }
@@ -228,17 +746,100 @@
             "children": [
               {
                 "type": "p",
-                "children": [{ "type": "text", "text": "Assessing and ensuring quality:" }]
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Assessing and ensuring quality:"
+                  }
+                ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychologists as Expert Witnesses \u2014 Research on expert quality and standards" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Professional Registration \u2014 HCPC, BPS, GMC registration explained" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Continuing Professional Development \u2014 Why it matters and what to check" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Report Quality Assurance \u2014 What 100% QA means and why it matters" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Vetting Checklist \u2014 Questions to ask when assessing an expert's suitability" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Recognising Poor Quality Reports \u2014 Red flags in expert evidence" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychologists as Expert Witnesses — Research on expert quality and standards"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Professional Registration — HCPC, BPS, GMC registration explained"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Continuing Professional Development — Why it matters and what to check"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Report Quality Assurance — What 100% QA means and why it matters"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Vetting Checklist — Questions to ask when assessing an expert's suitability"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Recognising Poor Quality Reports — Red flags in expert evidence"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -258,10 +859,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "25+", "label": "Guides & Articles" },
-        { "value": "6+", "label": "Ready-to-Use Templates" },
-        { "value": "Quarterly", "label": "Updated" },
-        { "value": "Free", "label": "To Download & Share" }
+        {
+          "value": "25+",
+          "label": "Guides & Articles"
+        },
+        {
+          "value": "6+",
+          "label": "Ready-to-Use Templates"
+        },
+        {
+          "value": "Quarterly",
+          "label": "Updated"
+        },
+        {
+          "value": "Free",
+          "label": "To Download & Share"
+        }
       ]
     },
     {

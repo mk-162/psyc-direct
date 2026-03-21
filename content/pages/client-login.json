@@ -12,8 +12,7 @@
       "primaryCtaText": "Log In to Portal",
       "primaryCtaLink": "https://accounts.zoho.eu/signin?servicename=ZohoProjects&signupurl=https://www.zoho.eu/projects/signup.html",
       "secondaryCtaText": "Can't Log In?",
-      "secondaryCtaLink": "#help",
-      "backgroundImage": "/images/heroes/client-login-hero.jpg"
+      "secondaryCtaLink": "#help"
     },
     {
       "_template": "alertBanner",

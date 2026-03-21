@@ -15,30 +15,51 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Get Educational Psychologists When You Need Them",
       "subtitle": "Your schools and settings need expert support fast. We connect you with HCPC-registered EPs for statutory assessments, SEND support, and training. No long waits. Nationwide coverage, flexible agreements, real outcomes.",
       "primaryCtaText": "Discuss Your Needs",
       "primaryCtaLink": "/contact/",
       "secondaryCtaText": "Explore Services by Role",
-      "secondaryCtaLink": "/educational-psychologist/schools-academies-colleges/"
+      "secondaryCtaLink": "/educational-psychologist/schools-academies-colleges/",
+      "backgroundImage": "/images/heroes/education-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
-        { "text": "1,000+ HCPC-Registered EPs" },
-        { "text": "CVs & Quotes Within 48 Hours" },
-        { "text": "100% Quality-Checked Reports" },
-        { "text": "Nationwide UK Coverage" }
+        {
+          "text": "1,000+ HCPC-Registered EPs"
+        },
+        {
+          "text": "CVs & Quotes Within 48 Hours"
+        },
+        {
+          "text": "100% Quality-Checked Reports"
+        },
+        {
+          "text": "Nationwide UK Coverage"
+        }
       ]
     },
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "15+", "label": "Years' Experience" },
-        { "value": "500+", "label": "Annual Assessments" },
-        { "value": "98%", "label": "Client Satisfaction" },
-        { "value": "2-Week", "label": "Typical Turnaround" }
+        {
+          "value": "15+",
+          "label": "Years' Experience"
+        },
+        {
+          "value": "500+",
+          "label": "Annual Assessments"
+        },
+        {
+          "value": "98%",
+          "label": "Client Satisfaction"
+        },
+        {
+          "value": "2-Week",
+          "label": "Typical Turnaround"
+        }
       ]
     },
     {
@@ -196,7 +217,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Complete EHCP assessments within the 16-week window" }
+                          {
+                            "type": "text",
+                            "text": "Complete EHCP assessments within the 16-week window"
+                          }
                         ]
                       }
                     ]
@@ -207,7 +231,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Provide evidence-based recommendations for support plans" }
+                          {
+                            "type": "text",
+                            "text": "Provide evidence-based recommendations for support plans"
+                          }
                         ]
                       }
                     ]
@@ -218,7 +245,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Work collaboratively with parents, schools, and health professionals" }
+                          {
+                            "type": "text",
+                            "text": "Work collaboratively with parents, schools, and health professionals"
+                          }
                         ]
                       }
                     ]
@@ -229,7 +259,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Assess complex cases with confidence" }
+                          {
+                            "type": "text",
+                            "text": "Assess complex cases with confidence"
+                          }
                         ]
                       }
                     ]
@@ -262,7 +295,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Educational psychology consultation" }
+                          {
+                            "type": "text",
+                            "text": "Educational psychology consultation"
+                          }
                         ]
                       }
                     ]
@@ -273,7 +309,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Staff training and CPD for teachers and SENCOs" }
+                          {
+                            "type": "text",
+                            "text": "Staff training and CPD for teachers and SENCOs"
+                          }
                         ]
                       }
                     ]
@@ -284,7 +323,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Behaviour intervention and support planning" }
+                          {
+                            "type": "text",
+                            "text": "Behaviour intervention and support planning"
+                          }
                         ]
                       }
                     ]
@@ -295,7 +337,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Attachment and emotional wellbeing assessments" }
+                          {
+                            "type": "text",
+                            "text": "Attachment and emotional wellbeing assessments"
+                          }
                         ]
                       }
                     ]
@@ -306,7 +351,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Whole-school SEND strategy development" }
+                          {
+                            "type": "text",
+                            "text": "Whole-school SEND strategy development"
+                          }
                         ]
                       }
                     ]
@@ -339,7 +387,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "We source available EPs nationwide within 24\u201348 hours" }
+                          {
+                            "type": "text",
+                            "text": "We source available EPs nationwide within 24–48 hours"
+                          }
                         ]
                       }
                     ]
@@ -350,7 +401,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Flexible scheduling that fits your timetable" }
+                          {
+                            "type": "text",
+                            "text": "Flexible scheduling that fits your timetable"
+                          }
                         ]
                       }
                     ]
@@ -361,7 +415,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Fast-track report turnaround available" }
+                          {
+                            "type": "text",
+                            "text": "Fast-track report turnaround available"
+                          }
                         ]
                       }
                     ]
@@ -372,7 +429,10 @@
                       {
                         "type": "lic",
                         "children": [
-                          { "type": "text", "text": "Your dedicated Client Manager keeps you updated every step" }
+                          {
+                            "type": "text",
+                            "text": "Your dedicated Client Manager keeps you updated every step"
+                          }
                         ]
                       }
                     ]

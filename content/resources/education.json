@@ -13,9 +13,9 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "EHCP & Educational Psychology Resources",
-      "subtitle": "Practical guides on EHCP processes, EP assessments, SEND support, and school strategies. Download templates, understand procedures, and best practices \u2014 all free.",
+      "subtitle": "Practical guides on EHCP processes, EP assessments, SEND support, and school strategies. Download templates, understand procedures, and best practices — all free.",
       "primaryCtaText": "Browse Guides",
       "primaryCtaLink": "#tabbed-content",
       "secondaryCtaText": "Book an Assessment",
@@ -25,10 +25,18 @@
     {
       "_template": "trustBar",
       "items": [
-        { "text": "20+ Expert Guides" },
-        { "text": "Written by Educational Psychologists" },
-        { "text": "Updated Annually" },
-        { "text": "Trusted by 500+ Schools & LAs" }
+        {
+          "text": "20+ Expert Guides"
+        },
+        {
+          "text": "Written by Educational Psychologists"
+        },
+        {
+          "text": "Updated Annually"
+        },
+        {
+          "text": "Trusted by 500+ Schools & LAs"
+        }
       ]
     },
     {
@@ -79,26 +87,137 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Comprehensive guides to Education, Health and Care Plans:" }
+                  {
+                    "type": "text",
+                    "text": "Comprehensive guides to Education, Health and Care Plans:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What is an EHCP? \u2014 Overview of EHCP purpose, scope, and statutory role" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP Process Step-by-Step \u2014 From identification through to issuing the plan" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Statutory Assessment Explained \u2014 Legal requirements and what triggers assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP Timelines & Meeting Deadlines \u2014 Understanding the 20-week timeline and extensions" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP Assessments for Schools \u2014 Role of schools in the process and key documentation" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP Assessments for Local Authorities \u2014 LA responsibilities and coordinating assessments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP for Higher Education \u2014 Transitions and post-secondary planning" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Reviewing & Updating EHCPs \u2014 Annual reviews, amendments, and transitions" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What is an EHCP? — Overview of EHCP purpose, scope, and statutory role"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EHCP Process Step-by-Step — From identification through to issuing the plan"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Statutory Assessment Explained — Legal requirements and what triggers assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EHCP Timelines & Meeting Deadlines — Understanding the 20-week timeline and extensions"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EHCP Assessments for Schools — Role of schools in the process and key documentation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EHCP Assessments for Local Authorities — LA responsibilities and coordinating assessments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EHCP for Higher Education — Transitions and post-secondary planning"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Reviewing & Updating EHCPs — Annual reviews, amendments, and transitions"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Understand statutory obligations, meet timelines, and ensure high-quality EHCPs.", "bold": true }
+                  {
+                    "type": "text",
+                    "text": "Understand statutory obligations, meet timelines, and ensure high-quality EHCPs.",
+                    "bold": true
+                  }
                 ]
               }
             ]
@@ -112,26 +231,137 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Understanding EP services and working relationships:" }
+                  {
+                    "type": "text",
+                    "text": "Understanding EP services and working relationships:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What is an Educational Psychologist? \u2014 Role, qualifications, and what EPs do" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "When to Commission an EP Assessment \u2014 Identifying the right cases and timing" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Types of EP Assessments \u2014 Overview of EHCP assessments, statutory assessments, and consultancy" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Educational Psychology Reports \u2014 What They Cover and what to expect" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Commissioning EP Services \u2014 Process for schools and LAs" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Working Effectively with Your EP \u2014 Tips for good communication and outcomes" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EP Reports in EHCP Decisions \u2014 How EP evidence influences EHCP outcomes" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Finding Quality EPs \u2014 Assessing EP credentials and track record" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What is an Educational Psychologist? — Role, qualifications, and what EPs do"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "When to Commission an EP Assessment — Identifying the right cases and timing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Types of EP Assessments — Overview of EHCP assessments, statutory assessments, and consultancy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Educational Psychology Reports — What They Cover and what to expect"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Commissioning EP Services — Process for schools and LAs"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Working Effectively with Your EP — Tips for good communication and outcomes"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EP Reports in EHCP Decisions — How EP evidence influences EHCP outcomes"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Finding Quality EPs — Assessing EP credentials and track record"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Understand EP expertise, commission effectively, and maximise the value of assessments.", "bold": true }
+                  {
+                    "type": "text",
+                    "text": "Understand EP expertise, commission effectively, and maximise the value of assessments.",
+                    "bold": true
+                  }
                 ]
               }
             ]
@@ -145,25 +375,123 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Assessing different types of need:" }
+                  {
+                    "type": "text",
+                    "text": "Assessing different types of need:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Early Identification & Intervention \u2014 Spotting SEND early and supporting development" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Assessing Learning Difficulties \u2014 Dyslexia, dyscalculia, and dyspraxia assessment and support" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Assessing Neurodevelopmental Conditions \u2014 ADHD identification, autism spectrum assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental Health & Wellbeing Assessment \u2014 Identifying emotional and mental health needs" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Speech, Language & Communication \u2014 Understanding SLC needs and support" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Sensory Needs Assessment \u2014 Visual and hearing impairment identification" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Assessment for Exam Access Arrangements \u2014 Psychometric testing and evidence requirements" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Early Identification & Intervention — Spotting SEND early and supporting development"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Assessing Learning Difficulties — Dyslexia, dyscalculia, and dyspraxia assessment and support"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Assessing Neurodevelopmental Conditions — ADHD identification, autism spectrum assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Mental Health & Wellbeing Assessment — Identifying emotional and mental health needs"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Speech, Language & Communication — Understanding SLC needs and support"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Sensory Needs Assessment — Visual and hearing impairment identification"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Assessment for Exam Access Arrangements — Psychometric testing and evidence requirements"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Identify needs early, understand assessments, and plan appropriate support.", "bold": true }
+                  {
+                    "type": "text",
+                    "text": "Identify needs early, understand assessments, and plan appropriate support.",
+                    "bold": true
+                  }
                 ]
               }
             ]
@@ -177,25 +505,123 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Practical approaches to supporting students with SEND:" }
+                  {
+                    "type": "text",
+                    "text": "Practical approaches to supporting students with SEND:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Creating SEND-Friendly Schools \u2014 Whole-school approaches and culture" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Classroom Strategies for Different Needs \u2014 Supporting students with dyslexia, ADHD, autism, and anxiety" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Behaviour Support & Intervention \u2014 Evidence-based approaches" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Social & Emotional Learning \u2014 Building resilience and wellbeing" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Transition Support \u2014 Supporting students between key stages" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parental Engagement & Communication \u2014 Working with families" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Staff Training & CPD \u2014 Upskilling teachers and support staff on SEND" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Creating SEND-Friendly Schools — Whole-school approaches and culture"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Classroom Strategies for Different Needs — Supporting students with dyslexia, ADHD, autism, and anxiety"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Behaviour Support & Intervention — Evidence-based approaches"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Social & Emotional Learning — Building resilience and wellbeing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Transition Support — Supporting students between key stages"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Parental Engagement & Communication — Working with families"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Staff Training & CPD — Upskilling teachers and support staff on SEND"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Implement effective, evidence-based strategies to help all students thrive.", "bold": true }
+                  {
+                    "type": "text",
+                    "text": "Implement effective, evidence-based strategies to help all students thrive.",
+                    "bold": true
+                  }
                 ]
               }
             ]
@@ -209,25 +635,123 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "SENCo guidance for examinations:" }
+                  {
+                    "type": "text",
+                    "text": "SENCo guidance for examinations:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What are Exam Access Arrangements? \u2014 Purpose, types, and eligibility" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Types of Arrangements \u2014 Extra time, readers, scribes, visual and hearing adjustments" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Gathering Evidence for Exam Access \u2014 What assessments and documentation you need" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychology Testing for Access Arrangements \u2014 When psychological assessment is needed" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Applying for Exam Access Arrangements \u2014 Process and deadlines" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "JCQ Rules & Compliance \u2014 Meeting standards and avoiding common pitfalls" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Appeals & Reviews \u2014 Challenging exam access decisions" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What are Exam Access Arrangements? — Purpose, types, and eligibility"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Types of Arrangements — Extra time, readers, scribes, visual and hearing adjustments"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Gathering Evidence for Exam Access — What assessments and documentation you need"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Psychology Testing for Access Arrangements — When psychological assessment is needed"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Applying for Exam Access Arrangements — Process and deadlines"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "JCQ Rules & Compliance — Meeting standards and avoiding common pitfalls"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Appeals & Reviews — Challenging exam access decisions"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Secure appropriate exam access arrangements and support student success.", "bold": true }
+                  {
+                    "type": "text",
+                    "text": "Secure appropriate exam access arrangements and support student success.",
+                    "bold": true
+                  }
                 ]
               }
             ]
@@ -241,24 +765,109 @@
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Understanding EP credentials and quality:" }
+                  {
+                    "type": "text",
+                    "text": "Understanding EP credentials and quality:"
+                  }
                 ]
               },
               {
                 "type": "ul",
                 "children": [
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "HCPC Registration for EPs \u2014 What registration means and how to verify" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "BPS & AEP Membership \u2014 Professional bodies and standards" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Continuing Professional Development \u2014 Why it matters and what to expect" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Quality Assurance in EP Reports \u2014 What makes a quality assessment" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Professional Codes of Conduct \u2014 Standards and ethical obligations" }] }] },
-                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Complaints & Accountability \u2014 What to do if you're unhappy with an assessment" }] }] }
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "HCPC Registration for EPs — What registration means and how to verify"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "BPS & AEP Membership — Professional bodies and standards"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Continuing Professional Development — Why it matters and what to expect"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Quality Assurance in EP Reports — What makes a quality assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Professional Codes of Conduct — Standards and ethical obligations"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Complaints & Accountability — What to do if you're unhappy with an assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               },
               {
                 "type": "p",
                 "children": [
-                  { "type": "text", "text": "Understand EP qualifications and ensure you're working with fully qualified, professional practitioners.", "bold": true }
+                  {
+                    "type": "text",
+                    "text": "Understand EP qualifications and ensure you're working with fully qualified, professional practitioners.",
+                    "bold": true
+                  }
                 ]
               }
             ]
@@ -278,10 +887,22 @@
     {
       "_template": "statsBar",
       "stats": [
-        { "value": "20+", "label": "Guides & Articles" },
-        { "value": "8+", "label": "Ready-to-Use Templates" },
-        { "value": "Annually", "label": "Updated" },
-        { "value": "Free", "label": "To Download & Share" }
+        {
+          "value": "20+",
+          "label": "Guides & Articles"
+        },
+        {
+          "value": "8+",
+          "label": "Ready-to-Use Templates"
+        },
+        {
+          "value": "Annually",
+          "label": "Updated"
+        },
+        {
+          "value": "Free",
+          "label": "To Download & Share"
+        }
       ]
     },
     {

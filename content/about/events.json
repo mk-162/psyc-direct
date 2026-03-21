@@ -13,13 +13,14 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "gradient",
+      "variant": "image",
       "headline": "Learn, Grow, and Connect",
       "subtitle": "We run regular CPD webinars, training workshops, and conferences for psychologists, psychiatrists, and education professionals. Topics range from cutting-edge clinical practice to professional development and mental health awareness. Stay ahead in your field.",
       "primaryCtaText": "Browse Upcoming Events",
       "primaryCtaLink": "#upcoming-events",
       "secondaryCtaText": "Subscribe for Updates",
-      "secondaryCtaLink": "#subscribe"
+      "secondaryCtaLink": "#subscribe",
+      "backgroundImage": "/images/heroes/events-hero.jpg"
     },
     {
       "_template": "serviceCards",
