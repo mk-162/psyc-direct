@@ -568,26 +568,26 @@
         {
           "quote": "Psychology Direct provides reliable service across our trust. EPs deliver practical reports within expected timelines. Professional and responsive.",
           "name": "Trust Lead",
-          "role": "",
-          "organisation": "Multi-Academy Trust"
+          "title": "",
+          "organization": "Multi-Academy Trust"
         },
         {
           "quote": "We value the flexibility and consistency. Different schools have different needs, and they scale with us. One contact, unified standards, excellent value.",
           "name": "SEND Lead",
-          "role": "",
-          "organisation": "Large Secondary Trust"
+          "title": "",
+          "organization": "Large Secondary Trust"
         },
         {
           "quote": "Instead of recruiting and managing in-house EPs, we partnered with Psychology Direct. Freed up our time, reduced cost, and gave us access to specialists.",
           "name": "Chief Operating Officer",
-          "role": "",
-          "organisation": "Education Trust"
+          "title": "",
+          "organization": "Education Trust"
         },
         {
           "quote": "Coordination across our six schools is seamless. EPs understand they're part of a trust. That consistency benefits all our students.",
           "name": "Trust Executive Principal",
-          "role": "",
-          "organisation": ""
+          "title": "",
+          "organization": ""
         }
       ]
     },

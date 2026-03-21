@@ -25,7 +25,7 @@ export const VideoSection = ({ data }: { data: VideoSectionData }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div>
             {data.heading && (
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4" style={{ color: 'var(--brand-navy)' }}>
+              <h2 className="font-sans text-2xl sm:text-3xl font-bold mb-4" style={{ color: 'var(--brand-navy)' }}>
                 {data.heading}
               </h2>
             )}

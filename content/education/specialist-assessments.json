@@ -82,26 +82,26 @@
         {
           "quote": "The autism assessment was thorough. The report explained our child's strengths and challenges clearly. The school has been able to implement recommendations that made a real difference.",
           "name": "Parent",
-          "role": "",
-          "organisation": "Primary School Child"
+          "title": "",
+          "organization": "Primary School Child"
         },
         {
           "quote": "The dyslexia assessment gave us the evidence we needed for exam access arrangements. Clear diagnosis, practical teaching strategies, and appropriate school support.",
           "name": "SENCO",
-          "role": "",
-          "organisation": "Secondary School"
+          "title": "",
+          "organization": "Secondary School"
         },
         {
           "quote": "The assessment clarified that our child has ADHD. More importantly, the school now understands how to support them. Game-changer.",
           "name": "Parent",
-          "role": "",
-          "organisation": "Secondary Student"
+          "title": "",
+          "organization": "Secondary Student"
         },
         {
           "quote": "We suspected autism but weren't sure. The assessment gave us diagnostic clarity and understanding. Staff training followed, and the whole school response improved.",
           "name": "Assistant Principal",
-          "role": "",
-          "organisation": "Academy"
+          "title": "",
+          "organization": "Academy"
         }
       ]
     },

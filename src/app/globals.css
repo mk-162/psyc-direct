@@ -14,9 +14,7 @@
   --brand-dark-bg: #0d1929;
   --brand-hero-from: #032552;
   --brand-hero-to: #00588e;
-  --brand-card-radius: 0.375rem;
-  --brand-section-py: 3rem;
-  --brand-section-py-lg: 4rem;
+
 
   /* shadcn/ui tokens — PD-tuned */
   --button-outline: rgba(0,0,0,.10);
