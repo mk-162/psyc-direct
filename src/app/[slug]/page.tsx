@@ -13,9 +13,12 @@ export async function generateMetadata({
   try {
     const tinaData = await client.queries.pages({ relativePath: `${slug}.json` });
     if (tinaData.data.pages) {
+      const rawTitle = tinaData.data.pages.title || `${slug.replace(/-/g, " ")}`;
+      const title = rawTitle.includes('Psychology Direct') ? rawTitle : `${rawTitle} | Psychology Direct`;
       return {
-        title: (tinaData.data.pages.title || "") + " | Psychology Direct" || `${slug.replace(/-/g, " ")} | Psychology Direct`,
+        title,
         description: tinaData.data.pages.description,
+        ...(slug === 'component-library' ? { robots: { index: false, follow: false } } : {}),
       };
     }
   } catch (e) {

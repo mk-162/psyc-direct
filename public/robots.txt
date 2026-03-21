@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /design-system/
 Disallow: /admin/
+Disallow: /component-library/
 
-Sitemap: https://cocoonwellness.com/sitemap.xml
+Sitemap: https://www.psychologydirect.co.uk/sitemap.xml

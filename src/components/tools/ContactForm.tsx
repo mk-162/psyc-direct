@@ -94,6 +94,8 @@ export function ContactForm() {
   const [form, setForm] = useState<FormState>(INITIAL_STATE);
   const [errors, setErrors] = useState<FormErrors>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
   const [touched, setTouched] = useState(false);
 
   function updateField<K extends keyof FormState>(key: K, value: FormState[K]) {
@@ -108,17 +110,30 @@ export function ContactForm() {
     }
   }
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setTouched(true);
+    setSubmitError('');
 
     const validationErrors = validate(form);
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length > 0) return;
 
-    // For now, just show success (no server action yet)
-    setSubmitted(true);
+    setSubmitting(true);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      setSubmitted(true);
+    } catch {
+      setSubmitError('Something went wrong. Please try again or call us on 01306 879 975.');
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   if (submitted) {
@@ -203,19 +218,25 @@ export function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <FormField label="Name" required error={errors.name}>
               <Input
+                name="name"
+                required
                 value={form.name}
                 onChange={(e) => updateField('name', e.target.value)}
                 placeholder="Your full name"
+                aria-describedby={errors.name ? 'name-error' : undefined}
                 className={cn(errors.name && 'border-destructive')}
               />
             </FormField>
 
             <FormField label="Email" required error={errors.email}>
               <Input
+                name="email"
                 type="email"
+                required
                 value={form.email}
                 onChange={(e) => updateField('email', e.target.value)}
                 placeholder="you@example.com"
+                aria-describedby={errors.email ? 'email-error' : undefined}
                 className={cn(errors.email && 'border-destructive')}
               />
             </FormField>
@@ -225,6 +246,7 @@ export function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <FormField label="Phone">
               <Input
+                name="phone"
                 type="tel"
                 value={form.phone}
                 onChange={(e) => updateField('phone', e.target.value)}
@@ -234,6 +256,7 @@ export function ContactForm() {
 
             <FormField label="Organisation">
               <Input
+                name="organisation"
                 value={form.organisation}
                 onChange={(e) => updateField('organisation', e.target.value)}
                 placeholder="Optional"
@@ -244,6 +267,8 @@ export function ContactForm() {
           {/* Enquiry type */}
           <FormField label="Enquiry Type" required error={errors.enquiryType}>
             <select
+              name="enquiryType"
+              required
               value={form.enquiryType}
               onChange={(e) => updateField('enquiryType', e.target.value as EnquiryType)}
               className={cn(
@@ -262,6 +287,8 @@ export function ContactForm() {
           {/* Message */}
           <FormField label="Message" required error={errors.message}>
             <Textarea
+              name="message"
+              required
               value={form.message}
               onChange={(e) => updateField('message', e.target.value)}
               placeholder="Please describe your requirements..."
@@ -271,15 +298,19 @@ export function ContactForm() {
           </FormField>
 
           {/* Submit */}
+          {submitError && (
+            <p className="text-sm text-destructive bg-destructive/10 px-4 py-3 rounded-md">{submitError}</p>
+          )}
           <div className="pt-2">
             <Button
               type="submit"
               size="lg"
+              disabled={submitting}
               className="w-full sm:w-auto font-semibold"
               style={{ background: 'var(--brand-azure)', color: 'var(--brand-navy)' }}
             >
               <Send className="w-4 h-4 mr-2" />
-              Send Enquiry
+              {submitting ? 'Sending...' : 'Send Enquiry'}
             </Button>
           </div>
 
