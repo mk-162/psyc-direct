@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
 interface NavItem {
@@ -9,8 +9,17 @@ interface NavItem {
   children?: { label: string; url: string }[];
 }
 
-export function MobileNav({ items }: { items: NavItem[] }) {
+export function MobileNav({ items, phone = '01306 879 975' }: { items: NavItem[]; phone?: string }) {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKeyDown = (e: KeyboardEvent) => { if (e.key === 'Escape') setOpen(false); };
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [open]);
+
+  const telHref = `tel:${phone.replace(/\s/g, '')}`;
 
   return (
     <>
@@ -27,6 +36,9 @@ export function MobileNav({ items }: { items: NavItem[] }) {
       {open && (
         <div
           id="mobile-nav"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Navigation menu"
           className="md:hidden absolute top-16 left-0 right-0 bg-white border-b border-border shadow-lg z-50 max-h-[calc(100vh-4rem)] overflow-y-auto"
         >
           <nav className="px-4 py-4 space-y-1">
@@ -54,11 +66,11 @@ export function MobileNav({ items }: { items: NavItem[] }) {
             ))}
             <div className="pt-3 mt-3 border-t border-border">
               <a
-                href="tel:01306879975"
+                href={telHref}
                 className="block py-2.5 px-3 text-sm font-semibold"
                 style={{ color: 'var(--brand-azure-vivid)' }}
               >
-                Call 01306 879 975
+                Call {phone}
               </a>
               <a
                 href="/contact/"

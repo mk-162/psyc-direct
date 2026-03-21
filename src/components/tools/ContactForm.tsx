@@ -67,15 +67,18 @@ function validate(form: FormState): FormErrors {
 
 function FormField({
   label,
+  name,
   required,
   error,
   children,
 }: {
   label: string;
+  name?: string;
   required?: boolean;
   error?: string;
   children: React.ReactNode;
 }) {
+  const errorId = name ? `${name}-error` : undefined;
   return (
     <div className="space-y-1.5">
       <label className="text-sm font-medium" style={{ color: 'var(--brand-navy)' }}>
@@ -83,7 +86,7 @@ function FormField({
         {required && <span className="text-destructive ml-0.5">*</span>}
       </label>
       {children}
-      {error && <p className="text-xs text-destructive">{error}</p>}
+      {error && <p id={errorId} className="text-xs text-destructive">{error}</p>}
     </div>
   );
 }
@@ -127,10 +130,17 @@ export function ContactForm() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       });
-      if (!res.ok) throw new Error('Submission failed');
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || 'Submission failed');
+      }
       setSubmitted(true);
-    } catch {
-      setSubmitError('Something went wrong. Please try again or call us on 01306 879 975.');
+    } catch (err) {
+      console.error('[ContactForm] Submission failed:', err);
+      const msg = err instanceof Error ? err.message : '';
+      setSubmitError(msg.includes('required') || msg.includes('Invalid')
+        ? msg
+        : 'Something went wrong. Please try again or call us on 01306 879 975.');
     } finally {
       setSubmitting(false);
     }
@@ -216,7 +226,7 @@ export function ContactForm() {
         <form onSubmit={handleSubmit} noValidate className="space-y-5">
           {/* Name & Email */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <FormField label="Name" required error={errors.name}>
+            <FormField label="Name" name="name" required error={errors.name}>
               <Input
                 name="name"
                 required
@@ -228,7 +238,7 @@ export function ContactForm() {
               />
             </FormField>
 
-            <FormField label="Email" required error={errors.email}>
+            <FormField label="Email" name="email" required error={errors.email}>
               <Input
                 name="email"
                 type="email"
@@ -265,12 +275,13 @@ export function ContactForm() {
           </div>
 
           {/* Enquiry type */}
-          <FormField label="Enquiry Type" required error={errors.enquiryType}>
+          <FormField label="Enquiry Type" name="enquiryType" required error={errors.enquiryType}>
             <select
               name="enquiryType"
               required
               value={form.enquiryType}
               onChange={(e) => updateField('enquiryType', e.target.value as EnquiryType)}
+              aria-describedby={errors.enquiryType ? 'enquiryType-error' : undefined}
               className={cn(
                 'flex h-9 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
                 errors.enquiryType && 'border-destructive'
@@ -285,7 +296,7 @@ export function ContactForm() {
           </FormField>
 
           {/* Message */}
-          <FormField label="Message" required error={errors.message}>
+          <FormField label="Message" name="message" required error={errors.message}>
             <Textarea
               name="message"
               required
@@ -293,6 +304,7 @@ export function ContactForm() {
               onChange={(e) => updateField('message', e.target.value)}
               placeholder="Please describe your requirements..."
               rows={5}
+              aria-describedby={errors.message ? 'message-error' : undefined}
               className={cn(errors.message && 'border-destructive')}
             />
           </FormField>

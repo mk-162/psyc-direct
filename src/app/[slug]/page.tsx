@@ -30,23 +30,15 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const paths: { slug: string }[] = [];
-
   try {
     const tinaRes = await client.queries.pagesConnection();
-    if (tinaRes.data?.pagesConnection.edges) {
-      tinaRes.data.pagesConnection.edges.forEach((edge) => {
-        if (edge?.node?._sys.filename) {
-          paths.push({ slug: edge.node._sys.filename });
-        }
-      });
-    }
+    return (tinaRes.data?.pagesConnection.edges ?? [])
+      .filter((edge) => edge?.node?._sys.filename)
+      .map((edge) => ({ slug: edge!.node!._sys.filename }));
   } catch (e) {
     if (process.env.NODE_ENV === "development") console.error(e);
-    // ignore
+    return [];
   }
-
-  return paths;
 }
 
 export default async function Page({

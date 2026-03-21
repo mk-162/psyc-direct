@@ -84,7 +84,7 @@ export default function RootLayout({
               >
                 Get in Touch
               </a>
-              <MobileNav items={navigation?.mainNav ?? []} />
+              <MobileNav items={navigation?.mainNav ?? []} phone={phone} />
             </div>
           </div>
         </header>
