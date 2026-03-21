@@ -91,22 +91,26 @@
         {
           "name": "Aaron Banham",
           "role": "Managing Director",
-          "bio": "Built Psychology Direct over 15+ years into the UK's most trusted expert-matching service."
+          "bio": "Built Psychology Direct over 15+ years into the UK's most trusted expert-matching service.",
+          "photo": "/images/team/aaron-banham.jpg"
         },
         {
           "name": "Denise Leander",
           "role": "Operations Manager",
-          "bio": "Ensures every case meets our standards. Supports and develops every team member."
+          "bio": "Ensures every case meets our standards. Supports and develops every team member.",
+          "photo": "/images/team/denise-leander.jpg"
         },
         {
           "name": "Daisy Hill",
           "role": "Team Manager – Expert Witness",
-          "bio": "Leads legal expert matching. Deep knowledge of courts and solicitor needs."
+          "bio": "Leads legal expert matching. Deep knowledge of courts and solicitor needs.",
+          "photo": "/images/team/daisy-hill.png"
         },
         {
           "name": "Katie Séverin",
           "role": "Education Team Manager",
-          "bio": "Manages our educational psychology team. Knows what local authorities and schools need."
+          "bio": "Manages our educational psychology team. Knows what local authorities and schools need.",
+          "photo": "/images/team/katie-severin.png"
         }
       ]
     },

@@ -28,42 +28,50 @@
         {
           "name": "Aaron Banham",
           "role": "Managing Director",
-          "bio": "Built Psychology Direct over 15+ years. Drives quality, professionalism, and people-first values. Passionate about connecting experts with the cases that matter most."
+          "bio": "Built Psychology Direct over 15+ years. Drives quality, professionalism, and people-first values. Passionate about connecting experts with the cases that matter most.",
+          "photo": "/images/team/aaron-banham.jpg"
         },
         {
           "name": "Denise Leander",
           "role": "Operations Manager",
-          "bio": "Oversees quality, performance, and team development. Ensures every case meets our standards. Supports every team member."
+          "bio": "Oversees quality, performance, and team development. Ensures every case meets our standards. Supports every team member.",
+          "photo": "/images/team/denise-leander.jpg"
         },
         {
           "name": "Daisy Hill",
           "role": "Team Manager – Expert Witness",
-          "bio": "Legal sector specialist. Knows CPR, Legal Aid, and court timelines. Manages expert matching for solicitors and courts."
+          "bio": "Legal sector specialist. Knows CPR, Legal Aid, and court timelines. Manages expert matching for solicitors and courts.",
+          "photo": "/images/team/daisy-hill.png"
         },
         {
           "name": "Katie Séverin",
           "role": "Education Team Manager",
-          "bio": "Educational Psychology specialist. Knows EHCP, SEND, and statutory assessment timelines. Matches experts for local authorities and schools."
+          "bio": "Educational Psychology specialist. Knows EHCP, SEND, and statutory assessment timelines. Matches experts for local authorities and schools.",
+          "photo": "/images/team/katie-severin.png"
         },
         {
           "name": "Emily Creaven",
           "role": "Client Manager, Expert Witness",
-          "bio": "Solicitor-facing specialist. Manages complex legal cases with precision and professionalism. Your point of contact for fast, efficient service."
+          "bio": "Solicitor-facing specialist. Manages complex legal cases with precision and professionalism. Your point of contact for fast, efficient service.",
+          "photo": "/images/team/emily-creaven.jpg"
         },
         {
           "name": "Sinead McCaffrey",
           "role": "Client Manager, Expert Witness",
-          "bio": "Expert in multi-party case coordination. Brings logistics expertise and calm problem-solving to every case."
+          "bio": "Expert in multi-party case coordination. Brings logistics expertise and calm problem-solving to every case.",
+          "photo": "/images/team/placeholder.png"
         },
         {
           "name": "Chloe Beaumont",
           "role": "Client Manager, Expert Witness",
-          "bio": "Global mindset with cultural sensitivity. Matches experts with specific language or cultural requirements."
+          "bio": "Global mindset with cultural sensitivity. Matches experts with specific language or cultural requirements.",
+          "photo": "/images/team/placeholder.png"
         },
         {
           "name": "Lauren Blackett",
           "role": "Client Manager, Expert Witness",
-          "bio": "Education and organisation specialist. Manages school and local authority relationships with warmth and efficiency."
+          "bio": "Education and organisation specialist. Manages school and local authority relationships with warmth and efficiency.",
+          "photo": "/images/team/placeholder.png"
         }
       ]
     },
