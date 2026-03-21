@@ -1,0 +1,171 @@
+{
+  "title": "Expert Witness Fees Calculator | Psychology Direct",
+  "description": "Estimate your expert witness costs in 60 seconds. Compare Legal Aid and private funding rates for psychologists and psychiatrists.",
+  "url": "/tools/fee-calculator/",
+  "keywords": [
+    "expert witness fees calculator",
+    "expert witness cost",
+    "psychological assessment fees",
+    "psychiatrist fees UK",
+    "legal aid rates expert witness",
+    "how much does an expert report cost"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Know Your Expert Witness Costs Upfront",
+      "subtitle": "Get an instant estimate for psychological or psychiatric expert witness reports. Legal Aid rates, private funding, fast-track options \u2014 all transparent. No hidden fees.",
+      "primaryCtaText": "Try the Calculator",
+      "primaryCtaLink": "#calculator",
+      "secondaryCtaText": "Get a Detailed Quote",
+      "secondaryCtaLink": "/contact/",
+      "backgroundImage": "/images/heroes/fee-calculator-hero.jpg"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "HCPC & GMC Registered Experts" },
+        { "text": "100% Transparent Pricing" },
+        { "text": "Full Breakdown Provided" },
+        { "text": "Quality-Checked Reports" }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Costs Vary (And What You're Paying For)",
+      "col1Header": "Cost Factor",
+      "col2Header": "What This Means",
+      "rows": [
+        {
+          "feature": "Standard report (4\u20136 weeks)",
+          "col1": "Detailed assessment, comprehensive report, full QA review",
+          "col2": "Most common option for non-urgent cases"
+        },
+        {
+          "feature": "Fast-track report (2\u20133 weeks)",
+          "col1": "Expedited processing, priority scheduling, same quality",
+          "col2": "Higher cost due to rescheduling and prioritisation"
+        },
+        {
+          "feature": "Complex/specialist case",
+          "col1": "Additional expertise, niche specialism, longer assessment",
+          "col2": "Requires more expert time and specialist knowledge"
+        },
+        {
+          "feature": "Multi-party assessments",
+          "col1": "Multiple individuals assessed, coordinated logistics",
+          "col2": "Volume discounts often available"
+        },
+        {
+          "feature": "Legal Aid rates",
+          "col1": "Fixed hourly fees set by LAA, same quality delivery",
+          "col2": "Rates are standardised across all providers"
+        },
+        {
+          "feature": "Private funding",
+          "col1": "Negotiable rates based on complexity",
+          "col2": "Market-standard pricing, transparent quotes"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Questions About Our Pricing",
+      "faqs": [
+        {
+          "question": "What's included in the fee?",
+          "answer": "Our expert witness fees cover the full assessment and comprehensive report writing, 100% quality assurance and proofreading, administrative coordination, and client management. You receive a breakdown showing hours spent on each component, as required by the Legal Aid Agency. There are no hidden fees or surprise charges."
+        },
+        {
+          "question": "Why do fast-track reports cost more?",
+          "answer": "Fast-track reports require prioritised scheduling. Our Client Managers often coordinate tightly around court deadlines. The expert may need to rearrange their schedule. The quality remains the same \u2014 only the timeline is accelerated."
+        },
+        {
+          "question": "Do you offer discounts for multi-party assessments?",
+          "answer": "Yes. Assessing multiple individuals in the same case is more efficient due to shared background review and coordinated logistics. We can often negotiate volume discounts. Provide us with your case details for a tailored quote."
+        },
+        {
+          "question": "Is Legal Aid funding always cheaper than private?",
+          "answer": "Legal Aid rates are set by the LAA and are fixed for all providers. Private rates vary by expert and complexity. In many cases, instructing through us at Legal Aid rates is equal to or cheaper than sourcing experts directly, because of our efficiency and no markup."
+        },
+        {
+          "question": "Can I get a detailed breakdown before committing?",
+          "answer": "Absolutely. Every quote we provide includes a full line-by-line breakdown of hours, daily rates, and services. You'll see exactly what you're paying for. Use our calculator above or call 01306 879 975 to discuss your specific case."
+        },
+        {
+          "question": "What if my case doesn't fit the standard pricing?",
+          "answer": "Many complex cases require custom quotes. Call us on 01306 879 975 or submit your brief using the calculator. We'll review and provide a bespoke estimate that reflects the real requirements of your case."
+        },
+        {
+          "question": "Do you accept Legal Aid funding?",
+          "answer": "Yes. All our psychologists and psychiatrists work at Legal Aid Agency rates. We provide CVs and quotes formatted exactly as the LAA requires. We're fully compliant with Legal Aid fee schedules and payment processes."
+        },
+        {
+          "question": "How does quality vary across price points?",
+          "answer": "It doesn't. Whether you're instructing at Legal Aid rates or private rates, you receive the same HCPC/GMC-registered expert, the same assessment depth, and the same 100% quality assurance. Price reflects timeline and case complexity, not expert calibre."
+        }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "1,000+", "label": "Vetted Experts Nationwide" },
+        { "value": "24-Hour", "label": "CV Matching" },
+        { "value": "4\u20136 Week", "label": "Standard Turnaround" },
+        { "value": "100%", "label": "Report QA" }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Still Unsure About Costs?",
+      "bodyText": "Every case is different. Our Client Managers can discuss your specific requirements. We'll provide a binding quote within 24 hours. No obligation, no surprises.",
+      "primaryCtaText": "Get a Custom Quote",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call Us",
+      "secondaryCtaLink": "tel:01306879975"
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Transparent Pricing Across All Services",
+      "cards": [
+        {
+          "title": "Expert Witness \u2014 Psychology",
+          "description": "Psychology assessments for family, criminal, civil, and employment cases. Full cost breakdown provided upfront.",
+          "link": "/expert-witness-psychologists/"
+        },
+        {
+          "title": "Expert Witness \u2014 Psychiatry",
+          "description": "Psychiatric evaluations with medical-level diagnosis and treatment recommendations. Transparent pricing for all specialisms.",
+          "link": "/expert-witness-psychologists/"
+        },
+        {
+          "title": "Educational Psychology",
+          "description": "EHCP and SEND assessments for schools and local authorities. Flexible pricing, volume discounts available.",
+          "link": "/educational-psychologist/"
+        },
+        {
+          "title": "Fast-Track Reports",
+          "description": "Court deadlines tight? We offer expedited processing at a clear, upfront premium.",
+          "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "alertBanner",
+      "type": "info",
+      "text": "Using Legal Aid funding? We provide fee breakdowns in the exact format the LAA requires. No additional admin burden on your side.",
+      "ctaText": "Learn More About Our Legal Aid Compliance",
+      "ctaLink": "/expert-witness-psychologists/pricing/"
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Instruct an Expert?",
+      "bodyText": "You now know the cost. Our Client Managers are ready to match you with the perfect expert. We'll handle everything from here. CVs within 24 hours, guaranteed.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Speak to a Client Manager",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

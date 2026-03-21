@@ -1,0 +1,50 @@
+{
+  "title": "Page Not Found | Psychology Direct",
+  "description": "The page you're looking for isn't here. Explore our expert witness and education psychology services, or contact us for help.",
+  "url": "/404/",
+  "keywords": [],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Page Not Found",
+      "subtitle": "The page has moved or doesn't exist. We can help you find what you need.",
+      "primaryCtaText": "Search Our Site",
+      "primaryCtaLink": "#search",
+      "secondaryCtaText": "Go to Homepage",
+      "secondaryCtaLink": "/",
+      "backgroundImage": "/images/heroes/404-hero.jpg"
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Common Questions When You're Lost",
+      "faqs": [
+        {
+          "question": "I was looking for a specific service. Can you help me find it?",
+          "answer": "Use the search box above or call us on 01306 879 975. Our team can help you find what you need."
+        },
+        {
+          "question": "Where's your pricing page?",
+          "answer": "Costs vary by case. Use our Fee Calculator to estimate costs at /tools/fee-calculator/ or contact us for a quote."
+        },
+        {
+          "question": "How do I contact you?",
+          "answer": "Call 01306 879 975, email enquiries@psychologydirect.co.uk, or use our contact form at /contact/. We're available during business hours Monday\u2013Friday."
+        },
+        {
+          "question": "I'm looking for a resource. Is it available?",
+          "answer": "Browse resources by sector: /resources/legal/, /resources/education/, /resources/professionals/ or search above."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Still Need Help?",
+      "bodyText": "Our team is here to help. Call 01306 879 975 or email enquiries@psychologydirect.co.uk.",
+      "primaryCtaText": "Contact Us",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call Us",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

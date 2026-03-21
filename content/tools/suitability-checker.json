@@ -1,0 +1,277 @@
+{
+  "title": "Do You Need an Expert Witness? | Free Suitability Checker",
+  "description": "Unsure if your case needs an expert witness? Use our free tool to check in 2 minutes and get expert guidance on next steps.",
+  "url": "/tools/suitability-checker/",
+  "keywords": [
+    "do I need an expert witness",
+    "when do you need an expert witness",
+    "do I need a psychological expert",
+    "expert witness requirements",
+    "does my case need an expert"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Does Your Case Need Expert Evidence?",
+      "subtitle": "Many cases benefit from expert evidence. Others don't. In 2 minutes, we'll tell you whether expert witness assessment would strengthen your case \u2014 and what type.",
+      "primaryCtaText": "Check Your Case",
+      "primaryCtaLink": "#checker",
+      "secondaryCtaText": "Read About Our Process",
+      "secondaryCtaLink": "/expert-witness-psychologists/process/",
+      "backgroundImage": "/images/heroes/suitability-checker-hero.jpg"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "15+ Years' Experience" },
+        { "text": "1,000+ Successful Cases" },
+        { "text": "Court-Ready Reports" },
+        { "text": "Expert Guidance Always Free" }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "When Expert Evidence Makes a Difference",
+      "col1Header": "Expert Evidence Likely Helps?",
+      "col2Header": "Why",
+      "rows": [
+        {
+          "feature": "Dispute over parenting capacity",
+          "col1": "Yes",
+          "col2": "Court needs professional assessment of ability to parent, mental health, coping"
+        },
+        {
+          "feature": "Disagreement about child's best interests",
+          "col1": "Yes",
+          "col2": "Expert can assess attachment, child's needs, safeguarding concerns"
+        },
+        {
+          "feature": "Personal injury \u2014 psychological injury",
+          "col1": "Yes",
+          "col2": "Psychologist assesses trauma, PTSD, functional impact, prognosis"
+        },
+        {
+          "feature": "Fitness to plead (criminal)",
+          "col1": "Yes \u2014 essential",
+          "col2": "Psychiatrist/psychologist assesses defendant's mental state and capacity"
+        },
+        {
+          "feature": "Employment discrimination claim",
+          "col1": "Maybe",
+          "col2": "Depends on whether psychological injury or capability is central"
+        },
+        {
+          "feature": "Asylum claim involving torture",
+          "col1": "Yes \u2014 essential",
+          "col2": "Psychiatrist assesses trauma, torture sequelae, medical and psychological impact"
+        },
+        {
+          "feature": "Contractual dispute (pure commercial)",
+          "col1": "Unlikely",
+          "col2": "Expert evidence rarely adds value unless mental capacity is questioned"
+        },
+        {
+          "feature": "Boundary dispute (pure property)",
+          "col1": "Unlikely",
+          "col2": "Expert evidence not relevant unless mental state is central"
+        }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Why Expert Witnesses Matter",
+      "tabs": [
+        {
+          "label": "When You Absolutely Need an Expert",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Expert witness evidence is essential in cases where:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Capacity is in question \u2014 Is a parent able to look after their child? Is someone fit to plead?" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health is central \u2014 Domestic abuse, PTSD, depression, psychosis require expert diagnosis" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Behaviour must be assessed \u2014 Is someone aggressive? Do they pose a risk?" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The court/tribunal lacks expertise \u2014 Judges need expert help with complex psychological issues" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The dispute hinges on psychology \u2014 Criminal, family, and asylum cases often need expert evidence" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "When Expert Evidence Can Strengthen Your Case",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Expert witness evidence is valuable but not essential when:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It adds credibility \u2014 Expert opinion reinforces your narrative with professional evidence" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It clarifies complexity \u2014 An expert can untangle psychological factors in disputed cases" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It preempts the other side \u2014 The other party may instruct an expert; getting yours in first protects your position" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "It satisfies procedural rules \u2014 Some courts expect expert evidence on certain issues" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "When You Probably Don't Need an Expert",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Expert evidence is unlikely to help when:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The dispute is purely legal or financial \u2014 Contract interpretation, property boundary, debt" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The facts are undisputed \u2014 Everyone agrees what happened; the disagreement is about legal consequence" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychology is tangential \u2014 The case is primarily about something else" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "However: if the other side may instruct an expert, consider it anyway for balance." }]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "500+", "label": "Cases With Expert Evidence" },
+        { "value": "Stronger", "label": "Settlement Terms on Average" },
+        { "value": "4\u20136 Week", "label": "Standard Turnaround" },
+        { "value": "100%", "label": "Report Quality Assurance" }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How Expert Witnesses Changed Case Outcomes",
+      "caseStudies": [
+        {
+          "title": "Parenting Capacity Was Central",
+          "description": "A family law firm was unsure whether parenting capacity assessment was necessary. The judge required it. Expert psychology assessment showed the parent could provide safe care with support \u2014 outcomes that influenced the court's decision.",
+          "tag": "Family Law",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "Fitness to Plead \u2014 Without Which, No Trial",
+          "description": "A criminal defendant claimed unfitness to plead. Expert psychiatric assessment confirmed genuine fitness concerns. The case didn't proceed to trial; instead, the defendant received appropriate mental health support.",
+          "tag": "Criminal Law",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "Psychological Injury Claim \u2014 Quantified Damages",
+          "description": "A PI claim for psychological injury seemed weak until a psychologist's report documented PTSD, functional impairment, and long-term prognosis. This strengthened the damages claim substantially.",
+          "tag": "Civil/PI",
+          "link": "/case-studies/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Common Questions About Expert Necessity",
+      "faqs": [
+        {
+          "question": "How do I know if I really need an expert?",
+          "answer": "Use our Suitability Checker above (takes 2 minutes). Or call us on 01306 879 975. Our Client Managers have 15+ years' experience and can assess whether your case warrants expert evidence based on a brief discussion \u2014 at no cost."
+        },
+        {
+          "question": "What if I instruct an expert and the court doesn't use their evidence?",
+          "answer": "It happens, but it's rare if the expert is well-matched and well-instructed. Our vetting and matching process is rigorous and we ensure the Letter of Instruction is clear. If you're concerned, discuss the case specifics with our team before instructing."
+        },
+        {
+          "question": "Is expert evidence more important in family law or criminal law?",
+          "answer": "Both matter. In family law, capacity and parenting assessments are often essential. In criminal law, fitness to plead and dangerousness assessments are mandatory in many cases. In civil/PI, expert evidence strengthens damages claims. In employment, it depends on the claim."
+        },
+        {
+          "question": "Can I instruct an expert 'just in case' if I'm unsure?",
+          "answer": "You can, but it's not necessary. Instead, discuss your case with us first. If we think an expert would help, we'll recommend it. If not, we'll be honest about that. We don't over-service."
+        },
+        {
+          "question": "What if the other side instructs an expert \u2014 do I need one too?",
+          "answer": "Very likely, yes. If your opponent has expert evidence supporting their position, having your own expert balance it is usually wise."
+        },
+        {
+          "question": "How much does it cost to get expert guidance on whether I need an expert?",
+          "answer": "It's free. Use the Suitability Checker above. Or call 01306 879 975 and speak to a Client Manager. No obligation, no charge."
+        },
+        {
+          "question": "What if my case is unusual or niche?",
+          "answer": "Even more reason to discuss with us. We have 1,000+ experts across all disciplines and sub-specialisms. If expert evidence would help your niche case, we can find the right specialist. If it won't help, we'll tell you that too."
+        },
+        {
+          "question": "Do courts expect expert evidence in certain case types?",
+          "answer": "Yes. Family law cases involving children usually benefit from expert assessment. Criminal cases involving fitness to plead require it. Asylum cases involving torture survivors often require psychiatric assessment. In other areas, it's discretionary but often strengthens claims."
+        }
+      ]
+    },
+    {
+      "_template": "alertBanner",
+      "type": "info",
+      "text": "Not all cases need expert evidence. We'll give you honest guidance on whether it would help yours \u2014 and if it won't, we'll say so.",
+      "ctaText": "Get Free Guidance",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Get Expert Guidance \u2014 It's Free",
+      "bodyText": "Unsure whether expert evidence would help? Our Client Managers can discuss your case and recommend next steps. No obligation, no sales pitch.",
+      "primaryCtaText": "Get Free Advice",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call Us",
+      "secondaryCtaLink": "tel:01306879975"
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "We Help You Make the Right Decision",
+      "cards": [
+        {
+          "title": "Free Case Assessment",
+          "description": "Discuss your specific case with our Client Managers. We'll recommend whether expert evidence is needed.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Expert Guidance",
+          "description": "Our team has 15+ years' experience. We advise on case strategy and expert needs upfront.",
+          "link": "/expert-witness-psychologists/process/"
+        },
+        {
+          "title": "Matched Experts",
+          "description": "Once you decide to instruct, we match the perfect expert within 24 hours.",
+          "link": "/expert-witness-psychologists/"
+        },
+        {
+          "title": "Legal Resources",
+          "description": "Learn more about when experts are used in your legal area.",
+          "link": "/resources/"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Instruct an Expert?",
+      "bodyText": "If the Suitability Checker indicates expert evidence would help, our team is ready to match you within 24 hours. We'll provide CVs, quotes, and expert alignment.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Get a Free Assessment First",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

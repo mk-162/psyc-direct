@@ -1,0 +1,77 @@
+{
+  "title": "Client Login | Psychology Direct",
+  "description": "Access your case details, documents, and reports. Log in to the Psychology Direct client portal.",
+  "url": "/client-login/",
+  "keywords": [],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Access Your Case Portal",
+      "subtitle": "Access your case details, documents, and updates on your Psychology Direct account.",
+      "primaryCtaText": "Log In to Portal",
+      "primaryCtaLink": "https://accounts.zoho.eu/signin?servicename=ZohoProjects&signupurl=https://www.zoho.eu/projects/signup.html",
+      "secondaryCtaText": "Can't Log In?",
+      "secondaryCtaLink": "#help",
+      "backgroundImage": "/images/heroes/client-login-hero.jpg"
+    },
+    {
+      "_template": "alertBanner",
+      "type": "info",
+      "text": "First time logging in? You should have received credentials when your case was assigned. Check your email from enquiries@psychologydirect.co.uk.",
+      "ctaText": "Request Login Details",
+      "ctaLink": "mailto:enquiries@psychologydirect.co.uk"
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Portal & Login Help",
+      "faqs": [
+        {
+          "question": "Where do I log in?",
+          "answer": "Click the Log In to Portal button above. You'll access our secure Zoho Projects portal."
+        },
+        {
+          "question": "What are my login credentials?",
+          "answer": "You should have received login instructions when your case was assigned. Check your email, including spam. If missing, see the help section below."
+        },
+        {
+          "question": "I've forgotten my password. How do I reset it?",
+          "answer": "On the Zoho login page, click Forgot your password? You'll receive an email with password reset instructions."
+        },
+        {
+          "question": "I don't have login credentials. Who do I contact?",
+          "answer": "Email enquiries@psychologydirect.co.uk with your organisation name and case reference. We'll send you login details immediately."
+        },
+        {
+          "question": "Can I access the portal on my phone?",
+          "answer": "Yes. The portal is mobile-responsive and works on all devices including iPhone, Android, tablet, and desktop."
+        },
+        {
+          "question": "I get an error when I try to log in. What should I do?",
+          "answer": "First, check email and password are correct. If the error persists, try clearing cache and cookies, a different browser, or a different device. Contact us if it continues: enquiries@psychologydirect.co.uk or 01306 879 975."
+        },
+        {
+          "question": "What information can I see in the portal?",
+          "answer": "You can see case details, timeline, assessment scheduling, reports, invoices, and message your Client Manager. You cannot see other clients' cases."
+        },
+        {
+          "question": "Is the portal secure?",
+          "answer": "Yes. The portal uses encrypted connections and follows GDPR standards. Case information is protected and visible only to authorised users."
+        },
+        {
+          "question": "Can I download reports from the portal?",
+          "answer": "Yes. All completed reports are available for download as PDFs. You can also access assessment notes and other documentation related to your case."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Need Support Logging In?",
+      "bodyText": "If you're having trouble accessing the portal or need login credentials, our team is here to help.",
+      "primaryCtaText": "Email Support",
+      "primaryCtaLink": "mailto:enquiries@psychologydirect.co.uk",
+      "secondaryCtaText": "Call Us",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

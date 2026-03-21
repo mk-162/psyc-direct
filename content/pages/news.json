@@ -1,0 +1,91 @@
+{
+  "title": "News & Insights | Psychology Direct Blog",
+  "description": "Expert insights, best practice guides, and updates on expert witness services, educational psychology, and professional development. Read our latest articles.",
+  "url": "/news/",
+  "keywords": [
+    "expert witness blog",
+    "psychology blog",
+    "expert witness articles",
+    "educational psychology insights",
+    "professional development"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Expert Insights on Psychology, Psychiatry & Education",
+      "subtitle": "Articles on expert witness best practice, SEND guidance, professional development, and industry insights. Subscribe for monthly updates.",
+      "primaryCtaText": "Read Latest Articles",
+      "primaryCtaLink": "#articles",
+      "secondaryCtaText": "Subscribe to Newsletter",
+      "secondaryCtaLink": "#newsletter",
+      "backgroundImage": "/images/heroes/news-hero.jpg"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "50+ Articles Published" },
+        { "text": "Expert Authors" },
+        { "text": "Monthly Updates" },
+        { "text": "5,000+ Subscribers" }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "50+", "label": "Articles Published" },
+        { "value": "5,000+", "label": "Newsletter Subscribers" },
+        { "value": "Monthly", "label": "Content Updates" },
+        { "value": "Expert", "label": "Authors" }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Newsletter FAQs",
+      "faqs": [
+        {
+          "question": "How often do you send newsletters?",
+          "answer": "We send a monthly digest with best articles, regulatory updates, and industry insights. You'll receive only one email per month."
+        },
+        {
+          "question": "Can I unsubscribe?",
+          "answer": "Yes, anytime. Every email has an unsubscribe link. No hard feelings \u2014 you can resubscribe anytime."
+        },
+        {
+          "question": "Will you share my email address?",
+          "answer": "No. We respect privacy and follow GDPR strictly. Your email is used only for the newsletter and Psychology Direct updates."
+        },
+        {
+          "question": "I'm interested in specific topics. Can I choose?",
+          "answer": "Yes. During signup, select your interests (Expert Witness, Education, Professional Development). We'll tailor your monthly digest."
+        },
+        {
+          "question": "Can I read articles without subscribing?",
+          "answer": "Yes, all articles are free online. Subscribing sends you a monthly summary so you never miss new content."
+        },
+        {
+          "question": "I'd like to contribute an article. Can I do that?",
+          "answer": "We welcome guest contributions from qualified professionals. Email editorial@psychologydirect.co.uk with your article idea."
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Find Articles on a Specific Topic?",
+      "bodyText": "Use the filter above to browse by topic. Or search our article library using the search bar at the top.",
+      "primaryCtaText": "Browse All Articles",
+      "primaryCtaLink": "#articles",
+      "secondaryCtaText": "Subscribe to Newsletter",
+      "secondaryCtaLink": "#newsletter"
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Stay Updated on Expert Insights",
+      "bodyText": "Subscribe to our monthly newsletter for articles, updates, and professional development. Join 5,000+ subscribers.",
+      "primaryCtaText": "Subscribe Now",
+      "primaryCtaLink": "#newsletter",
+      "secondaryCtaText": "Read Latest Articles",
+      "secondaryCtaLink": "#articles"
+    }
+  ]
+}

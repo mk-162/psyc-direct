@@ -1,0 +1,298 @@
+{
+  "title": "Resources for Psychologists & Psychiatrists | Psychology Direct",
+  "description": "Free resources for independent practitioners. CV guides, report templates, compliance documents, fee information, and professional development resources.",
+  "url": "/resources/professionals/",
+  "keywords": [
+    "resources for psychologists",
+    "expert witness CV guide",
+    "medico-legal report template",
+    "expert witness fees",
+    "GDPR compliance psychology",
+    "professional development psychologists"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Build and Grow Your Professional Practice",
+      "subtitle": "CV guides, report templates, compliance documents, fee guidance, and professional development resources. Free resources to build and grow your practice.",
+      "primaryCtaText": "Browse Resources",
+      "primaryCtaLink": "#tabbed-content",
+      "secondaryCtaText": "Join Our Network",
+      "secondaryCtaLink": "/about/careers/",
+      "backgroundImage": "/images/heroes/resources-professionals-hero.jpg"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "15+ Expert Resources" },
+        { "text": "Written by Practitioners" },
+        { "text": "Compliance-Approved" },
+        { "text": "Free to All Professionals" }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Resource Categories",
+      "cards": [
+        {
+          "title": "Practice Management",
+          "description": "CV guides, business planning, fee-setting, and growing your independent practice.",
+          "link": "#practice"
+        },
+        {
+          "title": "Report Templates",
+          "description": "Medico-legal report frameworks, declaration templates, and formatting guidance.",
+          "link": "#templates"
+        },
+        {
+          "title": "Compliance & Data Protection",
+          "description": "GDPR, DPA, ICO registration, professional indemnity, and legal obligations.",
+          "link": "#compliance"
+        },
+        {
+          "title": "Fee & Payment Guidance",
+          "description": "Setting rates, negotiating fees, Legal Aid rates, and billing best practices.",
+          "link": "#fees"
+        },
+        {
+          "title": "Professional Development",
+          "description": "CPD guidance, specialisation building, case management skills, and career planning.",
+          "link": "#development"
+        },
+        {
+          "title": "Getting Work",
+          "description": "Marketing your practice, partnering with agencies, and building referral relationships.",
+          "link": "#work"
+        }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Professional Resources",
+      "tabs": [
+        {
+          "label": "Practice Management",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Building and growing your independent practice:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Write an Effective CV \u2014 What to include, formatting for agencies and solicitors" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Expert Witness Profile \u2014 Creating an online presence and marketing to solicitors" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Business Planning for Independent Practitioners \u2014 Setting business goals and financial planning" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Professional Indemnity Insurance \u2014 Why it's essential and what coverage you need" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Practice Administration & Systems \u2014 Client management, scheduling, and invoicing" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Build a professional practice, market yourself effectively, and manage administration efficiently.", "bold": true }]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Report Templates",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Ready-to-use report templates:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychology Medico-Legal Report Template \u2014 Structure and content guidance" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychiatry Report Template \u2014 Diagnostic assessment frameworks, ICD-10 and DSM-5" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Declaration \u2014 MOJ standard declaration and how to incorporate into reports" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Report Editing Checklist \u2014 What to review before submitting" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Report Writing Best Practices \u2014 Clarity, completeness, and meeting court standards" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Write professional, court-ready reports that meet quality standards.", "bold": true }]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Compliance",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Meeting legal and professional obligations:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Data Protection Act & GDPR Compliance \u2014 Legal requirements, patient rights, and data security" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "ICO Registration for Psychologists \u2014 What registration means and the application process" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Regulatory Compliance \u2014 HCPC and GMC registration, CPD requirements, fitness to practise" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Declarations & Obligations \u2014 MOJ standard declarations, duty to the court" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Confidentiality & Privilege \u2014 Legal privilege, when to disclose, client consent requirements" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Stay compliant, protect your clients, and understand your professional obligations.", "bold": true }]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Fees & Payment",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Getting paid fairly and managing finances:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Fees \u2014 The Facts \u2014 What to charge and how to set rates" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Understanding Legal Aid Rates \u2014 Current LAA rates for psychology and psychiatry" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fee Negotiation & Agreements \u2014 Negotiating with solicitors and standard agreement terms" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Billing & Invoice Best Practices \u2014 What to include and timely billing" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Managing Cash Flow in Private Practice \u2014 Forecasting income and tax planning" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Get paid fairly, manage invoicing, and maintain healthy cash flow.", "bold": true }]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Professional Development",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Building expertise and advancing your career:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Continuing Professional Development \u2014 CPD requirements for HCPC and GMC" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Specialism \u2014 Developing expertise, training, and attracting specialist work" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Advanced Skills in Expert Witness Work \u2014 Court preparation, cross-examination, complex cases" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Supervision & Peer Review \u2014 Getting supervision in private practice" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Managing Vicarious Trauma & Burnout \u2014 Self-care strategies and building resilience" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Develop expertise, maintain standards, and build a sustainable, fulfilling career.", "bold": true }]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Getting Work",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Building referral relationships and growing your workload:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Find Expert Witness Work \u2014 Agencies, referral networks, and direct relationships" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Partnering with Psychology Direct \u2014 How our network works and benefits of joining" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Networking & Relationship Building \u2014 Events, conferences, and building direct relationships" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Online Presence \u2014 Website, LinkedIn, directory listings" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Tender Processes & Competitive Bidding \u2014 Responding to LA and NHS tenders" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Build a steady referral pipeline, grow your network, and achieve consistent workload.", "bold": true }]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Interested in Joining Our Network?",
+      "bodyText": "We work with 1,000+ psychologists and psychiatrists nationwide. You'll access steady referrals and handle admin-free instruction. Build a sustainable practice with us.",
+      "primaryCtaText": "Learn About Joining",
+      "primaryCtaLink": "/about/careers/",
+      "secondaryCtaText": "Get Network Information",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "15+", "label": "Expert Resources" },
+        { "value": "12+", "label": "Ready-to-Use Templates" },
+        { "value": "1,000+", "label": "Practitioners Trust Us" },
+        { "value": "Free", "label": "To All Professionals" }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Professional Resources FAQs",
+      "faqs": [
+        {
+          "question": "Can I download all these resources at once?",
+          "answer": "You can download individual guides via the tabs above. For a complete package of all professional resources, email professionals@psychologydirect.co.uk. We'll send a ZIP file."
+        },
+        {
+          "question": "Who has written these guides?",
+          "answer": "All guides are written by experienced independent practitioners and senior clinicians with 15+ years' experience in private practice."
+        },
+        {
+          "question": "Are these resources updated regularly?",
+          "answer": "Yes. We update guides annually and immediately when regulations change, including Legal Aid rates, GDPR updates, and HCPC requirements. Subscribe to our professional newsletter to get notified."
+        },
+        {
+          "question": "Can I share these resources with colleagues?",
+          "answer": "Yes. Share freely with colleagues in your professional network. We ask that you credit Psychology Direct, but we don't require permission."
+        },
+        {
+          "question": "I'm interested in joining Psychology Direct. Where do I start?",
+          "answer": "Visit /about/careers/ for application information. Or email professionals@psychologydirect.co.uk. We'll send you a joining information pack."
+        },
+        {
+          "question": "What are the current Legal Aid rates?",
+          "answer": "See the Legal Aid Rates Summary in the Fees tab. Rates are updated annually. Subscribe to our newsletter for updates."
+        },
+        {
+          "question": "I need guidance on a specific professional topic not listed. Can you help?",
+          "answer": "Email professionals@psychologydirect.co.uk with your question. We create resources based on practitioner needs and may add it to the library."
+        },
+        {
+          "question": "Are these resources suitable for psychologists and psychiatrists?",
+          "answer": "Most resources apply to both disciplines. Some sections are discipline-specific, for example psychology report templates differ from psychiatry ones. Check the relevant tabs."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Grow Your Practice?",
+      "bodyText": "Whether you're just starting or looking to expand, our resources support every stage. If you're interested in joining our network, we'd love to talk.",
+      "primaryCtaText": "Join Our Network",
+      "primaryCtaLink": "/about/careers/",
+      "secondaryCtaText": "Get Professional Resources",
+      "secondaryCtaLink": "#tabbed-content"
+    }
+  ]
+}

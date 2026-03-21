@@ -1,0 +1,156 @@
+{
+  "title": "Complaints Policy | Psychology Direct",
+  "description": "Our formal complaints procedure. We take feedback seriously and continuously improve based on client and professional input.",
+  "url": "/complaints-policy/",
+  "keywords": [
+    "complaints policy psychology direct",
+    "formal complaint process",
+    "quality feedback",
+    "complaints procedure"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "We Take Your Feedback Seriously",
+      "subtitle": "At Psychology Direct, we pride ourselves on quality service. If something doesn't meet your expectations, we want to hear. This explains how we handle and resolve complaints.",
+      "backgroundImage": "/images/heroes/complaints-hero.jpg"
+    },
+    {
+      "_template": "richText",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "h2",
+            "children": [{ "type": "text", "text": "Our Commitment" }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "We pride ourselves on quality service to all clients and professionals. If something doesn't meet your expectations, we take it seriously." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "We prefer informal resolution where possible. If you wish to file a formal complaint, the procedure below explains how we'll handle it." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Important Note:", "bold": true }, { "type": "text", "text": " If your complaint relates to ongoing court proceedings, we may be unable to address it until proceedings conclude. We cannot circumvent ongoing court processes." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "We consider complaints received within 12 months of the final report or session, or within 3 months of court proceedings completion \u2014 whichever is later." }]
+          },
+          {
+            "type": "h2",
+            "children": [{ "type": "text", "text": "How to File a Formal Complaint" }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Step 1: Submit Your Complaint", "bold": true }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Send your complaint in writing to:" }]
+          },
+          {
+            "type": "ul",
+            "children": [
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Email: enquiries@psychologydirect.co.uk" }] }] },
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Post: Psychology Direct, PO Box 497, Leatherhead, Surrey, KT22 2PD" }] }] },
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Phone: 01306 879 975 (discuss informally before filing formal complaint)" }] }] }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Please include as much detail as possible about your complaint." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Step 2: Acknowledgement (5 Days)", "bold": true }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "We'll send an acknowledgment letter within five days of receiving your complaint. It will include a copy of this procedure. If your complaint involves ongoing court proceedings or other parties, we may contact them and invite their response." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Step 3: Investigation (21 Days)", "bold": true }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "We'll investigate thoroughly. This normally involves passing your complaint to the Operations Manager, reviewing your file and documents, speaking with staff and associates involved, and consulting our Legal Advisor if issues are complex. We'll send a written reply within 21 working days of the acknowledgement letter." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Step 4: Resolution", "bold": true }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Our response will outline what we found during our investigation, whether we uphold or reject your complaint, actions we're taking to resolve the issue, and any compensation or remedial measures if appropriate." }]
+          },
+          {
+            "type": "h2",
+            "children": [{ "type": "text", "text": "Appeals Process" }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "If you're not satisfied with our response, you have the right to appeal. Send your appeal to the Managing Director, Aaron Banham, at Psychology Direct, PO Box 497, Leatherhead, Surrey, KT22 2PD or email enquiries@psychologydirect.co.uk (marked \"Appeal\"). Your appeal must be received within 5 days of receiving our initial response." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "We'll review your appeal and send a written response within 14 days. It will confirm our final position and explain our reasoning." }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "If you remain unsatisfied, you can contact your expert's professional regulator:" }]
+          },
+          {
+            "type": "ul",
+            "children": [
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "HCPC (Health and Care Professions Council) \u2014 psychologists" }] }] },
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "GMC (General Medical Council) \u2014 psychiatrists" }] }] },
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "BPS (British Psychological Society) \u2014 psychologists" }] }] }
+            ]
+          },
+          {
+            "type": "h2",
+            "children": [{ "type": "text", "text": "How We Use Your Feedback" }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Complaints and feedback drive improvement. We take all complaints seriously and investigate thoroughly, use complaints to improve our processes, share learning from complaints across the team, review complaints quarterly to identify patterns, and update policies and procedures based on feedback. We handle your identity confidentially throughout the process." }]
+          },
+          {
+            "type": "h2",
+            "children": [{ "type": "text", "text": "Get in Touch" }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "To file a complaint, contact us:" }]
+          },
+          {
+            "type": "ul",
+            "children": [
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Email: enquiries@psychologydirect.co.uk" }] }] },
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Post: Psychology Direct, PO Box 497, Leatherhead, Surrey, KT22 2PD" }] }] },
+              { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Phone: 01306 879 975" }] }] }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "Response Timescales:", "bold": true }, { "type": "text", "text": " Acknowledgement within 5 days. Investigation response within 21 working days. Appeal response within 14 days. If our timescales change, we will always let you know and explain why." }]
+          },
+          {
+            "type": "h2",
+            "children": [{ "type": "text", "text": "Policy Review" }]
+          },
+          {
+            "type": "p",
+            "children": [{ "type": "text", "text": "We review this policy annually and update it for best practice and regulatory compliance. Last Updated: October 2022, Version 4. Next Review: Annually." }]
+          }
+        ]
+      }
+    }
+  ]
+}

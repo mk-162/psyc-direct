@@ -1,0 +1,299 @@
+{
+  "title": "Do I Need a Psychologist or Psychiatrist? | Free Tool",
+  "description": "Not sure which expert you need? Answer a few questions and get instant guidance on psychologist vs psychiatrist for your legal or educational case.",
+  "url": "/tools/psychologist-or-psychiatrist/",
+  "keywords": [
+    "psychologist or psychiatrist for expert witness",
+    "difference between psychologist and psychiatrist legal",
+    "do I need a psychologist or psychiatrist",
+    "psychologist vs psychiatrist",
+    "which expert do I need"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Find the Right Expert for Your Case",
+      "subtitle": "Answer a few quick questions and get personalised guidance on whether you need a psychologist, psychiatrist, or both. We'll recommend the right expert and match you within 24 hours.",
+      "primaryCtaText": "Start the Tool",
+      "primaryCtaLink": "#tool",
+      "secondaryCtaText": "Compare in Detail",
+      "secondaryCtaLink": "#comparison",
+      "backgroundImage": "/images/heroes/psychologist-psychiatrist-hero.jpg"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "1,000+ Experts Across All Disciplines" },
+        { "text": "Expert Matching Within 24 Hours" },
+        { "text": "HCPC & GMC Registered" },
+        { "text": "Proven Court & School Track Record" }
+      ]
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Psychologists vs Psychiatrists: Key Differences",
+      "col1Header": "Psychologist",
+      "col2Header": "Psychiatrist",
+      "rows": [
+        {
+          "feature": "Education & Qualifications",
+          "col1": "Doctorate in psychology (PhD, DClinPsy, etc.); 3+ years training",
+          "col2": "Medical doctor (MD/MBChB); additional psychiatric specialisation"
+        },
+        {
+          "feature": "Registration",
+          "col1": "HCPC-registered (mandatory)",
+          "col2": "GMC-registered (mandatory); often Section 12 approved"
+        },
+        {
+          "feature": "Can Prescribe Medication",
+          "col1": "No",
+          "col2": "Yes \u2014 can diagnose and prescribe psychiatric medication"
+        },
+        {
+          "feature": "Assessment Focus",
+          "col1": "Behaviour, cognition, emotions, relationships, family dynamics",
+          "col2": "Mental health diagnosis, psychiatric conditions, medication effects"
+        },
+        {
+          "feature": "Report Type",
+          "col1": "Psychological assessment of functioning, capacity, impact",
+          "col2": "Psychiatric diagnosis, medical findings, treatment recommendations"
+        },
+        {
+          "feature": "Common Legal Uses",
+          "col1": "Family law, criminal (behaviour/capacity), civil injury, EHCP",
+          "col2": "Criminal (fitness to plead), family (mental capacity), immigration"
+        },
+        {
+          "feature": "Typical Cost",
+          "col1": "\u00a33,200\u2013\u00a35,500 depending on case complexity",
+          "col2": "\u00a34,000\u2013\u00a37,000 depending on case complexity"
+        },
+        {
+          "feature": "Timeline",
+          "col1": "4\u20136 weeks standard; 2\u20133 weeks fast-track",
+          "col2": "4\u20136 weeks standard; 2\u20133 weeks fast-track"
+        }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "When Do You Need Each Type?",
+      "tabs": [
+        {
+          "label": "Psychologist",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "A psychologist assesses psychological functioning, behaviour, and cognition. They're ideal when the court, school, or authority needs to understand:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How someone thinks, feels, and behaves" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Ability to parent or make decisions" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Impact of trauma, abuse, or neglect" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Learning difficulties or educational needs" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Whether someone can understand court proceedings (fitness to plead)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Personality, coping strategies, and risk factors" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Common case types:", "bold": true }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Family law (parenting capacity, attachment, child protection)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP and school assessments (learning, behaviour, development)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Criminal law (fitness to plead, reliability of evidence, risk assessment)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Civil claims (psychological injury from accidents or negligence)" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Psychiatrist",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "A psychiatrist provides medical diagnosis and psychiatric assessment. They're ideal when the case involves understanding:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Mental health diagnoses (depression, psychosis, personality disorders)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Effects of psychiatric medication" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Whether a mental health condition affects capacity or functioning" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Medical prognosis and treatment recommendations" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fitness to plead from a psychiatric perspective" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Common case types:", "bold": true }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Criminal law (fitness to plead, psychiatric assessment of dangerousness)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Family law (capacity of a parent with mental illness)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Immigration law (assessment of torture survivors, PTSD)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Civil claims (psychiatric injury, PTSD from assault or accident)" }] }] }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "When Do You Need Both?",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Many cases benefit from both a psychologist and a psychiatrist, because behaviour and medical diagnosis are intertwined:" }]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "A parent with untreated depression may lack motivation to parent effectively" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "A child's trauma may manifest in psychiatric symptoms (anxiety, PTSD)" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Domestic abuse survivors show both psychological impact and psychiatric symptoms" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Criminal defendants may have both psychological deficits and psychiatric illness" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [{ "type": "text", "text": "Cost-saving tip:", "bold": true }, { "type": "text", "text": " Instructing both experts is often more cost-effective than instructing one and then realising you need the other. Our Client Managers can advise whether one expert or two is optimal for your case." }]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "500+", "label": "Psychologists in Network" },
+        { "value": "200+", "label": "Psychiatrists in Network" },
+        { "value": "24-Hour", "label": "Expert Matching" },
+        { "value": "Zero", "label": "Wasted Referrals" }
+      ]
+    },
+    {
+      "_template": "caseStudyCards",
+      "heading": "How We Recommend the Right Expert",
+      "caseStudies": [
+        {
+          "title": "Family Law Case: When Both Experts Helped",
+          "description": "A care proceedings case involving a mother with bipolar disorder. Psychology assessed parenting capacity and family dynamics; psychiatry confirmed diagnosis, medication stability, and prognosis. The combination gave the court the complete picture.",
+          "tag": "Family Law",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "Criminal Case: Fitness to Plead",
+          "description": "A defendant with intellectual disability facing trial. Psychology assessed cognitive functioning; psychiatry assessed comorbid depression. Together, they provided evidence of fitness to plead.",
+          "tag": "Criminal Law",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "Immigration: Torture Survivor",
+          "description": "An asylum seeker claiming torture. Psychiatry diagnosed PTSD; psychology assessed psychological impact and rehabilitation needs. Dual assessment strengthened the claim.",
+          "tag": "Immigration",
+          "link": "/case-studies/"
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Choosing Between Psychologists and Psychiatrists",
+      "faqs": [
+        {
+          "question": "What if I'm still not sure which expert I need?",
+          "answer": "That's exactly what our Client Managers are for. Use the tool above to get a recommendation. Then call us on 01306 879 975. We'll discuss your case specifics and confirm whether you need psychology, psychiatry, or both \u2014 at no cost."
+        },
+        {
+          "question": "Can a psychologist do what a psychiatrist does?",
+          "answer": "Not exactly. Psychologists cannot diagnose mental health conditions or prescribe medication. But they can assess psychological impact and functioning. If your case needs psychiatric diagnosis, you need a psychiatrist. If it needs behavioural or capacity assessment, a psychologist is sufficient."
+        },
+        {
+          "question": "Can a psychiatrist do what a psychologist does?",
+          "answer": "Psychiatrists can assess psychological functioning to some extent. But they specialise in medical diagnosis. For cases focused purely on behaviour, parenting capacity, or learning difficulties, a psychologist is typically more appropriate \u2014 and often more cost-effective."
+        },
+        {
+          "question": "What if my case involves both psychology and psychiatry?",
+          "answer": "Instruct both. Many complex cases \u2014 especially family law involving mental illness, or criminal cases with dual disability \u2014 benefit from dual assessment. It's often more cost-effective than instructing one expert and discovering mid-case you need the other."
+        },
+        {
+          "question": "How much more expensive is it to instruct both experts?",
+          "answer": "Roughly 80\u2013100% of the single-expert cost, not double. Both experts will review the same background materials and may coordinate their assessments, which is more efficient than two completely separate referrals."
+        },
+        {
+          "question": "How long does it take to find both a psychologist and a psychiatrist?",
+          "answer": "We can provide CVs for both within 24 hours. Assessment timelines remain the same (4\u20136 weeks standard). Both experts can often assess within a similar timeframe."
+        },
+        {
+          "question": "Are psychiatrists more qualified than psychologists?",
+          "answer": "They're differently qualified. Psychiatrists are medical doctors with specialist psychiatric training. Psychologists have doctoral-level psychology training. Each brings distinct expertise. 'Better qualified' depends on what the case needs, not seniority."
+        },
+        {
+          "question": "What if the expert I'm instructed declines the case?",
+          "answer": "We have 1,000+ experts in our network across both disciplines. If the original expert declines, we immediately suggest alternatives \u2014 usually within hours, never longer than 24 hours."
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Still Want More Detail?",
+      "bodyText": "Our comprehensive guide compares psychology and psychiatry across legal contexts, with real examples. Download it free \u2014 no email required.",
+      "primaryCtaText": "Download Comparison Guide",
+      "primaryCtaLink": "/resources/legal/",
+      "secondaryCtaText": "Talk to a Client Manager",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Get Expert Guidance on the Right Expert Type",
+      "cards": [
+        {
+          "title": "Psychology Services",
+          "description": "We match HCPC-registered psychologists across all legal and educational specialisms. Use our tool to see if psychology is right for your case.",
+          "link": "/expert-witness-psychologists/"
+        },
+        {
+          "title": "Psychiatry Services",
+          "description": "We connect Section 12 approved psychiatrists for medical mental health assessment. Our tool recommends psychiatry when diagnosis is key.",
+          "link": "/expert-witness-psychologists/"
+        },
+        {
+          "title": "Dual Expert Matching",
+          "description": "Many cases need both. We'll match a psychologist-psychiatrist pair, coordinate their assessments, and manage everything.",
+          "link": "/contact/"
+        },
+        {
+          "title": "Educational Psychology",
+          "description": "Schools and LAs: Our Educational Psychologists assess learning, behaviour, and SEND. Use the tool to understand when EP input is needed.",
+          "link": "/educational-psychologist/"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Know Your Expert Type? Let's Find Them.",
+      "bodyText": "Once you know whether you need a psychologist, psychiatrist, or both, our Client Managers are ready to match you within 24 hours. We'll provide CVs, quotes, and expert alignment.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Get a Personalised Recommendation",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}

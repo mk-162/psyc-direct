@@ -1,0 +1,129 @@
+{
+  "title": "Expert Login | Psychology Direct",
+  "description": "Access your cases, documents, and communications. Log in to your Psychology Direct expert account.",
+  "url": "/expert-login/",
+  "keywords": [],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Access Your Expert Portal",
+      "subtitle": "Access your cases, assessments, and communications with Psychology Direct.",
+      "primaryCtaText": "Log In to Portal",
+      "primaryCtaLink": "https://psychologydirect.zohocreatorportal.eu/",
+      "secondaryCtaText": "Can't Log In?",
+      "secondaryCtaLink": "#help",
+      "backgroundImage": "/images/heroes/expert-login-hero.jpg"
+    },
+    {
+      "_template": "alertBanner",
+      "type": "info",
+      "text": "Not yet registered? Join our network of 1,000+ psychologists and psychiatrists. Access regular referrals, fair fees, and support.",
+      "ctaText": "Learn About Joining",
+      "ctaLink": "/about/careers/"
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Interested in Joining?",
+      "bodyText": "We work with independent experts nationwide. Join our network for regular referrals, fair fees, and professional support.",
+      "primaryCtaText": "Joining Information",
+      "primaryCtaLink": "/about/careers/",
+      "secondaryCtaText": "Email Us",
+      "secondaryCtaLink": "mailto:professionals@psychologydirect.co.uk"
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Portal & Login Help",
+      "faqs": [
+        {
+          "question": "Where do I log in?",
+          "answer": "Click the Log In to Portal button above. You'll access our secure Zoho portal."
+        },
+        {
+          "question": "What are my login credentials?",
+          "answer": "You should have received login instructions when you joined. Check your email, including spam. If missing, see the help section below."
+        },
+        {
+          "question": "I've forgotten my password. How do I reset it?",
+          "answer": "On the Zoho login page, click Forgot your password? You'll receive an email with password reset instructions."
+        },
+        {
+          "question": "I don't have login credentials. Who do I contact?",
+          "answer": "Email professionals@psychologydirect.co.uk with your name and details. We'll provide login credentials immediately."
+        },
+        {
+          "question": "Can I access the portal on my phone?",
+          "answer": "Yes. The portal is mobile-responsive and works on all devices including iPhone, Android, tablet, and desktop."
+        },
+        {
+          "question": "I get an error when I try to log in. What should I do?",
+          "answer": "First, check email and password are correct. If the error persists, try clearing cache and cookies, a different browser, or a different device. Contact us if it continues: professionals@psychologydirect.co.uk or 01306 879 975."
+        },
+        {
+          "question": "What cases can I see in the portal?",
+          "answer": "You can see cases assigned to you by Psychology Direct. You cannot see other experts' cases."
+        },
+        {
+          "question": "How do I upload my completed assessment report?",
+          "answer": "Log in, navigate to your case, and use the Upload Report button. Follow file format guidelines. Your Client Manager will review and send to client."
+        },
+        {
+          "question": "Is the portal secure?",
+          "answer": "Yes. The portal uses encrypted connections and follows GDPR standards. Case information is protected."
+        },
+        {
+          "question": "I have a question about a case assignment. Who do I contact?",
+          "answer": "Message your dedicated Client Manager through the portal (listed on your case). They can answer questions about instructions, logistics, or timelines."
+        },
+        {
+          "question": "Can I track payment status in the portal?",
+          "answer": "Yes. Your billing section shows all invoices, payment status, and payment history. You can also download invoices for your records."
+        },
+        {
+          "question": "I'm interested in joining the Psychology Direct network. How do I start?",
+          "answer": "Visit /about/careers/ for information about joining. Or email professionals@psychologydirect.co.uk and we'll send you an information pack."
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Why Psychologists & Psychiatrists Join Psychology Direct",
+      "cards": [
+        {
+          "title": "Regular Referrals",
+          "description": "Access a steady stream of cases nationwide. No more chasing referrals \u2014 we bring work to you.",
+          "link": "/about/careers/"
+        },
+        {
+          "title": "Fair Fees",
+          "description": "Competitive rates, transparent billing, and fast payment. No surprises or disputes.",
+          "link": "/about/careers/"
+        },
+        {
+          "title": "Admin-Free",
+          "description": "We handle all the admin, scheduling, and client communication. You focus on assessments.",
+          "link": "/about/careers/"
+        },
+        {
+          "title": "Professional Support",
+          "description": "Access resources, templates, compliance guidance, and professional development.",
+          "link": "/resources/professionals/"
+        },
+        {
+          "title": "Quality Clients",
+          "description": "Work with solicitors, LAs, and schools who value quality expertise and professional practice.",
+          "link": "/about/careers/"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Join Our Network?",
+      "bodyText": "Psychologists and psychiatrists nationwide are part of our network. Access regular work, fair fees, and professional support.",
+      "primaryCtaText": "Learn About Joining",
+      "primaryCtaLink": "/about/careers/",
+      "secondaryCtaText": "Get Network Information",
+      "secondaryCtaLink": "mailto:professionals@psychologydirect.co.uk"
+    }
+  ]
+}

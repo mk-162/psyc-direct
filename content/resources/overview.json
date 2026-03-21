@@ -1,0 +1,358 @@
+{
+  "title": "Expert Resources & Guides | Psychology Direct",
+  "description": "Free guides, templates, and resources for solicitors, schools, and professionals. Expert witness guides, EHCP resources, compliance templates, and more.",
+  "url": "/resources/",
+  "keywords": [
+    "expert witness resources",
+    "expert witness guides",
+    "SEND resources",
+    "educational psychology resources",
+    "legal resources psychologist",
+    "compliance templates"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Find Expert Resources, Fast",
+      "subtitle": "We've gathered guides, templates, and case studies for solicitors, schools, and professionals. Everything you need to navigate expert instruction and EHCP assessments.",
+      "primaryCtaText": "Browse Resources",
+      "primaryCtaLink": "#tabbed-content",
+      "secondaryCtaText": "Can't Find What You Need?",
+      "secondaryCtaLink": "/contact/",
+      "backgroundImage": "/images/heroes/resources-hero.jpg"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "50+ Free Resources" },
+        { "text": "Expert-Written Guides" },
+        { "text": "Regularly Updated" },
+        { "text": "Used by 1,000+ Professionals" }
+      ]
+    },
+    {
+      "_template": "tabbedContent",
+      "heading": "Find What You Need by Role",
+      "tabs": [
+        {
+          "label": "Legal Resources",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Guides and templates for solicitors and legal professionals instructing experts in family law, criminal law, civil claims, employment, and immigration."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Expert Witness Guides:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What is a Psychology Expert Witness? \u2014 Introduction to psychological evidence in court" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Fees \u2014 The Facts \u2014 Understanding costs, Legal Aid rates, and billing" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Write a Letter of Instruction \u2014 Best practices for expert briefs" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Standards for Expert Witnesses in Family Court \u2014 Minimum standards and compliance" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychologists as Expert Witnesses \u2014 Discipline-specific guidance" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Do I Need a Psychologist or Psychiatrist? \u2014 Choosing the right expert type" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Specialist Case Guides:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Fitness to Plead Assessment \u2014 Criminal procedure and what to expect" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Parenting Capacity Assessment \u2014 Family law assessments explained" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Assessing Reliability of Children's Evidence \u2014 ABE interviews and testimony credibility" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Domestic Abuse Expert Assessment \u2014 Trauma, impact, and risk in family proceedings" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Visit the full Legal Resources section for more guides, case studies, and FAQs.",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Education Resources",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resources for school leaders, SENCos, and Local Authorities working with educational psychologists on SEND assessments."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "SEND & EHCP Guides:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "The EHCP Process Explained \u2014 Step-by-step guide for schools and LAs" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "What is an Educational Psychologist? \u2014 Role, qualifications, and when to instruct" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Educational Psychology Reports \u2014 What They Cover" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EHCP Timelines and Compliance \u2014 Meeting statutory deadlines" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Statutory Assessment Guide for Schools \u2014 Legal requirements and best practice" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Assessment & Learning:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Examination Access Arrangements \u2014 SENCo guide for exams and reasonable adjustments" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "EP Assessments for Learning Difficulties \u2014 Assessing dyslexia, dyscalculia, and ADHD" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Supporting Students with SEND \u2014 Intervention strategies and whole-school approaches" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Visit the full Education Resources section for more guides, EHCP case studies, and school resources.",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "For Professionals",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Tools and guidance for independent psychologists, psychiatrists, and professionals in private practice."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Practice Management:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "How to Write a Good CV (Independent Psychologists) \u2014 Marketing yourself to agencies and solicitors" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Psychology Medico-Legal Report Template \u2014 Best practices and formatting guide" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Declarations for Expert Witness Reports \u2014 MOJ requirements and compliance" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Compliance & Data Protection:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Data Protection Act & ICO Registration \u2014 Legal requirements for private practitioners" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "GDPR and Patient Records \u2014 Confidentiality and data security" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Professional Indemnity Insurance Guide \u2014 Requirements and best practice" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Getting Work:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Expert Witness Fees \u2014 What to Charge \u2014 Setting rates, negotiating fees, Legal Aid rates" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Building Your Expert Witness Profile \u2014 Marketing and growing your practice" }] }] },
+                  { "type": "li", "children": [{ "type": "lic", "children": [{ "type": "text", "text": "Partnering with Psychology Direct \u2014 Joining our network and getting regular referrals" }] }] }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Visit the full Professional Resources section for templates, compliance guides, and networking opportunities.",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Find Resources by Type",
+      "cards": [
+        {
+          "title": "Guides & Articles",
+          "description": "In-depth guides on expert instruction, EHCP processes, and best practice. Written by experts, updated regularly.",
+          "link": "/resources/legal/"
+        },
+        {
+          "title": "Templates & Forms",
+          "description": "Ready-to-use templates for instruction letters, CV guidance, report frameworks, and compliance declarations.",
+          "link": "/resources/legal/"
+        },
+        {
+          "title": "Case Studies",
+          "description": "Real examples showing how expert assessment changed outcomes in legal and educational cases.",
+          "link": "/case-studies/"
+        },
+        {
+          "title": "FAQs",
+          "description": "Answers to questions about expert instruction, costs, timelines, and choosing the right expert.",
+          "link": "/faqs/"
+        },
+        {
+          "title": "Compliance Resources",
+          "description": "Guidance on Legal Aid standards, MOJ declarations, GDPR, and professional registration.",
+          "link": "/resources/legal/"
+        },
+        {
+          "title": "Webinars & Events",
+          "description": "Expert talks, training sessions, and webinars on emerging issues in psychology, psychiatry, and education.",
+          "link": "/about/events/"
+        }
+      ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Can't Find What You're Looking For?",
+      "bodyText": "Our library covers expert witness guidance, EHCP processes, compliance, and professional development. Try browsing by sector above, or get in touch.",
+      "primaryCtaText": "Browse Resources",
+      "primaryCtaLink": "#tabbed-content",
+      "secondaryCtaText": "Can't Find It?",
+      "secondaryCtaLink": "/contact/"
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "50+", "label": "Free Guides & Articles" },
+        { "value": "20+", "label": "Templates & Forms" },
+        { "value": "8+", "label": "Case Studies" },
+        { "value": "Monthly", "label": "New Content" }
+      ]
+    },
+    {
+      "_template": "alertBanner",
+      "type": "info",
+      "text": "All resources are free. They're written by experts with 15+ years' experience in psychology, psychiatry, and education.",
+      "ctaText": "Join Our Newsletter for Updates",
+      "ctaLink": "/news/"
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Common Questions",
+      "faqs": [
+        {
+          "question": "Are these resources free?",
+          "answer": "Yes, completely free. Download guides, templates, and case studies without registration. We believe in sharing expertise."
+        },
+        {
+          "question": "Can I share these with colleagues?",
+          "answer": "Yes. Share with your team or organisation. We ask that you credit us, but we don't require permission."
+        },
+        {
+          "question": "How often are resources updated?",
+          "answer": "We update quarterly and add new ones monthly. We revise legal and compliance guidance whenever laws change, such as Legal Aid fees or SEND Code updates."
+        },
+        {
+          "question": "I need a resource on a specific topic. Do you have it?",
+          "answer": "Check the Legal, Education, or Professional tabs above. Can't find it? Email resources@psychologydirect.co.uk and we'll create it or point you to what you need."
+        },
+        {
+          "question": "Can I use these templates with my organisation?",
+          "answer": "Yes, templates are free for organisational use. If you need customisation, contact us and we may be able to help."
+        },
+        {
+          "question": "Do you have resources for non-lawyers and non-educators?",
+          "answer": "Yes. We have guides for independent practitioners, case managers, and related professionals. See the For Professionals tab."
+        },
+        {
+          "question": "How do I get updates when new resources are published?",
+          "answer": "Sign up for our monthly newsletter. We'll email you summaries of new guides, templates, and case studies."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to Find Your Expert?",
+      "bodyText": "Our resources help you understand the process and make informed choices. When you're ready, we can match you with an expert within 24 hours.",
+      "primaryCtaText": "Instruct an Expert",
+      "primaryCtaLink": "/contact/",
+      "secondaryCtaText": "Get Expert Advice First",
+      "secondaryCtaLink": "tel:01306879975"
+    }
+  ]
+}
