@@ -24,7 +24,43 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // Add PD 301 redirects here in Phase 4
+      // Legacy psychology-specific pages → merged pages
+      { source: "/psychology-expert-witness/", destination: "/expert-witness-psychologists/", permanent: true },
+      { source: "/psychology-expert-witness/:slug/", destination: "/expert-witness-psychologists/:slug/", permanent: true },
+      { source: "/psychiatry-expert-witness/", destination: "/expert-witness-psychologists/", permanent: true },
+      { source: "/psychiatry-expert-witness/:slug/", destination: "/expert-witness-psychologists/:slug/", permanent: true },
+
+      // Legacy education paths
+      { source: "/education/", destination: "/educational-psychologist/", permanent: true },
+      { source: "/education/:slug/", destination: "/educational-psychologist/:slug/", permanent: true },
+      { source: "/educational-psychology/", destination: "/educational-psychologist/", permanent: true },
+      { source: "/educational-psychology/:slug/", destination: "/educational-psychologist/:slug/", permanent: true },
+
+      // Legacy service paths
+      { source: "/services/", destination: "/", permanent: true },
+      { source: "/services/expert-witness/", destination: "/expert-witness-psychologists/", permanent: true },
+      { source: "/services/educational-psychologist/", destination: "/educational-psychologist/", permanent: true },
+
+      // Legacy about paths
+      { source: "/about-us/", destination: "/about/", permanent: true },
+      { source: "/our-team/", destination: "/about/meet-the-team/", permanent: true },
+      { source: "/team/", destination: "/about/meet-the-team/", permanent: true },
+
+      // Legacy resource paths
+      { source: "/for-psychologists/", destination: "/resources/professionals/", permanent: true },
+      { source: "/for-solicitors/", destination: "/resources/legal/", permanent: true },
+      { source: "/for-schools/", destination: "/resources/education/", permanent: true },
+      { source: "/make-a-referral/", destination: "/contact/", permanent: true },
+
+      // Legacy page renames
+      { source: "/faq/", destination: "/faqs/", permanent: true },
+      { source: "/frequently-asked-questions/", destination: "/faqs/", permanent: true },
+      { source: "/testimonial/", destination: "/about/testimonials/", permanent: true },
+      { source: "/testimonials/", destination: "/about/testimonials/", permanent: true },
+
+      // Psychiatry Direct domain paths (same site, different branding)
+      { source: "/psychiatry/", destination: "/expert-witness-psychologists/", permanent: true },
+      { source: "/psychiatry/:slug/", destination: "/expert-witness-psychologists/:slug/", permanent: true },
     ];
   },
 };
