@@ -118,6 +118,20 @@
                         "children": [
                           {
                             "type": "text",
+                            "text": "Expert Witness vs Other Professionals — Key differences between expert witnesses, fact witnesses, and case managers"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
                             "text": "How to Find a Psychology Expert Witness — Sourcing, assessing, and selecting experts"
                           }
                         ]
@@ -468,6 +482,20 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Reliability and credibility of evidence"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -705,6 +733,20 @@
                           {
                             "type": "text",
                             "text": "Hidden Costs to Watch For — Identifying and avoiding unexpected charges"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Billing & Payment Best Practices — Standard payment terms and dispute resolution"
                           }
                         ]
                       }

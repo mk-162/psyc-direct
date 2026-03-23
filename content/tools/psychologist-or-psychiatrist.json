@@ -79,6 +79,11 @@
           "col2": "£4,000–£7,000 depending on case complexity"
         },
         {
+          "feature": "Assessment Duration",
+          "col1": "2–4 hours typically",
+          "col2": "2–4 hours typically"
+        },
+        {
           "feature": "Timeline",
           "col1": "4–6 weeks standard; 2–3 weeks fast-track",
           "col2": "4–6 weeks standard; 2–3 weeks fast-track"
@@ -260,6 +265,34 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Child testimony assessment (reliability and credibility of children's evidence)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Example:",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " A family law case where the court needs to know whether a parent can adequately care for their child. A psychologist will assess parenting capacity and attachment. They'll also evaluate the parent's ability to meet the child's needs."
                   }
                 ]
               }
@@ -425,6 +458,20 @@
                     ]
                   }
                 ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Example:",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " A care proceedings case where the court needs to assess whether a parent with bipolar disorder is medically stable enough to care for their children. A psychiatrist will provide diagnosis and medication assessment. They'll also give prognosis."
+                  }
+                ]
               }
             ]
           }
@@ -509,12 +556,69 @@
                 "children": [
                   {
                     "type": "text",
+                    "text": "When to instruct both:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Family law: parent has both mental health diagnosis and parenting capacity concerns"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Criminal law: defendant has intellectual disability AND psychiatric illness"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Immigration: claimant has both PTSD (psychiatric) and psychological impact of torture (psychological)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
                     "text": "Cost-saving tip:",
                     "bold": true
                   },
                   {
                     "type": "text",
-                    "text": " Instructing both experts is often more cost-effective than instructing one and then realising you need the other. Our Client Managers can advise whether one expert or two is optimal for your case."
+                    "text": " Instructing both experts is often more cost-effective than instructing one and then realising you need the other. Our Client Managers can advise whether one expert or two is optimal for your case. Just ask."
                   }
                 ]
               }
@@ -638,6 +742,30 @@
           "title": "Educational Psychology",
           "description": "Schools and LAs: Our Educational Psychologists assess learning, behaviour, and SEND. Use the tool to understand when EP input is needed.",
           "link": "/educational-psychologist/"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Professionals Say",
+      "testimonials": [
+        {
+          "quote": "The tool clarified exactly what we needed. Turned out we'd been going about it the wrong way. Their recommendation saved us time and money.",
+          "name": "",
+          "role": "Solicitor",
+          "organisation": "Family Law Firm"
+        },
+        {
+          "quote": "Brilliant — I knew I needed a psychiatrist, but their team explained why adding a psychologist would strengthen our case. Best decision we made.",
+          "name": "",
+          "role": "Local Authority Lawyer",
+          "organisation": ""
+        },
+        {
+          "quote": "As a SENCO, I wasn't sure if we needed a psychologist or an EP. This tool broke it down perfectly.",
+          "name": "",
+          "role": "School SENCO",
+          "organisation": "Primary School"
         }
       ]
     },

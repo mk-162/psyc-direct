@@ -12,7 +12,7 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "image",
+      "variant": "gradient",
       "headline": "Expert Insights on Psychology, Psychiatry & Education",
       "subtitle": "Articles on expert witness best practice, SEND guidance, professional development, and industry insights. Subscribe for monthly updates.",
       "primaryCtaText": "Read Latest Articles",
@@ -35,6 +35,57 @@
         },
         {
           "text": "5,000+ Subscribers"
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Latest Articles",
+      "cards": [
+        {
+          "title": "10 Tips for Choosing an Expert Witness in the UK",
+          "description": "Instructing an expert witness can feel like navigating unfamiliar territory. Learn best practices for selecting the right expert and avoiding common pitfalls.",
+          "link": "/news/"
+        },
+        {
+          "title": "The Shift Towards Face-to-Face Educational Psychology Assessments",
+          "description": "Educational psychology services are shifting back to in-person assessment. Understand the trend, benefits, and implications for schools and practitioners.",
+          "link": "/news/"
+        },
+        {
+          "title": "How Partnering with Psychology Direct Works for Associates",
+          "description": "Learn how independent psychologists and psychiatrists partner with us. Understand our network, support, and how we help build sustainable practices.",
+          "link": "/news/"
+        },
+        {
+          "title": "How to Find a Qualified Expert Witness for a Legal Case",
+          "description": "Navigate the process of finding the right expert for your case. Best practices, questions to ask, and common mistakes to avoid.",
+          "link": "/news/"
+        },
+        {
+          "title": "A School Leader's Guide to the EHCP Process",
+          "description": "As a school leader or SENCO, navigating EHCP can be overwhelming. This comprehensive guide walks through each step of the process.",
+          "link": "/news/"
+        },
+        {
+          "title": "Keeping Children Safe in Education 2025",
+          "description": "The Department for Education has published KCSIE 2025. Understand the key changes and what they mean for schools and protection systems.",
+          "link": "/news/"
+        },
+        {
+          "title": "Understanding PANS and PANDAS: A Guide for Educational Psychologists",
+          "description": "PANS and PANDAS are complex post-infectious conditions that profoundly affect learning and development. Understand identification and support.",
+          "link": "/news/"
+        },
+        {
+          "title": "A Solicitor's Guide To Mental Health Expert Witnesses in Employment Tribunals",
+          "description": "Mental health claims are increasing in employment law. Learn when psychiatric and psychological expertise matters and how to instruct effectively.",
+          "link": "/news/"
+        },
+        {
+          "title": "What the 2025 Safeguarding Report Revealed About Race and Child Protection",
+          "description": "Child safeguarding and race intersect critically. Understand the findings of the latest safeguarding report and implications for child protection.",
+          "link": "/news/"
         }
       ]
     },
@@ -97,6 +148,30 @@
       "primaryCtaLink": "#articles",
       "secondaryCtaText": "Subscribe to Newsletter",
       "secondaryCtaLink": "#newsletter"
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Readers Say",
+      "testimonials": [
+        {
+          "quote": "Their insights on fitness to plead changed how I approach these cases. Really valuable.",
+          "name": "",
+          "role": "Solicitor",
+          "organisation": "Criminal Law Firm"
+        },
+        {
+          "quote": "The EHCP guidance articles are better than most formal training. Bookmarked them.",
+          "name": "",
+          "role": "SENCO",
+          "organisation": "Secondary School"
+        },
+        {
+          "quote": "Finally, practical guidance on setting rates and managing a private practice. Exactly what I needed.",
+          "name": "",
+          "role": "Independent Psychologist",
+          "organisation": ""
+        }
+      ]
     },
     {
       "_template": "ctaBanner",

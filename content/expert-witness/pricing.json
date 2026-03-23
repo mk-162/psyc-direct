@@ -39,6 +39,322 @@
       ]
     },
     {
+      "_template": "richText",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "h2",
+            "children": [
+              {
+                "type": "text",
+                "text": "Typical Expert Witness Fees"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Standard Assessment",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Duration: 2-3 hours"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Typical Fee Range: £600-£1,200"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Legal Aid Rate: LAA-set rates"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Complex Assessment",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Duration: 4-5 hours"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Typical Fee Range: £1,500-£2,500"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Legal Aid Rate: LAA-set rates"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Multiple Party Assessment",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Duration: Variable"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Typical Fee Range: £2,000-£4,000+"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Legal Aid Rate: LAA-set rates"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Written Report",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Duration: 8-12 hours"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Typical Fee Range: £1,200-£2,400"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Legal Aid Rate: LAA-set rates"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Court Attendance",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Duration: Per day"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Typical Fee Range: £800-£1,600"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Legal Aid Rate: LAA-set rates"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note:",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": " Fees depend on complexity, specialism, travel, and urgency. We provide a detailed, itemized quote upfront before any work begins."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "_template": "featureComparison",
       "heading": "Psychology Direct vs. Instructing an Expert Directly",
       "col1Header": "Psychology Direct",
@@ -85,6 +401,15 @@
           "col2": "Same or more"
         }
       ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Get Your Instant Cost Estimate",
+      "bodyText": "Answer a few quick questions about your case type, complexity, and timeline. Get a transparent cost estimate in 60 seconds.",
+      "primaryCtaText": "Use the Fee Calculator",
+      "primaryCtaLink": "/tools/fee-calculator/",
+      "secondaryCtaText": "Call for a Quote",
+      "secondaryCtaLink": "tel:01306879975"
     },
     {
       "_template": "processSteps",

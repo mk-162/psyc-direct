@@ -177,6 +177,20 @@
                     ]
                   }
                 ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Examples:",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " Care proceedings where the court must decide whether a parent can care for their child safely. Criminal trials where a defendant claims unfitness to plead due to intellectual disability. Asylum claims where the applicant suffered torture and expert assessment of trauma is central to the claim."
+                  }
+                ]
               }
             ]
           }
@@ -253,6 +267,20 @@
                         ]
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Examples:",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " A personal injury claim where expert psychological assessment of trauma strengthens the damages claim. An employment tribunal where expert evidence of stress-related illness adds weight. A family law case where an expert report on a child's attachment and wishes adds persuasive weight."
                   }
                 ]
               }
@@ -456,6 +484,30 @@
           "title": "Legal Resources",
           "description": "Learn more about when experts are used in your legal area.",
           "link": "/resources/"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Solicitors Say",
+      "testimonials": [
+        {
+          "quote": "We weren't sure if we needed expert evidence. Their team talked us through it, and we're so glad we did. It changed the outcome.",
+          "name": "",
+          "role": "Senior Partner",
+          "organisation": "Family Law Firm"
+        },
+        {
+          "quote": "They were honest: our case didn't need an expert. That saved us money and gave us confidence we were on the right track.",
+          "name": "",
+          "role": "Legal Aid Supervisor",
+          "organisation": "London"
+        },
+        {
+          "quote": "The suitability check clarified exactly what we needed. Turned a vague worry into a clear decision.",
+          "name": "",
+          "role": "Solicitor",
+          "organisation": "North West"
         }
       ]
     },

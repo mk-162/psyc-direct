@@ -38,6 +38,338 @@
       ]
     },
     {
+      "_template": "richText",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "h2",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Expert Witness Journey — Timeline"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Week 0-1: Initial Contact & Expert Matching",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 1:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " You contact us with case brief"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 1-2:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " Client Manager gathers details and confirms requirements"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 2:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " We match 2-3 expert CVs and quotes sent to you"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 3-5:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " You review CVs and select expert"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Week 2-3: Instruction & Assessment",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 7-10:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " You provide formal instruction letter"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 10-14:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " Expert conducts assessment (2-4 hours typically)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Week 3-6: Report Writing & Quality Assurance",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 14-42:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " Expert writes comprehensive report"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 40:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " Report undergoes 100% quality check"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Day 42:",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " Final report delivered to you"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Post-Report",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Court attendance or tribunal (if required)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Payment processed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "_template": "processSteps",
+      "heading": "The Instruction Process in Detail",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Initial Contact",
+          "description": "Day 1 — Call us on 01306 879 975 or fill out our online form. Tell us your case type, legal area, location, deadline, and any specialist needs."
+        },
+        {
+          "number": 2,
+          "title": "Client Manager Briefing",
+          "description": "Day 1-2 — Your dedicated Client Manager takes a detailed brief and clarifies your legal questions. We confirm exact requirements together — we want to get it right."
+        },
+        {
+          "number": 3,
+          "title": "Expert Matching",
+          "description": "Day 2 — We search our network of 1,000+ psychologists and psychiatrists. We match on specialism, experience, location, and Legal Aid rate. Urgent cases are fast-tracked."
+        },
+        {
+          "number": 4,
+          "title": "CVs & Quotes",
+          "description": "Day 2-3 — We send you 2–3 full CVs with qualifications, experience, and itemized fee quotes. Review them at your pace."
+        },
+        {
+          "number": 5,
+          "title": "Expert Selection",
+          "description": "Day 3-7 — You choose your preferred expert from the CVs. No obligation — the choice is entirely yours."
+        },
+        {
+          "number": 6,
+          "title": "Formal Instruction",
+          "description": "Day 7-10 — You send a letter of instruction with your legal questions, case facts, and requirements. We confirm receipt with the expert and set the timeline."
+        },
+        {
+          "number": 7,
+          "title": "Assessment",
+          "description": "Day 10-28 — The expert conducts the assessment (typically 2–4 hours) at your chosen location (office, clinic, or remote). We handle all scheduling and logistics."
+        },
+        {
+          "number": 8,
+          "title": "Report Writing",
+          "description": "Day 28-40 — The expert writes a comprehensive, court-ready report. It addresses all your legal questions with findings, analysis, and recommendations."
+        },
+        {
+          "number": 9,
+          "title": "Quality Assurance",
+          "description": "Day 40-42 — Our team quality-checks every report. We verify all instructions are addressed, check legal compliance, proofread, and confirm clarity."
+        },
+        {
+          "number": 10,
+          "title": "Report Delivery",
+          "description": "Day 42 — The final report is delivered to you, ready for court or tribunal. Standard turnaround is 4–6 weeks. Fast-track is available for urgent cases."
+        }
+      ]
+    },
+    {
       "_template": "faqAccordion",
       "heading": "Expert Witness Process FAQs",
       "faqs": [
@@ -106,6 +438,15 @@
           "answer": "Expert fees vary by case type and complexity. Use our fee calculator for an instant estimate. Or call us on 01306 879 975 for a detailed quote. No hidden costs. No Psychology Direct markup. You pay the expert's fee plus our coordination (at no extra cost)."
         }
       ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Not Sure if You Need an Expert?",
+      "bodyText": "Our free suitability checker helps you determine whether expert witness assessment is the right step for your case.",
+      "primaryCtaText": "Check Your Case",
+      "primaryCtaLink": "/tools/suitability-checker/",
+      "secondaryCtaText": "Call Us to Discuss",
+      "secondaryCtaLink": "tel:01306879975"
     },
     {
       "_template": "ctaBanner",

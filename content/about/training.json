@@ -82,50 +82,399 @@
       ]
     },
     {
+      "_template": "tabbedContent",
+      "heading": "How We Deliver Training & Consultancy",
+      "tabs": [
+        {
+          "label": "CPD-Accredited Courses",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "These are structured, proven courses delivered by our trained EPs. Options include:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Half-day training (3\u20134 hours): Focused introduction to a topic, practical strategies, Q&A"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Full-day training (6\u20137 hours): Deep dive into a topic, case study exploration, skill practice, action planning"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Multi-session courses (e.g., 6 sessions over a term): Ongoing development with practice between sessions, reflective practice, team building"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "All courses are CPD-accredited so teachers can log hours toward their professional development requirement."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Typical cost: \u00a3400\u2013800 for half-day, \u00a3700\u20131,200 for full-day. Multi-session courses priced per school."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Bespoke Training Packages",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Is there a specific topic your school needs? We design custom training aligned to your context:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Initial consultation to understand your school's needs"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Custom content design addressing your specific challenges"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Delivery by an experienced EP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Follow-up materials and resources"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Optional follow-up consultation"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Bespoke training is more impactful because it directly addresses your school's reality and uses your examples."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Ongoing Consultancy",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beyond one-off training, we offer ongoing support:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Strategic SEND consultancy: Supporting your SENCO or leadership team with SEND strategy, policy development, whole-school inclusion planning"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Staff consultancy: Regular drop-in sessions where staff can consult the EP about specific children or cases"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Action research: Working with your school on a specific improvement project (e.g., reducing behavioural exclusions, improving literacy outcomes for children with SpLD)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ongoing consultancy works best when paired with initial training."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "CPD Accreditation & Recording",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "All our courses are eligible for teacher CPD hours (typically 3\u20137 hours depending on course length). Teachers can record these hours toward their annual CPD requirement."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The EP will provide:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Attendance certificate specifying CPD hours"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Course outline and learning objectives"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Practical resources and handouts"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Contact details for follow-up queries"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "_template": "featureComparison",
       "heading": "Why Training from Educational Psychologists?",
       "col1Header": "EP-Led Training",
-      "col2Header": "Generic SEND Training",
+      "col2Header": "Generic SEND Training / One-Off Staff Meeting",
       "rows": [
         {
           "feature": "Expertise",
           "col1": "Practising psychologists with school experience",
-          "col2": "Delivery by non-specialists"
+          "col2": "Delivery by non-specialists; depends on presenter"
         },
         {
           "feature": "Relevance to your school",
           "col1": "Bespoke content addressing your school's reality",
-          "col2": "Generic content for any school"
+          "col2": "Generic content for any school; varies by session"
         },
         {
           "feature": "Practical tools",
           "col1": "Evidence-based, classroom-ready strategies",
-          "col2": "May be generic or theoretical"
+          "col2": "May be generic or theoretical; often surface-level"
         },
         {
           "feature": "Follow-up support",
           "col1": "Available for questions and consultancy",
-          "col2": "Not typically available"
+          "col2": "Not typically available; limited for one-off sessions"
         },
         {
           "feature": "CPD accreditation",
           "col1": "Full CPD hours accredited",
-          "col2": "Variable"
+          "col2": "Variable; usually not accredited for staff meetings"
         },
         {
           "feature": "Team building",
           "col1": "Collaborative learning, shared understanding",
-          "col2": "Dependent on delivery"
+          "col2": "Dependent on delivery; limited interaction in meetings"
         },
         {
           "feature": "Lasting impact",
           "col1": "Embedded practice change",
-          "col2": "May be forgotten after training"
+          "col2": "May be forgotten after training; minimal for one-off sessions"
         },
         {
           "feature": "Cost efficiency",
           "col1": "Upfront cost, long-term impact",
-          "col2": "Often more expensive over time"
+          "col2": "Often more expensive over time; low cost but low impact for meetings"
         }
       ]
     },

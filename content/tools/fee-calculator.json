@@ -77,6 +77,44 @@
       ]
     },
     {
+      "_template": "featureComparison",
+      "heading": "Typical Expert Witness Costs at a Glance",
+      "col1Header": "Legal Aid Rate",
+      "col2Header": "Private Rate",
+      "rows": [
+        {
+          "feature": "Single psychological assessment (4-6 weeks)",
+          "col1": "£3,200–£4,000",
+          "col2": "£4,000–£5,500"
+        },
+        {
+          "feature": "Single psychiatric assessment (4-6 weeks)",
+          "col1": "£4,000–£5,200",
+          "col2": "£5,000–£7,000"
+        },
+        {
+          "feature": "Fast-track psychology (2-3 weeks)",
+          "col1": "£4,500–£5,500",
+          "col2": "£5,500–£7,000"
+        },
+        {
+          "feature": "Fast-track psychiatry (2-3 weeks)",
+          "col1": "£5,500–£6,500",
+          "col2": "£6,500–£8,500"
+        },
+        {
+          "feature": "Multi-party assessment (3 individuals)",
+          "col1": "+40–60%",
+          "col2": "+40–60%"
+        },
+        {
+          "feature": "Urgent/within-days turnaround",
+          "col1": "Request quote",
+          "col2": "Request quote"
+        }
+      ]
+    },
+    {
       "_template": "faqAccordion",
       "heading": "Questions About Our Pricing",
       "faqs": [
@@ -167,6 +205,30 @@
           "title": "Fast-Track Reports",
           "description": "Court deadlines tight? We offer expedited processing at a clear, upfront premium.",
           "link": "/contact/"
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Clients Say About Our Pricing",
+      "testimonials": [
+        {
+          "quote": "Transparent pricing and no hidden fees. They gave me a breakdown of exactly what we were paying for. Refreshing.",
+          "name": "",
+          "role": "Solicitor",
+          "organisation": "Midlands"
+        },
+        {
+          "quote": "We switched from instructing experts directly because Psychology Direct's quotes were clearer and often cheaper due to their efficiency.",
+          "name": "",
+          "role": "Legal Aid Supervisor",
+          "organisation": "South West"
+        },
+        {
+          "quote": "The calculator gave us a ballpark within seconds. Then their team provided a detailed quote. No surprises, no pressure.",
+          "name": "",
+          "role": "",
+          "organisation": "Family Law Firm, London"
         }
       ]
     },

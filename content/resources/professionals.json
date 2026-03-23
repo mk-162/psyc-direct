@@ -568,6 +568,20 @@
                         "children": [
                           {
                             "type": "text",
+                            "text": "Case Management & Rehabilitation — Understanding case manager relationships and working with rehabilitation companies"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
                             "text": "Managing Vicarious Trauma & Burnout — Self-care strategies and building resilience"
                           }
                         ]
@@ -670,6 +684,20 @@
                         "children": [
                           {
                             "type": "text",
+                            "text": "Marketing Your Services — Targeted marketing to solicitors, creating case studies, and thought leadership"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
                             "text": "Tender Processes & Competitive Bidding — Responding to LA and NHS tenders"
                           }
                         ]
@@ -758,6 +786,30 @@
         {
           "question": "Are these resources suitable for psychologists and psychiatrists?",
           "answer": "Most resources apply to both disciplines. Some sections are discipline-specific, for example psychology report templates differ from psychiatry ones. Check the relevant tabs."
+        }
+      ]
+    },
+    {
+      "_template": "testimonialCarousel",
+      "heading": "What Professionals Say",
+      "testimonials": [
+        {
+          "quote": "Their resources helped me understand the compliance side of private practice. Saved me hours researching.",
+          "name": "",
+          "role": "Independent Psychologist",
+          "organisation": ""
+        },
+        {
+          "quote": "The fee guidance and agreement templates were invaluable when setting up my practice. Gave me confidence I was charging fairly.",
+          "name": "",
+          "role": "Consultant Psychiatrist",
+          "organisation": ""
+        },
+        {
+          "quote": "Joining their network transformed my workload. I went from chasing referrals to turning work away.",
+          "name": "",
+          "role": "Educational Psychologist",
+          "organisation": ""
         }
       ]
     },

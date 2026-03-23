@@ -24,6 +24,32 @@ Your inquiry has been received and logged. Here's what to expect:
 - [Case Studies](/case-studies/) -- Real examples of how expert assessment changed outcomes.
 - [Resources](/resources/) -- Guides, templates, and tools.
 
+## Why Clients Trust Us
+
+- 1,000+ vetted experts nationwide
+- 4-6 week turnaround on reports
+- 100% quality assurance
+- 15+ years' experience
+
+## What Clients Say About Working With Us
+
+> "The Client Manager was responsive and helpful. The expert provided a thorough, professional report within the agreed timescale."
+> -- Solicitor, family law firm
+
+> "Brilliant service from start to finish. Our staff appreciated having someone who understands school settings."
+> -- School leader, East England
+
+## Want to Learn More While You Wait?
+
+Discover how our experts help resolve complex cases, support schools, and accelerate EHCP processes.
+
+- [Read case studies](/case-studies/)
+- [Download our guide](/resources/)
+
+## Know What You Need?
+
+If you're ready to move forward with instructing an expert, we can often expedite the process. Contact your Client Manager at enquiries@psychologydirect.co.uk or call 01306 879 975.
+
 ## Frequently Asked Questions
 
 **How long before I hear back?**

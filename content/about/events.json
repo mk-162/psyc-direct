@@ -45,6 +45,38 @@
       ]
     },
     {
+      "_template": "serviceCards",
+      "heading": "Upcoming Events",
+      "subheading": "Browse our calendar and register for events that interest you.",
+      "cards": [
+        {
+          "title": "Frances Akinde Live Q&A — Allyship and the Bystander Effect",
+          "description": "December 9, 2025, 4:00 PM. Follow-up Q&A with Frances Akinde on allyship in schools and challenging the bystander effect. Interactive session.",
+          "link": ""
+        },
+        {
+          "title": "Allyship and the Bystander Effect in Schools",
+          "description": "November 24, 2025, 11:00 AM. Engaging session exploring how allyship can challenge bystander behaviour in educational settings. CPD accredited.",
+          "link": ""
+        },
+        {
+          "title": "AI and the Law: What Practitioners Need to Know",
+          "description": "October 8, 2025, 4:00 PM. Informative webinar on the intersection of AI and legal practice. What experts and solicitors need to know.",
+          "link": ""
+        },
+        {
+          "title": "Supervision Sessions for Educational Psychologists",
+          "description": "October 1, 2025, 3:30 PM. Confidential supervision sessions with senior EPs. Space for peer learning and case discussion.",
+          "link": ""
+        },
+        {
+          "title": "Understanding Digital Wellbeing",
+          "description": "September 17, 2025, 4:00 PM. Webinar on digital wellbeing, pupils' perspectives on social media, and supporting healthy digital habits.",
+          "link": ""
+        }
+      ]
+    },
+    {
       "_template": "ctaInline",
       "heading": "Want to Know About Future Events?",
       "bodyText": "Subscribe to our mailing list to get notified of upcoming webinars, workshops, and conferences. Never miss a professional development opportunity.",

@@ -76,6 +76,782 @@
       ]
     },
     {
+      "_template": "tabbedContent",
+      "heading": "Understanding Key Conditions and When Assessment Helps",
+      "tabs": [
+        {
+          "label": "Autism Spectrum Disorder (ASD)",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What is autism?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Autism is a lifelong neurodevelopmental difference affecting how a person perceives the world and interacts socially. It is not a deficit but a difference. Many autistic people have significant strengths (visual thinking, pattern recognition, focused interests, reliability) alongside areas requiring support (social communication, sensory sensitivity, change management)."
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Why assessment matters"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Diagnostic clarity \u2014 understanding whether the child is autistic"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Strengths identification \u2014 knowing what the child is good at"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Support needs clarification \u2014 what accommodations and strategies help"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "School planning \u2014 how to adapt the environment and teaching"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Identity and acceptance \u2014 helping the child understand themselves"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Exam access arrangements \u2014 if needed, evidence for reasonable adjustments"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What the assessment includes"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Developmental history and background"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Observation of social communication, play, interaction"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Structured interviews with parents and teachers"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Testing of cognitive ability and processing style"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Sensory profile assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Functional impact analysis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Recommendations for school support and strategies"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Dyslexia and Specific Learning Difficulties (SpLD)",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What is dyslexia?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dyslexia is a specific learning difficulty affecting how the brain processes written and/or spoken language. It's not about intelligence but about how language processing happens. Common presentations include difficulty with reading fluency, spelling, writing speed, or phonological awareness."
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Why assessment matters"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Diagnosis \u2014 confirmation that dyslexia is present, not just poor literacy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Processing profile \u2014 understanding the child's specific language-processing strengths and weaknesses"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Early intervention \u2014 knowing what teaching methods work best for this child"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Exam access arrangements \u2014 evidence for reader, scribe, extra time"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Self-understanding \u2014 helping the child understand why literacy is harder for them"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "School strategies \u2014 tailored classroom support and alternative assessment methods"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What the assessment includes"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Cognitive ability testing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Literacy and phonological awareness testing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Speed of processing testing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Reading, spelling, and writing samples"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "History of educational progress"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Functional impact on learning"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Recommendations for school and exam support"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "ADHD (Educational Psychology Perspective)",
+          "content": {
+            "type": "root",
+            "children": [
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What is ADHD?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "ADHD affects executive function: the ability to sustain attention, inhibit impulses, organise, plan, and manage time. Medical diagnosis is made by a doctor. Educational Psychologists assess the impact on learning and school behaviour, and recommend classroom and study strategies."
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Why educational assessment matters"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Understanding the learning impact \u2014 how ADHD affects focus, organisation, and academic performance"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "School strategies \u2014 what classroom adjustments and support help this child succeed"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Exam access \u2014 evidence for separate invigilation, time management support, breaks"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Self-understanding \u2014 helping the child recognise their own attention patterns and develop strategies"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Complementing medical diagnosis \u2014 providing the school perspective alongside medical diagnosis"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What the assessment includes"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Cognitive ability and processing speed testing"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Attention and executive function assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Behaviour rating from parents and teachers"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Classroom observation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Work samples and learning history"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Impact on academic performance and behaviour"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Strategies for focus, organisation, and time management"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_template": "processSteps",
+      "heading": "What to Expect from a Specialist Assessment",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Initial Consultation",
+          "description": "We discuss your concerns, what you've noticed, and what you hope to understand. No obligation \u2014 just a conversation to clarify if assessment is appropriate."
+        },
+        {
+          "number": 2,
+          "title": "Full Assessment",
+          "description": "The specialist EP conducts a thorough assessment (2\u20134 hours across 1\u20133 visits). Testing, observation, interviews with parents/teachers, and review of school work."
+        },
+        {
+          "number": 3,
+          "title": "Analysis & Report",
+          "description": "The EP analyses findings, writes the report, and quality-checks it. Typically delivered within 2 weeks."
+        },
+        {
+          "number": 4,
+          "title": "Next Steps",
+          "description": "The report includes diagnosis if appropriate, a profile of strengths and needs, and practical strategies. School and family can implement recommendations immediately."
+        }
+      ],
+      "ctaText": "Book a Specialist Assessment",
+      "ctaLink": "/contact/"
+    },
+    {
+      "_template": "featureComparison",
+      "heading": "Why Get a Specialist Educational Psychology Assessment?",
+      "col1Header": "EP Assessment",
+      "col2Header": "Teacher Observation / Medical Diagnosis Alone",
+      "rows": [
+        {
+          "feature": "Educational impact",
+          "col1": "Clear, school-focused",
+          "col2": "Limited to classroom observation or medical perspective only"
+        },
+        {
+          "feature": "Processing profile",
+          "col1": "Detailed cognitive and processing testing",
+          "col2": "Not available from teacher observation or medical diagnosis"
+        },
+        {
+          "feature": "School strategies",
+          "col1": "Practical, evidence-based classroom strategies",
+          "col2": "General advice only or limited to medical treatment"
+        },
+        {
+          "feature": "Exam access evidence",
+          "col1": "Formal evidence for exam adjustments",
+          "col2": "Not formal evidence; usually insufficient alone"
+        },
+        {
+          "feature": "Strengths identification",
+          "col1": "Detailed profile of cognitive strengths",
+          "col2": "General observation; not focus of medical assessment"
+        },
+        {
+          "feature": "Relative to peer group",
+          "col1": "Standardised testing provides comparison",
+          "col2": "Subjective; not typically included"
+        },
+        {
+          "feature": "Cost-effective",
+          "col1": "One comprehensive assessment",
+          "col2": "Piecemeal over time; medical diagnosis + separate Ed Psych = more expensive"
+        },
+        {
+          "feature": "Actionable",
+          "col1": "Specific, school-implementable strategies",
+          "col2": "Variable; depends on school interpretation"
+        }
+      ]
+    },
+    {
       "_template": "testimonialCarousel",
       "heading": "What Schools and Parents Say",
       "testimonials": [

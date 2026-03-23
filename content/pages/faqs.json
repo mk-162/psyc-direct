@@ -62,7 +62,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "We typically provide 2–3 CVs and quotes within 24 hours of your brief. For urgent cases, we respond faster. Each CV includes qualifications, relevant experience, and the fee breakdown required by the Legal Aid Agency."
+                    "text": "We typically provide 2\u20133 CVs and quotes within 24 hours of your brief. For urgent cases, we respond faster. Each CV includes qualifications, relevant experience, and the fee breakdown required by the Legal Aid Agency."
                   }
                 ]
               },
@@ -81,7 +81,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Yes, all our experts work at Legal Aid rates for publicly funded cases. We provide full fee breakdowns with every quote. For privately funded cases, we provide transparent quotes upfront."
+                    "text": "Yes, all our experts work at Legal Aid rates for publicly funded cases. We provide full fee breakdowns with every quote. For privately funded cases, we provide transparent quotes upfront with the detailed hourly breakdown the LAA requires."
                   }
                 ]
               },
@@ -100,7 +100,26 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Standard reports typically range from £3,200–£5,500 depending on expertise, complexity, and timeline. Psychiatric assessments are typically £4,000–£7,000. Fast-track reports cost more. Use our Fee Calculator to estimate costs."
+                    "text": "Standard reports typically range from \u00a33,200\u2013\u00a35,500 depending on expertise, complexity, and timeline. Psychiatric assessments are typically \u00a34,000\u2013\u00a37,000. Fast-track reports cost more. Use our Fee Calculator to estimate costs."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What\u2019s included in the fee?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our fees cover assessment, report writing, 100% quality assurance, administrative coordination, and client management. You receive a breakdown of hours spent on each component as required by the LAA."
                   }
                 ]
               },
@@ -119,7 +138,26 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Standard turnaround is 4–6 weeks from assessment. We offer fast-track (2–3 weeks) and urgent options at premium rates. Timelines vary by expert availability and case complexity."
+                    "text": "Standard turnaround is 4\u20136 weeks from assessment. We offer fast-track (2\u20133 weeks) and urgent options at premium rates. Timelines vary by expert availability and case complexity."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Can you work within court timelines and statutory deadlines?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. We understand family proceedings timelines, criminal disclosure deadlines, and statutory requirements. We regularly deliver within these frameworks."
                   }
                 ]
               },
@@ -147,6 +185,25 @@
                 "children": [
                   {
                     "type": "text",
+                    "text": "Can you handle multi-party assessments with complex logistics?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. Our Client Managers are experienced coordinating multi-party assessments across locations. We handle all booking, liaison, and administration so you focus on your case."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
                     "text": "How do you ensure the quality of expert reports?",
                     "bold": true
                   }
@@ -157,7 +214,102 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Every report is 100% proofread and quality-checked before reaching you. We verify instructions are addressed, recommendations are clear, and reports meet court standards. We vet all experts before registration."
+                    "text": "Every report is 100% proofread and quality-checked before reaching you. We verify instructions are addressed, recommendations are clear, and reports meet court standards. We vet all experts before registration, reviewing sample reports, verifying HCPC/GMC registration, and checking enhanced DBS status."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What\u2019s the process for instructing an expert?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(1) Contact us with your case brief. (2) Client Manager takes a detailed brief. (3) We provide 2\u20133 CVs and quotes within 24 hours. (4) You instruct. (5) We manage all logistics. (6) Expert completes assessment. (7) We quality-check the report. (8) You receive the final report. Learn more: /about/how-it-works/"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do I have to work through a Client Manager, or can I contact the expert directly?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Your Client Manager is your primary point of contact and is fully briefed. They handle all queries, administration, and coordination. In rare circumstances where direct contact is appropriate, we can arrange it. This approach protects you and the expert and ensures consistent communication."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What if I\u2019m unsure whether my case needs an expert witness?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Use our free Suitability Checker: /tools/suitability-checker/. Or call us on 01306 879 975. Our Client Managers have 15+ years\u2019 experience and can advise at no cost."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Are all your experts HCPC/GMC registered?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. All psychologists are HCPC-registered. All psychiatrists are GMC-registered. We verify enhanced DBS checking, professional indemnity insurance, and current CPD. We review expert reports before registration."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do you accept Legal Aid funding?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. All experts work at Legal Aid rates. We provide CVs and quotes in LAA format. We\u2019re fully compliant with Legal Aid billing and payments."
                   }
                 ]
               }
@@ -184,7 +336,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "EPs are HCPC-registered professionals with doctoral training in psychology and education. They assess children's learning, behaviour, and development in schools. They help identify special educational needs, assess for EHCP, and recommend interventions."
+                    "text": "EPs are HCPC-registered professionals with doctoral training in psychology and education. They assess children\u2019s learning, behaviour, and development in schools. They help identify special educational needs, assess for EHCP, and recommend interventions."
                   }
                 ]
               },
@@ -203,7 +355,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Consider an EP assessment when: a child has learning difficulties or developmental delays; behaviour is concerning; you're considering EHCP; or you're seeking exam access arrangements. An EP can help identify what support is needed."
+                    "text": "Consider an EP assessment when: a child has learning difficulties or developmental delays; behaviour is concerning; you\u2019re considering EHCP; or you\u2019re seeking exam access arrangements. An EP can help identify what support is needed."
                   }
                 ]
               },
@@ -222,7 +374,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "We provide CVs and quotes within 24 hours of your brief. Assessment usually begins within 1–2 weeks depending on EP availability and urgency."
+                    "text": "We provide CVs and quotes within 24 hours of your brief. Assessment usually begins within 1\u20132 weeks depending on EP availability and urgency."
                   }
                 ]
               },
@@ -241,7 +393,26 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Assessments typically range from £800–£2,500 depending on complexity and type. EHCP statutory assessments may be higher. Many LAs and schools have service contracts with discounted rates. Contact us for a quote."
+                    "text": "Assessments typically range from \u00a3800\u2013\u00a32,500 depending on complexity and type. EHCP statutory assessments may be higher. Many LAs and schools have service contracts with discounted rates. Contact us for a quote."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How long does an EP assessment take?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Assessment usually takes 2\u20134 hours. Reports typically return within 2\u20134 weeks depending on EP workload. We aim for faster turnaround, especially for statutory EHCP assessments."
                   }
                 ]
               },
@@ -269,6 +440,101 @@
                 "children": [
                   {
                     "type": "text",
+                    "text": "Can we have the same EP for all our assessments?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes, if that EP has capacity and relationship continuity is appropriate. Consistency can be valuable. Let us know and we\u2019ll match the same EP for ongoing work."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do your EPs offer services beyond assessments?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. Our EPs provide consultancy, classroom strategy development, staff training, SENCO supervision, and intervention planning. Discuss your needs: /contact/"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How do we know your EPs are qualified and of good quality?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "All EPs are HCPC-registered, enhanced DBS-checked, and actively practicing. We review qualifications and track record before registration. Many have specialist training. We can provide references."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How do you ensure the quality of EP reports?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Every report is proofread and quality-checked before delivery. We verify instructions are addressed, recommendations are clear, and reports meet LA and EHCP standards. We gather feedback from schools and LAs."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What happens after the EP assessment?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The EP provides a detailed report with findings and recommendations. It informs EHCP decisions, support planning, or intervention design. The EP can attend meetings if needed. Follow-up support and implementation help are available."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
                     "text": "Can an EP report be used for exam access arrangements?",
                     "bold": true
                   }
@@ -280,6 +546,25 @@
                   {
                     "type": "text",
                     "text": "Yes. EP psychometric assessment is used to evidence exam access arrangements like extra time or a reader. The EP conducts standardised tests and provides JCQ-compliant reports."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How is Educational Psychology different from Clinical Psychology?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "EPs work with children\u2019s learning, development, and educational needs in schools. Clinical Psychologists assess psychological and mental health issues broadly. For school-based SEND and learning support, an EP is typically right."
                   }
                 ]
               }
@@ -306,7 +591,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "We're a managed service connecting organisations with vetted experts. A dedicated Client Manager takes your requirements, matches you with appropriate experts, and manages everything."
+                    "text": "We\u2019re a managed service connecting organisations with vetted experts. A dedicated Client Manager takes your requirements, matches you with appropriate experts, and manages everything."
                   }
                 ]
               },
@@ -325,7 +610,26 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "We work with solicitors and law firms, Local Authorities, schools and academies, multi-academy trusts, and government bodies. We don't provide direct services to private individuals seeking personal therapy."
+                    "text": "We work with solicitors and law firms, Local Authorities, schools and academies, multi-academy trusts, and government bodies. We don\u2019t provide direct services to private individuals seeking personal therapy."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Where are you located?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We\u2019re a fully remote national team. We have 1,000+ experts nationwide, so we can always find someone near your location. Availability is not geographically limited."
                   }
                 ]
               },
@@ -363,7 +667,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "We don't add a markup to expert fees. You pay the same rates as instructing directly, but benefit from our matching, vetting, and client management. Legal Aid rates are fixed LAA rates. Use our Fee Calculator for estimates."
+                    "text": "We don\u2019t add a markup to expert fees. You pay the same rates as instructing directly, but benefit from our matching, vetting, and client management. Legal Aid rates are fixed LAA rates. Use our Fee Calculator for estimates."
                   }
                 ]
               },
@@ -382,7 +686,26 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "No. There's no charge for assessment or quotes. You only pay if you formally instruct an expert."
+                    "text": "No. There\u2019s no charge for assessment or quotes. You only pay if you formally instruct an expert."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What if I\u2019m not sure which service I need?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "That\u2019s what we\u2019re here for. Call us on 01306 879 975 or use our free tools: Suitability Checker and Psychologist or Psychiatrist? tool."
                   }
                 ]
               },
@@ -401,7 +724,102 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Phone: 01306 879 975 | Email: enquiries@psychologydirect.co.uk | Contact form: /contact/ | Business hours Monday–Friday."
+                    "text": "Phone: 01306 879 975 | Email: enquiries@psychologydirect.co.uk | Contact form: /contact/ | Business hours Monday\u2013Friday."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What if I have an urgent case?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We can often respond to urgent cases within hours. Call us immediately on 01306 879 975 to discuss your urgency and what\u2019s possible. We have a dedicated urgent case protocol."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Can I arrange payment on account?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes, depending on your organization and contract terms. This is typically available for Local Authorities and regular legal clients. Discuss with your Client Manager or contact sales: /contact/"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do I have to sign a contract?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Standard instruction is by instruction letter. For ongoing arrangements or large contracts, we provide terms. Most single cases don\u2019t require formal contracts."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What data protection measures do you have in place?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We take data protection seriously. All data complies with GDPR and the Data Protection Act 2018. We use secure, encrypted communication and storage. Case details stay confidential and are shared only on a need-to-know basis."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Can I speak to a Client Manager directly?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes. Every client has a dedicated Client Manager. Once you instruct, they\u2019re your single point of contact. Call 01306 879 975 during business hours."
                   }
                 ]
               }

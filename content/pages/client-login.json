@@ -15,6 +15,37 @@
       "secondaryCtaLink": "#help"
     },
     {
+      "_template": "serviceCards",
+      "heading": "What You Can Access in Your Portal",
+      "cards": [
+        {
+          "title": "Case Details",
+          "description": "View your case timeline, key dates, and status updates. See all assessments, reports, and documents.",
+          "link": "#"
+        },
+        {
+          "title": "Communications",
+          "description": "Message your dedicated Client Manager directly. Get answers to questions and coordinate assessments.",
+          "link": "#"
+        },
+        {
+          "title": "Documents",
+          "description": "Download completed reports, CVs, quotes, and other documents related to your case.",
+          "link": "#"
+        },
+        {
+          "title": "Invoicing",
+          "description": "View invoices and payment status. Manage billing and inquiries.",
+          "link": "#"
+        },
+        {
+          "title": "Notifications",
+          "description": "Receive alerts about important updates, report completion, or assessment scheduling.",
+          "link": "#"
+        }
+      ]
+    },
+    {
       "_template": "alertBanner",
       "type": "info",
       "text": "First time logging in? You should have received credentials when your case was assigned. Check your email from enquiries@psychologydirect.co.uk.",

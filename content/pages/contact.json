@@ -280,6 +280,15 @@
     },
     {
       "_template": "ctaInline",
+      "heading": "Not Sure Which Expert You Need?",
+      "bodyText": "Use our free tool to find out whether you need a psychologist, psychiatrist, or both. It takes 2 minutes and gives you a clear recommendation.",
+      "primaryCtaText": "Try the Tool",
+      "primaryCtaLink": "/tools/psychologist-or-psychiatrist/",
+      "secondaryCtaText": "Compare Experts",
+      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/#comparison"
+    },
+    {
+      "_template": "ctaInline",
       "heading": "Ready to Submit Your Enquiry?",
       "bodyText": "Scroll down to our form, or call us directly on 01306 879 975. We respond within 24 hours with matched expert CVs and quotes.",
       "primaryCtaText": "Go to Form",
@@ -340,6 +349,15 @@
           "answer": "Use the Join Our Network tab above or visit our careers page. Registration is free. You just need to be HCPC/GMC registered and have a valid DBS."
         }
       ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Estimate Your Costs in 60 Seconds",
+      "bodyText": "Use our free Expert Witness Fees Calculator to get an instant estimate for your case. Compare Legal Aid and private funding rates with a full transparent breakdown.",
+      "primaryCtaText": "Try the Fee Calculator",
+      "primaryCtaLink": "/tools/fee-calculator/",
+      "secondaryCtaText": "View Pricing",
+      "secondaryCtaLink": "/expert-witness-psychologists/pricing/"
     },
     {
       "_template": "statsBar",

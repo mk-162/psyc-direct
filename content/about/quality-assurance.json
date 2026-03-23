@@ -120,6 +120,30 @@
       ]
     },
     {
+      "_template": "testimonialCarousel",
+      "heading": "What Experts & Clients Say About Our Quality Standards",
+      "testimonials": [
+        {
+          "quote": "I would highly recommend their service to anyone looking to provide the best quality psychology services for their clients. Their commitment to excellence is evident in every interaction.",
+          "name": "Dr A H",
+          "title": "Consultant Clinical Psychologist",
+          "organization": ""
+        },
+        {
+          "quote": "Staff are helpful and informative. Reports are delivered securely and on time. They take the hard work out of locating relevant available experts.",
+          "name": "Brent Patterson",
+          "title": "Solicitor",
+          "organization": "Howard Bernstein Solicitors"
+        },
+        {
+          "quote": "I have worked with Psychology Direct for several years. They go out of their way to ensure the administration runs smoothly and provide invaluable support in navigating case complications.",
+          "name": "Dr E A",
+          "title": "Chartered Counselling Psychologist",
+          "organization": ""
+        }
+      ]
+    },
+    {
       "_template": "faqAccordion",
       "heading": "Quality Assurance FAQs",
       "faqs": [

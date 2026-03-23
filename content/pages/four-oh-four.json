@@ -15,6 +15,27 @@
       "secondaryCtaLink": "/"
     },
     {
+      "_template": "serviceCards",
+      "heading": "Or Browse Our Main Services",
+      "cards": [
+        {
+          "title": "I Need an Expert Witness",
+          "description": "Looking for a psychologist or psychiatrist for legal cases? Browse expert witness services across family law, criminal law, civil law, employment, and immigration.",
+          "link": "/expert-witness-psychologists/"
+        },
+        {
+          "title": "I Need Educational Psychology",
+          "description": "Looking for EP services for SEND assessment, EHCP, or school support? Explore educational psychology services for schools and local authorities.",
+          "link": "/educational-psychologist/"
+        },
+        {
+          "title": "I Have a Question",
+          "description": "Not sure which service you need? Get answers from FAQs, resources, or contact our team for guidance.",
+          "link": "/faqs/"
+        }
+      ]
+    },
+    {
       "_template": "faqAccordion",
       "heading": "Common Questions When You're Lost",
       "faqs": [

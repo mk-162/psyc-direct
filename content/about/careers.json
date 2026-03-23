@@ -13,7 +13,7 @@
   "blocks": [
     {
       "_template": "hero",
-      "variant": "image",
+      "variant": "gradient",
       "headline": "Join 1,000+ Psychologists & Psychiatrists",
       "subtitle": "Build a career on your terms. Free to join. No obligation to take cases. Steady stream of expert witness and educational assessments matched to your specialism and location. We handle the admin. You focus on client care.",
       "primaryCtaText": "Register Your Interest",
@@ -36,6 +36,43 @@
         },
         {
           "text": "HCPC/GMC/BPS Registered"
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Why Join Psychology Direct?",
+      "subheading": "Built for professionals who want flexibility, support, and growth",
+      "cards": [
+        {
+          "title": "Steady Pipeline of Cases",
+          "description": "Continuous stream of expert witness and educational assessments from 1,000+ clients. No feast-or-famine months. Cases matched to your specialism and availability.",
+          "link": ""
+        },
+        {
+          "title": "Fair Pay, Transparent Fees",
+          "description": "Competitive rates that reflect your expertise. Full fee quotes upfront. No surprises. Guaranteed payment by us.",
+          "link": ""
+        },
+        {
+          "title": "Admin Handled for You",
+          "description": "We manage appointments, coordination, correspondence, and logistics. You focus on the assessment and report. Your time is valued.",
+          "link": ""
+        },
+        {
+          "title": "Professional Support",
+          "description": "Supervision, CPD, consultation with our in-house psychologists, guidance on complex cases. We invest in your development.",
+          "link": ""
+        },
+        {
+          "title": "True Flexibility",
+          "description": "No obligation to accept any case. Work around family, other employment, or personal projects. You choose.",
+          "link": ""
+        },
+        {
+          "title": "Community & Belonging",
+          "description": "Join like-minded professionals. Attend training, webinars, conferences. Collaborate with specialists. Share knowledge. Grow together.",
+          "link": ""
         }
       ]
     },

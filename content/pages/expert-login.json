@@ -116,6 +116,30 @@
       ]
     },
     {
+      "_template": "testimonialCarousel",
+      "heading": "What Our Network Experts Say",
+      "testimonials": [
+        {
+          "quote": "Joining Psychology Direct transformed my practice. I went from chasing work to turning cases away. The admin support freed me up to focus on what I do best.",
+          "name": "",
+          "role": "Independent Psychologist",
+          "organisation": ""
+        },
+        {
+          "quote": "Fair fees, reliable payment, and professional communication. It's refreshing to work with an agency that respects experts.",
+          "name": "",
+          "role": "Consultant Psychiatrist",
+          "organisation": ""
+        },
+        {
+          "quote": "The administrative support is invaluable. They handle scheduling, coordinating multi-party assessments, and client communication. I just do the work.",
+          "name": "",
+          "role": "Educational Psychologist",
+          "organisation": ""
+        }
+      ]
+    },
+    {
       "_template": "ctaBanner",
       "heading": "Ready to Join Our Network?",
       "bodyText": "Psychologists and psychiatrists nationwide are part of our network. Access regular work, fair fees, and professional support.",

@@ -207,6 +207,20 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EHCP Documentation Checklist — What paperwork you need to collect"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -825,6 +839,20 @@
                           {
                             "type": "text",
                             "text": "Quality Assurance in EP Reports — What makes a quality assessment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Report Quality Checklist — Evaluating EP work"
                           }
                         ]
                       }

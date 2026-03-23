@@ -60,6 +60,187 @@
       ]
     },
     {
+      "_template": "richText",
+      "heading": "What is an EHCP Assessment and Why Do You Need One?",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "An EHCP is a statutory document describing a child's special educational needs and required support. To create an EHCP, the local authority gathers evidence from multiple professionals, including an Educational Psychologist."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "The EP's role is to:"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Assess the child's cognitive abilities, learning style, and specific needs"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Identify strengths and barriers to learning"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Recommend evidence-based support and interventions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Provide clarity on the type and level of support needed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "A quality EHCP assessment report gives the LA and schools the foundation to design effective support and allocate resources."
+              }
+            ]
+          },
+          {
+            "type": "h3",
+            "children": [
+              {
+                "type": "text",
+                "text": "Key Timescales"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Local authority has 6 weeks from referral to decide whether to assess"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "If assessment proceeds, LA has 10 weeks for evidence gathering (including the EP assessment)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "LA has 8 weeks to write and issue the final EHCP"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Total: 16 weeks from referral to issued plan",
+                        "bold": true
+                      },
+                      {
+                        "type": "text",
+                        "text": " (or decision not to assess)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Psychology Direct understands these timelines and plans assessments accordingly."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "_template": "serviceCards",
       "heading": "What We Provide for EHCP Assessments",
       "subheading": "A complete assessment service, from initial enquiry to panel-ready report.",
@@ -517,6 +698,60 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Frequently Asked Questions About EHCP Assessments",
+      "faqs": [
+        {
+          "question": "What is an EHCP assessment?",
+          "answer": "An EHCP assessment is a specialist psychological evaluation to determine if a child needs an Education, Health and Care Plan. An Educational Psychologist gathers evidence about the child's cognitive ability, learning style, needs, and how to support them. The assessment report helps the local authority decide what support the child requires and at what level."
+        },
+        {
+          "question": "How long does an EHCP assessment take?",
+          "answer": "The actual assessment typically takes 2\u20134 hours, spread across one or more visits. The EP's analysis and report takes around 2 weeks. From referral to issued EHCP, the statutory timeline is 16 weeks (6 weeks decision, 10 weeks evidence gathering, 8 weeks plan writing)."
+        },
+        {
+          "question": "How much does an EHCP assessment cost?",
+          "answer": "Costs vary depending on assessment complexity and your location. We always provide a fixed quotation upfront. For local authorities, we offer volume discounts. For schools, costs are typically \u00a3800\u20131,500. Contact us for a specific quote."
+        },
+        {
+          "question": "Can you meet the 16-week statutory timeline?",
+          "answer": "Yes. We understand statutory EHCP timelines and prioritise assessments accordingly. Standard turnaround from assessment to report is 2 weeks, which fits comfortably within LA timeframes. For urgent cases, faster turnaround is available."
+        },
+        {
+          "question": "What will the EHCP assessment report include?",
+          "answer": "A comprehensive report covering cognitive assessment, attainment testing, observations of learning and behaviour, summary of needs, diagnosis or disability clarification, recommendations for support and interventions, and practical guidance for schools. Reports are evidence-based and meet SEND Code of Practice standards."
+        },
+        {
+          "question": "Will my local authority accept an EHCP report from Psychology Direct?",
+          "answer": "Yes. All our EPs are HCPC-registered and experienced in LA EHCP assessments. We work to your LA's template or our own format. We provide evidence of our vetting and quality assurance."
+        },
+        {
+          "question": "What if the child has already been assessed by someone else?",
+          "answer": "If there's a recent assessment (within 1\u20132 years) from a qualified professional, it may be sufficient. However, an updated EHCP-focused assessment is often needed to address specific statutory questions. Contact us to discuss whether reassessment is necessary."
+        },
+        {
+          "question": "Can the assessment cover specific learning difficulties like dyslexia or autism?",
+          "answer": "Yes. Our EPs are experienced in assessing dyslexia, dyscalculia, ADHD, autism, attachment difficulties, and other specific learning needs. The EHCP assessment will clarify whether these difficulties are present and how they affect the child's learning."
+        },
+        {
+          "question": "What if the child is very young (under 5)?",
+          "answer": "EHCP assessments can begin from age 0, though they're more common from school age onwards. Very young child assessments are different (play-based observation, parent interviews, developmental screening). Discuss your child's age and needs when you contact us."
+        },
+        {
+          "question": "What happens if the EHCP panel rejects the recommendations in the report?",
+          "answer": "This is rare. Quality EHCP assessment reports are evidence-based and rarely challenged. If a panel has questions, the EP can explain or clarify. We're available for panel meetings if needed."
+        },
+        {
+          "question": "Can the EP attend the EHCP panel meeting?",
+          "answer": "Yes. In some cases, the school or LA may invite the EP to present findings or answer questions. We can provide this support if it's helpful. Discuss this option when you book the assessment."
+        },
+        {
+          "question": "What happens after the EHCP is issued? Can the EP still support the child?",
+          "answer": "Yes. After the plan is issued, the EP can provide ongoing consultation, strategy reviews, progress monitoring, or advice to the school as the child's needs evolve. The assessment doesn't have to end once the plan is issued."
         }
       ]
     },

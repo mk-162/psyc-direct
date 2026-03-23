@@ -148,6 +148,20 @@
                         "children": [
                           {
                             "type": "text",
+                            "text": "Example Letter of Instruction — Template and annotated examples"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
                             "text": "Do I Need a Psychologist or Psychiatrist? — Choosing the right expert type"
                           }
                         ]
@@ -220,6 +234,63 @@
                           {
                             "type": "text",
                             "text": "Domestic Abuse Expert Assessment — Trauma, impact, and risk in family proceedings"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Compliance & Declarations:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Expert Witness Declarations for Court — Mandatory declarations explained"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Legal Aid Fee Compliance Guide — Meeting LAA requirements and billing standards"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "CPR Expert Evidence Rules — Civil Procedure Rules compliance"
                           }
                         ]
                       }
@@ -393,6 +464,77 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "EP Role in Early Years — Early identification and preventative support"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Professional Bodies & Compliance:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Professional Bodies for Educational Psychologists — HCPC, BPS, AEP registration explained"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "SEND Code of Practice 2015 — Key requirements for schools and LAs"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Data Protection & Student Records — GDPR and confidentiality in education"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -477,6 +619,20 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What is a Rehabilitation Case Manager? — Understanding the role and working relationships"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -530,6 +686,20 @@
                           {
                             "type": "text",
                             "text": "Professional Indemnity Insurance Guide — Requirements and best practice"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Continuing Professional Development (CPD) — Maintaining registration and standards"
                           }
                         ]
                       }

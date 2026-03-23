@@ -33,6 +33,30 @@ Your expert is:
 
 Every report undergoes 100% quality assurance before delivery. We check for completeness, clarity, and compliance with court or regulatory requirements.
 
+## Make the Most of Your Expert's Time
+
+Download our preparation guide to understand what to expect and how to provide the information your expert needs.
+
+- [Download guide](/resources/)
+- [View example report](/resources/)
+
+## Examples of Our Work
+
+- **Rapid Court Report (Family Law)** -- Expert psychologist delivered a court-ready parenting assessment within 10 days of instruction. The report led to a negotiated settlement.
+- **Criminal Assessment (Fitness to Plead)** -- Comprehensive fitness to plead evaluation completed within 3 weeks, directly informing court proceedings and the defendant's trial outcome.
+- **School EHCP Assessment** -- Full Educational Psychologist assessment and EHCP advice completed within 6 weeks, supporting the school's statutory duty and the child's needs.
+
+## Clients Trust Our Speed and Quality
+
+> "The report was thorough, court-compliant, and delivered on time. No surprises, no revisions needed."
+> -- Senior partner, solicitors' firm
+
+> "Your expert understood our educational context immediately. The assessment was detailed and actionable."
+> -- SENCO, independent school
+
+> "Fast, professional, and genuinely helpful. Our Client Manager was responsive throughout."
+> -- Local authority SEND manager
+
 ## Next Steps Checklist
 
 - Await the expert's contact (within 24 hours)
