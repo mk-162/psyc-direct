@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
@@ -11,6 +12,7 @@ interface TestimonialCarouselData {
     name?: string;
     title?: string;
     organization?: string;
+    photo?: string;
   }[];
 }
 
@@ -33,9 +35,18 @@ export const TestimonialCarousel = ({ data }: { data: TestimonialCarouselData })
           <blockquote className="font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed mb-6">
             &ldquo;{t.quote}&rdquo;
           </blockquote>
-          <div className="font-sans text-sm font-bold text-foreground">{t.name}</div>
-          <div className="text-muted-foreground text-sm">
-            {[t.title, t.organization].filter(Boolean).join(', ')}
+          <div className="flex items-center justify-center gap-3 mt-2">
+            {t.photo && (
+              <div className="relative w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
+                <Image src={t.photo} alt={t.name || 'Author'} fill className="object-cover" sizes="40px" />
+              </div>
+            )}
+            <div className={t.photo ? 'text-left' : ''}>
+              <div className="font-sans text-sm font-bold text-foreground">{t.name}</div>
+              <div className="text-muted-foreground text-sm">
+                {[t.title, t.organization].filter(Boolean).join(', ')}
+              </div>
+            </div>
           </div>
           {items.length > 1 && (
             <div className="flex items-center justify-center gap-4 mt-8">

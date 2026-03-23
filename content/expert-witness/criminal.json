@@ -470,6 +470,16 @@
       ]
     },
     {
+      "_template": "imageFeature",
+      "layout": "image-left",
+      "image": "/images/sections/professional-woman.jpg",
+      "imageAlt": "Expert professional ready to support criminal law cases",
+      "heading": "Expertise You Can Trust",
+      "body": "Our forensic psychologists and psychiatrists have decades of combined experience in criminal courts. They understand cross-examination, Pritchard criteria, and what judges need to see. Every expert is vetted for forensic credentials and courtroom experience before joining our network.",
+      "ctaText": "Instruct an Expert",
+      "ctaLink": "/contact/"
+    },
+    {
       "_template": "serviceCards",
       "heading": "Expert Assessments That Win Cases",
       "subheading": "From fitness to plead to risk assessment, we've supported defence, prosecution, and CPS work.",

@@ -279,6 +279,15 @@
       ]
     },
     {
+      "_template": "ctaInline",
+      "heading": "Ready to Submit Your Enquiry?",
+      "bodyText": "Scroll down to our form, or call us directly on 01306 879 975. We respond within 24 hours with matched expert CVs and quotes.",
+      "primaryCtaText": "Go to Form",
+      "primaryCtaLink": "#enquiry-form",
+      "secondaryCtaText": "Call 01306 879 975",
+      "secondaryCtaLink": "tel:01306879975"
+    },
+    {
       "_template": "faqAccordion",
       "heading": "Frequently Asked Questions",
       "faqs": [

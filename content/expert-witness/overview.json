@@ -66,39 +66,56 @@
         {
           "title": "Family Law",
           "description": "Parenting capacity, attachment, domestic abuse, care proceedings assessments.",
+          "iconHint": "Heart",
           "link": "/expert-witness-psychologists/family/"
         },
         {
           "title": "Criminal Law",
           "description": "Fitness to plead, risk assessments, mental state evaluations, pre-sentencing reports.",
+          "iconHint": "Gavel",
           "link": "/expert-witness-psychologists/criminal/"
         },
         {
           "title": "Personal Injury & Civil",
           "description": "PTSD, psychological injury, work stress, negligence, tribunal assessments.",
+          "iconHint": "Scale",
           "link": "/expert-witness-psychologists/civil-personal-injury/"
         },
         {
           "title": "Clinical Negligence",
           "description": "Breach of duty analysis, causation, prognosis, treatment recommendations.",
+          "iconHint": "FileText",
           "link": "/expert-witness-psychologists/clinical-negligence/"
         },
         {
           "title": "Immigration & Asylum",
           "description": "Torture assessments, PTSD, country-specific trauma, tribunal evidence.",
+          "iconHint": "Shield",
           "link": "/expert-witness-psychologists/asylum-immigration/"
         },
         {
           "title": "Employment Law",
           "description": "Workplace bullying, discrimination, occupational stress, tribunal reports.",
+          "iconHint": "Briefcase",
           "link": "/expert-witness-psychologists/employment/"
         },
         {
           "title": "Prison Law",
           "description": "Parole assessments, IPP sentences, mental health evaluations, release planning.",
+          "iconHint": "Building2",
           "link": "/expert-witness-psychologists/prison-law/"
         }
       ]
+    },
+    {
+      "_template": "imageFeature",
+      "layout": "image-left",
+      "image": "/images/sections/court-building.jpg",
+      "imageAlt": "Court building exterior representing legal proceedings",
+      "heading": "Court-Ready Evidence, Every Time",
+      "body": "Our experts understand what courts need. Every report addresses the letter of instruction, meets MoJ Practice Directions, and is 100% quality-checked before delivery. We've supported thousands of cases across family, criminal, civil, immigration, employment, and prison law.",
+      "ctaText": "View Practice Areas",
+      "ctaLink": "/expert-witness-psychologists/#practice-areas"
     },
     {
       "_template": "tabbedContent",
@@ -671,6 +688,16 @@
           "answer": "We cover seven practice areas: Family Law, Criminal Law, PI & Civil, Clinical Negligence, Immigration & Asylum, Employment, and Prison Law. Explore each area using the links above."
         }
       ]
+    },
+    {
+      "_template": "imageFeature",
+      "layout": "image-right",
+      "image": "/images/sections/document-review.jpeg",
+      "imageAlt": "Expert reviewing legal documents for quality assurance",
+      "heading": "Rigorous Quality Assurance",
+      "body": "Every report is 100% proofread and quality-checked by our Client Management team. We verify that all instructions have been addressed, recommendations are clear, and the report meets court standards. No report leaves us without this check.",
+      "ctaText": "Our Quality Promise",
+      "ctaLink": "/about/quality-assurance/"
     },
     {
       "_template": "ctaBanner",

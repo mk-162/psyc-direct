@@ -428,6 +428,16 @@
       ]
     },
     {
+      "_template": "imageFeature",
+      "layout": "image-right",
+      "image": "/images/sections/supportive-hands.jpeg",
+      "imageAlt": "Supportive hands representing sensitive family case handling",
+      "heading": "We Understand the Sensitivity",
+      "body": "Family law cases involve vulnerable children and parents in crisis. Our experts are experienced in working with families going through the most difficult times. We handle each case with empathy, professionalism, and the urgency your court deadlines demand.",
+      "ctaText": "Discuss Your Case",
+      "ctaLink": "/contact/"
+    },
+    {
       "_template": "processSteps",
       "heading": "How It Works",
       "steps": [

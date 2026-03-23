@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Card } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
@@ -10,6 +11,7 @@ interface ServiceCardsData {
     description?: string;
     link?: string;
     iconHint?: string;
+    image?: string;
   }[];
 }
 
@@ -36,8 +38,14 @@ export const ServiceCards = ({ data }: { data: ServiceCardsData }) => {
           {data.cards.map((card, i) => (
             <Card
               key={i}
-              className="p-6 bg-[var(--brand-bg-tint)] border-0 flex flex-col hover:shadow-md transition-shadow"
+              className={`${card.image ? 'p-0 overflow-hidden' : 'p-6'} bg-[var(--brand-bg-tint)] border-0 flex flex-col hover:shadow-md transition-shadow`}
             >
+              {card.image && (
+                <div className="relative aspect-[16/9] w-full">
+                  <Image src={card.image} alt={card.title} fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+                </div>
+              )}
+              <div className={card.image ? 'p-6 flex flex-col flex-1' : 'contents'}>
               <h3 className="font-sans text-base font-bold mb-3" style={{ color: 'var(--brand-navy)' }}>
                 {card.title}
               </h3>
@@ -54,6 +62,7 @@ export const ServiceCards = ({ data }: { data: ServiceCardsData }) => {
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               )}
+              </div>
             </Card>
           ))}
         </div>

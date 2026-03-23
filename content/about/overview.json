@@ -49,40 +49,50 @@
       "cards": [
         {
           "title": "Dedicated Client Managers",
-          "description": "You get one person who knows your case, your deadlines, and your needs. They advocate for you from start to finish.",
-          "link": ""
+          "description": "You get one person who knows your case, your deadlines, and your needs. They advocate for you from start to finish."
         },
         {
           "title": "Rigorous Vetting & QA",
-          "description": "Every expert is registered with HCPC or GMC. All are DBS checked and insured. Every report is proofread and quality-checked before we send it.",
-          "link": ""
+          "description": "Every expert is registered with HCPC or GMC. All are DBS checked and insured. Every report is proofread and quality-checked before we send it."
         },
         {
           "title": "Fair Pay, Professional Support",
-          "description": "We pay our experts fairly. We handle the admin so they focus on client care. We offer supervision and CPD opportunities.",
-          "link": ""
-        },
+          "description": "We pay our experts fairly. We handle the admin so they focus on client care. We offer supervision and CPD opportunities."
+        }
+      ]
+    },
+    {
+      "_template": "serviceCards",
+      "heading": "Our Values",
+      "subheading": "The principles that guide everything we do",
+      "cards": [
         {
           "title": "Professionalism & Accountability",
-          "description": "We do what we promise, on time, transparently. No hidden fees. No surprises. Your Client Manager is accountable to you.",
-          "link": ""
+          "description": "We do what we promise, on time, transparently. No hidden fees. No surprises. Your Client Manager is accountable to you."
         },
         {
           "title": "Empathy & Respect",
-          "description": "We know the pressure you're under. Tight deadlines. Complex cases. Budget constraints. We care about every enquiry and every expert.",
-          "link": ""
+          "description": "We know the pressure you're under. Tight deadlines. Complex cases. Budget constraints. We care about every enquiry and every expert."
         },
         {
           "title": "Openness, Honesty & Integrity",
-          "description": "We're honest about what we can deliver. We're open to feedback. Integrity guides how we treat you and our professionals.",
-          "link": ""
+          "description": "We're honest about what we can deliver. We're open to feedback. Integrity guides how we treat you and our professionals."
         },
         {
           "title": "Teamwork & Shared Success",
-          "description": "Your success is our success. We work as a team — with you, our experts, and each other — to get the best outcome for every case.",
-          "link": ""
+          "description": "Your success is our success. We work as a team — with you, our experts, and each other — to get the best outcome for every case."
         }
       ]
+    },
+    {
+      "_template": "imageFeature",
+      "layout": "image-left",
+      "image": "/images/sections/pd-team.jpg",
+      "imageAlt": "The Psychology Direct team",
+      "heading": "A Team That Cares",
+      "body": "We're not a faceless directory. We're a dedicated team of client managers, coordinators, and support staff who genuinely care about every case. Your Client Manager knows your deadlines, your requirements, and your preferences. They advocate for you from first contact to report delivery.",
+      "ctaText": "Meet Our Team",
+      "ctaLink": "/about/meet-the-team/"
     },
     {
       "_template": "teamGrid",
@@ -122,6 +132,16 @@
       "primaryCtaLink": "/about/meet-the-team/",
       "secondaryCtaText": "View Open Roles",
       "secondaryCtaLink": "/about/careers/"
+    },
+    {
+      "_template": "imageFeature",
+      "layout": "image-right",
+      "image": "/images/sections/national-network.jpg",
+      "imageAlt": "Map showing Psychology Direct's nationwide UK coverage",
+      "heading": "Nationwide Coverage, Local Expertise",
+      "body": "With 1,000+ professionals across the UK, we match experts to your location, specialism, and timeline. Whether you're in London, Glasgow, or rural Wales, we find the right person near your client. Our national reach means you never wait for availability.",
+      "ctaText": "Find an Expert Near You",
+      "ctaLink": "/contact/"
     },
     {
       "_template": "testimonialCarousel",

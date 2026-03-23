@@ -1,6 +1,28 @@
 import Link from 'next/link';
 import { Card } from '@/components/ui/card';
-import { ArrowRight, Briefcase } from 'lucide-react';
+import {
+  ArrowRight,
+  Briefcase,
+  Heart,
+  Gavel,
+  Scale,
+  Shield,
+  GraduationCap,
+  Building2,
+  FileText,
+  type LucideIcon,
+} from 'lucide-react';
+
+const iconMap: Record<string, LucideIcon> = {
+  Heart,
+  Gavel,
+  Scale,
+  Shield,
+  Briefcase,
+  GraduationCap,
+  Building2,
+  FileText,
+};
 
 interface PracticeAreaCardsData {
   heading?: string;
@@ -33,7 +55,7 @@ export const PracticeAreaCards = ({ data }: { data: PracticeAreaCardsData }) => 
                 className="w-10 h-10 rounded-md flex items-center justify-center mb-4 flex-shrink-0"
                 style={{ background: 'var(--brand-bg-tint)' }}
               >
-                <Briefcase className="w-5 h-5" style={{ color: 'var(--brand-azure-vivid)' }} />
+                {(() => { const Icon = (card.iconHint && iconMap[card.iconHint]) || Briefcase; return <Icon className="w-5 h-5" style={{ color: 'var(--brand-azure-vivid)' }} />; })()}
               </div>
               <h3 className="font-sans text-sm font-bold mb-2" style={{ color: 'var(--brand-navy)' }}>
                 {card.title}

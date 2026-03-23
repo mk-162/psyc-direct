@@ -75,6 +75,7 @@ const serviceCardsBlock = {
         { type: "string" as const, name: "description", label: "Description", ui: { component: "textarea" } },
         { type: "string" as const, name: "link", label: "Link URL" },
         { type: "string" as const, name: "iconHint", label: "Icon Hint (optional)" },
+        { type: "image" as const, name: "image", label: "Card Image (optional)" },
       ],
     },
   ],
@@ -139,6 +140,7 @@ const testimonialCarouselBlock = {
         { type: "string" as const, name: "name", label: "Author Name" },
         { type: "string" as const, name: "title", label: "Author Title/Role" },
         { type: "string" as const, name: "organization", label: "Organisation" },
+        { type: "image" as const, name: "photo", label: "Author Photo (optional)" },
       ],
     },
   ],
@@ -246,6 +248,7 @@ const caseStudyCardsBlock = {
         { type: "string" as const, name: "summary", label: "Summary", ui: { component: "textarea" } },
         { type: "string" as const, name: "sector", label: "Sector Tag (e.g. Education, Legal)" },
         { type: "string" as const, name: "link", label: "Link URL" },
+        { type: "image" as const, name: "thumbnail", label: "Thumbnail Image (optional)" },
       ],
     },
   ],
@@ -294,6 +297,20 @@ const alertBannerBlock = {
   ],
 };
 
+const imageFeatureBlock = {
+  name: "imageFeature",
+  label: "Image Feature",
+  fields: [
+    { type: "string" as const, name: "layout", label: "Layout", options: ["image-left", "image-right"], ui: { defaultValue: "image-left" } },
+    { type: "image" as const, name: "image", label: "Image" },
+    { type: "string" as const, name: "imageAlt", label: "Image Alt Text" },
+    { type: "string" as const, name: "heading", label: "Heading" },
+    { type: "string" as const, name: "body", label: "Body Text", ui: { component: "textarea" } },
+    { type: "string" as const, name: "ctaText", label: "CTA Text (optional)" },
+    { type: "string" as const, name: "ctaLink", label: "CTA Link" },
+  ],
+};
+
 const richTextBlock = {
   name: "richText",
   label: "Rich Text",
@@ -329,6 +346,7 @@ const allBlocks = [
   videoSectionBlock,
   alertBannerBlock,
   richTextBlock,
+  imageFeatureBlock,
 ];
 
 const blockPageFields = [

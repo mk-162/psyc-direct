@@ -97,6 +97,16 @@
       ]
     },
     {
+      "_template": "imageFeature",
+      "layout": "image-left",
+      "image": "/images/sections/team-support.jpg",
+      "imageAlt": "Team collaboration supporting local authority EP services",
+      "heading": "Supporting LA Teams",
+      "body": "We work alongside your internal EP service, not as a replacement. Whether you need overflow capacity for backlog clearance, interim cover for staffing gaps, or ongoing partnership to complement your team, we flex to your needs. Your Client Manager understands LA processes and statutory deadlines.",
+      "ctaText": "Explore Partnership Options",
+      "ctaLink": "/contact/"
+    },
+    {
       "_template": "processSteps",
       "heading": "How Local Authorities Work with Psychology Direct",
       "steps": [

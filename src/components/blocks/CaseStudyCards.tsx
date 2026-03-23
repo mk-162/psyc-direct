@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -10,6 +11,7 @@ interface CaseStudyCardsData {
     summary?: string;
     sector?: string;
     link?: string;
+    thumbnail?: string;
   }[];
 }
 
@@ -27,7 +29,13 @@ export const CaseStudyCards = ({ data }: { data: CaseStudyCardsData }) => {
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((cs, i) => (
-            <Card key={i} className="p-6 bg-background flex flex-col hover:shadow-md transition-shadow">
+            <Card key={i} className={`${cs.thumbnail ? 'p-0 overflow-hidden' : 'p-6'} bg-background flex flex-col hover:shadow-md transition-shadow`}>
+              {cs.thumbnail && (
+                <div className="relative aspect-[16/9] w-full">
+                  <Image src={cs.thumbnail} alt={cs.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+                </div>
+              )}
+              <div className={cs.thumbnail ? 'p-6 flex flex-col flex-1' : 'contents'}>
               {cs.sector && (
                 <Badge variant="secondary" className="self-start mb-4 text-xs font-semibold">
                   {cs.sector}
@@ -49,6 +57,7 @@ export const CaseStudyCards = ({ data }: { data: CaseStudyCardsData }) => {
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               )}
+              </div>
             </Card>
           ))}
         </div>

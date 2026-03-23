@@ -61,6 +61,16 @@
       ]
     },
     {
+      "_template": "imageFeature",
+      "layout": "image-right",
+      "image": "/images/sections/professionals-group.jpg",
+      "imageAlt": "Psychology Direct's network of vetted professionals",
+      "heading": "1,000+ Vetted Professionals",
+      "body": "Every psychologist and psychiatrist in our network is HCPC or GMC registered, enhanced DBS checked, and professionally insured. We review sample reports before registration and quality-check every deliverable. You get the right expert — vetted, matched, and ready to work.",
+      "ctaText": "View Our Credentials",
+      "ctaLink": "/about/quality-assurance/"
+    },
+    {
       "_template": "statsBar",
       "stats": [
         {
@@ -110,6 +120,16 @@
       "ctaLink": "/contact/"
     },
     {
+      "_template": "imageFeature",
+      "layout": "image-left",
+      "image": "/images/sections/consultation.jpeg",
+      "imageAlt": "A dedicated client manager discussing a case",
+      "heading": "Your Dedicated Client Manager",
+      "body": "One person owns your case from first call to report delivery. They match your expert, manage the logistics, coordinate with all parties, and chase deadlines — so you never have to. It's managed service, not a directory.",
+      "ctaText": "How It Works",
+      "ctaLink": "/about/"
+    },
+    {
       "_template": "testimonialCarousel",
       "heading": "What Our Users Say",
       "testimonials": [
@@ -138,6 +158,20 @@
           "organization": "Williamsons Solicitors"
         }
       ]
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Not Sure Which Expert You Need?",
+      "bodyText": "Different cases require different expertise. Our free 2-minute tool helps you work out whether you need a psychologist, a psychiatrist, or both — with clear, jargon-free explanations.",
+      "primaryCtaText": "Try the Free Tool",
+      "primaryCtaLink": "/tools/psychologist-or-psychiatrist/"
+    },
+    {
+      "_template": "ctaInline",
+      "heading": "Does Your Case Need Expert Evidence?",
+      "bodyText": "Not every case requires a psychological or psychiatric report. Answer a few quick questions and find out whether expert evidence would strengthen your case — and what type of expert you'd need.",
+      "primaryCtaText": "Check Suitability",
+      "primaryCtaLink": "/tools/suitability-checker/"
     },
     {
       "_template": "ctaBanner",

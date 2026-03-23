@@ -16,6 +16,7 @@ import { TeamGrid } from './TeamGrid';
 import { VideoSection } from './VideoSection';
 import { AlertBanner } from './AlertBanner';
 import { RichText } from './RichText';
+import { ImageFeature } from './ImageFeature';
 
 const blockLabels: Record<string, string> = {
   Hero: 'Hero Section',
@@ -35,6 +36,7 @@ const blockLabels: Record<string, string> = {
   VideoSection: 'Video Section',
   AlertBanner: 'Alert Banner',
   RichText: 'Rich Text',
+  ImageFeature: 'Image Feature',
 };
 
 interface BlockProps {
@@ -108,6 +110,7 @@ export const PremiumPageRenderer = ({
           case 'VideoSection':     component = <VideoSection data={block as any} />; break;
           case 'AlertBanner':      component = <AlertBanner data={block as any} />; break;
           case 'RichText':         component = <RichText data={block as any} />; break;
+          case 'ImageFeature':    component = <ImageFeature data={block as any} />; break;
           default:
             console.warn(`Block not mapped in PremiumPageRenderer: ${block.__typename}`);
             return null;

@@ -100,6 +100,16 @@
       ]
     },
     {
+      "_template": "imageFeature",
+      "layout": "image-right",
+      "image": "/images/sections/caring-hands.jpg",
+      "imageAlt": "Caring professional supporting a child's educational needs",
+      "heading": "Supporting Every Child's Potential",
+      "body": "Every child deserves timely, expert assessment. Our Educational Psychologists deliver practical, evidence-based reports that schools and LAs can act on immediately. We match the right EP to every case — whether it's a straightforward EHCP or a complex multi-agency assessment.",
+      "ctaText": "Discuss Your Needs",
+      "ctaLink": "/contact/"
+    },
+    {
       "_template": "processSteps",
       "heading": "How Psychology Direct Works for Education",
       "steps": [

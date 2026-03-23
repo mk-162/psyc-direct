@@ -25,8 +25,16 @@ export default async function ContactPage() {
     return (
       <main>
         <EditorialPageClient query={res.query} variables={res.variables} data={res.data} collection="pages" />
-        <section id="enquiry-form" className="py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+        <section id="enquiry-form" className="py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-[var(--brand-bg-tint)]">
           <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="font-sans text-2xl sm:text-3xl font-bold mb-3" style={{ color: 'var(--brand-navy)' }}>
+                Send Us Your Enquiry
+              </h2>
+              <p className="text-muted-foreground text-base">
+                Complete the form below and we&apos;ll respond within 24 hours with matched expert CVs and quotes.
+              </p>
+            </div>
             <ContactForm />
           </div>
         </section>
