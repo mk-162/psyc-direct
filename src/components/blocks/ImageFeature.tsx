@@ -7,7 +7,7 @@ interface ImageFeatureData {
   image?: string;
   imageAlt?: string;
   heading?: string;
-  body?: string;
+  bodyText?: string;
   ctaText?: string;
   ctaLink?: string;
 }
@@ -41,9 +41,9 @@ export const ImageFeature = ({ data }: { data: ImageFeatureData }) => {
                 {data.heading}
               </h2>
             )}
-            {data.body && (
+            {data.bodyText && (
               <p className="text-muted-foreground text-base leading-relaxed mb-6">
-                {data.body}
+                {data.bodyText}
               </p>
             )}
             {data.ctaText && data.ctaLink && (

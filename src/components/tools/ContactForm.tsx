@@ -78,15 +78,16 @@ function FormField({
   error?: string;
   children: React.ReactNode;
 }) {
+  const fieldId = name ? `field-${name}` : undefined;
   const errorId = name ? `${name}-error` : undefined;
   return (
     <div className="space-y-1.5">
-      <label className="text-sm font-medium" style={{ color: 'var(--brand-navy)' }}>
+      <label htmlFor={fieldId} className="text-sm font-medium" style={{ color: 'var(--brand-navy)' }}>
         {label}
         {required && <span className="text-destructive ml-0.5">*</span>}
       </label>
       {children}
-      {error && <p id={errorId} className="text-xs text-destructive">{error}</p>}
+      {error && <p id={errorId} role="alert" className="text-xs text-destructive">{error}</p>}
     </div>
   );
 }
@@ -228,6 +229,7 @@ export function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <FormField label="Name" name="name" required error={errors.name}>
               <Input
+                id="field-name"
                 name="name"
                 required
                 value={form.name}
@@ -240,6 +242,7 @@ export function ContactForm() {
 
             <FormField label="Email" name="email" required error={errors.email}>
               <Input
+                id="field-email"
                 name="email"
                 type="email"
                 required
@@ -254,8 +257,9 @@ export function ContactForm() {
 
           {/* Phone & Organisation */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <FormField label="Phone">
+            <FormField label="Phone" name="phone">
               <Input
+                id="field-phone"
                 name="phone"
                 type="tel"
                 value={form.phone}
@@ -264,8 +268,9 @@ export function ContactForm() {
               />
             </FormField>
 
-            <FormField label="Organisation">
+            <FormField label="Organisation" name="organisation">
               <Input
+                id="field-organisation"
                 name="organisation"
                 value={form.organisation}
                 onChange={(e) => updateField('organisation', e.target.value)}
@@ -277,6 +282,7 @@ export function ContactForm() {
           {/* Enquiry type */}
           <FormField label="Enquiry Type" name="enquiryType" required error={errors.enquiryType}>
             <select
+              id="field-enquiryType"
               name="enquiryType"
               required
               value={form.enquiryType}
@@ -298,6 +304,7 @@ export function ContactForm() {
           {/* Message */}
           <FormField label="Message" name="message" required error={errors.message}>
             <Textarea
+              id="field-message"
               name="message"
               required
               value={form.message}
@@ -311,7 +318,7 @@ export function ContactForm() {
 
           {/* Submit */}
           {submitError && (
-            <p className="text-sm text-destructive bg-destructive/10 px-4 py-3 rounded-md">{submitError}</p>
+            <p role="alert" className="text-sm text-destructive bg-destructive/10 px-4 py-3 rounded-md">{submitError}</p>
           )}
           <div className="pt-2">
             <Button

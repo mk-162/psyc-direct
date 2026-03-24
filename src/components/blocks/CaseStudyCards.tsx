@@ -29,7 +29,7 @@ export const CaseStudyCards = ({ data }: { data: CaseStudyCardsData }) => {
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((cs, i) => (
-            <Card key={i} className={`${cs.thumbnail ? 'p-0 overflow-hidden' : 'p-6'} bg-background flex flex-col hover:shadow-md transition-shadow`}>
+            <Card key={i} className={`${cs.thumbnail ? 'p-0 overflow-hidden' : 'p-6'} bg-background flex flex-col hover:shadow-md hover:-translate-y-1 transition-all duration-200`}>
               {cs.thumbnail && (
                 <div className="relative aspect-[16/9] w-full">
                   <Image src={cs.thumbnail} alt={cs.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />

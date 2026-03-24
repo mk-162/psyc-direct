@@ -889,19 +889,22 @@
           "title": "Autism Assessment Led to Whole-School Understanding",
           "summary": "A secondary student with undiagnosed autism was struggling with social relationships and sensory overwhelm. An educational psychology assessment provided diagnostic clarity and led to school adjustments that helped the student thrive.",
           "sector": "Education",
-          "link": "/case-studies/"
+          "link": "/case-studies/",
+          "thumbnail": "/images/cards/education/specialist.jpg"
         },
         {
           "title": "Dyslexia Identification Unlocked Literacy Support",
           "summary": "A primary school child was falling behind in literacy despite effort. An educational psychology assessment confirmed dyslexia and identified the child's strengths (visual-spatial, practical). Targeted intervention followed.",
           "sector": "Education",
-          "link": "/case-studies/"
+          "link": "/case-studies/",
+          "thumbnail": "/images/cards/education/schools.jpg"
         },
         {
           "title": "ADHD Support Improved Classroom Behaviour and Engagement",
           "summary": "A child was struggling with focus and impulsive behaviour. A specialist educational psychology assessment clarified ADHD patterns and provided the teacher with evidence-based strategies for supporting focus and self-regulation.",
           "sector": "Education",
-          "link": "/case-studies/"
+          "link": "/case-studies/",
+          "thumbnail": "/images/cards/education/ehcp.jpg"
         }
       ]
     },

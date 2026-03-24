@@ -486,19 +486,22 @@
           "title": "Syrian Refugee Torture Assessment",
           "summary": "Expert torture and PTSD assessment for a claimant fleeing persecution. We matched a Syria-specialist psychologist quickly.",
           "sector": "Immigration",
-          "link": "/case-studies/syrian-refugee-assessment/"
+          "link": "/case-studies/syrian-refugee-assessment/",
+          "thumbnail": "/images/cards/case-studies/family-law.jpg"
         },
         {
           "title": "Country-Specific Persecution Evaluation",
           "summary": "Country-context assessment for a claimant persecuted for political opposition. We provided a regional trauma specialist.",
           "sector": "Asylum",
-          "link": "/case-studies/country-persecution-assessment/"
+          "link": "/case-studies/country-persecution-assessment/",
+          "thumbnail": "/images/cards/case-studies/expert-witness.jpg"
         },
         {
           "title": "Mental Health Detention Appeal",
           "summary": "Psychiatric assessment for a detained asylum claimant with severe PTSD. We provided urgent Mental Health Act tribunal report.",
           "sector": "Immigration",
-          "link": "/case-studies/mental-health-detention-appeal/"
+          "link": "/case-studies/mental-health-detention-appeal/",
+          "thumbnail": "/images/cards/case-studies/court.jpg"
         }
       ]
     },

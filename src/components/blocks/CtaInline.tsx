@@ -24,7 +24,7 @@ export const CtaInline = ({ data }: { data: CtaInlineData }) => {
               className="flex-shrink-0 w-12 h-12 rounded-md flex items-center justify-center"
               style={{ background: 'var(--brand-navy)' }}
             >
-              <Phone className="w-5 h-5 text-[var(--brand-azure)]" />
+              <Phone aria-hidden="true" className="w-5 h-5 text-[var(--brand-azure)]" />
             </div>
             <div className="flex-1">
               <h3 className="font-sans text-lg font-bold mb-2" style={{ color: 'var(--brand-navy)' }}>

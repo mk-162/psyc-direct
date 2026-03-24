@@ -2,6 +2,7 @@ import { cache } from "react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const SITE_URL = "https://www.psychologydirect.co.uk";
 const OVERVIEW_FILE = "overview";
@@ -79,14 +80,15 @@ export function makeOverviewPage(config: OverviewConfig) {
     const page = res?.data?.[config.dataKey];
     if (page) {
       return (
-        <main>
+        <>
+          <Breadcrumb path={config.canonicalPath} />
           <EditorialPageClient
             query={res.query}
             variables={res.variables}
             data={res.data}
             collection={config.collection}
           />
-        </main>
+        </>
       );
     }
     return <FallbackHero {...config.fallback} />;
@@ -142,14 +144,15 @@ export function makeSlugPage(config: SlugConfig) {
     const page = res?.data?.[config.dataKey];
     if (page) {
       return (
-        <main>
+        <>
+          <Breadcrumb path={`${config.canonicalPrefix}${slug}/`} />
           <EditorialPageClient
             query={res.query}
             variables={res.variables}
             data={res.data}
             collection={config.collection}
           />
-        </main>
+        </>
       );
     }
     return notFound();

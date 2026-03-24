@@ -475,7 +475,7 @@
       "image": "/images/sections/professional-woman.jpg",
       "imageAlt": "Expert professional ready to support criminal law cases",
       "heading": "Expertise You Can Trust",
-      "body": "Our forensic psychologists and psychiatrists have decades of combined experience in criminal courts. They understand cross-examination, Pritchard criteria, and what judges need to see. Every expert is vetted for forensic credentials and courtroom experience before joining our network.",
+      "bodyText": "Our forensic psychologists and psychiatrists have decades of combined experience in criminal courts. They understand cross-examination, Pritchard criteria, and what judges need to see. Every expert is vetted for forensic credentials and courtroom experience before joining our network.",
       "ctaText": "Instruct an Expert",
       "ctaLink": "/contact/"
     },
@@ -630,19 +630,22 @@
           "title": "24-Hour Fitness to Plead Assessment",
           "summary": "An original assessor became unavailable. We stepped in and delivered a replacement psychologist's court-ready fitness to plead report within 24 hours, meeting the court's deadline.",
           "sector": "Criminal Law",
-          "link": "/case-studies/delivering-court-report-within-days/"
+          "link": "/case-studies/delivering-court-report-within-days/",
+          "thumbnail": "/images/cards/case-studies/court.jpg"
         },
         {
           "title": "Urgent Pre-Sentencing Psychiatric Report",
           "summary": "A CPS matter required an urgent psychiatric assessment to inform sentencing. We matched a Section 12 approved psychiatrist and delivered the report within the court's timeline.",
           "sector": "Criminal Law",
-          "link": "/case-studies/expert-witness-for-cps/"
+          "link": "/case-studies/expert-witness-for-cps/",
+          "thumbnail": "/images/cards/case-studies/expert-witness.jpg"
         },
         {
           "title": "Complex Risk Assessment",
           "summary": "A multi-faceted risk assessment for a violent offence required both psychological and psychiatric expertise. We coordinated both experts and delivered a comprehensive report on time.",
           "sector": "Criminal Law",
-          "link": "/case-studies/complex-criminal-assessment/"
+          "link": "/case-studies/complex-criminal-assessment/",
+          "thumbnail": "/images/cards/case-studies/ptsd-trauma.jpg"
         }
       ]
     },

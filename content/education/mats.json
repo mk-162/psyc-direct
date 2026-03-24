@@ -599,19 +599,22 @@
           "title": "Full EP Service for Multi-Academy Trust",
           "summary": "A large MAT replaced their in-house EP with a blended model: dedicated EPs at large schools, flexible pool for smaller sites. Reduced cost, improved access, maintained quality.",
           "sector": "Education",
-          "link": "/case-studies/full-ep-service-for-local-authority/"
+          "link": "/case-studies/full-ep-service-for-local-authority/",
+          "thumbnail": "/images/cards/education/mats.jpg"
         },
         {
           "title": "Flexibility for a Cluster of Schools",
           "summary": "Five schools in a trust needed variable EP support. Psychology Direct provided flexible commissioning that scaled with demand, without requiring fixed staffing or long-term commitment.",
           "sector": "Education",
-          "link": "/case-studies/flexibility-is-key-to-cluster-of-schools/"
+          "link": "/case-studies/flexibility-is-key-to-cluster-of-schools/",
+          "thumbnail": "/images/cards/education/schools.jpg"
         },
         {
           "title": "Trust SEND Strategy Development",
           "summary": "A trust partnered with Psychology Direct for ongoing strategic SEND support, including policy guidance, staff training, and early identification frameworks across all schools.",
           "sector": "Education",
-          "link": "/case-studies/"
+          "link": "/case-studies/",
+          "thumbnail": "/images/cards/education/specialist.jpg"
         }
       ]
     },

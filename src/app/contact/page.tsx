@@ -4,6 +4,7 @@ import client from "../../../tina/__generated__/client";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
 import { ContactForm } from "@/components/tools/ContactForm";
 import { SITE_URL } from "@/lib/tina-page-helpers";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 const getData = cache(async () => {
   try { return await client.queries.pages({ relativePath: "contact.json" }); }
@@ -23,7 +24,8 @@ export default async function ContactPage() {
   const res = await getData();
   if (res?.data?.pages) {
     return (
-      <main>
+      <>
+        <Breadcrumb path="/contact/" />
         <EditorialPageClient query={res.query} variables={res.variables} data={res.data} collection="pages" />
         <section id="enquiry-form" className="py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-[var(--brand-bg-tint)]">
           <div className="max-w-3xl mx-auto">
@@ -38,7 +40,7 @@ export default async function ContactPage() {
             <ContactForm />
           </div>
         </section>
-      </main>
+      </>
     );
   }
   return (

@@ -31,7 +31,7 @@ export const CtaBanner = ({ data }: { data: CtaBannerData }) => {
                 {data.heading}
               </h2>
               {data.bodyText && (
-                <p className="text-white/70 text-sm sm:text-base leading-relaxed max-w-xl">
+                <p className="text-white/80 text-sm sm:text-base leading-relaxed max-w-xl">
                   {data.bodyText}
                 </p>
               )}

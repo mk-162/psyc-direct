@@ -113,7 +113,7 @@
       "image": "/images/sections/court-building.jpg",
       "imageAlt": "Court building exterior representing legal proceedings",
       "heading": "Court-Ready Evidence, Every Time",
-      "body": "Our experts understand what courts need. Every report addresses the letter of instruction, meets MoJ Practice Directions, and is 100% quality-checked before delivery. We've supported thousands of cases across family, criminal, civil, immigration, employment, and prison law.",
+      "bodyText": "Our experts understand what courts need. Every report addresses the letter of instruction, meets MoJ Practice Directions, and is 100% quality-checked before delivery. We've supported thousands of cases across family, criminal, civil, immigration, employment, and prison law.",
       "ctaText": "View Practice Areas",
       "ctaLink": "/expert-witness-psychologists/#practice-areas"
     },
@@ -635,19 +635,22 @@
           "title": "24-Hour Turnaround for the CPS",
           "description": "An urgent court-ordered report was required at short notice. Our efficient handling and expert matching exceeded the CPS's expectations and delivered the report within 24 hours.",
           "tag": "Criminal Law",
-          "link": "/case-studies/expert-witness-for-cps/"
+          "link": "/case-studies/expert-witness-for-cps/",
+          "thumbnail": "/images/cards/case-studies/court.jpg"
         },
         {
           "title": "Complex Logistics in Family Law",
           "description": "A specialist family firm needed assessments across multiple parties in a complex domestic violence case with funding uncertainty. We coordinated eight individual assessments and delivered on time.",
           "tag": "Family Law",
-          "link": "/case-studies/complex-logistics-family-law/"
+          "link": "/case-studies/complex-logistics-family-law/",
+          "thumbnail": "/images/cards/case-studies/family-law.jpg"
         },
         {
           "title": "Delivering a Court Report Within Days",
           "description": "Fitness to plead assessment issues arose mid-case. We stepped in to provide a replacement psychologist and delivered a court-ready report within days.",
           "tag": "Criminal Law",
-          "link": "/case-studies/delivering-court-report-within-days/"
+          "link": "/case-studies/delivering-court-report-within-days/",
+          "thumbnail": "/images/cards/case-studies/expert-witness.jpg"
         }
       ]
     },
@@ -695,7 +698,7 @@
       "image": "/images/sections/document-review.jpeg",
       "imageAlt": "Expert reviewing legal documents for quality assurance",
       "heading": "Rigorous Quality Assurance",
-      "body": "Every report is 100% proofread and quality-checked by our Client Management team. We verify that all instructions have been addressed, recommendations are clear, and the report meets court standards. No report leaves us without this check.",
+      "bodyText": "Every report is 100% proofread and quality-checked by our Client Management team. We verify that all instructions have been addressed, recommendations are clear, and the report meets court standards. No report leaves us without this check.",
       "ctaText": "Our Quality Promise",
       "ctaLink": "/about/quality-assurance/"
     },

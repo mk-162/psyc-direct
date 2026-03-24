@@ -802,19 +802,22 @@
           "title": "County Council Clears EHCP Backlog",
           "summary": "A local authority with 200+ pending assessments partnered with Psychology Direct to provide bulk capacity. Backlog cleared in 18 months while maintaining statutory compliance and quality.",
           "sector": "Education",
-          "link": "/case-studies/county-council-faces-major-challenge/"
+          "link": "/case-studies/county-council-faces-major-challenge/",
+          "thumbnail": "/images/cards/education/local-authorities.jpg"
         },
         {
           "title": "EP Report Delivered Before End of Term",
           "summary": "A primary school urgently needed an EHCP assessment report before the summer holidays to inform the child's transition plan. Psychology Direct matched an EP, conducted assessment, and delivered within 2 weeks.",
           "sector": "Education",
-          "link": "/case-studies/an-ep-report-before-the-end-of-term/"
+          "link": "/case-studies/an-ep-report-before-the-end-of-term/",
+          "thumbnail": "/images/cards/education/schools.jpg"
         },
         {
           "title": "Full EP Service for Local Authority",
           "summary": "An LA blended internal capacity with Psychology Direct to manage variable EHCP demand. Assessment timelines improved and the backlog steadily reduced.",
           "sector": "Education",
-          "link": "/case-studies/full-ep-service-for-local-authority/"
+          "link": "/case-studies/full-ep-service-for-local-authority/",
+          "thumbnail": "/images/cards/education/ehcp.jpg"
         }
       ]
     },

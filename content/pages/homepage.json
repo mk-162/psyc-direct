@@ -46,17 +46,20 @@
         {
           "title": "Expert Witness Services",
           "description": "Access psychologists and psychiatrists for family law, criminal, civil, and immigration cases. HCPC/GMC registered, court-ready reports delivered on time.",
-          "link": "/expert-witness-psychologists/"
+          "link": "/expert-witness-psychologists/",
+          "image": "/images/cards/stock-legal.jpg"
         },
         {
           "title": "Educational Psychology",
           "description": "EHCP assessments, SEND support, and statutory evaluations from experienced Educational Psychologists matched to your LA or school.",
-          "link": "/educational-psychologist/"
+          "link": "/educational-psychologist/",
+          "image": "/images/cards/stock-classroom.jpg"
         },
         {
           "title": "Join Our Network",
           "description": "Psychologists and psychiatrists: register to access steady referrals, fair pay, admin support, and a collaborative community.",
-          "link": "/about/careers/"
+          "link": "/about/careers/",
+          "image": "/images/cards/stock-therapy.jpg"
         }
       ]
     },
@@ -66,7 +69,7 @@
       "image": "/images/sections/professionals-group.jpg",
       "imageAlt": "Psychology Direct's network of vetted professionals",
       "heading": "1,000+ Vetted Professionals",
-      "body": "Every psychologist and psychiatrist in our network is HCPC or GMC registered, enhanced DBS checked, and professionally insured. We review sample reports before registration and quality-check every deliverable. You get the right expert — vetted, matched, and ready to work.",
+      "bodyText": "Every psychologist and psychiatrist in our network is HCPC or GMC registered, enhanced DBS checked, and professionally insured. We review sample reports before registration and quality-check every deliverable. You get the right expert — vetted, matched, and ready to work.",
       "ctaText": "View Our Credentials",
       "ctaLink": "/about/quality-assurance/"
     },
@@ -125,7 +128,7 @@
       "image": "/images/sections/consultation.jpeg",
       "imageAlt": "A dedicated client manager discussing a case",
       "heading": "Your Dedicated Client Manager",
-      "body": "One person owns your case from first call to report delivery. They match your expert, manage the logistics, coordinate with all parties, and chase deadlines — so you never have to. It's managed service, not a directory.",
+      "bodyText": "One person owns your case from first call to report delivery. They match your expert, manage the logistics, coordinate with all parties, and chase deadlines — so you never have to. It's managed service, not a directory.",
       "ctaText": "How It Works",
       "ctaLink": "/about/"
     },

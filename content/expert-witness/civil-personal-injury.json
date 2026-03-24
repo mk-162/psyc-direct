@@ -590,19 +590,22 @@
           "title": "RTA PTSD Assessment with Fast Turnaround",
           "summary": "A claimant suffering severe PTSD from a road accident needed urgent psychological assessment for damages. We matched a trauma psychologist and delivered the report within 4 weeks.",
           "sector": "Personal Injury",
-          "link": "/case-studies/rta-ptsd-assessment/"
+          "link": "/case-studies/rta-ptsd-assessment/",
+          "thumbnail": "/images/cards/case-studies/ptsd-trauma.jpg"
         },
         {
           "title": "Medical Negligence Dual Assessment",
           "summary": "A clinical negligence claim required both psychological and psychiatric assessment of harm from malpractice. We coordinated both experts and delivered comprehensive reports on time.",
           "sector": "Clinical Negligence",
-          "link": "/case-studies/medical-negligence-assessment/"
+          "link": "/case-studies/medical-negligence-assessment/",
+          "thumbnail": "/images/cards/case-studies/clinical-negligence.jpg"
         },
         {
           "title": "Workplace Bullying & Mental Health",
           "summary": "A workplace bullying claim required objective assessment of psychological injury and link to the hostile environment. We provided an occupational psychologist's detailed report supporting damages.",
           "sector": "Employment",
-          "link": "/case-studies/workplace-bullying-assessment/"
+          "link": "/case-studies/workplace-bullying-assessment/",
+          "thumbnail": "/images/cards/case-studies/expert-witness.jpg"
         }
       ]
     },

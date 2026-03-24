@@ -433,7 +433,7 @@
       "image": "/images/sections/supportive-hands.jpeg",
       "imageAlt": "Supportive hands representing sensitive family case handling",
       "heading": "We Understand the Sensitivity",
-      "body": "Family law cases involve vulnerable children and parents in crisis. Our experts are experienced in working with families going through the most difficult times. We handle each case with empathy, professionalism, and the urgency your court deadlines demand.",
+      "bodyText": "Family law cases involve vulnerable children and parents in crisis. Our experts are experienced in working with families going through the most difficult times. We handle each case with empathy, professionalism, and the urgency your court deadlines demand.",
       "ctaText": "Discuss Your Case",
       "ctaLink": "/contact/"
     },
@@ -567,19 +567,22 @@
           "title": "Complex Logistics in a Family Law Case",
           "summary": "A specialist family law firm needed assessments of a large dysfunctional family across multiple locations, with domestic violence and funding uncertainty. Our Client Manager coordinated assessments of eight individuals, managed the timetable, and delivered a quality-checked report on time. The children returned home on a supervision order.",
           "sector": "Family Law",
-          "link": "/case-studies/complex-logistics-family-law/"
+          "link": "/case-studies/complex-logistics-family-law/",
+          "thumbnail": "/images/cards/case-studies/family-law.jpg"
         },
         {
           "title": "Court Helped Decide in Care Proceedings",
           "summary": "A court needed a psychiatric assessment to make an informed decision on a mother's ability to parent. We matched a Section 12 approved psychiatrist who delivered a thorough report within the court's timeline.",
           "sector": "Family Law",
-          "link": "/case-studies/care-proceedings-psychiatric-assessment/"
+          "link": "/case-studies/care-proceedings-psychiatric-assessment/",
+          "thumbnail": "/images/cards/case-studies/expert-witness.jpg"
         },
         {
           "title": "Assessing Parental Access in Care Proceedings",
           "summary": "In sensitive care proceedings involving decisions about parental access, we provided an experienced psychiatrist to assess the situation and deliver a clear, evidence-based report to support the court's decision.",
           "sector": "Family Law",
-          "link": "/case-studies/parental-access-care-proceedings/"
+          "link": "/case-studies/parental-access-care-proceedings/",
+          "thumbnail": "/images/cards/case-studies/court.jpg"
         }
       ]
     },

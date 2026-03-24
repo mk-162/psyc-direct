@@ -305,7 +305,7 @@ const imageFeatureBlock = {
     { type: "image" as const, name: "image", label: "Image" },
     { type: "string" as const, name: "imageAlt", label: "Image Alt Text" },
     { type: "string" as const, name: "heading", label: "Heading" },
-    { type: "string" as const, name: "body", label: "Body Text", ui: { component: "textarea" } },
+    { type: "string" as const, name: "bodyText", label: "Body Text", ui: { component: "textarea" } },
     { type: "string" as const, name: "ctaText", label: "CTA Text (optional)" },
     { type: "string" as const, name: "ctaLink", label: "CTA Link" },
   ],

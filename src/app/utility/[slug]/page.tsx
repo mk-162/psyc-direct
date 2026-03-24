@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import client from "../../../../tina/__generated__/client";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export async function generateMetadata({
   params,
@@ -55,13 +56,14 @@ export default async function Page({
     const res = await client.queries.utility({ relativePath: `${slug}.md` });
     if (res.data?.utility) {
       return (
-        <main>
+        <>
+          <Breadcrumb path={`/utility/${slug}/`} />
           <EditorialPageClient
             query={res.query}
             variables={res.variables}
             data={res.data}
           />
-        </main>
+        </>
       );
     }
   } catch (e) {

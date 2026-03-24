@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useSyncExternalStore } from 'react';
 import { useTina } from 'tinacms/dist/react';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import { PremiumPageRenderer } from './PremiumPageRenderer';
@@ -15,6 +15,12 @@ interface EditorialPageClientProps {
   collection?: string;
 }
 
+const subscribeToIframe = () => () => {};
+
+const getIframeSnapshot = () => window.self !== window.top;
+
+const getServerIframeSnapshot = () => false;
+
 /** Inner component that uses useTina — only mounted inside the CMS iframe */
 const TinaLiveEditor = (props: EditorialPageClientProps & { render: (data: any, isEditing: boolean) => React.ReactNode }) => {
   const { data } = useTina({
@@ -26,13 +32,11 @@ const TinaLiveEditor = (props: EditorialPageClientProps & { render: (data: any, 
 };
 
 export const EditorialPageClient = (props: EditorialPageClientProps) => {
-  const [isEditing, setIsEditing] = useState(false);
-  const checkedRef = useRef(false);
-
-  useEffect(() => {
-    checkedRef.current = true;
-    setIsEditing(window.self !== window.top);
-  }, []);
+  const isEditing = useSyncExternalStore(
+    subscribeToIframe,
+    getIframeSnapshot,
+    getServerIframeSnapshot
+  );
 
   // Build the render function used by both paths
   const renderPage = (data: any, editing: boolean) => {

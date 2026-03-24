@@ -30,9 +30,17 @@ export const TestimonialCarousel = ({ data }: { data: TestimonialCarouselData })
             {data.heading}
           </h2>
         )}
-        <div className="max-w-3xl mx-auto text-center">
-          <Quote className="w-10 h-10 mx-auto mb-6" style={{ color: 'var(--brand-azure)', opacity: 0.4 }} />
-          <blockquote className="font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed mb-6">
+        <div className="relative max-w-3xl mx-auto text-center rounded-xl border border-border/50 bg-white px-8 sm:px-12 py-10 sm:py-14 shadow-sm">
+          {/* Watermark quotation mark */}
+          <span
+            aria-hidden="true"
+            className="absolute top-4 left-6 font-serif text-[8rem] leading-none select-none pointer-events-none"
+            style={{ color: 'var(--brand-azure)', opacity: 0.06 }}
+          >
+            &ldquo;
+          </span>
+          <Quote aria-hidden="true" className="w-8 h-8 mx-auto mb-6" style={{ color: 'var(--brand-azure)', opacity: 0.5 }} />
+          <blockquote className="relative font-serif text-lg sm:text-xl lg:text-2xl text-foreground leading-relaxed mb-6">
             &ldquo;{t.quote}&rdquo;
           </blockquote>
           <div className="flex items-center justify-center gap-3 mt-2">
@@ -63,10 +71,14 @@ export const TestimonialCarousel = ({ data }: { data: TestimonialCarouselData })
                   <button
                     key={i}
                     onClick={() => setCurrent(i)}
-                    className="w-2.5 h-2.5 rounded-full transition-colors"
-                    style={{ background: i === current ? 'var(--brand-azure)' : 'var(--muted)' }}
+                    className="p-2"
                     aria-label={`Go to testimonial ${i + 1}`}
-                  />
+                  >
+                    <span
+                      className="block w-2.5 h-2.5 rounded-full transition-colors"
+                      style={{ background: i === current ? 'var(--brand-azure)' : 'var(--muted)' }}
+                    />
+                  </button>
                 ))}
               </div>
               <Button

@@ -10,7 +10,7 @@
   --brand-azure-vivid: #066aab;
   --brand-azure: #2eabe0;
   --brand-azure-light: #cee4f7;
-  --brand-bg-tint: #f0f5ff;
+  --brand-bg-tint: #e8f0fe;
   --brand-dark-bg: #0d1929;
   --brand-hero-from: #032552;
   --brand-hero-to: #00588e;
@@ -45,8 +45,6 @@
   --ring: 203 100% 28%;
   --radius: 0.5rem;
 
-  --font-sans: Montserrat, sans-serif;
-  --font-serif: "Libre Baskerville", serif;
   --font-mono: Menlo, monospace;
 }
 
@@ -70,6 +68,8 @@
 .prose a {
   color: var(--brand-azure-vivid);
 }
+
+/* ── Block entrance animation removed — caused content flashing ──── */
 
 /* ── Tina CMS helpers ──────────────────────────────────────────────── */
 .tina-live-preview-wrapper {

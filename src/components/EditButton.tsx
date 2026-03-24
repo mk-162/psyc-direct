@@ -1,31 +1,53 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
 
 interface EditButtonProps {
   collection: string;
   filename: string;
 }
 
+const subscribeToLocation = () => () => {};
+
+const getHrefSnapshot = () => window.location.href;
+
+const getServerHrefSnapshot = () => '';
+
+const getIsDevSnapshot = () => {
+  const host = window.location.hostname;
+  return host === 'localhost' || host === '127.0.0.1' || host.startsWith('192.168.');
+};
+
+const getServerIsDevSnapshot = () => false;
+
+const getIsInIframeSnapshot = () => window.self !== window.top;
+
+const getServerIsInIframeSnapshot = () => false;
+
 export const EditButton = ({ collection, filename }: EditButtonProps) => {
-  const [visible, setVisible] = useState(false);
-  const [isInIframe, setIsInIframe] = useState(false);
+  const href = useSyncExternalStore(
+    subscribeToLocation,
+    getHrefSnapshot,
+    getServerHrefSnapshot
+  );
+  const isDev = useSyncExternalStore(
+    subscribeToLocation,
+    getIsDevSnapshot,
+    getServerIsDevSnapshot
+  );
+  const isInIframe = useSyncExternalStore(
+    subscribeToLocation,
+    getIsInIframeSnapshot,
+    getServerIsInIframeSnapshot
+  );
 
-  useEffect(() => {
-    const host = window.location.hostname;
-    const isDev = host === 'localhost' || host === '127.0.0.1' || host.startsWith('192.168.');
-    const inIframe = window.self !== window.top;
-    setVisible(isDev);
-    setIsInIframe(inIframe);
-  }, []);
-
-  if (!visible) return null;
+  if (!isDev) return null;
 
   // Inside Tina iframe: show "Open Live ↗" button to open page in new tab
   if (isInIframe) {
     return (
       <a
-        href={window.location.href}
+        href={href}
         target="_blank"
         rel="noopener noreferrer"
         className="edit-button edit-button--open-live"

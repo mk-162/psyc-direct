@@ -70,32 +70,38 @@
         {
           "title": "Schools & Academies",
           "description": "Fast access to vetted EPs without long-term contracts. Flexible packages, assessments within days, practical recommendations you can use immediately.",
-          "link": "/educational-psychologist/schools-academies-colleges/"
+          "link": "/educational-psychologist/schools-academies-colleges/",
+          "image": "/images/cards/education/schools.jpg"
         },
         {
           "title": "Local Authorities",
           "description": "Clear your EHCP backlog. Statutory-compliant assessments, volume capacity, and dedicated Client Managers who understand LA timelines. No long-term lock-in.",
-          "link": "/educational-psychologist/local-authorities/"
+          "link": "/educational-psychologist/local-authorities/",
+          "image": "/images/cards/education/local-authorities.jpg"
         },
         {
           "title": "Multi-Academy Trusts",
           "description": "Consistent EP support across your trust. We coordinate across schools, allocate dedicated EPs, and offer volume pricing with centralised administration.",
-          "link": "/educational-psychologist/mats/"
+          "link": "/educational-psychologist/mats/",
+          "image": "/images/cards/education/mats.jpg"
         },
         {
           "title": "Higher Education",
           "description": "DSA assessments, access arrangements for exams, and mental health evaluations. Quick turnaround when your students need it most.",
-          "link": "/educational-psychologist/higher-education/"
+          "link": "/educational-psychologist/higher-education/",
+          "image": "/images/cards/education/higher-education.jpg"
         },
         {
           "title": "EHCP Assessments",
           "description": "Expert support through the statutory EHCP pathway. Compliant reports, clear recommendations, fast delivery, even for complex cases.",
-          "link": "/educational-psychologist/ehcp-assessments/"
+          "link": "/educational-psychologist/ehcp-assessments/",
+          "image": "/images/cards/education/ehcp.jpg"
         },
         {
           "title": "Specialist Assessments",
           "description": "Autism, dyslexia, ADHD, and specific learning assessments. Evidence-based evaluation and practical guidance schools can act on.",
-          "link": "/educational-psychologist/specialist-assessments/"
+          "link": "/educational-psychologist/specialist-assessments/",
+          "image": "/images/cards/education/specialist.jpg"
         }
       ]
     },
@@ -105,7 +111,7 @@
       "image": "/images/sections/caring-hands.jpg",
       "imageAlt": "Caring professional supporting a child's educational needs",
       "heading": "Supporting Every Child's Potential",
-      "body": "Every child deserves timely, expert assessment. Our Educational Psychologists deliver practical, evidence-based reports that schools and LAs can act on immediately. We match the right EP to every case — whether it's a straightforward EHCP or a complex multi-agency assessment.",
+      "bodyText": "Every child deserves timely, expert assessment. Our Educational Psychologists deliver practical, evidence-based reports that schools and LAs can act on immediately. We match the right EP to every case — whether it's a straightforward EHCP or a complex multi-agency assessment.",
       "ctaText": "Discuss Your Needs",
       "ctaLink": "/contact/"
     },
@@ -175,19 +181,22 @@
           "title": "County Council Clears EHCP Backlog",
           "summary": "A local authority faced a 6-month EHCP assessment backlog. Psychology Direct's network capacity and dedicated support cleared it while meeting statutory deadlines.",
           "sector": "Education",
-          "link": "/case-studies/county-council-faces-major-challenge/"
+          "link": "/case-studies/county-council-faces-major-challenge/",
+          "thumbnail": "/images/cards/education/local-authorities.jpg"
         },
         {
           "title": "EP Report Delivered Before End of Term",
           "summary": "A primary school needed an urgent EHCP report before term ended. We matched the right EP, scheduled the assessment, and delivered within days.",
           "sector": "Education",
-          "link": "/case-studies/an-ep-report-before-the-end-of-term/"
+          "link": "/case-studies/an-ep-report-before-the-end-of-term/",
+          "thumbnail": "/images/cards/education/schools.jpg"
         },
         {
           "title": "National EP Service for Local Authority",
           "summary": "One local authority combined our national network with their internal team. Result: consistent, high-quality EP provision across their area without growing headcount.",
           "sector": "Education",
-          "link": "/case-studies/full-ep-service-for-local-authority/"
+          "link": "/case-studies/full-ep-service-for-local-authority/",
+          "thumbnail": "/images/cards/education/ehcp.jpg"
         }
       ]
     },

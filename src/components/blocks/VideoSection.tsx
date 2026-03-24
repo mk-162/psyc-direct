@@ -39,6 +39,7 @@ export const VideoSection = ({ data }: { data: VideoSectionData }) => {
                 src={`${embedUrl}?autoplay=1`}
                 allow="autoplay; fullscreen"
                 allowFullScreen
+                title={data.heading || 'Video'}
                 className="w-full h-full"
               />
             ) : (
@@ -46,19 +47,20 @@ export const VideoSection = ({ data }: { data: VideoSectionData }) => {
                 {data.thumbnail && (
                   <img
                     src={data.thumbnail}
-                    alt="Video thumbnail"
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 cursor-pointer"
-                    onClick={() => setPlaying(true)}
+                    alt={data.heading ? `Video thumbnail: ${data.heading}` : 'Video thumbnail'}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 )}
-                <div
-                  className="absolute inset-0 flex items-center justify-center cursor-pointer bg-[var(--brand-navy)]/40 hover:bg-[var(--brand-navy)]/50 transition-colors"
+                <button
+                  type="button"
                   onClick={() => setPlaying(true)}
+                  aria-label={`Play video${data.heading ? `: ${data.heading}` : ''}`}
+                  className="absolute inset-0 flex items-center justify-center cursor-pointer bg-[var(--brand-navy)]/40 hover:bg-[var(--brand-navy)]/50 transition-colors"
                 >
                   <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/90 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                    <Play className="w-7 h-7 sm:w-8 sm:h-8 ml-1" style={{ color: 'var(--brand-navy)' }} />
+                    <Play aria-hidden="true" className="w-7 h-7 sm:w-8 sm:h-8 ml-1" style={{ color: 'var(--brand-navy)' }} />
                   </div>
-                </div>
+                </button>
               </>
             )}
           </div>

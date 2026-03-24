@@ -49,19 +49,19 @@ export const PracticeAreaCards = ({ data }: { data: PracticeAreaCardsData }) => 
           {data.cards.map((card, i) => (
             <Card
               key={i}
-              className="p-5 bg-background border border-border flex flex-col hover:shadow-md hover:border-[var(--brand-azure-light)] transition-all"
+              className="p-5 bg-background border border-border flex flex-col hover:shadow-md hover:border-[var(--brand-azure-light)] hover:-translate-y-1 transition-all duration-200"
             >
               <div
                 className="w-10 h-10 rounded-md flex items-center justify-center mb-4 flex-shrink-0"
                 style={{ background: 'var(--brand-bg-tint)' }}
               >
-                {(() => { const Icon = (card.iconHint && iconMap[card.iconHint]) || Briefcase; return <Icon className="w-5 h-5" style={{ color: 'var(--brand-azure-vivid)' }} />; })()}
+                {(() => { const Icon = (card.iconHint && iconMap[card.iconHint]) || Briefcase; return <Icon aria-hidden="true" className="w-5 h-5" style={{ color: 'var(--brand-azure-vivid)' }} />; })()}
               </div>
               <h3 className="font-sans text-sm font-bold mb-2" style={{ color: 'var(--brand-navy)' }}>
                 {card.title}
               </h3>
               {card.description && (
-                <p className="text-muted-foreground text-xs leading-relaxed flex-1 mb-3">{card.description}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-3">{card.description}</p>
               )}
               {card.link && (
                 <Link

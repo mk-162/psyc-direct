@@ -12,13 +12,13 @@ interface FeatureComparisonData {
 }
 
 const CellValue = ({ value, isHighlighted }: { value?: string; isHighlighted?: boolean }) => {
-  if (!value) return <X className="w-5 h-5 text-muted-foreground/40 mx-auto" />;
+  if (!value) return <><X aria-hidden="true" className="w-5 h-5 text-muted-foreground/40 mx-auto" /><span className="sr-only">No</span></>;
   const lower = value.toLowerCase();
   if (lower === 'yes' || lower === '✓' || lower === 'true') {
-    return <CheckCircle2 className="w-5 h-5 mx-auto" style={{ color: 'var(--brand-azure)' }} />;
+    return <><CheckCircle2 aria-hidden="true" className="w-5 h-5 mx-auto" style={{ color: 'var(--brand-azure)' }} /><span className="sr-only">Yes</span></>;
   }
   if (lower === 'no' || lower === '✗' || lower === 'false') {
-    return <X className="w-5 h-5 text-muted-foreground/40 mx-auto" />;
+    return <><X aria-hidden="true" className="w-5 h-5 text-muted-foreground/40 mx-auto" /><span className="sr-only">No</span></>;
   }
   return (
     <span

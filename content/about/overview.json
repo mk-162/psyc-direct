@@ -90,7 +90,7 @@
       "image": "/images/sections/pd-team.jpg",
       "imageAlt": "The Psychology Direct team",
       "heading": "A Team That Cares",
-      "body": "We're not a faceless directory. We're a dedicated team of client managers, coordinators, and support staff who genuinely care about every case. Your Client Manager knows your deadlines, your requirements, and your preferences. They advocate for you from first contact to report delivery.",
+      "bodyText": "We're not a faceless directory. We're a dedicated team of client managers, coordinators, and support staff who genuinely care about every case. Your Client Manager knows your deadlines, your requirements, and your preferences. They advocate for you from first contact to report delivery.",
       "ctaText": "Meet Our Team",
       "ctaLink": "/about/meet-the-team/"
     },
@@ -139,7 +139,7 @@
       "image": "/images/sections/national-network.jpg",
       "imageAlt": "Map showing Psychology Direct's nationwide UK coverage",
       "heading": "Nationwide Coverage, Local Expertise",
-      "body": "With 1,000+ professionals across the UK, we match experts to your location, specialism, and timeline. Whether you're in London, Glasgow, or rural Wales, we find the right person near your client. Our national reach means you never wait for availability.",
+      "bodyText": "With 1,000+ professionals across the UK, we match experts to your location, specialism, and timeline. Whether you're in London, Glasgow, or rural Wales, we find the right person near your client. Our national reach means you never wait for availability.",
       "ctaText": "Find an Expert Near You",
       "ctaLink": "/contact/"
     },

@@ -34,11 +34,11 @@ export const ServiceCards = ({ data }: { data: ServiceCardsData }) => {
             )}
           </div>
         )}
-        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${cols} gap-6`}>
+        <div className={`grid grid-cols-1 sm:grid-cols-2 ${cols === 2 ? 'lg:grid-cols-2' : 'lg:grid-cols-3'} gap-6`}>
           {data.cards.map((card, i) => (
             <Card
               key={i}
-              className={`${card.image ? 'p-0 overflow-hidden' : 'p-6'} bg-[var(--brand-bg-tint)] border-0 flex flex-col hover:shadow-md transition-shadow`}
+              className={`${card.image ? 'p-0 overflow-hidden' : 'p-6'} bg-[var(--brand-bg-tint)] border-0 flex flex-col hover:shadow-md hover:-translate-y-1 transition-all duration-200`}
             >
               {card.image && (
                 <div className="relative aspect-[16/9] w-full">

@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import client from "../../../tina/__generated__/client";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
 import { SITE_URL } from "@/lib/tina-page-helpers";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 const getData = cache(async () => {
   try { return await client.queries.pages({ relativePath: "case-studies.json" }); }
@@ -21,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function CaseStudiesPage() {
   const res = await getData();
   if (res?.data?.pages) {
-    return <main><EditorialPageClient query={res.query} variables={res.variables} data={res.data} collection="pages" /></main>;
+    return <><Breadcrumb path="/case-studies/" /><EditorialPageClient query={res.query} variables={res.variables} data={res.data} collection="pages" /></>;
   }
   return null;
 }

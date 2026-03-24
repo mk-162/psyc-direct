@@ -9,7 +9,7 @@ export const RichText = ({ data }: { data: RichTextData }) => {
 
   return (
     <section className="py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-background">
-      <div className="max-w-3xl mx-auto prose prose-sm sm:prose max-w-none">
+      <div className="max-w-3xl mx-auto prose prose-sm sm:prose">
         <TinaMarkdown content={data.body} />
       </div>
     </section>

@@ -102,7 +102,7 @@
       "image": "/images/sections/team-support.jpg",
       "imageAlt": "Team collaboration supporting local authority EP services",
       "heading": "Supporting LA Teams",
-      "body": "We work alongside your internal EP service, not as a replacement. Whether you need overflow capacity for backlog clearance, interim cover for staffing gaps, or ongoing partnership to complement your team, we flex to your needs. Your Client Manager understands LA processes and statutory deadlines.",
+      "bodyText": "We work alongside your internal EP service, not as a replacement. Whether you need overflow capacity for backlog clearance, interim cover for staffing gaps, or ongoing partnership to complement your team, we flex to your needs. Your Client Manager understands LA processes and statutory deadlines.",
       "ctaText": "Explore Partnership Options",
       "ctaLink": "/contact/"
     },
@@ -220,19 +220,22 @@
           "title": "County Council Clears Major Backlog",
           "summary": "A local authority with 200+ pending EHCP assessments partnered with Psychology Direct to provide bulk assessment capacity. Backlog cleared in 18 months while maintaining quality and statutory compliance.",
           "sector": "Education",
-          "link": "/case-studies/county-council-faces-major-challenge/"
+          "link": "/case-studies/county-council-faces-major-challenge/",
+          "thumbnail": "/images/cards/education/local-authorities.jpg"
         },
         {
           "title": "Full EP Service for Local Authority",
           "summary": "An LA outsourced a portion of their EP service to Psychology Direct, blending internal capacity with national network for consistent, high-quality provision across all their schools.",
           "sector": "Education",
-          "link": "/case-studies/full-ep-service-for-local-authority/"
+          "link": "/case-studies/full-ep-service-for-local-authority/",
+          "thumbnail": "/images/cards/education/ehcp.jpg"
         },
         {
           "title": "Statutory Timelines Met During Staffing Gap",
           "summary": "When two principal EPs left an LA simultaneously, Psychology Direct provided interim capacity to ensure EHCP assessments continued without delays.",
           "sector": "Education",
-          "link": "/case-studies/"
+          "link": "/case-studies/",
+          "thumbnail": "/images/cards/education/schools.jpg"
         }
       ]
     },

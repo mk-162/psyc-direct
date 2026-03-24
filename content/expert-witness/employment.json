@@ -457,19 +457,22 @@
           "title": "Workplace Bullying & Constructive Dismissal",
           "summary": "A claimant driven to resignation by prolonged bullying required psychological assessment of bullying harm and causation. We provided an occupational psychologist's detailed report.",
           "sector": "Employment",
-          "link": "/case-studies/workplace-bullying-assessment/"
+          "link": "/case-studies/workplace-bullying-assessment/",
+          "thumbnail": "/images/cards/case-studies/expert-witness.jpg"
         },
         {
           "title": "Discrimination & Mental Health",
           "summary": "A discrimination claim required psychological assessment of discrimination trauma and mental health impact. We matched an employment-specialist psychologist.",
           "sector": "Employment",
-          "link": "/case-studies/discrimination-assessment/"
+          "link": "/case-studies/discrimination-assessment/",
+          "thumbnail": "/images/cards/case-studies/court.jpg"
         },
         {
           "title": "Return to Work after Workplace Trauma",
           "summary": "A claimant recovering from workplace harassment needed occupational health assessment of fitness to return to work. We provided specialized assessment.",
           "sector": "Employment",
-          "link": "/case-studies/return-to-work-assessment/"
+          "link": "/case-studies/return-to-work-assessment/",
+          "thumbnail": "/images/cards/case-studies/ptsd-trauma.jpg"
         }
       ]
     },

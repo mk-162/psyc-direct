@@ -8,7 +8,7 @@ export const StatsBar = ({ data }: { data: StatsBarData }) => {
   return (
     <section className="py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className={`grid grid-cols-2 ${data.stats.length >= 4 ? 'lg:grid-cols-4' : `lg:grid-cols-${data.stats.length}`} gap-8`}>
+        <div className={`grid grid-cols-2 ${data.stats.length >= 4 ? 'lg:grid-cols-4' : data.stats.length === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2'} gap-8`}>
           {data.stats.map((stat, i) => (
             <div key={i} className="text-center">
               <div
