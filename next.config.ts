@@ -3,6 +3,14 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: false,
   reactCompiler: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "assets.tina.io",
+      },
+    ],
+  },
   turbopack: {
     root: __dirname,
     resolveAlias: {
