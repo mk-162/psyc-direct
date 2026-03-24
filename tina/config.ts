@@ -159,7 +159,7 @@ const tabbedContentBlock = {
       ui: { itemProps: (item: { label?: string }) => ({ label: item.label || "Tab" }) },
       fields: [
         { type: "string" as const, name: "label", label: "Tab Label", required: true },
-        { type: "rich-text" as const, name: "content", label: "Tab Content" },
+        { type: "string" as const, name: "content", label: "Tab Content", ui: { component: "textarea" } },
       ],
     },
   ],

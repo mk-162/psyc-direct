@@ -27,19 +27,19 @@
       "tabs": [
         {
           "label": "Legal Enquiry",
-          "content": ""
+          "content": "Need a psychologist or psychiatrist for court? We specialise in family law, criminal, civil, immigration, and employment cases. Include:\n\n- Case type (family law, criminal, etc.)\n- Expert type (psychologist, psychiatrist, or unsure)\n- Approximate deadline\n- Funding type (Legal Aid, private, mixed)\n- Brief case summary\n\nWe'll respond within 24 hours with matched CVs and quotes."
         },
         {
           "label": "Education Enquiry",
-          "content": ""
+          "content": "Need an Educational Psychologist for EHCP, SEND support, or statutory evaluation? Tell us:\n\n- Local Authority or School name\n- Assessment type (EHCP, SEND, specialist, etc.)\n- Number of assessments needed\n- Timeline needed\n- Location\n\nWe'll match experienced EPs and provide quotes within 24 hours."
         },
         {
           "label": "General Enquiry",
-          "content": ""
+          "content": "Have a question or feedback? Contact us directly. We'll respond within one business day."
         },
         {
           "label": "Join Our Network",
-          "content": ""
+          "content": "Are you a psychologist or psychiatrist? Register your interest. No obligation. No costs.\n\nYou'll need to be HCPC or GMC registered with a valid enhanced DBS. We review sample reports and verify credentials before adding you to our network.\n\nVisit our [careers page](/about/careers/) for full details."
         }
       ],
       "_template": "tabbedContent"

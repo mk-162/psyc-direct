@@ -71,7 +71,6 @@ export default function RootLayout({
           Skip to main content
         </a>
         <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
-          <div className="h-1 w-full" style={{ background: 'linear-gradient(90deg, var(--brand-navy) 0%, var(--brand-azure-dark) 40%, var(--brand-azure) 100%)' }} />
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <a href="/" className="flex items-center">
               <Image
