@@ -2,7 +2,6 @@ import { cache } from "react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
-import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const SITE_URL = "https://www.psychologydirect.co.uk";
 const OVERVIEW_FILE = "overview";
@@ -81,7 +80,6 @@ export function makeOverviewPage(config: OverviewConfig) {
     if (page) {
       return (
         <>
-          <Breadcrumb path={config.canonicalPath} />
           <EditorialPageClient
             query={res.query}
             variables={res.variables}
@@ -145,7 +143,6 @@ export function makeSlugPage(config: SlugConfig) {
     if (page) {
       return (
         <>
-          <Breadcrumb path={`${config.canonicalPrefix}${slug}/`} />
           <EditorialPageClient
             query={res.query}
             variables={res.variables}

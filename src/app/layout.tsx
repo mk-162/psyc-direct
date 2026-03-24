@@ -77,8 +77,8 @@ export default function RootLayout({
               <Image
                 src="/images/logo-header.png"
                 alt="Psychology Direct"
-                width={180}
-                height={40}
+                width={153}
+                height={34}
                 priority
               />
             </a>

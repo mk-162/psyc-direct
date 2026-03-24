@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import client from "../../../../tina/__generated__/client";
 import { EditorialPageClient } from "@/components/blocks/EditorialPageClient";
 import { ToolWidgetSwitch } from "@/components/tools/ToolWidgetSwitch";
-import { Breadcrumb } from "@/components/Breadcrumb";
+
 
 const SITE_URL = "https://www.psychologydirect.co.uk";
 const OVERVIEW_FILE = "overview";
@@ -71,7 +71,6 @@ export default async function Page({
 
   return (
     <>
-      <Breadcrumb path={`/tools/${slug}/`} />
       {/* CMS editorial blocks */}
       <EditorialPageClient
         query={res.query}
