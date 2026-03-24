@@ -12,7 +12,6 @@
   ],
   "blocks": [
     {
-      "_template": "hero",
       "variant": "image",
       "headline": "Get Matched With the Right Expert",
       "subtitle": "One call or form. 24-hour response guaranteed. We'll gather your requirements and send matched expert CVs within 24 hours, with full quotes and timescales.",
@@ -20,284 +19,50 @@
       "primaryCtaLink": "#enquiry-form",
       "secondaryCtaText": "Call 01306 879 975",
       "secondaryCtaLink": "tel:01306879975",
-      "backgroundImage": "/images/heroes/contact-hero.jpg"
+      "backgroundImage": "",
+      "_template": "hero"
     },
     {
-      "_template": "tabbedContent",
       "heading": "How Can We Help?",
       "tabs": [
         {
           "label": "Legal Enquiry",
-          "content": {
-            "type": "root",
-            "children": [
-              {
-                "type": "p",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "Need a psychologist or psychiatrist for court? We specialise in family law, criminal, civil, immigration, and employment cases. Include:"
-                  }
-                ]
-              },
-              {
-                "type": "ul",
-                "children": [
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Case type (family law, criminal, etc.)"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Expert type (psychologist, psychiatrist, or unsure)"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Client location"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Deadline for report"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Funding type (Legal Aid, private, mixed)"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Brief case summary"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "We'll respond within 24 hours with matched CVs and quotes."
-                  }
-                ]
-              }
-            ]
-          }
+          "content": ""
         },
         {
           "label": "Education Enquiry",
-          "content": {
-            "type": "root",
-            "children": [
-              {
-                "type": "p",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "Need an Educational Psychologist for EHCP, SEND support, or statutory evaluation? Tell us:"
-                  }
-                ]
-              },
-              {
-                "type": "ul",
-                "children": [
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Local Authority or School name"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Assessment type (EHCP, SEND, etc.)"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Number of assessments"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Timeline needed"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "children": [
-                      {
-                        "type": "lic",
-                        "children": [
-                          {
-                            "type": "text",
-                            "text": "Location"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "We'll match experienced EPs and provide quotes within 24 hours."
-                  }
-                ]
-              }
-            ]
-          }
+          "content": ""
         },
         {
           "label": "General Enquiry",
-          "content": {
-            "type": "root",
-            "children": [
-              {
-                "type": "p",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "Have a question or feedback? Contact us directly. We'll respond within one business day."
-                  }
-                ]
-              }
-            ]
-          }
+          "content": ""
         },
         {
           "label": "Join Our Network",
-          "content": {
-            "type": "root",
-            "children": [
-              {
-                "type": "p",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "Are you a psychologist or psychiatrist? Register your interest in joining our network. No obligation. No costs. Access regular referrals, fair fees, and professional support."
-                  }
-                ]
-              }
-            ]
-          }
+          "content": ""
         }
-      ]
+      ],
+      "_template": "tabbedContent"
     },
     {
-      "_template": "ctaInline",
       "heading": "Not Sure Which Expert You Need?",
       "bodyText": "Use our free tool to find out whether you need a psychologist, psychiatrist, or both. It takes 2 minutes and gives you a clear recommendation.",
       "primaryCtaText": "Try the Tool",
       "primaryCtaLink": "/tools/psychologist-or-psychiatrist/",
       "secondaryCtaText": "Compare Experts",
-      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/#comparison"
+      "secondaryCtaLink": "/tools/psychologist-or-psychiatrist/#comparison",
+      "_template": "ctaInline"
     },
     {
-      "_template": "ctaInline",
       "heading": "Ready to Submit Your Enquiry?",
       "bodyText": "Scroll down to our form, or call us directly on 01306 879 975. We respond within 24 hours with matched expert CVs and quotes.",
       "primaryCtaText": "Go to Form",
       "primaryCtaLink": "#enquiry-form",
       "secondaryCtaText": "Call 01306 879 975",
-      "secondaryCtaLink": "tel:01306879975"
+      "secondaryCtaLink": "tel:01306879975",
+      "_template": "ctaInline"
     },
     {
-      "_template": "faqAccordion",
       "heading": "Frequently Asked Questions",
       "faqs": [
         {
@@ -348,19 +113,19 @@
           "question": "I'm a psychologist or psychiatrist. How do I register?",
           "answer": "Use the Join Our Network tab above or visit our careers page. Registration is free. You just need to be HCPC/GMC registered and have a valid DBS."
         }
-      ]
+      ],
+      "_template": "faqAccordion"
     },
     {
-      "_template": "ctaInline",
       "heading": "Estimate Your Costs in 60 Seconds",
       "bodyText": "Use our free Expert Witness Fees Calculator to get an instant estimate for your case. Compare Legal Aid and private funding rates with a full transparent breakdown.",
       "primaryCtaText": "Try the Fee Calculator",
       "primaryCtaLink": "/tools/fee-calculator/",
       "secondaryCtaText": "View Pricing",
-      "secondaryCtaLink": "/expert-witness-psychologists/pricing/"
+      "secondaryCtaLink": "/expert-witness-psychologists/pricing/",
+      "_template": "ctaInline"
     },
     {
-      "_template": "statsBar",
       "stats": [
         {
           "value": "24-Hour",
@@ -378,16 +143,17 @@
           "value": "100%",
           "label": "Legal Aid Rates Guaranteed"
         }
-      ]
+      ],
+      "_template": "statsBar"
     },
     {
-      "_template": "ctaBanner",
       "heading": "Ready to Get Started?",
       "bodyText": "One phone call or form. 24-hour response guaranteed. Expert options within hours.",
       "primaryCtaText": "Submit Enquiry",
       "primaryCtaLink": "#enquiry-form",
       "secondaryCtaText": "Call 01306 879 975",
-      "secondaryCtaLink": "tel:01306879975"
+      "secondaryCtaLink": "tel:01306879975",
+      "_template": "ctaBanner"
     }
   ]
 }
