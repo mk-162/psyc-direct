@@ -1,0 +1,13 @@
+{
+  "name": "Psychology Direct",
+  "short_name": "PsychDirect",
+  "description": "Expert Witness & Educational Psychologists",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#032552",
+  "icons": [
+    { "src": "/images/logo.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

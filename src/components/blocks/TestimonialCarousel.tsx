@@ -76,7 +76,7 @@ export const TestimonialCarousel = ({ data }: { data: TestimonialCarouselData })
                   >
                     <span
                       className="block w-2.5 h-2.5 rounded-full transition-colors"
-                      style={{ background: i === current ? 'var(--brand-azure)' : 'var(--muted)' }}
+                      style={{ background: i === current ? 'var(--brand-azure-vivid)' : 'var(--brand-azure-light)' }}
                     />
                   </button>
                 ))}

@@ -46,11 +46,11 @@ export const FeatureComparison = ({ data }: { data: FeatureComparisonData }) => 
           <table className="w-full min-w-[500px]">
             <thead style={{ background: 'var(--brand-navy)' }}>
               <tr>
-                <th className="text-left py-4 px-5 text-sm font-semibold text-white/80 w-1/2">Feature</th>
-                <th className="text-center py-4 px-5 text-sm font-bold text-[var(--brand-azure)] w-1/4">
+                <th className="text-left py-4 px-5 text-sm font-semibold text-white/80 w-1/4">Feature</th>
+                <th className="text-center py-4 px-5 text-sm font-bold text-[var(--brand-azure)] w-[37.5%]">
                   {data.col1Header || 'Psychology Direct'}
                 </th>
-                <th className="text-center py-4 px-5 text-sm font-semibold text-white/60 w-1/4">
+                <th className="text-center py-4 px-5 text-sm font-semibold text-white/60 w-[37.5%]">
                   {data.col2Header || 'Alternative'}
                 </th>
               </tr>

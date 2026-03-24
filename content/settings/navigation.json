@@ -4,6 +4,7 @@
       "label": "Expert Witness",
       "url": "/expert-witness-psychologists/",
       "children": [
+        { "label": "Overview", "url": "/expert-witness-psychologists/" },
         { "label": "Family Law", "url": "/expert-witness-psychologists/family/" },
         { "label": "Criminal Law", "url": "/expert-witness-psychologists/criminal/" },
         { "label": "Civil & Personal Injury", "url": "/expert-witness-psychologists/civil-personal-injury/" },
@@ -11,46 +12,68 @@
         { "label": "Employment", "url": "/expert-witness-psychologists/employment/" },
         { "label": "Prison Law", "url": "/expert-witness-psychologists/prison-law/" },
         { "label": "Asylum & Immigration", "url": "/expert-witness-psychologists/asylum-immigration/" },
-        { "label": "Pricing & Legal Aid", "url": "/expert-witness-psychologists/pricing/" },
-        { "label": "Our Process", "url": "/expert-witness-psychologists/process/" }
+        { "label": "Pricing", "url": "/expert-witness-psychologists/pricing/" }
       ]
     },
     {
       "label": "Education",
       "url": "/educational-psychologist/",
       "children": [
-        { "label": "Schools, Academies & Colleges", "url": "/educational-psychologist/schools-academies-colleges/" },
+        { "label": "Overview", "url": "/educational-psychologist/" },
+        { "label": "Schools & Academies", "url": "/educational-psychologist/schools-academies-colleges/" },
         { "label": "Local Authorities", "url": "/educational-psychologist/local-authorities/" },
-        { "label": "Multi-Academy Trusts", "url": "/educational-psychologist/mats/" },
+        { "label": "MATs", "url": "/educational-psychologist/mats/" },
         { "label": "EHCP Assessments", "url": "/educational-psychologist/ehcp-assessments/" },
         { "label": "Specialist Assessments", "url": "/educational-psychologist/specialist-assessments/" },
         { "label": "Higher Education", "url": "/educational-psychologist/higher-education/" }
       ]
     },
     {
-      "label": "About",
-      "url": "/about/",
+      "label": "Knowledge Hub",
+      "url": "/knowledge-hub/",
       "children": [
-        { "label": "Meet the Team", "url": "/about/meet-the-team/" },
-        { "label": "Testimonials", "url": "/about/testimonials/" },
-        { "label": "Quality Assurance", "url": "/about/quality-assurance/" },
-        { "label": "Events", "url": "/about/events/" },
-        { "label": "Training", "url": "/about/training/" },
-        { "label": "Careers", "url": "/about/careers/" }
+        { "label": "All Articles", "url": "/knowledge-hub/" },
+        { "label": "Expert Witness", "url": "/knowledge-hub/?category=expert-witness" },
+        { "label": "Mental Health", "url": "/knowledge-hub/?category=mental-health" },
+        { "label": "Family Law", "url": "/knowledge-hub/?category=family-law" },
+        { "label": "Clinical Negligence", "url": "/knowledge-hub/?category=clinical-negligence" },
+        { "label": "Neuropsychology", "url": "/knowledge-hub/?category=neuropsychology" }
       ]
     },
     {
-      "label": "Resources",
-      "url": "/resources/",
+      "label": "News",
+      "url": "/news/",
       "children": [
-        { "label": "Legal Resources", "url": "/resources/legal/" },
-        { "label": "Education Resources", "url": "/resources/education/" },
-        { "label": "For Professionals", "url": "/resources/professionals/" }
+        { "label": "All Posts", "url": "/news/" },
+        { "label": "Expert Witness", "url": "/news/?category=expert-witness" },
+        { "label": "Education", "url": "/news/?category=education" },
+        { "label": "Company News", "url": "/news/?category=company-news" }
       ]
     },
-    { "label": "Case Studies", "url": "/case-studies/" },
-    { "label": "FAQs", "url": "/faqs/" },
-    { "label": "News", "url": "/news/" }
+    {
+      "label": "Tools",
+      "url": "/tools/",
+      "children": [
+        { "label": "All Tools", "url": "/tools/" },
+        { "label": "Case Assessment", "url": "/tools/legal-assessment/" },
+        { "label": "Psychologist or Psychiatrist?", "url": "/tools/psychologist-or-psychiatrist/" },
+        { "label": "Fee Calculator", "url": "/tools/fee-calculator/" },
+        { "label": "Suitability Checker", "url": "/tools/suitability-checker/" }
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/about/",
+      "children": [
+        { "label": "About Us", "url": "/about/" },
+        { "label": "Meet the Team", "url": "/about/meet-the-team/" },
+        { "label": "Testimonials", "url": "/about/testimonials/" },
+        { "label": "Quality Assurance", "url": "/about/quality-assurance/" },
+        { "label": "Training", "url": "/about/training/" },
+        { "label": "Careers", "url": "/about/careers/" },
+        { "label": "Events", "url": "/about/events/" }
+      ]
+    }
   ],
   "footerNav": [
     {
@@ -92,13 +115,22 @@
       ]
     },
     {
+      "title": "News",
+      "links": [
+        { "label": "All Posts", "url": "/news/" },
+        { "label": "Expert Witness", "url": "/news/?category=expert-witness" },
+        { "label": "Education", "url": "/news/?category=education" },
+        { "label": "Company News", "url": "/news/?category=company-news" },
+        { "label": "Knowledge Hub", "url": "/knowledge-hub/" }
+      ]
+    },
+    {
       "title": "Support",
       "links": [
         { "label": "Contact", "url": "/contact/" },
         { "label": "FAQs", "url": "/faqs/" },
         { "label": "Resources", "url": "/resources/" },
-        { "label": "Case Studies", "url": "/case-studies/" },
-        { "label": "News", "url": "/news/" }
+        { "label": "Case Studies", "url": "/case-studies/" }
       ]
     },
     {
@@ -107,19 +139,17 @@
         { "label": "Fee Calculator", "url": "/tools/fee-calculator/" },
         { "label": "Psychologist or Psychiatrist?", "url": "/tools/psychologist-or-psychiatrist/" },
         { "label": "Suitability Checker", "url": "/tools/suitability-checker/" },
+        { "label": "Case Assessment Tool", "url": "/tools/legal-assessment/" },
         { "label": "Client Login", "url": "/client-login/" },
-        { "label": "Expert Login", "url": "/expert-login/" }
-      ]
-    },
-    {
-      "title": "Legal",
-      "links": [
-        { "label": "Privacy Policy", "url": "/privacy-policy/" },
-        { "label": "Terms & Conditions", "url": "/terms-conditions/" },
-        { "label": "Cookie Policy", "url": "/cookie-policy/" },
-        { "label": "Accessibility", "url": "/accessibility/" },
-        { "label": "Complaints Policy", "url": "/complaints-policy/" }
+        { "label": "Associate Portal", "url": "/expert-login/" }
       ]
     }
+  ],
+  "footerLegal": [
+    { "label": "Privacy Policy", "url": "/privacy-policy/" },
+    { "label": "Terms & Conditions", "url": "/terms-conditions/" },
+    { "label": "Cookie Policy", "url": "/cookie-policy/" },
+    { "label": "Accessibility", "url": "/accessibility/" },
+    { "label": "Complaints Policy", "url": "/complaints-policy/" }
   ]
 }

@@ -1,0 +1,8 @@
+# AI Crawling Preferences for Psychology Direct
+User-agent: *
+Allow: /
+
+# Contact
+Name: Psychology Direct
+URL: https://www.psychologydirect.co.uk
+Email: enquiries@psychologydirect.co.uk

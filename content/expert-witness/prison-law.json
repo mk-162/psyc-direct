@@ -52,7 +52,7 @@
         },
         {
           "label": "Comprehensive Risk & Release Planning",
-          "content": "Complex cases often need both perspectives. Our psychologists assess psychological and behavioural factors. Our psychiatrists assess medical and mental health factors. Your dedicated Client Manager ensures the right expert combination for a thorough, persuasive report.\n\nNot sure which expert you need? Try our tool: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
+          "content": "Complex cases often need both perspectives. Our psychologists assess psychological and behavioural factors. Our psychiatrists assess medical and mental health factors. Your dedicated Client Manager ensures the right expert combination for a thorough, persuasive report.\n\nNot sure which expert you need? Try our tool: [Psychologist or Psychiatrist?](/tools/psychologist-or-psychiatrist/)"
         }
       ]
     },
@@ -200,21 +200,21 @@
           "title": "IPP Sentence Review with Dual Assessment",
           "summary": "A prisoner seeking IPP review needed both psychological and psychiatric assessment. We coordinated a comprehensive dual expert evaluation.",
           "sector": "Prison Law",
-          "link": "/case-studies/ipp-sentence-review/",
+          "link": "/case-studies/expert-witness-for-criminal-case/",
           "thumbnail": "/images/cards/case-studies/court.jpg"
         },
         {
           "title": "Parole Board Risk Assessment",
           "summary": "A prisoner approaching parole eligibility needed risk and release planning assessment. We delivered a forensic psychologist's comprehensive parole board report.",
           "sector": "Prison Law",
-          "link": "/case-studies/parole-board-assessment/",
+          "link": "/case-studies/expert-witness-for-criminal-case/",
           "thumbnail": "/images/cards/case-studies/ptsd-trauma.jpg"
         },
         {
           "title": "Mental Health Dangerousness Assessment",
           "summary": "A prisoner with complex mental health needed dangerousness assessment and treatment recommendations. We matched the right dual experts for parole.",
           "sector": "Prison Law",
-          "link": "/case-studies/mental-health-dangerousness-assessment/",
+          "link": "/case-studies/expert-witness-for-criminal-case/",
           "thumbnail": "/images/cards/case-studies/expert-witness.jpg"
         }
       ]
@@ -233,7 +233,7 @@
         },
         {
           "question": "Do I need a psychologist or a psychiatrist?",
-          "answer": "Psychologists excel at risk assessment and psychological factors. Psychiatrists excel at mental health diagnosis and medical assessment. Most parole and IPP assessments benefit from both experts. Use our free tool to check: Psychologist or Psychiatrist? → /tools/psychologist-or-psychiatrist/"
+          "answer": "Psychologists excel at risk assessment and psychological factors. Psychiatrists excel at mental health diagnosis and medical assessment. Most parole and IPP assessments benefit from both experts. Use our free tool to check: Psychologist or Psychiatrist? �’ /tools/psychologist-or-psychiatrist/"
         },
         {
           "question": "How do experts assess risk?",

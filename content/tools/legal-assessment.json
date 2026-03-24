@@ -1,0 +1,82 @@
+{
+  "title": "Expert Witness Case Assessment | Free Legal Assessment Tool",
+  "description": "Answer four quick questions to find out whether you need an expert witness psychologist or psychiatrist for your case — and get matched within 24 hours.",
+  "url": "/tools/legal-assessment/",
+  "keywords": [
+    "expert witness case assessment",
+    "do I need a psychological expert witness",
+    "family court expert",
+    "criminal court psychologist",
+    "fitness to plead assessment",
+    "personal injury psychological expert"
+  ],
+  "blocks": [
+    {
+      "_template": "hero",
+      "variant": "gradient",
+      "headline": "Does Your Case Need an Expert Witness?",
+      "subtitle": "Tell us about your case in four steps. We'll assess whether expert psychological or psychiatric evidence is likely to be required — and match you with the right expert within 24 hours.",
+      "primaryCtaText": "Start Assessment",
+      "primaryCtaLink": "#checker",
+      "secondaryCtaText": "Call Us Instead",
+      "secondaryCtaLink": "tel:01306879975"
+    },
+    {
+      "_template": "trustBar",
+      "items": [
+        { "text": "15+ Years' Experience" },
+        { "text": "Family, Criminal & Civil" },
+        { "text": "HCPC-Registered Experts" },
+        { "text": "CV & Quote Within 24 Hours" }
+      ]
+    },
+    {
+      "_template": "statsBar",
+      "stats": [
+        { "value": "1,000+", "label": "Cases Supported" },
+        { "value": "24hrs",  "label": "Expert CV Turnaround" },
+        { "value": "3",      "label": "Practice Areas Covered" },
+        { "value": "100%",   "label": "HCPC-Registered Experts" }
+      ]
+    },
+    {
+      "_template": "faqAccordion",
+      "heading": "Common Questions",
+      "faqs": [
+        {
+          "question": "How accurate is this assessment tool?",
+          "answer": "The tool is based on well-established legal principles and case law for each area of practice. It provides a general indication — not legal advice. If you are uncertain, call us and a Client Manager will discuss your specific case at no cost."
+        },
+        {
+          "question": "What happens after I submit my details?",
+          "answer": "A Client Manager will review your assessment and contact you within 24 hours with matched expert CVs and an indicative fee quote. There is no obligation to proceed."
+        },
+        {
+          "question": "Do you cover all areas of the UK?",
+          "answer": "Yes. We have HCPC-registered psychologists and psychiatrists across England, Wales, Scotland, and Northern Ireland. We can also arrange assessments via video link where appropriate."
+        },
+        {
+          "question": "Is there a fee for the initial assessment and matching?",
+          "answer": "No. Our initial case consultation and expert matching service is free of charge. Fees apply only when you formally instruct an expert."
+        },
+        {
+          "question": "Can I instruct a psychologist and a psychiatrist for the same case?",
+          "answer": "Yes, and in some cases it is appropriate — for example, in complex care proceedings where both cognitive assessment and psychiatric diagnosis are required. We will advise on this during the matching process."
+        },
+        {
+          "question": "How long does an expert witness assessment take?",
+          "answer": "Standard reports typically take 4–6 weeks from instruction. We can accommodate urgent timescales where necessary — discuss this with your Client Manager."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Prefer to Speak to Someone?",
+      "bodyText": "Our Client Managers have 15+ years' experience advising solicitors across family, criminal, and civil law. Call us for a no-obligation discussion about your case.",
+      "primaryCtaText": "Call 01306 879 975",
+      "primaryCtaLink": "tel:01306879975",
+      "secondaryCtaText": "Send an Enquiry",
+      "secondaryCtaLink": "/contact/"
+    }
+  ]
+}

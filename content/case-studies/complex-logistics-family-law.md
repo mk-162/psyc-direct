@@ -1,17 +1,24 @@
 ---
-title: "Complex Logistics in Family Law"
-description: "Case study: Complex Logistics in Family Law. See how Psychology Direct helped deliver expert assessment on time."
-sector: "Family Law"
+title: "Complex Logistics in a Family Law Case"
+description: "A complex case involving domestic violence, funding issues and tight timescales put our team to the test."
+sector: "Expert Witness"
+featuredImage: "/images/cards/case-studies/family-law.jpg"
 ---
 
-## Complex Logistics in Family Law
+## The Brief
 
-*This case study is being prepared and will be available soon.*
+A specialist family law solicitor engaged Psychology Direct to assess a large dysfunctional family where domestic violence was a factor. Complications included lack of cooperation from key members, geographical dispersion of individuals, and funding uncertainty. The case involved vulnerable children in care with uncertain futures.
 
-**Sector:** Family Law
+## Our Action
 
-For more information about our work in Family Law, please [contact us](/contact/) or call 01306 879 975.
+The Client Manager conducted thorough research to identify which family members required assessment and their locations. They secured an appropriately experienced psychologist, compiled a complex assessment timetable for eight individuals, managed funding negotiations, coordinated all administrative details, quality-checked the report, and arranged expert availability for court appearance.
 
----
+## The Outcome
 
-[View all case studies](/case-studies/) | [Back to Family Law](/expert-witness-psychologists/)
+Assessments were completed and the report submitted on time. The psychological evaluation resulted in the children returning home on a supervision order.
+
+## Client Feedback
+
+> "Efficient process, quick turnaround achieved, and quality and comprehensive nature of the report."
+
+The solicitor subsequently became a repeat client, regularly requesting expert psychological and psychiatric reports.

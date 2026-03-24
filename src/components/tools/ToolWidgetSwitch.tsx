@@ -4,6 +4,7 @@ import { FeeCalculator } from './FeeCalculator';
 import { PsychOrPsychiatrist } from './PsychOrPsychiatrist';
 import { SuitabilityChecker } from './SuitabilityChecker';
 import { ContactForm } from './ContactForm';
+import { LegalAssessmentTool } from './LegalAssessmentTool';
 
 /**
  * Maps the CMS page slug to the corresponding interactive tool widget.
@@ -17,6 +18,9 @@ const TOOL_MAP: Record<string, React.ComponentType> = {
   'psych-or-psychiatrist': PsychOrPsychiatrist,
   'suitability-checker': SuitabilityChecker,
   'do-you-need-an-expert': SuitabilityChecker,
+  'legal-assessment': LegalAssessmentTool,
+  'case-assessment': LegalAssessmentTool,
+  'expert-matching': LegalAssessmentTool,
   'contact': ContactForm,
   'contact-form': ContactForm,
   'contact-us': ContactForm,

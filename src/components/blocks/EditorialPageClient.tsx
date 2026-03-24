@@ -89,23 +89,24 @@ const EditorialPageInner = ({ data, collection, variables, isEditing }: {
     return (
       <div className="tina-live-preview-wrapper">
         {/* Page header */}
-        <section className="ds-section section-bleed section-mineral-white theme-light editorial-page-header">
-          <div className="container-narrow">
+        <section className="py-10 sm:py-14 px-4 sm:px-6 lg:px-8 bg-[var(--brand-bg-tint)] border-b border-border">
+          <div className="max-w-3xl mx-auto">
             {rootNode.featured_image && rootNode.show_hero_image && (
-              <div className="editorial-page-hero-image">
+              <div className="mb-6 rounded-lg overflow-hidden">
                 <img
                   src={rootNode.featured_image}
                   alt={rootNode.title || ''}
+                  className="w-full object-cover"
                 />
               </div>
             )}
-            <h1 className="heading-display-lg">{displayTitle}</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold text-[var(--brand-navy)]">{displayTitle}</h1>
           </div>
         </section>
 
         {/* Markdown body */}
-        <section className="ds-section editorial-page-body">
-          <div className="container-narrow editorial-content">
+        <section className="py-10 sm:py-14 px-4 sm:px-6 lg:px-8 bg-background">
+          <div className="max-w-3xl mx-auto prose prose-sm sm:prose prose-headings:text-[var(--brand-navy)] prose-a:text-[var(--brand-azure-vivid)] prose-a:no-underline hover:prose-a:underline">
             <TinaMarkdown content={rootNode.body} />
           </div>
         </section>
@@ -117,9 +118,9 @@ const EditorialPageInner = ({ data, collection, variables, isEditing }: {
   // Fallback — just show the title
   return (
     <div className="tina-live-preview-wrapper">
-      <section className="ds-section section-bleed section-mineral-white theme-light editorial-page-fallback">
-        <div className="container-narrow">
-          <h1 className="heading-display-lg">{displayTitle}</h1>
+      <section className="py-10 sm:py-14 px-4 sm:px-6 lg:px-8 bg-[var(--brand-bg-tint)] border-b border-border">
+        <div className="max-w-3xl mx-auto">
+          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--brand-navy)]">{displayTitle}</h1>
         </div>
       </section>
       <EditButton collection={collectionName} filename={filename} />

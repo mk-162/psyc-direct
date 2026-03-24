@@ -1,7 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const VALID_ENQUIRY_TYPES = ['expert-witness', 'education-assessment', 'join-network', 'general'];
-const MAX_FIELD_LENGTH = { name: 200, email: 254, phone: 30, organisation: 200, message: 10000 };
+const VALID_SECTORS = ['expert-witness', 'education', 'other'];
+const VALID_SALUTATIONS = ['Mr.', 'Mrs.', 'Ms.', 'Miss', 'Dr.', 'Prof.'];
+const VALID_LEAD_SOURCES = [
+  'repeat', 'google', 'recommendation', 'web-form', 'social-media',
+  'bps', 'professional-directory', 'mailshot', 'exhibition',
+  'advertisement', 'network-event', 'referral',
+];
+const MAX_FIELD_LENGTH = {
+  firstName: 200, lastName: 200, email: 254, phone: 30,
+  company: 200, message: 10000,
+};
 
 export async function POST(request: NextRequest) {
   let body: Record<string, unknown>;
@@ -11,47 +20,75 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Invalid request format" }, { status: 400 });
   }
 
-  const { name, email, phone, organisation, enquiryType, message } = body as Record<string, string>;
+  const {
+    sector, salutation, firstName, lastName, company,
+    email, phone, leadSource, message,
+    updatesExpertWitness, updatesEducation, privacyAccepted,
+  } = body as Record<string, string | boolean>;
 
   // Required fields
-  if (!name?.trim() || !email?.trim() || !enquiryType || !message?.trim()) {
+  if (
+    !sector || !salutation ||
+    !(firstName as string)?.trim() || !(lastName as string)?.trim() ||
+    !(company as string)?.trim() || !(email as string)?.trim() ||
+    !(phone as string)?.trim() || !leadSource
+  ) {
     return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
   }
 
+  if (!privacyAccepted) {
+    return NextResponse.json({ error: "Privacy policy must be accepted" }, { status: 400 });
+  }
+
   // Email format
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email as string)) {
     return NextResponse.json({ error: "Invalid email format" }, { status: 400 });
   }
 
-  // Whitelist enquiry type
-  if (!VALID_ENQUIRY_TYPES.includes(enquiryType)) {
-    return NextResponse.json({ error: "Invalid enquiry type" }, { status: 400 });
+  // Whitelist checks
+  if (!VALID_SECTORS.includes(sector as string)) {
+    return NextResponse.json({ error: "Invalid sector" }, { status: 400 });
+  }
+  if (!VALID_SALUTATIONS.includes(salutation as string)) {
+    return NextResponse.json({ error: "Invalid salutation" }, { status: 400 });
+  }
+  if (!VALID_LEAD_SOURCES.includes(leadSource as string)) {
+    return NextResponse.json({ error: "Invalid lead source" }, { status: 400 });
   }
 
   // Length limits
-  if (name.length > MAX_FIELD_LENGTH.name || email.length > MAX_FIELD_LENGTH.email || message.length > MAX_FIELD_LENGTH.message) {
+  const f = firstName as string, l = lastName as string, e = email as string;
+  const p = phone as string, c = company as string, m = (message as string) || '';
+  if (
+    f.length > MAX_FIELD_LENGTH.firstName ||
+    l.length > MAX_FIELD_LENGTH.lastName ||
+    e.length > MAX_FIELD_LENGTH.email ||
+    m.length > MAX_FIELD_LENGTH.message
+  ) {
     return NextResponse.json({ error: "Field exceeds maximum length" }, { status: 400 });
   }
 
   try {
-    // Log the submission (visible in Vercel runtime logs)
     console.log("[contact-form] New enquiry:", {
-      name: name.trim(),
-      email: email.trim(),
-      phone: phone?.trim() || "(not provided)",
-      organisation: organisation?.trim() || "(not provided)",
-      enquiryType,
-      messageLength: message.length,
+      sector, salutation,
+      name: `${f.trim()} ${l.trim()}`,
+      company: c.trim(),
+      email: e.trim(),
+      phone: p.trim(),
+      leadSource,
+      messageLength: m.length,
+      updates: {
+        expertWitness: !!updatesExpertWitness,
+        education: !!updatesEducation,
+      },
       timestamp: new Date().toISOString(),
     });
 
     // TODO: Connect to email service (Resend, SendGrid, etc.)
-    // When no email service is configured, submissions are logged to
-    // Vercel runtime logs. Set up Resend integration to deliver emails.
 
     return NextResponse.json({ success: true });
-  } catch (e) {
-    console.error("[contact-form] Submission error:", e);
+  } catch (err) {
+    console.error("[contact-form] Submission error:", err);
     return NextResponse.json({ error: "Failed to process enquiry" }, { status: 500 });
   }
 }

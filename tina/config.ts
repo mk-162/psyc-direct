@@ -350,7 +350,6 @@ const allBlocks = [
 ];
 
 const blockPageFields = [
-  ...seoFields,
   {
     type: "object" as const,
     name: "blocks",
@@ -358,6 +357,7 @@ const blockPageFields = [
     list: true,
     templates: allBlocks,
   },
+  ...seoFields,
 ];
 
 const markdownPageFields = [

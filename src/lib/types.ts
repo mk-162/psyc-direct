@@ -12,6 +12,7 @@ export interface FooterColumn {
 export interface NavigationData {
   mainNav: NavItem[];
   footerNav: FooterColumn[];
+  footerLegal?: { label: string; url: string }[];
 }
 
 export interface GlobalSettings {

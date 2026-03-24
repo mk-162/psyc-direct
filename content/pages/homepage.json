@@ -1,31 +1,32 @@
 {
-  "title": "Expert Psychologists & Psychiatrists for Your Case | Psychology Direct",
-  "description": "Access 1,000+ vetted psychologists and psychiatrists for expert witness reports and educational assessments. Fast matching, Legal Aid rates.",
+  "title": "Expert Witness & Educational Psychologists | Psychology Direct",
+  "description": "Access 1,000+ vetted psychologists and psychiatrists for expert witness reports, EHCP assessments, and specialist evaluations. Fast matching across the UK.",
   "url": "/",
   "keywords": [
     "psychology direct",
     "expert witness psychologist",
     "educational psychologist",
     "psychiatrist expert witness",
+    "EHCP assessment",
     "psychology services UK"
   ],
   "blocks": [
     {
       "_template": "hero",
       "variant": "image",
-      "headline": "Get the Right Expert for Your Case in Hours",
-      "subtitle": "Find the right expert fast. With 1,000+ vetted psychologists and psychiatrists nationwide, we match you in hours and deliver court-ready reports in 4–6 weeks. Legal Aid rates? Always accepted.",
+      "headline": "The Right Psychologist, Matched in Hours",
+      "subtitle": "Whether you need an expert witness for court or an Educational Psychologist for your school, we match you from 1,000+ vetted professionals — typically within 24 hours. Legal Aid rates always accepted.",
       "primaryCtaText": "Arrange an Assessment",
       "primaryCtaLink": "/contact/",
-      "secondaryCtaText": "Discuss Your Case",
-      "secondaryCtaLink": "/contact/",
+      "secondaryCtaText": "Call 01306 879 975",
+      "secondaryCtaLink": "tel:01306879975",
       "backgroundImage": "/images/heroes/homepage-hero.jpg"
     },
     {
       "_template": "trustBar",
       "items": [
         {
-          "text": "1,000+ Vetted Experts"
+          "text": "1,000+ Vetted Professionals"
         },
         {
           "text": "CVs in 24 Hours"
@@ -40,24 +41,24 @@
     },
     {
       "_template": "serviceCards",
-      "heading": "Get the Expert You Need, When You Need Them",
-      "subheading": "Legal, education, and professional services — all from one platform",
+      "heading": "Two Services, One Platform",
+      "subheading": "Expert witness psychology for legal professionals — and Educational Psychology for schools, local authorities, and families",
       "cards": [
         {
           "title": "Expert Witness Services",
-          "description": "Access psychologists and psychiatrists for family law, criminal, civil, and immigration cases. HCPC/GMC registered, court-ready reports delivered on time.",
+          "description": "Psychologists and psychiatrists for family, criminal, civil, and immigration cases. HCPC/GMC registered, court-ready reports delivered on time.",
           "link": "/expert-witness-psychologists/",
           "image": "/images/cards/stock-legal.jpg"
         },
         {
           "title": "Educational Psychology",
-          "description": "EHCP assessments, SEND support, and statutory evaluations from experienced Educational Psychologists matched to your LA or school.",
+          "description": "EHCP assessments, SEND support, and specialist evaluations from experienced Educational Psychologists matched to your school or local authority.",
           "link": "/educational-psychologist/",
           "image": "/images/cards/stock-classroom.jpg"
         },
         {
           "title": "Join Our Network",
-          "description": "Psychologists and psychiatrists: register to access steady referrals, fair pay, admin support, and a collaborative community.",
+          "description": "Psychologists and psychiatrists: register to access steady referrals, fair pay, admin support, and a collaborative professional community.",
           "link": "/about/careers/",
           "image": "/images/cards/stock-therapy.jpg"
         }
@@ -69,7 +70,7 @@
       "image": "/images/sections/professionals-group.jpg",
       "imageAlt": "Psychology Direct's network of vetted professionals",
       "heading": "1,000+ Vetted Professionals",
-      "bodyText": "Every psychologist and psychiatrist in our network is HCPC or GMC registered, enhanced DBS checked, and professionally insured. We review sample reports before registration and quality-check every deliverable. You get the right expert — vetted, matched, and ready to work.",
+      "bodyText": "Every psychologist and psychiatrist in our network is HCPC or GMC registered, enhanced DBS checked, and professionally insured. We review sample reports before registration and quality-check every deliverable. You get the right professional — vetted, matched, and ready to work.",
       "ctaText": "View Our Credentials",
       "ctaLink": "/about/quality-assurance/"
     },
@@ -90,33 +91,33 @@
         },
         {
           "value": "100%",
-          "label": "Legal Aid Rates"
+          "label": "HCPC-Registered"
         }
       ]
     },
     {
       "_template": "processSteps",
-      "heading": "Get Matched to Your Expert in 4 Simple Steps",
+      "heading": "Get Matched in 4 Simple Steps",
       "steps": [
         {
           "number": 1,
           "title": "Tell Us What You Need",
-          "description": "Call 01306 879 975 or complete a brief online form. Describe your case type, location, and deadline."
+          "description": "Call 01306 879 975 or complete a brief online form. Tell us about your requirements — whether it's an expert witness report, EHCP assessment, or specialist evaluation."
         },
         {
           "number": 2,
-          "title": "Receive Matched Experts",
-          "description": "Within 24 hours, get 2–3 CVs with quotes from professionals matched to your specialism."
+          "title": "Receive Matched Professionals",
+          "description": "Within 24 hours, get 2–3 CVs with quotes from psychologists matched to your specialism, location, and timeline."
         },
         {
           "number": 3,
           "title": "We Handle Everything Else",
-          "description": "Once you instruct, we manage all admin—appointments, coordination, case management. You focus on your case."
+          "description": "Once you instruct, we manage all admin — appointments, coordination, and scheduling. You focus on what matters."
         },
         {
           "number": 4,
-          "title": "Court-Ready Report Delivered",
-          "description": "Your report is 100% quality-checked for accuracy and compliance before delivery. Fast-track available."
+          "title": "Quality-Checked Report Delivered",
+          "description": "Your report is 100% quality-checked for accuracy and compliance before delivery. Fast-track available when you need it."
         }
       ],
       "ctaText": "Get Started",
@@ -126,15 +127,15 @@
       "_template": "imageFeature",
       "layout": "image-left",
       "image": "/images/sections/consultation.jpeg",
-      "imageAlt": "A dedicated client manager discussing a case",
+      "imageAlt": "A dedicated client manager discussing a referral",
       "heading": "Your Dedicated Client Manager",
-      "bodyText": "One person owns your case from first call to report delivery. They match your expert, manage the logistics, coordinate with all parties, and chase deadlines — so you never have to. It's managed service, not a directory.",
+      "bodyText": "One person owns your referral from first call to report delivery. They match your psychologist, manage the logistics, coordinate with all parties, and chase deadlines — so you never have to. It's a managed service, not a directory.",
       "ctaText": "How It Works",
       "ctaLink": "/about/"
     },
     {
       "_template": "testimonialCarousel",
-      "heading": "What Our Users Say",
+      "heading": "What Our Clients Say",
       "testimonials": [
         {
           "quote": "Staff are helpful and informative with a range of experts second to none. Reports are delivered securely and on time. They take the hard work out of locating relevant available experts.",
@@ -164,8 +165,8 @@
     },
     {
       "_template": "ctaInline",
-      "heading": "Not Sure Which Expert You Need?",
-      "bodyText": "Different cases require different expertise. Our free 2-minute tool helps you work out whether you need a psychologist, a psychiatrist, or both — with clear, jargon-free explanations.",
+      "heading": "Not Sure Which Psychologist You Need?",
+      "bodyText": "Different needs call for different specialisms. Our free 2-minute tool helps you work out whether you need a psychologist, a psychiatrist, or both — with clear, jargon-free explanations at each step.",
       "primaryCtaText": "Try the Free Tool",
       "primaryCtaLink": "/tools/psychologist-or-psychiatrist/"
     },
@@ -178,12 +179,12 @@
     },
     {
       "_template": "ctaBanner",
-      "heading": "Ready to Get Matched?",
-      "bodyText": "Need an expert now? Tell us your case type and deadline. We'll match you with vetted professionals ready to work. No long admin delays, no guesswork — just the right expert, fast.",
+      "heading": "Ready to Get Started?",
+      "bodyText": "Need a psychologist matched fast? Tell us your requirements and deadline. We'll match you with vetted professionals — no long admin delays, no guesswork.",
       "primaryCtaText": "Arrange an Assessment",
       "primaryCtaLink": "/contact/",
-      "secondaryCtaText": "Discuss Your Case",
-      "secondaryCtaLink": "/contact/"
+      "secondaryCtaText": "Call 01306 879 975",
+      "secondaryCtaLink": "tel:01306879975"
     }
   ]
 }

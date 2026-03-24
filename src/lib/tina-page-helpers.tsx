@@ -126,14 +126,19 @@ export function makeSlugPage(config: SlugConfig) {
   }
 
   async function generateStaticParams() {
-    const tinaRes = await config.connectionFn();
-    const edges = tinaRes.data?.[config.connectionKey]?.edges;
-    if (!edges?.length) {
-      console.warn(`[tina] No edges returned for ${config.connectionKey} — zero static pages will be generated`);
+    try {
+      const tinaRes = await config.connectionFn();
+      const edges = tinaRes.data?.[config.connectionKey]?.edges;
+      if (!edges?.length) {
+        console.warn(`[tina] No edges returned for ${config.connectionKey} — zero static pages will be generated`);
+      }
+      return (edges ?? [])
+        .filter((edge: any) => edge?.node?._sys.filename && edge.node._sys.filename !== OVERVIEW_FILE)
+        .map((edge: any) => ({ slug: edge.node._sys.filename }));
+    } catch (e) {
+      console.error(`[tina] ${config.connectionKey} failed (schema mismatch):`, e);
+      return [];
     }
-    return (edges ?? [])
-      .filter((edge: any) => edge?.node?._sys.filename && edge.node._sys.filename !== OVERVIEW_FILE)
-      .map((edge: any) => ({ slug: edge.node._sys.filename }));
   }
 
   async function Page({ params }: { params: Promise<{ slug: string }> }) {

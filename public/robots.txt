@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin/
-Disallow: /component-library/
-
-Sitemap: https://www.psychologydirect.co.uk/sitemap.xml

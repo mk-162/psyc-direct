@@ -83,45 +83,86 @@ export const PremiumPageRenderer = ({
 }) => {
   if (!blocks || blocks.length === 0) return null;
 
-  return (
-    <>
-      {blocks.map((block, index) => {
-        // TinaCMS generates __typename like "PagesBlocksHero" → extract "Hero"
-        const templateName = block.__typename?.split('Blocks')[1];
-        const label = blockLabels[templateName || ''] || templateName || 'Unknown';
+  function getTemplateName(block: BlockProps) {
+    return block.__typename?.split('Blocks')[1];
+  }
 
-        let component: React.ReactNode = null;
+  function renderBlock(block: BlockProps) {
+    const templateName = getTemplateName(block);
+    switch (templateName) {
+      case 'Hero':             return <Hero data={block as any} />;
+      case 'TrustBar':         return <TrustBar data={block as any} />;
+      case 'StatsBar':         return <StatsBar data={block as any} />;
+      case 'ServiceCards':     return <ServiceCards data={block as any} />;
+      case 'PracticeAreaCards': return <PracticeAreaCards data={block as any} />;
+      case 'ProcessSteps':     return <ProcessSteps data={block as any} />;
+      case 'TestimonialCarousel': return <TestimonialCarousel data={block as any} />;
+      case 'TabbedContent':    return <TabbedContent data={block as any} />;
+      case 'FaqAccordion':     return <FaqAccordion data={block as any} />;
+      case 'CtaBanner':        return <CtaBanner data={block as any} />;
+      case 'CtaInline':        return <CtaInline data={block as any} />;
+      case 'FeatureComparison': return <FeatureComparison data={block as any} />;
+      case 'CaseStudyCards':   return <CaseStudyCards data={block as any} />;
+      case 'TeamGrid':         return <TeamGrid data={block as any} />;
+      case 'VideoSection':     return <VideoSection data={block as any} />;
+      case 'AlertBanner':      return <AlertBanner data={block as any} />;
+      case 'RichText':         return <RichText data={block as any} />;
+      case 'ImageFeature':     return <ImageFeature data={block as any} />;
+      default:
+        console.warn(`Block not mapped in PremiumPageRenderer: ${block.__typename}`);
+        return null;
+    }
+  }
 
-        switch (templateName) {
-          case 'Hero':             component = <Hero data={block as any} />; break;
-          case 'TrustBar':         component = <TrustBar data={block as any} />; break;
-          case 'StatsBar':         component = <StatsBar data={block as any} />; break;
-          case 'ServiceCards':     component = <ServiceCards data={block as any} />; break;
-          case 'PracticeAreaCards': component = <PracticeAreaCards data={block as any} />; break;
-          case 'ProcessSteps':     component = <ProcessSteps data={block as any} />; break;
-          case 'TestimonialCarousel': component = <TestimonialCarousel data={block as any} />; break;
-          case 'TabbedContent':    component = <TabbedContent data={block as any} />; break;
-          case 'FaqAccordion':     component = <FaqAccordion data={block as any} />; break;
-          case 'CtaBanner':        component = <CtaBanner data={block as any} />; break;
-          case 'CtaInline':        component = <CtaInline data={block as any} />; break;
-          case 'FeatureComparison': component = <FeatureComparison data={block as any} />; break;
-          case 'CaseStudyCards':   component = <CaseStudyCards data={block as any} />; break;
-          case 'TeamGrid':         component = <TeamGrid data={block as any} />; break;
-          case 'VideoSection':     component = <VideoSection data={block as any} />; break;
-          case 'AlertBanner':      component = <AlertBanner data={block as any} />; break;
-          case 'RichText':         component = <RichText data={block as any} />; break;
-          case 'ImageFeature':    component = <ImageFeature data={block as any} />; break;
-          default:
-            console.warn(`Block not mapped in PremiumPageRenderer: ${block.__typename}`);
-            return null;
-        }
+  // Group consecutive CtaInline blocks so they render side-by-side
+  const elements: React.ReactNode[] = [];
+  let i = 0;
+  while (i < blocks.length) {
+    const block = blocks[i];
+    const templateName = getTemplateName(block);
 
-        return (
-          <BlockWrapper key={index} label={label} index={index} cmsPath={cmsPath} isEditing={isEditing}>
-            {component}
+    // Detect a run of consecutive CtaInline blocks
+    if (templateName === 'CtaInline') {
+      const group: { block: BlockProps; index: number }[] = [];
+      while (i < blocks.length && getTemplateName(blocks[i]) === 'CtaInline') {
+        group.push({ block: blocks[i], index: i });
+        i++;
+      }
+      if (group.length > 1) {
+        elements.push(
+          <section key={`cta-group-${group[0].index}`} className="py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-background">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+              {group.map(({ block: b, index: idx }) => {
+                const label = blockLabels['CtaInline'] || 'CTA Inline';
+                return (
+                  <BlockWrapper key={idx} label={label} index={idx} cmsPath={cmsPath} isEditing={isEditing}>
+                    <CtaInline data={b as any} compact />
+                  </BlockWrapper>
+                );
+              })}
+            </div>
+          </section>
+        );
+      } else {
+        const { block: b, index: idx } = group[0];
+        const label = blockLabels['CtaInline'] || 'CTA Inline';
+        elements.push(
+          <BlockWrapper key={idx} label={label} index={idx} cmsPath={cmsPath} isEditing={isEditing}>
+            {renderBlock(b)}
           </BlockWrapper>
         );
-      })}
-    </>
-  );
+      }
+      continue;
+    }
+
+    const label = blockLabels[templateName || ''] || templateName || 'Unknown';
+    elements.push(
+      <BlockWrapper key={i} label={label} index={i} cmsPath={cmsPath} isEditing={isEditing}>
+        {renderBlock(block)}
+      </BlockWrapper>
+    );
+    i++;
+  }
+
+  return <>{elements}</>;
 };
