@@ -24,9 +24,9 @@ export const ProcessSteps = ({ data }: { data: ProcessStepsData }) => {
             {data.heading}
           </h2>
         )}
-        <div className={`grid grid-cols-1 sm:grid-cols-2 ${data.steps.length >= 4 ? 'lg:grid-cols-4' : data.steps.length === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2'} gap-8 relative`}>
+        <div className={`grid grid-cols-1 sm:grid-cols-2 ${data.steps.length === 5 ? 'lg:grid-cols-5' : data.steps.length === 4 ? 'lg:grid-cols-4' : data.steps.length === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2'} gap-6 relative`}>
           {/* Connecting line (desktop) */}
-          <div className="hidden lg:block absolute top-8 left-[calc(12.5%+1rem)] right-[calc(12.5%+1rem)] h-px bg-[var(--brand-azure-light)] -z-0 pointer-events-none" />
+          <div className={`hidden lg:block absolute top-8 h-px bg-[var(--brand-azure-light)] -z-0 pointer-events-none ${data.steps.length === 5 ? 'left-[calc(10%+1rem)] right-[calc(10%+1rem)]' : 'left-[calc(12.5%+1rem)] right-[calc(12.5%+1rem)]'}`} />
           {data.steps.map((step, i) => (
             <div key={i} className="flex flex-col items-center text-center relative">
               <div
