@@ -297,7 +297,7 @@ const alertBannerBlock = {
   ],
 };
 
-const imageFeatureBlock = {
+const imageFeatureBlock: any = {
   name: "imageFeature",
   label: "Image Feature",
   fields: [
@@ -372,7 +372,7 @@ const blockPageFields = [
   ...seoFields,
 ];
 
-const markdownPageFields = [
+const markdownPageFields: any[] = [
   {
     type: "object" as const,
     name: "sidebarContent",
