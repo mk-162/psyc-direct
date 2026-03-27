@@ -302,8 +302,20 @@ const imageFeatureBlock = {
   label: "Image Feature",
   fields: [
     { type: "string" as const, name: "layout", label: "Layout", options: ["image-left", "image-right"], ui: { defaultValue: "image-left" } },
-    { type: "image" as const, name: "image", label: "Image" },
-    { type: "string" as const, name: "imageAlt", label: "Image Alt Text" },
+    { type: "image" as const, name: "image", label: "Image (Legacy - Single)" },
+    { type: "string" as const, name: "imageAlt", label: "Image Alt Text (Legacy - Single)" },
+    {
+      type: "object" as const,
+      name: "images",
+      label: "Image Carousel",
+      list: true,
+      ui: { itemProps: (item: { caption?: string }) => ({ label: item.caption || "Image" }) },
+      fields: [
+        { type: "image" as const, name: "image", label: "Image", required: true },
+        { type: "string" as const, name: "alt", label: "Alt Text" },
+        { type: "string" as const, name: "caption", label: "Caption (e.g. Name)" },
+      ],
+    },
     { type: "string" as const, name: "heading", label: "Heading" },
     { type: "string" as const, name: "bodyText", label: "Body Text", ui: { component: "textarea" } },
     { type: "string" as const, name: "ctaText", label: "CTA Text (optional)" },
@@ -361,6 +373,16 @@ const blockPageFields = [
 ];
 
 const markdownPageFields = [
+  {
+    type: "object" as const,
+    name: "sidebarContent",
+    label: "Sidebar Content",
+    fields: [
+      { type: "boolean" as const, name: "contactWidget", label: "Show Contact Widget" },
+      { type: "string" as const, name: "upsell", label: "Upsell Idea" },
+      { type: "string" as const, name: "crossSell", label: "Cross-sell Idea" },
+    ] as any,
+  },
   { type: "string" as const, name: "title", label: "Title", isTitle: true, required: true },
   { type: "string" as const, name: "description", label: "Meta Description" },
   { type: "rich-text" as const, name: "body", label: "Body", isBody: true },
@@ -508,6 +530,21 @@ export default defineConfig({
           ...markdownPageFields,
           { type: "string" as const, name: "sector", label: "Sector" },
           { type: "image" as const, name: "featuredImage", label: "Featured Image" },
+        ],
+      },
+
+      // ── Services ──────────────────────────────────────────────────────────────
+      {
+        name: "services",
+        label: "Services (Blog Layout)",
+        path: "content/services",
+        format: "md",
+        ui: {
+          router: ({ document }) => `/services/${document._sys.filename}/`,
+        },
+        fields: [
+          ...markdownPageFields,
+          { type: "string" as const, name: "category", label: "Category" },
         ],
       },
 

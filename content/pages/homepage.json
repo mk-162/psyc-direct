@@ -126,8 +126,23 @@
     {
       "_template": "imageFeature",
       "layout": "image-left",
-      "image": "/images/sections/consultation.jpeg",
-      "imageAlt": "A dedicated client manager discussing a referral",
+      "images": [
+        {
+          "image": "/images/team/katie-severin.png",
+          "alt": "Katie Severin, Client Manager",
+          "caption": "Katie Severin - Dedicated Client Manager"
+        },
+        {
+          "image": "/images/team/emily-creaven.jpg",
+          "alt": "Emily Creaven, Client Manager",
+          "caption": "Emily Creaven - Dedicated Client Manager"
+        },
+        {
+          "image": "/images/team/daisy-hill.png",
+          "alt": "Daisy Hill, Client Manager",
+          "caption": "Daisy Hill - Dedicated Client Manager"
+        }
+      ],
       "heading": "Your Dedicated Client Manager",
       "bodyText": "One person owns your referral from first call to report delivery. They match your psychologist, manage the logistics, coordinate with all parties, and chase deadlines — so you never have to. It's a managed service, not a directory.",
       "ctaText": "How It Works",
